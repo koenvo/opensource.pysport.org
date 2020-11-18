@@ -6,4 +6,4 @@ app = FastAPI()
 
 @app.get("/test")
 def test():
-    return os.environ['HOSTNAME']
+    return os.environ['DATABASE_URL']
