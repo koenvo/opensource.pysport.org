@@ -57,8 +57,22 @@ export default function Home() {
       </Head>
 
       <main>
-           <div className="container mx-auto">
-           <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3">
+           <header className="bg-white shadow-md">
+               <div className="container mx-auto max-w-screen-xl">
+                    <div className="mx-4 py-8">
+                        <img src="/logo.png" className="w-60"/>
+                    </div>
+                </div>
+                <div className="border-t-2"></div>
+                <div className="container mx-auto max-w-screen-xl">
+                    <div className="mx-4 py-4">adasd</div>
+                </div>
+            </header>
+            <div className="mx-auto p-8 text-center">
+              Dev? Sumbit packag here...
+            </div>
+           <div className="container mx-auto max-w-screen-xl -m-4">
+           <div className="grid grid-cols-1 lg:grid-cols-2">
             <Card />
             <Card />
             <Card />
