@@ -14,7 +14,7 @@ const Card = ({}) => {
     <div className="p-10 m-4 bg-white rounded-lg">
         <div className="sm:flex items-end">
             <img src="https://opensource.pysport.org/img/python.png"
-            width="100" height="100" className="mx-auto md:mx-0" />
+            width="100" height="100" className="mx-auto sm:mx-0" />
             <div className="md:pt-6 md:px-8 text-left space-y-4 h-full">
                 <figcaption>
                   <div class="font-bold text-4xl align-middle pt-3">
@@ -58,7 +58,7 @@ export default function Home() {
 
       <main>
            <div className="container mx-auto">
-           <div className="grid grid-cols-1 lg:grid-cols-2">
+           <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3">
             <Card />
             <Card />
             <Card />
