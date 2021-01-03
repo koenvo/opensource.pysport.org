@@ -3,8 +3,8 @@ import Head from 'next/head'
 const Label = ({title, children}) => {
   return (
     <div className="flex">
-      <div className="w-1/2 md:w-2/5">{title}:</div>
-      <div className="w-1/2 md:w-3/5 font-medium">{children}</div>
+      <div className="w-1/2 md:w-5/12">{title}:</div>
+      <div className="w-1/2 md:w-7/12 font-medium">{children}</div>
     </div>
   );
 };
@@ -17,7 +17,7 @@ const Card = ({}) => {
             width="100" height="100" className="mx-auto sm:mx-0" />
             <div className="md:pt-6 md:px-8 text-left space-y-4 h-full">
                 <figcaption>
-                  <div class="font-bold text-4xl align-middle pt-3">
+                  <div class="font-bold text-5xl align-middle pt-3">
                     kloppy
                   </div>
                   <div class="text-blue-400 text-xl font-bold pt-3">
@@ -27,13 +27,22 @@ const Card = ({}) => {
             </div>
         </div>
         <div className="pt-2 mt-8">
-          <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 text-base">
             <Label title="Sports">Soccer</Label>
             <Label title="Platforms">Python</Label>
-            <Label title="Author">koenvo</Label>
+            {/*<Label title="Authors">
+                <a href="#" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">koenvo</a> |{' '}
+                <a href="#" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">koenvo</a>
+            </Label> */}
             <Label title="License">MIT</Label>
+            <Label title="Latest version">1.5.2 <span className="font-thin">(Dec 23, 2020)</span></Label>
+            <Label title="Last commit">Dec 23, 2020</Label>
+            <Label title="Contributors">3</Label>
           </div>
         </div>
+        <blockquote className="pt-2 mt-8 quote text-neutral-600 italic">
+        The goal of fcscrapR is to allow R users quick access to the commentary for each soccer game available on ESPN. The commentary data includes basic events such as shot attempts, substitutions, fouls, cards, corners, and video reviews along with information about the players involved. The data can be accessed in-game as ESPN updates their match commentary. This package was created to help get data in the hands of soccer fans to do their own analysis and contribute to reproducible metrics.
+        </blockquote>
     </div>
   );
 };
