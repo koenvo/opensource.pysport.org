@@ -11,8 +11,10 @@ module.exports = {
   variants: {
     extend: {
         width: ['responsive', 'focus'],
-        fontSize: ['responsive', 'focus']
     },
+    lineClamp: ['responsive'],
   },
-  plugins: [],
+  plugins: [
+      require('@neojp/tailwindcss-line-clamp-utilities')
+  ]
 }

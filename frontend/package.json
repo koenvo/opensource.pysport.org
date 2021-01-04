@@ -14,5 +14,8 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "@neojp/tailwindcss-line-clamp-utilities": "^1.0.1"
   }
 }
