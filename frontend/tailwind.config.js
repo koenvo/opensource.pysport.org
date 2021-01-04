@@ -11,6 +11,7 @@ module.exports = {
   variants: {
     extend: {
         width: ['responsive', 'focus'],
+        fontSize: ['responsive', 'focus']
     },
   },
   plugins: [],

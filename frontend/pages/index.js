@@ -152,7 +152,7 @@ export default function Home() {
                     <div className="flex justify-between mx-4">
                       <div><Dropdown /></div>
                       <div>
-                        <input type="text" className="w-48 md:w-60 border-gray-300 p-2 text-base font-thin border block rounded-md" placeholder="Search"/>
+                        <input type="text" className="w-48 md:w-60 border-gray-300 p-2 text-sm focus:text-base font-light border block rounded-md" placeholder="Search"/>
                         </div>
 
 
