@@ -112,7 +112,7 @@ export default function Home() {
                     <div className="flex justify-between mx-4">
                       <div><Dropdown /></div>
                       <div>
-                        <input type="text" className="transition-all duration-400 w-40 focus:w-60 border-gray-300 p-2 font-medium border block sm:text-sm rounded-md" placeholder="Search"/>
+                        <input type="text" className="transition-all duration-400 w-32 focus:w-48 md:focus:w-60 border-gray-300 p-2 font-medium border block sm:text-sm rounded-md" placeholder="Search"/>
                         </div>
 
 
