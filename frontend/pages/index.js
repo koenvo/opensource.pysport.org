@@ -182,10 +182,10 @@ export default function Home() {
            <div className="container mx-auto max-w-screen-xl py-2">
                <div className="mx-4 py-2">
                 <div className="flex justify-around">
-                        <a href="//pysport.org" className="block underline font-medium text-blue-600 hover:text-blue-800 visited:text-purple-600">PySport</a>
-                        <a href="//twitter.com/PySportOrg" className="block underline font-medium text-blue-600 hover:text-blue-800 visited:text-purple-600">Twitter</a>
-                        <a href="//gitcom.com/PySport" className="block underline font-medium text-blue-600 hover:text-blue-800 visited:text-purple-600">Github</a>
-                        <a href="//discord.com/invite/pMZ57FC" className="block underline font-medium text-blue-600 hover:text-blue-800 visited:text-purple-600">Discord</a>
+                        <a rel="noopener" target="_blank" href="//pysport.org" className="block underline font-medium text-blue-600 hover:text-blue-800 visited:text-purple-600">PySport</a>
+                        <a rel="noopener" target="_blank" href="//twitter.com/PySportOrg" className="block underline font-medium text-blue-600 hover:text-blue-800 visited:text-purple-600">Twitter</a>
+                        <a rel="noopener" target="_blank" href="//gitcom.com/PySport" className="block underline font-medium text-blue-600 hover:text-blue-800 visited:text-purple-600">Github</a>
+                        <a rel="noopener" target="_blank" href="//discord.com/invite/pMZ57FC" className="block underline font-medium text-blue-600 hover:text-blue-800 visited:text-purple-600">Discord</a>
                 </div>
            </div>
             </div>
