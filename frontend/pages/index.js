@@ -1,10 +1,41 @@
 import Head from 'next/head'
+import {useState} from 'react'
 
 const Label = ({title, children}) => {
   return (
     <div className="flex">
       <div className="w-1/2 md:w-5/12">{title}:</div>
       <div className="w-1/2 md:w-7/12 font-medium">{children}</div>
+    </div>
+  );
+};
+
+const Dropdown = () => {
+  const [isToggled, setIsToggled] = useState(false);
+  const toggle = () => setIsToggled(state => !state);
+
+  return (
+    <div className="relative inline-block text-left">
+      <div>
+        <button onClick={toggle} type="button" className="inline-flex justify-center w-full rounded-md px-4 py-2 bg-white text-sm font-medium text-gray-700 focus:outline-none" aria-haspopup="true" aria-expanded="true">
+          Platforms
+          <svg className="-smr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+          </svg>
+        </button>
+      </div>
+      {isToggled && <div className="origin-top-left absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+        <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Account settings</a>
+          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">Support</a>
+          <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900" role="menuitem">License</a>
+          <form method="POST" action="#">
+            <button type="submit" className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">
+              Sign out
+            </button>
+          </form>
+        </div>
+      </div>}
     </div>
   );
 };
@@ -17,11 +48,11 @@ const Card = ({}) => {
             width="100" height="100" className="mx-auto sm:mx-0" />
             <div className="md:pt-6 md:px-8 text-left space-y-4 h-full">
                 <figcaption>
-                  <div class="font-bold text-5xl align-middle pt-3">
+                  <div className="font-bold text-5xl align-middle pt-3">
                     kloppy
                   </div>
-                  <div class="text-blue-400 text-xl font-bold pt-3">
-                    IO Python package
+                  <div className="text-blue-400 text-xl font-bold pt-3">
+                    Python package
                   </div>
                 </figcaption>
             </div>
@@ -66,15 +97,26 @@ export default function Home() {
       </Head>
 
       <main>
-           <header className="bg-white shadow-md">
+           <header className="bg-white shadow-md relative">
                <div className="container mx-auto max-w-screen-xl">
                     <div className="mx-4 py-8">
                         <img src="/logo.png" className="w-60"/>
                     </div>
                 </div>
                 <div className="border-t-2"></div>
-                <div className="container mx-auto max-w-screen-xl">
-                    <div className="mx-4 py-4">adasd</div>
+
+            </header>
+            <header className="bg-white shadow-md sticky top-0">
+
+                <div className="container mx-auto max-w-screen-xl py-2">
+                    <div className="flex justify-between mx-4">
+                      <div><Dropdown /></div>
+                      <div>
+                        <input type="text" className="transition-all duration-400 w-40 focus:w-60 border-gray-300 p-2 font-medium border block sm:text-sm rounded-md" placeholder="Search"/>
+                        </div>
+
+
+                    </div>
                 </div>
             </header>
             <div className="mx-auto p-8 text-center">

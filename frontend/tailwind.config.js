@@ -9,7 +9,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+        width: ['responsive', 'focus'],
+    },
   },
   plugins: [],
 }
