@@ -4,8 +4,8 @@ import {useState} from 'react'
 const Label = ({title, children}) => {
   return (
     <div className="flex">
-      <div className="w-1/2 md:w-5/12">{title}:</div>
-      <div className="w-1/2 md:w-7/12 font-medium">{children}</div>
+      <div className="w-1/2 md:w-7/12">{title}:</div>
+      <div className="w-1/2 md:w-5/12 font-medium">{children}</div>
     </div>
   );
 };
@@ -82,13 +82,13 @@ const Dropdown = () => {
 
 const Card = ({language='R'}) => {
   return (
-    <div className="p-10 m-4 bg-white rounded-lg">
+    <div className="p-8 m-4 bg-white rounded-lg">
         <div className="sm:flex items-end">
             <img src={`https://opensource.pysport.org/img/${language.toLowerCase()}.png`}
             width="100" height="100" className="mx-auto sm:mx-0" />
-            <div className="md:pt-6 md:px-8 text-left space-y-4 h-full">
+            <div className="text-center sm:text-left sm:pl-8 text-left space-y-4 h-full">
                 <figcaption>
-                  <div className="font-bold text-5xl align-middle pt-3">
+                  <div className="font-bold text-4xl align-middle pt-3">
                     fcscrapR
                   </div>
                   <div className="text-blue-400 text-xl font-bold pt-3">
@@ -98,7 +98,7 @@ const Card = ({language='R'}) => {
             </div>
         </div>
         <div className="pt-2 mt-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 text-base">
+          <div className="grid grid-cols-1 md:grid-cols-2 text-sm">
             <Label title="Sports">Soccer</Label>
             <Label title="Language">{language}</Label>
             {/*<Label title="Authors">
@@ -106,8 +106,8 @@ const Card = ({language='R'}) => {
                 <a href="#" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">koenvo</a>
             </Label> */}
             <Label title="License">MIT</Label>
-            <Label title="Latest version">1.5.2 <span className="font-thin">(Dec 23, 2020)</span></Label>
-            <Label title="Last commit">Dec 23, 2020</Label>
+            <Label title="Latest version">1.5.2</Label>
+            <Label title="Last commit">Dec 2020</Label>
             <Label title="Contributors">3</Label>
           </div>
         </div>
@@ -165,7 +165,7 @@ export default function Home() {
               Dev? Sumbit packag here...
             </div>
            <div className="container mx-auto max-w-screen-xl -m-4">
-           <div className="grid grid-cols-1 lg:grid-cols-2">
+           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
             <Card />
             <Card language="Python" />
             <Card />
