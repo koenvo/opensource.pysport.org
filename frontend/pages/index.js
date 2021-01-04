@@ -80,9 +80,21 @@ const Dropdown = () => {
   );
 };
 
-const Card = ({language='R'}) => {
+const Card = ({language='R', highlight}) => {
   return (
-    <div className="p-8 m-4 bg-white rounded-lg">
+    <div className={`p-6 m-3 bg-white rounded-lg ${highlight ? 'bg-gray-600 text-white sm:flex': ''} relative z-0`}>
+        {highlight &&
+            <>
+                <div className="hidden xl:block absolute transform font-bold -rotate-90 p-1 px-4 -m-4 bg-gray-600 rounded-md -left-12 inset-y-1/2">
+                featured
+                </div>
+
+                <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png" className="hidden sm:block w-1/2 mr-6" />
+
+            </>
+
+        }
+        <div>
         <div className="sm:flex items-end">
             <img src={`https://opensource.pysport.org/img/${language.toLowerCase()}.png`}
             width="100" height="100" className="mx-auto sm:mx-0" />
@@ -97,6 +109,8 @@ const Card = ({language='R'}) => {
                 </figcaption>
             </div>
         </div>
+            <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png" className="block sm:hidden mt-8 w-full" />
+
         <div className="pt-2 mt-8">
           <div className="grid grid-cols-1 md:grid-cols-2 text-sm">
             <Label title="Sports">Soccer</Label>
@@ -111,9 +125,13 @@ const Card = ({language='R'}) => {
             <Label title="Contributors">3</Label>
           </div>
         </div>
-        <blockquote className="pt-2 mt-8 text-neutral-600 line-clamp-5 md:line-clamp-4">
+        <blockquote className="pt-2 mt-8 text-neutral-600 line-clamp-5 md:line-clamp-3">
         The goal of fcscrapR is to allow R users quick access to the commentary for each soccer game available on ESPN. The commentary data includes basic events such as shot attempts, substitutions, fouls, cards, corners, and video reviews along with information about the players involved. The data can be accessed in-game as ESPN updates their match commentary. This package was created to help get data in the hands of soccer fans to do their own analysis and contribute to reproducible metrics.
         </blockquote>
+        <button className="mt-8 flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+        Visit page
+        </button>
+        </div>
     </div>
   );
 };
@@ -132,23 +150,24 @@ export default function Home() {
     `}</style>
 
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>PySport Opensource overview</title>
+        <link rel="icon" href="https://opensource.pysport.org/logo.png" />
       </Head>
 
       <main>
            <header className="bg-white shadow-md relative">
-               <div className="container mx-auto max-w-screen-xl">
+               <div className="container mx-auto max-w-screen-xl flex">
                     <div className="mx-4 py-8">
                         <a href="/">
                             <img src="/logo.png" className="w-60"/>
                         </a>
                     </div>
+
                 </div>
                 <div className="border-t-2"></div>
 
             </header>
-            <header className="bg-white shadow-md sticky top-0">
+            <header className="bg-white shadow-md sticky top-0 z-10">
 
                 <div className="container mx-auto max-w-screen-xl py-2">
                     <div className="flex justify-between mx-4">
@@ -165,10 +184,25 @@ export default function Home() {
               Dev? Sumbit packag here...
             </div>
            <div className="container mx-auto max-w-screen-xl -m-4">
-           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+               <div className="grid grid-cols-1">
+                <Card highlight/>
+                </div>
+                <div className="mx-auto p-8 text-center font-bold text-2xl">
+              Visualizations
+            </div>
+                           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+
+            <Card language="Python" />
+            <Card />
             <Card />
             <Card language="Python" />
             <Card />
+            </div>
+            <div className="mx-auto p-8 text-center font-bold text-2xl">
+              Visualizations
+            </div>
+                           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+
             <Card language="Python" />
             <Card />
             <Card />
@@ -178,7 +212,7 @@ export default function Home() {
             </div>
       </main>
 
-      <footer className="mt-8 bg-white">
+      <footer className="mt-16 bg-white">
            <div className="container mx-auto max-w-screen-xl py-2">
                <div className="mx-4 py-2">
                 <div className="flex justify-around">
