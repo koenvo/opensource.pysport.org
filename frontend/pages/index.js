@@ -109,7 +109,7 @@ const Card = ({language='R', highlight}) => {
                 </figcaption>
             </div>
         </div>
-            <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png" className="block sm:hidden mt-8 w-full" />
+            {highlight && <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png" className="block sm:hidden mt-8 w-full" />}
 
         <div className="pt-2 mt-8">
           <div className="grid grid-cols-1 md:grid-cols-2 text-sm">
