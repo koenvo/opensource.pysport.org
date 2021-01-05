@@ -82,10 +82,10 @@ const Dropdown = () => {
 
 const Card = ({language='R', highlight}) => {
   return (
-    <div className={`p-6 m-3 bg-white rounded-lg ${highlight ? 'bg-gray-600 text-white sm:grid sm:grid-cols-2 sm:gap-4': ''} relative z-0`}>
+    <div className={`p-6 m-3 bg-white rounded-lg ${highlight ? 'ring-4 ring-indigo-300 sm:grid sm:grid-cols-2 sm:gap-8': ''} relative z-0`}>
         {highlight &&
             <>
-                <div className="hidden xl:block absolute transform font-bold -rotate-90 p-1 px-4 -m-4 bg-gray-600 rounded-md -left-12 inset-y-1/2">
+                <div className="hidden xl:block absolute transform font-bold -rotate-90 p-1 px-5 -m-4 text-white bg-indigo-300 rounded-md -left-14 inset-y-1/2">
                 featured
                 </div>
 
