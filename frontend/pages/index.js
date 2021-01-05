@@ -82,14 +82,16 @@ const Dropdown = () => {
 
 const Card = ({language='R', highlight}) => {
   return (
-    <div className={`p-6 m-3 bg-white rounded-lg ${highlight ? 'bg-gray-600 text-white sm:flex': ''} relative z-0`}>
+    <div className={`p-6 m-3 bg-white rounded-lg ${highlight ? 'bg-gray-600 text-white sm:grid sm:grid-cols-2 sm:gap-4': ''} relative z-0`}>
         {highlight &&
             <>
                 <div className="hidden xl:block absolute transform font-bold -rotate-90 p-1 px-4 -m-4 bg-gray-600 rounded-md -left-12 inset-y-1/2">
                 featured
                 </div>
 
-                <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png" className="hidden sm:block w-1/2 mr-6" />
+                <div className="hidden sm:block">
+                    <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png" />
+                </div>
 
             </>
 
@@ -109,7 +111,9 @@ const Card = ({language='R', highlight}) => {
                 </figcaption>
             </div>
         </div>
-            {highlight && <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png" className="block sm:hidden mt-8 w-full" />}
+            {highlight &&
+                <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png" className="block sm:hidden mt-8 w-full" />
+            }
 
         <div className="pt-2 mt-8">
           <div className="grid grid-cols-1 md:grid-cols-2 text-sm">
