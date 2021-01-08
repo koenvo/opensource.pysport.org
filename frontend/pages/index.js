@@ -5,6 +5,9 @@ import SubHeader from "../components/subheader";
 import { getProjects } from "../lib/data";
 import { useQueryString } from "../lib/use-query-string";
 
+
+const sportOptions = ["American Football", "Austrial Football", "Baseball", "Basketball", "Cricket", "Field Hockey", "Ice Hockey", "Soccer", "Tennis"];
+
 const Label = ({title, children}) => {
   return (
     <div className="flex">
@@ -24,7 +27,7 @@ const FilterBox = ({title, options, selectedOptions, onSelect}) => {
                  role="menuitem">
             <input type="checkbox"
                    checked={selectedOptions.indexOf(option) !== -1}
-                   onSelect={(e) => onSelect(option, e.target.value)}
+                   onChange={(e) => onSelect(e.target.checked, option)}
                    className="inline-block mr-2"/>
             <span>{option}</span>
           </label>
@@ -36,19 +39,20 @@ const FilterBox = ({title, options, selectedOptions, onSelect}) => {
 
 const updateList = (add, option, options) => {
   const idx = options.indexOf(option);
+  const optionsNew = options.slice();
     if (add) {
       if (idx === -1) {
-        options.push(option);
+        optionsNew.push(option);
       }
     } else {
       if (idx !== -1) {
-        options.splice(idx, 1);
+        optionsNew.splice(idx, 1);
       }
     }
-    return options;
+    return optionsNew;
 };
 
-const Dropdown = ({languages, setLanguages}) => {
+const Dropdown = ({languages, setLanguages, sports, setSports}) => {
   const [isToggled, setIsToggled] = useState(false);
   const toggle = () => setIsToggled(state => !state);
 
@@ -75,12 +79,13 @@ const Dropdown = ({languages, setLanguages}) => {
             title="Languages"
             options={["Python", "R"]}
             selectedOptions={languages}
-            onSelect={(add, option) => setLanguages(updateList(add, option))}
+            onSelect={(add, option) => setLanguages(updateList(add, option, languages))}
           />
           <FilterBox
             title="Sports"
-            options={["American Football", "Austrial Football", "Baseball", "Basketball", "Cricket", "Field Hockey", "Ice Hockey", "Soccer", "Tennis"]}
-            selectedOptions={[]}
+            options={sportOptions}
+            selectedOptions={sports}
+            onSelect={(add, option) => setSports(updateList(add, option, sports))}
           />
 
         </div>
@@ -209,15 +214,33 @@ const Overview = ({projects}) => {
 export default function Home() {
   const [searchValue, setSearchValue] = useQueryString("search");
   const [languages, setLanguages] = useQueryString("languages", ['R', 'Python']);
+  const [sports, setSports] = useQueryString("sports", sportOptions);
+
+  const isFiltering = (
+    !!searchValue ||
+      languages.length !== 2 ||
+      sports.length !== sportOptions.length
+  );
 
   const projects = getProjects();
+  const filteredProjects = projects.filter(
+    (project) => {
+      return (
+        languages.indexOf(project.language) !== -1 &&
+        sports.indexOf(project.sports[0]) !== -1 &&
+        (!searchValue || JSON.stringify(project).indexOf(searchValue) !== -1)
+      );
+    }
+  );
   return (
     <Layout>
       <SubHeader>
         <div>
           <Dropdown
-            languages={languages || []}
+            languages={Array.isArray(languages) ? languages : [languages]}
             setLanguages={setLanguages}
+            sports={Array.isArray(sports) ? sports : [sports]}
+            setSports={setSports}
           />
         </div>
         <div className="px-2">
@@ -239,10 +262,10 @@ export default function Home() {
       </a>
       </div>
       <div className="container mx-auto max-w-screen-xl -m-4">
-        <div className="grid grid-cols-1">
+        {!isFiltering && <div className="grid grid-cols-1">
           <Card highlight project={projects[0]}/>
-        </div>
-        <Overview projects={projects}/>
+        </div>}
+        <Overview projects={filteredProjects}/>
       </div>
     </Layout>
   )
