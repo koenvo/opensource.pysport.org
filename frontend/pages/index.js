@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import Layout from "../components/layout";
 import SubHeader from "../components/subheader";
-
+import { getProjects } from "../lib/data";
 
 const Label = ({title, children}) => {
   return (
@@ -100,7 +100,7 @@ const Dropdown = () => {
   );
 };
 
-const Card = ({language = 'R', highlight}) => {
+const Card = ({project, highlight}) => {
   return (
     <div
       className={`p-6 m-3 bg-white rounded-lg ${highlight ? 'ring-4 ring-indigo-300 sm:grid sm:grid-cols-2 sm:gap-8' : ''} relative z-0`}>
@@ -126,15 +126,15 @@ const Card = ({language = 'R', highlight}) => {
       }
       <div>
         <div className="sm:flex">
-          <img src={`https://opensource.pysport.org/img/${language.toLowerCase()}.png`}
+          <img src={`https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`}
                width="100" height="100" className="mx-auto sm:mx-0"/>
           <div className="text-center sm:text-left sm:pl-8 text-left space-y-4 h-full">
             <figcaption>
               <div className="font-bold text-4xl align-middle pt-3">
-                fcscrapR
+                {project.name}
               </div>
               <div className="text-blue-400 text-xl font-bold pt-3">
-                {language} package
+                {project.language} package
               </div>
             </figcaption>
           </div>
@@ -146,30 +146,26 @@ const Card = ({language = 'R', highlight}) => {
         }
 
         <div className="pt-2 mt-8">
-          <div className="grid grid-colss-1 md:grid-cols-2 text-sm">
+          <div className="grid grid-cols-1 md:grid-cols-2 text-sm">
             <Label title="Sports">Soccer</Label>
-            <Label title="Language">{language}</Label>
+            <Label title="Language">{project.language}</Label>
             {/*<Label title="Authors">
              <a href="#" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">koenvo</a> |{' '}
              <a href="#" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">koenvo</a>
              </Label> */}
-            <Label title="License">MIT</Label>
-            <Label title="Latest version">1.5.2</Label>
-            <Label title="Last commit">Dec 2020</Label>
-            <Label title="Contributors">3</Label>
+            <Label title="License">{project.license}</Label>
+            <Label title="Latest version">{project.latestVersion}</Label>
+            <Label title="Last commit">{new Date(project.lastCommit).toLocaleDateString('en-US', {month: 'short', year: 'numeric'})}</Label>
+            <Label title="Contributors">{project.contributors.length}</Label>
           </div>
         </div>
         <blockquote className="pt-2 mt-8 text-neutral-600 line-clamp-5 md:line-clamp-3">
-          The goal of fcscrapR is to allow R users quick access to the commentary for each soccer game available on
-          ESPN. The commentary data includes basic events such as shot attempts, substitutions, fouls, cards, corners,
-          and video reviews along with information about the players involved. The data can be accessed in-game as ESPN
-          updates their match commentary. This package was created to help get data in the hands of soccer fans to do
-          their own analysis and contribute to reproducible metrics.
+          {project.description}
         </blockquote>
         <Link
           href={{
-            pathname: '/resource/[id]',
-            query: {id: 'tet'},
+            pathname: '/project/[id]/[name]',
+            query: {id: project.projectId, name: project.name},
           }}
         >
           <a
@@ -181,7 +177,31 @@ const Card = ({language = 'R', highlight}) => {
     </div>
   );
 };
+
+const Overview = ({projects}) => {
+  const categories = [
+    "IO (Reading/Writing)"
+  ];
+
+  return categories.map((category) => {
+    const categoryProjects = projects.filter((project) => project.categories.indexOf(category) !== -1);
+
+    return (
+      <cat key={category}>
+        <div className="mx-auto p-8 text-center font-bold text-2xl">
+          {category}
+        </div>
+       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+         {categoryProjects.map((project) => <Card key={project.projectId} project={project} />)}
+       </div>
+      </cat>
+    )
+  });
+};
+
+
 export default function Home() {
+  const projects = getProjects();
   return (
     <Layout>
       <SubHeader>
@@ -193,34 +213,20 @@ export default function Home() {
         </div>
       </SubHeader>
       <div className="mx-auto p-8 text-center">
-        Dev? Sumbit packag here...
+        Developer? <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeZkIZjZxxek6D4Ec05V1EBrGBg2H-0lNosBijt1MeJIaAJGA/viewform"
+              rel="noopener"
+              target="_blank"
+              className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+      >
+          Submit your package here
+      </a>
       </div>
       <div className="container mx-auto max-w-screen-xl -m-4">
         <div className="grid grid-cols-1">
-          <Card highlight/>
+          <Card highlight project={projects[0]} />
         </div>
-        <div className="mx-auto p-8 text-center font-bold text-2xl">
-          Visualizations
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-
-          <Card language="Python"/>
-          <Card />
-          <Card />
-          <Card language="Python"/>
-          <Card />
-        </div>
-        <div className="mx-auto p-8 text-center font-bold text-2xl">
-          Visualizations
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-
-          <Card language="Python"/>
-          <Card />
-          <Card />
-          <Card language="Python"/>
-          <Card />
-        </div>
+        <Overview projects={projects} />
       </div>
     </Layout>
   )
