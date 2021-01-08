@@ -24,7 +24,9 @@ const projects = [
 
     "images": [
       {
-        "title": "What does kloppy do?",
+        "url": "https://github.com/mrcaseb/nflfastR/raw/master/man/figures/readme-cp-model-1.png"
+      },
+      {
         "url": "https://github.com/mrcaseb/nflfastR/raw/master/man/figures/readme-cp-model-1.png"
       }
     ],

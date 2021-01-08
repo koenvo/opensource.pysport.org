@@ -75,9 +75,9 @@ const OwnersContributors = ({project}) => {
 
   return (
     <>
-    <div className="w-1/2 mt-2 grid grid-cols-1 md:grid-cols-2">
+    <div className="mt-2 grid grid-cols-1 md:grid-cols-2">
     {owners.map((owner) => {
-      return <Entity entity={owner} className="font-semibold" />;
+      return <Entity entity={owner} className="font-medium" />;
       })}
       {contributors.map((owner) => {
         return <Entity entity={owner} />;
@@ -138,8 +138,8 @@ export default function Project() {
             <div>
               <div className="flex">
                 <div>
-                <img src={project.logoUrl || `https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`}
-                     width="100" height="100" className="mx-0 inline-block" style={{width: "120px"}}/>
+                  <img src={project.logoUrl || `https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`}
+                       width="100" height="100" className="mx-0 inline-block" style={{width: "120px"}}/>
                 </div>
                 <div className="text-left pl-8 text-left space-y-4 h-full">
                   <figcaption>
@@ -153,7 +153,7 @@ export default function Project() {
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 mt-4">
-                <Label title="Sports">Soccer</Label>
+                <Label title="Sports">{project.sports.join(", ")}</Label>
                 <Label title="Language">{project.language}</Label>
                 {/*<Label title="Authors">
                  <a href="#" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">koenvo</a> |{' '}
@@ -198,11 +198,11 @@ export default function Project() {
               <div className="mt-4">
                 {project.description}
               </div>
+              <div className="mt-4">
+                <div className="font-bold">Owners/Contributors</div>
+                <OwnersContributors project={project} />
+              </div>
             </div>
-          </div>
-          <div className="mt-4">
-            <div className="font-bold">Owners/Contributors</div>
-            <OwnersContributors project={project} />
           </div>
         </div>
         {(project.images.length > 0) && (<div className="mx-4 mt-4">

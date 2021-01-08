@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Layout from "../components/layout";
 import SubHeader from "../components/subheader";
 import { getProjects } from "../lib/data";
+import { useQueryString } from "../lib/use-query-string";
 
 const Label = ({title, children}) => {
   return (
@@ -13,7 +14,41 @@ const Label = ({title, children}) => {
   );
 };
 
-const Dropdown = () => {
+const FilterBox = ({title, options, selectedOptions, onSelect}) => {
+  return (
+    <div className="px-4 pt-2">
+    <div className="font-bold">{title}</div>
+      {options.map((option) => {
+        return (
+          <label key={option} className="flex cursor-pointer items-center py-1 text-base text-gray-700 hover:bg-white"
+                 role="menuitem">
+            <input type="checkbox"
+                   checked={selectedOptions.indexOf(option) !== -1}
+                   onSelect={(e) => onSelect(option, e.target.value)}
+                   className="inline-block mr-2"/>
+            <span>{option}</span>
+          </label>
+        )
+      })}
+  </div>
+  )
+};
+
+const updateList = (add, option, options) => {
+  const idx = options.indexOf(option);
+    if (add) {
+      if (idx === -1) {
+        options.push(option);
+      }
+    } else {
+      if (idx !== -1) {
+        options.splice(idx, 1);
+      }
+    }
+    return options;
+};
+
+const Dropdown = ({languages, setLanguages}) => {
   const [isToggled, setIsToggled] = useState(false);
   const toggle = () => setIsToggled(state => !state);
 
@@ -36,63 +71,17 @@ const Dropdown = () => {
         className="origin-top-left absolute left-0 mt-2 w-56 md:w-96 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
         <div className="py-1 grid grid-cols-1 md:grid-cols-2 pb-2" role="menu" aria-orientation="vertical"
              aria-labelledby="options-menu">
-          <div className="px-4 pt-2">
-            <div className="font-bold">Platforms</div>
-            <label className="flex cursor-pointer items-center py-1 text-base text-gray-700 hover:bg-white"
-                   role="menuitem">
-              <input type="checkbox" className="inline-block mr-2"/>
-              <span>Python</span>
-            </label>
-            <label className="flex cursor-pointer items-center py-1 text-base text-gray-700 hover:bg-white"
-                   role="menuitem">
-              <input type="checkbox" className="inline-block mr-2"/>
-              <span>R</span>
-            </label>
-            <label className="flex cursor-pointer items-center py-1 text-base text-gray-700 hover:bg-white"
-                   role="menuitem">
-              <input type="checkbox" className="inline-block mr-2"/>
-              <span>Julia</span>
-            </label>
-          </div>
-
-          <div className="px-4 pt-2">
-            <div className="font-bold">Sports</div>
-            <label className="flex cursor-pointer items-center py-1 text-base text-gray-700 hover:bg-white"
-                   role="menuitem">
-              <input type="checkbox" className="inline-block mr-2"/>
-              <span>American Football</span>
-            </label>
-            <label className="flex cursor-pointer items-center py-1 text-base text-gray-700 hover:bg-white"
-                   role="menuitem">
-              <input type="checkbox" className="inline-block mr-2"/>
-              <span>Austrial Football</span>
-            </label>
-            <label className="flex cursor-pointer items-center py-1 text-base text-gray-700 hover:bg-white"
-                   role="menuitem">
-              <input type="checkbox" className="inline-block mr-2"/>
-              <span>Soccer</span>
-            </label>
-            <label className="flex cursor-pointer items-center py-1 text-base text-gray-700 hover:bg-white"
-                   role="menuitem">
-              <input type="checkbox" className="cursor-pointer inline-block mr-2"/>
-              <span>Soccer</span>
-            </label>
-            <label className="flex cursor-pointer items-center py-1 text-base text-gray-700 hover:bg-white"
-                   role="menuitem">
-              <input type="checkbox" className="cursor-pointer inline-block mr-2"/>
-              <span>Soccer</span>
-            </label>
-            <label className="flex cursor-pointer items-center py-1 text-base text-gray-700 hover:bg-white"
-                   role="menuitem">
-              <input type="checkbox" className="cursor-pointer inline-block mr-2"/>
-              <span>Soccer</span>
-            </label>
-            <label className="flex cursor-pointer items-center py-1 text-base text-gray-700 hover:bg-white"
-                   role="menuitem">
-              <input type="checkbox" className="cursor-pointer inline-block mr-2"/>
-              <span>Soccer</span>
-            </label>
-          </div>
+          <FilterBox
+            title="Languages"
+            options={["Python", "R"]}
+            selectedOptions={languages}
+            onSelect={(add, option) => setLanguages(updateList(add, option))}
+          />
+          <FilterBox
+            title="Sports"
+            options={["American Football", "Austrial Football", "Baseball", "Basketball", "Cricket", "Field Hockey", "Ice Hockey", "Soccer", "Tennis"]}
+            selectedOptions={[]}
+          />
 
         </div>
       </div>}
@@ -218,14 +207,24 @@ const Overview = ({projects}) => {
 
 
 export default function Home() {
+  const [searchValue, setSearchValue] = useQueryString("search");
+  const [languages, setLanguages] = useQueryString("languages", ['R', 'Python']);
+
   const projects = getProjects();
   return (
     <Layout>
       <SubHeader>
-        <div><Dropdown /></div>
+        <div>
+          <Dropdown
+            languages={languages || []}
+            setLanguages={setLanguages}
+          />
+        </div>
         <div className="px-2">
           <input type="text"
                  className="w-40 md:w-60 border-gray-300 p-2 text-base font-light border block rounded-md"
+                 value={searchValue}
+                 onChange={(e) => setSearchValue(e.target.value)}
                  placeholder="Search"/>
         </div>
       </SubHeader>
