@@ -1,6 +1,43 @@
 const projects = [
   {
     "projectId": 1,
+    "name": "nflfastR",
+    "type": "package",
+    "sports": ["American Football"],
+    "license": "MIT",
+    "language": "R",
+    "logoUrl": "https://raw.githubusercontent.com/mrcaseb/nflfastR/master/man/figures/logo.png",
+    "description": "nflfastR is a set of functions to efficiently scrape NFL play-by-play data",
+    "categories": [
+      "Scraper/API"
+    ],
+
+    "latestVersion": "v3.2.0",
+    "lastCommit": "2021-01-07T08:25:40.420Z",
+
+    "urls": {
+      "github": "https://github.com/mrcaseb/nflfastR",
+      "cran": "https://cran.r-project.org/web/packages/nflfastR/index.html",
+      "website": "https://www.nflfastr.com/",
+      "discord": "https://discord.gg/5Er2FBnnQa"
+    },
+
+    "images": [
+      {
+        "title": "What does kloppy do?",
+        "url": "https://github.com/mrcaseb/nflfastR/raw/master/man/figures/readme-cp-model-1.png"
+      }
+    ],
+
+    "owners": [
+      "person:1", "person:2", "organisation:1"
+    ],
+    "contributors": [
+      "person:1", "person:2", "person:3"
+    ]
+  },
+  {
+    "projectId": 2,
     "name": "kloppy",
     "type": "package",
     "sports": ["Soccer"],
@@ -18,17 +55,16 @@ const projects = [
       "github": "https://github.com/PySport/kloppy",
       "pypi": "https://pypi.org/project/kloppy/",
       "docs": "https://kloppy.pysport.org",
-      "project": ""
     },
 
     "images": [
       {
         "title": "What does kloppy do?",
-        "url": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png"
+        "url": "/images/packages/1-1.png"
       },
       {
         "title": "What does kloppy do?",
-        "url": "/images/packages/1-1.png"
+        "url": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png"
       },
       {
         "title": "What does kloppy do?",
@@ -53,9 +89,8 @@ const projects = [
     ],
     "contributors": [
       "person:1", "person:2", "person:3",
-      "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3"
+      "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3",
     ]
-
   }
 ];
 
@@ -63,6 +98,7 @@ const persons = [
   {
     "personId": 1,
     "name": "Koen Vossen",
+    "description": "Founder TeamTV / PyData Eindhoven committee member / Founder PySport / Instructor KNKV",
     "imageUrl": "",
     "urls": {
       "github": "https://github.com/koenvo",
@@ -76,7 +112,7 @@ const persons = [
     "urls": {
       "github": "https://github.com/bdagnino",
       "twitter": "https://twitter.com/brunodagnino",
-      "main": "https://bdagnino.com/"
+      "website": "https://bdagnino.com/"
     }
   },
   {
@@ -86,7 +122,7 @@ const persons = [
     "urls": {
       "github": "https://github.com/bdagnino",
       "twitter": "https://twitter.com/brunodagnino",
-      "main": "https://bdagnino.com/"
+      "website": "https://bdagnino.com/"
     }
   }
 ];
@@ -98,7 +134,7 @@ const organisations = [
     "imageUrl": "https://dtai.cs.kuleuven.be/sites/dtaid.cs.kuleuven.be/themes/kuleuven/DTAI-logo-henglish-white.png",
     "urls": {
       "github": "https://github.com/orgs/ML-KULeuven",
-      "main": "https://dtai.cs.kuleuven.be/ml/"
+      "website": "https://dtai.cs.kuleuven.be/ml/"
     },
     "description": "The Machine Learning research group is part of the DTAI section which is part of the Department of Computer Science at the KU Leuven. It is led by Hendrik Blockeel, Jesse Davis and Luc De Raedt and counts about 12 post-docs and 30 PhD students representing virtually all areas of machine learning and data mining. The group focuses on machine learning and data mining research involving structured data, symbolic, logical and probabilistic representations, background knowledge and applies it's techniques to challenging domains in the life sciences and action- and activity learning."
   }
@@ -136,9 +172,17 @@ function extendEntities(entityRefs)
 function extendProject(project) {
   const contributors = [];
   const owners = [];
+  let url = '#';
+  for(const type of ["website", "docs", "github", "pypi", "cran"]) {
+    if (!!project.urls[type]) {
+      url = project.urls[type];
+      break;
+    }
+  }
 
   return {
     ...project,
+    url,
     contributors: extendEntities(project.contributors),
     owners: extendEntities(project.owners)
   };
@@ -154,6 +198,25 @@ export function getProjectById(projectId) {
   const project = projects.find((project) => project.projectId === projectId);
   if (project) {
     return extendProject(project);
+  }
+  return null;
+}
+
+export function getPersonById(personId) {
+  personId = parseInt(personId);
+  const person = persons.find((person) => person.personId === personId);
+  if (person) {
+    return {
+      projects: {
+        owner: projects.filter((project) => {
+          return project.owners.indexOf(`person:${personId}`) !== -1;
+        }),
+        contributor: projects.filter((project) => {
+          return project.contributors.indexOf(`person:${personId}`) !== -1;
+        })
+      },
+      ...person
+    }
   }
   return null;
 }

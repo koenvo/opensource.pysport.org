@@ -51,7 +51,7 @@ const Entity = ({entity, className}) => {
           </svg>
         </a>
         }
-        {!!entity.urls.main && <a href={entity.urls.main} target="_blank" rel="noopener">
+        {!!entity.urls.website && <a href={entity.urls.website} target="_blank" rel="noopener">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="inline-block h-4 ml-1">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
           </svg>
@@ -75,7 +75,7 @@ const OwnersContributors = ({project}) => {
 
   return (
     <>
-    <div className="w-1/2 mt-4 grid grid-cols-1 md:grid-cols-2">
+    <div className="w-1/2 mt-2 grid grid-cols-1 md:grid-cols-2">
     {owners.map((owner) => {
       return <Entity entity={owner} className="font-semibold" />;
       })}
@@ -125,7 +125,7 @@ export default function Project() {
         <div className="px-2">
           <a
             rel="noopener"
-            href="#"
+            href={project.url}
             target="_blank"
             className="inline-block py-2 px-4 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
             Visit page
@@ -137,8 +137,10 @@ export default function Project() {
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div>
               <div className="flex">
-                <img src={`https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`}
-                     width="100" height="100" className="mx-0" style={{width: "100px", height: "100px"}}/>
+                <div>
+                <img src={project.logoUrl || `https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`}
+                     width="100" height="100" className="mx-0 inline-block" style={{width: "120px"}}/>
+                </div>
                 <div className="text-left pl-8 text-left space-y-4 h-full">
                   <figcaption>
                     <div className="font-bold text-4xl align-middle pt-3">
@@ -165,9 +167,29 @@ export default function Project() {
                 })}</Label>
               </div>
               <div className="mt-4">
-                <div className="font-bold">Urls</div>
-                <div className="mt-4">
-                  {project.urls.github}
+                <div className="font-bold">Links</div>
+                <div className="grid grid-cols-2">
+                {!!project.urls.website && (
+                  <a href={project.urls.website} className="block" target="_blank" rel="noopener">Website</a>
+                )}
+                {!!project.urls.docs && (
+                  <a href={project.urls.docs} className="block" target="_blank" rel="noopener">Documentation</a>
+                )}
+                {!!project.urls.github && (
+                  <a href={project.urls.github} className="block" target="_blank" rel="noopener">Github</a>
+                )}
+                {!!project.urls.pypi && (
+                  <a href={project.urls.pypi} className="block" target="_blank" rel="noopener">PyPi</a>
+                )}
+                {!!project.urls.cran && (
+                  <a href={project.urls.cran} className="block" target="_blank" rel="noopener">CRAN</a>
+                )}
+                {!!project.urls.twitter && (
+                  <a href={project.urls.twitter} className="block" target="_blank" rel="noopener">Twitter</a>
+                )}
+                {!!project.urls.discord && (
+                  <a href={project.urls.discord} className="block" target="_blank" rel="noopener">Discord</a>
+                )}
                 </div>
               </div>
             </div>
@@ -190,7 +212,7 @@ export default function Project() {
               {project.images.map((image, i) => {
                 return (
                   <a href={image.url} target="_blank" rel="noopener" className="mr-2 last:mr-0">
-                    <img className="inline-block snap-start w-96" src={image.url}/>
+                    <img className="inline-block snap-start w-96" src={image.url} title={image.title} />
                   </a>
                 );
               })}

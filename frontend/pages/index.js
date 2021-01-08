@@ -112,21 +112,28 @@ const Card = ({project, highlight}) => {
       </div>
 
       {/*<div
-        className="absolute text-white bg-indigo-300 rounded-md font-bold p-1 text-center px-4 w-28 -mx-16 -my-6 inset-x-1/2">
-        featured
-      </div>*/}
+       className="absolute text-white bg-indigo-300 rounded-md font-bold p-1 text-center px-4 w-28 -mx-16 -my-6 inset-x-1/2">
+       featured
+       </div>*/}
 
       <div className="hidden sm:block">
-        <img src={project.images[0].url} />
+        <img src={project.images[0].url}/>
       </div>
 
       </>
 
       }
       <div>
-        <div className="sm:flex">
-          <img src={`https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`}
-               width="100" height="100" className="mx-auto sm:mx-0" style={{width: "100px", height: "100px"}} />
+        <Link
+          href={{
+            pathname: '/project/[id]/[name]',
+            query: {id: project.projectId, name: project.name},
+          }}
+        ><a className="sm:flex block">
+          <div>
+            <img src={project.logoUrl || `https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`}
+                 width="100" height="100" className="mx-auto sm:mx-0 inline-block" style={{width: "100px"}}/>
+          </div>
           <div className="text-center sm:text-left sm:pl-8 text-left space-y-4 h-full">
             <figcaption>
               <div className="font-bold text-4xl align-middle pt-3">
@@ -137,7 +144,8 @@ const Card = ({project, highlight}) => {
               </div>
             </figcaption>
           </div>
-        </div>
+        </a>
+        </Link>
         {highlight &&
         <img
           src={project.images[0].url}
@@ -146,7 +154,7 @@ const Card = ({project, highlight}) => {
 
         <div className="pt-2 mt-8">
           <div className="grid grid-cols-1 md:grid-cols-2 text-sm">
-            <Label title="Sports">Soccer</Label>
+            <Label title="Sports">{project.sports.join(", ")}</Label>
             <Label title="Language">{project.language}</Label>
             {/*<Label title="Authors">
              <a href="#" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">koenvo</a> |{' '}
@@ -154,7 +162,10 @@ const Card = ({project, highlight}) => {
              </Label> */}
             <Label title="License">{project.license}</Label>
             <Label title="Latest version">{project.latestVersion}</Label>
-            <Label title="Last commit">{new Date(project.lastCommit).toLocaleDateString('en-US', {month: 'short', year: 'numeric'})}</Label>
+            <Label title="Last commit">{new Date(project.lastCommit).toLocaleDateString('en-US', {
+              month: 'short',
+              year: 'numeric'
+            })}</Label>
             <Label title="Contributors">{project.contributors.length}</Label>
           </div>
         </div>
@@ -179,20 +190,27 @@ const Card = ({project, highlight}) => {
 
 const Overview = ({projects}) => {
   const categories = [
-    "IO (Reading/Writing)"
+    "Scraper/API",
+    "Model/Calculations",
+    "IO (Reading/Writing)",
+    "Visualization",
+    "Gambling",
+    "Other"
   ];
 
   return categories.map((category) => {
     const categoryProjects = projects.filter((project) => project.categories.indexOf(category) !== -1);
-
+    if (categoryProjects.length === 0) {
+      return null;
+    }
     return (
       <cat key={category}>
         <div className="mx-auto p-8 text-center font-bold text-2xl">
           {category}
         </div>
-       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-         {categoryProjects.map((project) => <Card key={project.projectId} project={project} />)}
-       </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+          {categoryProjects.map((project) => <Card key={project.projectId} project={project}/>)}
+        </div>
       </cat>
     )
   });
@@ -213,19 +231,19 @@ export default function Home() {
       </SubHeader>
       <div className="mx-auto p-8 text-center">
         Developer? <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeZkIZjZxxek6D4Ec05V1EBrGBg2H-0lNosBijt1MeJIaAJGA/viewform"
-              rel="noopener"
-              target="_blank"
-              className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeZkIZjZxxek6D4Ec05V1EBrGBg2H-0lNosBijt1MeJIaAJGA/viewform"
+        rel="noopener"
+        target="_blank"
+        className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
       >
-          Submit your package here
+        Submit your package here
       </a>
       </div>
       <div className="container mx-auto max-w-screen-xl -m-4">
         <div className="grid grid-cols-1">
-          <Card highlight project={projects[0]} />
+          <Card highlight project={projects[0]}/>
         </div>
-        <Overview projects={projects} />
+        <Overview projects={projects}/>
       </div>
     </Layout>
   )
