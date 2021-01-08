@@ -14,6 +14,54 @@ const Label = ({title, children}) => {
   );
 };
 
+const Entity = ({entity}) => {
+  return (
+    <div>
+      <Link
+        href={{
+          pathname: `/${entity.type}/[id]/[name]`,
+          query: {id: entity[entity.type === "person" ? 'personId' : 'organiationId'], name: entity.name},
+        }}
+      >
+        <a
+          className="">
+          {entity.name}
+        </a>
+      </Link>
+      <span className="h-4 text-gray-600 inline-block ml-4">
+      {!!entity.urls.twitter && <a href={entity.urls.twitter} target="_blank" rel="noopener">
+        <svg version="1.1" id="White" xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 400 400" xmlSpace="preserve" fill="currentColor"
+             className="h-4 inline-block">
+          <path d="M400,200c0,110.5-89.5,200-200,200S0,310.5,0,200S89.5,0,200,0S400,89.5,400,200z M163.4,305.5
+	c88.7,0,137.2-73.5,137.2-137.2c0-2.1,0-4.2-0.1-6.2c9.4-6.8,17.6-15.3,24.1-25c-8.6,3.8-17.9,6.4-27.7,7.6
+	c10-6,17.6-15.4,21.2-26.7c-9.3,5.5-19.6,9.5-30.6,11.7c-8.8-9.4-21.3-15.2-35.2-15.2c-26.6,0-48.2,21.6-48.2,48.2
+	c0,3.8,0.4,7.5,1.3,11c-40.1-2-75.6-21.2-99.4-50.4c-4.1,7.1-6.5,15.4-6.5,24.2c0,16.7,8.5,31.5,21.5,40.1c-7.9-0.2-15.3-2.4-21.8-6
+	c0,0.2,0,0.4,0,0.6c0,23.4,16.6,42.8,38.7,47.3c-4,1.1-8.3,1.7-12.7,1.7c-3.1,0-6.1-0.3-9.1-0.9c6.1,19.2,23.9,33.1,45,33.5
+	c-16.5,12.9-37.3,20.6-59.9,20.6c-3.9,0-7.7-0.2-11.5-0.7C110.8,297.5,136.2,305.5,163.4,305.5"/>
+        </svg>
+      </a>
+      }
+        {!!entity.urls.github && <a href={entity.urls.github}>
+
+          <svg viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg"className="h-4 inline-block ml-1">
+            <path fillRule="evenodd" clipRule="evenodd"
+                  d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"
+                  transform="scale(64)" fill="currentColor" />
+          </svg>
+        </a>
+        }
+        {!!entity.urls.main && <a href={entity.urls.main} target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="inline-block h-4 ml-1">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+          </svg>
+        </a>}
+        </span>
+
+    </div>
+  )
+};
+
 
 export default function Project() {
   const router = useRouter();
@@ -40,13 +88,11 @@ export default function Project() {
               href="#"
               onClick={goBack}
               className="inline-block text-gray-400 py-2 px-4 border border-transparent text-base font-medium rounded-md flex items-center">
-              <svg version="1.1" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg"
-                   className="transform rotate-180 h-4 inline-block fill-current">
-                <g transform="translate(-10, -10)">
-                  <path d="m12.5 45.832h64.582v8.332h-64.582z"/>
-                  <path d="m59.168 77.918l-5.8359-5.8359 22.086-22.082-22.086-22.082 5.8359-5.8359 27.914 27.918z"/>
-                </g>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                   className="h-5">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
               </svg>
+
               <span className="ml-2">Back to overview</span>
             </a>
           </Link>
@@ -67,7 +113,7 @@ export default function Project() {
             <div>
               <div className="flex">
                 <img src={`https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`}
-                     width="100" height="100" className="mx-0" style={{width: "100px", height: "100px"}} />
+                     width="100" height="100" className="mx-0" style={{width: "100px", height: "100px"}}/>
                 <div className="text-left pl-8 text-left space-y-4 h-full">
                   <figcaption>
                     <div className="font-bold text-4xl align-middle pt-3">
@@ -108,9 +154,12 @@ export default function Project() {
             </div>
           </div>
           <div className="mt-4">
-            <div className="font-bold">Contributors/owners</div>
+            <div className="font-bold">Owners/Contributor</div>
             <div className="mt-4">
-              {project.description}
+              {project.owners.map((owner) => {
+                return <Entity entity={owner} />;
+              })
+              }
             </div>
           </div>
         </div>
@@ -118,14 +167,14 @@ export default function Project() {
           <div className="font-bold">Images</div>
           <div className="mt-2 h-96">
             <div className="overflow-x-auto snap snap-x snap-mandatory scrollbar max-h-full whitespace-nowrap">
-            {project.images.map((image, i) => {
-              return (
-                <a href={image.url} target="_blank" rel="noopener" className="mr-2 last:mr-0">
-                  <img className="inline-block snap-start w-96" src={image.url}/>
-                </a>
-              );
+              {project.images.map((image, i) => {
+                return (
+                  <a href={image.url} target="_blank" rel="noopener" className="mr-2 last:mr-0">
+                    <img className="inline-block snap-start w-96" src={image.url}/>
+                  </a>
+                );
 
-            })}
+              })}
             </div>
           </div>
         </div>)}

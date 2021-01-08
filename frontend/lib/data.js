@@ -74,7 +74,7 @@ const persons = [
     "urls": {
       "github": "https://github.com/bdagnino",
       "twitter": "https://twitter.com/brunodagnino",
-      "personal": "https://bdagnino.com/"
+      "main": "https://bdagnino.com/"
     }
   }
 ];
@@ -86,7 +86,7 @@ const organisations = [
     "imageUrl": "https://dtai.cs.kuleuven.be/sites/dtaid.cs.kuleuven.be/themes/kuleuven/DTAI-logo-henglish-white.png",
     "urls": {
       "github": "https://github.com/orgs/ML-KULeuven",
-      "organisation": "https://dtai.cs.kuleuven.be/ml/"
+      "main": "https://dtai.cs.kuleuven.be/ml/"
     },
     "description": "The Machine Learning research group is part of the DTAI section which is part of the Department of Computer Science at the KU Leuven. It is led by Hendrik Blockeel, Jesse Davis and Luc De Raedt and counts about 12 post-docs and 30 PhD students representing virtually all areas of machine learning and data mining. The group focuses on machine learning and data mining research involving structured data, symbolic, logical and probabilistic representations, background knowledge and applies it's techniques to challenging domains in the life sciences and action- and activity learning."
   }
@@ -115,7 +115,7 @@ function extendEntities(entityRefs)
     }
     entities.push({
       type: entityType,
-      entity
+      ...entity
     })
   }
   return entities;
