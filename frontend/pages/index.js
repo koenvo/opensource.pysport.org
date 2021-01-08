@@ -117,8 +117,7 @@ const Card = ({project, highlight}) => {
       </div>*/}
 
       <div className="hidden sm:block">
-        <img
-          src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png"/>
+        <img src={project.images[0].url} />
       </div>
 
       </>
@@ -127,7 +126,7 @@ const Card = ({project, highlight}) => {
       <div>
         <div className="sm:flex">
           <img src={`https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`}
-               width="100" height="100" className="mx-auto sm:mx-0"/>
+               width="100" height="100" className="mx-auto sm:mx-0" style={{width: "100px", height: "100px"}} />
           <div className="text-center sm:text-left sm:pl-8 text-left space-y-4 h-full">
             <figcaption>
               <div className="font-bold text-4xl align-middle pt-3">
@@ -141,7 +140,7 @@ const Card = ({project, highlight}) => {
         </div>
         {highlight &&
         <img
-          src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png"
+          src={project.images[0].url}
           className="block sm:hidden mt-8 w-full"/>
         }
 

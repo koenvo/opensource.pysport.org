@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Layout({ children }) {
+export default function Layout({ children, subtitle="" }) {
   return (
     <div className="bg-gray-200 h-full flex flex-col">
       <style global jsx>{`
@@ -12,11 +12,28 @@ export default function Layout({ children }) {
       div#__next > div > div {
         min-height: 100vh;
       }
+
+      .scrollbar {
+        scrollbar-color: rgb(96, 165, 250) white;
+        scrollbar-width: thin;
+        scroll-behavior: smooth;
+      }
+      .scrollbar::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+        .scrollbar::-webkit-scrollbar-track {
+            // background-color: white;
+        }
+        .scrollbar::-webkit-scrollbar-thumb {
+            background-color: rgb(96, 165, 250);
+            border-radius: 2px;
+        }
     `}</style>
 
       <Head>
-        <title>PySport Opensource overview</title>
-        <link rel="icon" href="favicon.png"/>
+        <title>PySport Opensource Overview{!!subtitle ? ` - ${subtitle}` : ''}</title>
+        <link rel="icon" href="/favicon.png"/>
       </Head>
       <header className="bg-white shadow-md relative">
         <div className="container mx-auto max-w-screen-xl flex">

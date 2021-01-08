@@ -11,10 +11,12 @@ module.exports = {
   variants: {
     extend: {
         width: ['responsive', 'focus'],
+        margin: ['last']
     },
     lineClamp: ['responsive'],
   },
   plugins: [
-      require('@neojp/tailwindcss-line-clamp-utilities')
+      require('@neojp/tailwindcss-line-clamp-utilities'),
+      require('tailwindcss-scroll-snap')
   ]
 }

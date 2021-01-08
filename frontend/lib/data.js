@@ -21,11 +21,30 @@ const projects = [
       "project": ""
     },
 
-    "previews": [
+    "images": [
       {
-        "title": "",
-        "type": "image",
-        "content": "https://..."
+        "title": "What does kloppy do?",
+        "url": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png"
+      },
+      {
+        "title": "What does kloppy do?",
+        "url": "/images/packages/1-1.png"
+      },
+      {
+        "title": "What does kloppy do?",
+        "url": "/images/packages/1-1.png"
+      },
+      {
+        "title": "What does kloppy do?",
+        "url": "/images/packages/1-1.png"
+      },
+      {
+        "title": "What does kloppy do?",
+        "url": "/images/packages/1-1.png"
+      },
+      {
+        "title": "What does kloppy do?",
+        "url": "/images/packages/1-1.png"
       }
     ],
 

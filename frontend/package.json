@@ -16,6 +16,7 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "@neojp/tailwindcss-line-clamp-utilities": "^1.0.1"
+    "@neojp/tailwindcss-line-clamp-utilities": "^1.0.1",
+    "tailwindcss-scroll-snap": "^1.0.3"
   }
 }
