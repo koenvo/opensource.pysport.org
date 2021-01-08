@@ -228,7 +228,7 @@ export default function Home() {
       return (
         languages.indexOf(project.language) !== -1 &&
         sports.indexOf(project.sports[0]) !== -1 &&
-        (!searchValue || JSON.stringify(project).indexOf(searchValue) !== -1)
+        (!searchValue || JSON.stringify(project).toLowerCase().indexOf(searchValue.toLowerCase()) !== -1)
       );
     }
   );
