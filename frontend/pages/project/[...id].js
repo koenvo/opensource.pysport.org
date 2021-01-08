@@ -62,6 +62,30 @@ const Entity = ({entity}) => {
   )
 };
 
+const OwnersContributors = ({project}) => {
+  const owners = project.owners;
+  owners.sort((a, b) => a.name.localeCompare(b.name));
+
+  const contributors = project.contributors.filter(
+    (contributor) => {
+      return !owners.find((owner) => owner.entityIdRef === contributor.entityIdRef);
+    }
+  );
+  contributors.sort((a, b) => a.name.toLocaleString(b.name));
+
+  return (
+    <>
+      {owners.map((owner) => {
+      return <Entity entity={owner} />;
+      })}
+      <br />
+      {contributors.map((owner) => {
+        return <Entity entity={owner} />;
+      })}
+    </>
+  );
+};
+
 
 export default function Project() {
   const router = useRouter();
@@ -154,12 +178,9 @@ export default function Project() {
             </div>
           </div>
           <div className="mt-4">
-            <div className="font-bold">Owners/Contributor</div>
+            <div className="font-bold">Owners/Contributors</div>
             <div className="mt-4">
-              {project.owners.map((owner) => {
-                return <Entity entity={owner} />;
-              })
-              }
+              <OwnersContributors project={project} />
             </div>
           </div>
         </div>
@@ -173,7 +194,6 @@ export default function Project() {
                     <img className="inline-block snap-start w-96" src={image.url}/>
                   </a>
                 );
-
               })}
             </div>
           </div>

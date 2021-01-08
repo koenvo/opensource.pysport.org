@@ -48,12 +48,13 @@ const projects = [
       }
     ],
 
-    "contributors": [
-      "person:1", "person:2"
-    ],
     "owners": [
       "person:1", "person:2"
+    ],
+    "contributors": [
+      "person:1", "person:2", "person:3"
     ]
+
   }
 ];
 
@@ -69,6 +70,16 @@ const persons = [
   },
   {
     "personId": 2,
+    "name": "Bruno Dagnino",
+    "imageUrl": "",
+    "urls": {
+      "github": "https://github.com/bdagnino",
+      "twitter": "https://twitter.com/brunodagnino",
+      "main": "https://bdagnino.com/"
+    }
+  },
+  {
+    "personId": 3,
     "name": "Bruno Dagnino",
     "imageUrl": "",
     "urls": {
@@ -115,6 +126,7 @@ function extendEntities(entityRefs)
     }
     entities.push({
       type: entityType,
+      entityIdRef,
       ...entity
     })
   }
