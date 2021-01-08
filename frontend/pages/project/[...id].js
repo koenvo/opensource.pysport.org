@@ -14,17 +14,17 @@ const Label = ({title, children}) => {
   );
 };
 
-const Entity = ({entity}) => {
+const Entity = ({entity, className}) => {
   return (
     <div>
       <Link
         href={{
           pathname: `/${entity.type}/[id]/[name]`,
-          query: {id: entity[entity.type === "person" ? 'personId' : 'organiationId'], name: entity.name},
+          query: {id: entity[entity.type === "person" ? 'personId' : 'organisationId'], name: entity.name},
         }}
       >
         <a
-          className="">
+          className={className}>
           {entity.name}
         </a>
       </Link>
@@ -42,7 +42,7 @@ const Entity = ({entity}) => {
         </svg>
       </a>
       }
-        {!!entity.urls.github && <a href={entity.urls.github}>
+        {!!entity.urls.github && <a href={entity.urls.github} target="_blank" rel="noopener">
 
           <svg viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg"className="h-4 inline-block ml-1">
             <path fillRule="evenodd" clipRule="evenodd"
@@ -75,13 +75,14 @@ const OwnersContributors = ({project}) => {
 
   return (
     <>
-      {owners.map((owner) => {
-      return <Entity entity={owner} />;
+    <div className="w-1/2 mt-4 grid grid-cols-1 md:grid-cols-2">
+    {owners.map((owner) => {
+      return <Entity entity={owner} className="font-semibold" />;
       })}
-      <br />
       {contributors.map((owner) => {
         return <Entity entity={owner} />;
       })}
+    </div>
     </>
   );
 };
@@ -166,7 +167,7 @@ export default function Project() {
               <div className="mt-4">
                 <div className="font-bold">Urls</div>
                 <div className="mt-4">
-                  {project.description}
+                  {project.urls.github}
                 </div>
               </div>
             </div>
@@ -179,9 +180,7 @@ export default function Project() {
           </div>
           <div className="mt-4">
             <div className="font-bold">Owners/Contributors</div>
-            <div className="mt-4">
-              <OwnersContributors project={project} />
-            </div>
+            <OwnersContributors project={project} />
           </div>
         </div>
         {(project.images.length > 0) && (<div className="mx-4 mt-4">

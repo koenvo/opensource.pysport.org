@@ -6,7 +6,7 @@ const projects = [
     "sports": ["Soccer"],
     "license": "BSD 3",
     "language": "Python",
-    "description": "Standardizing soccer tracking- and event data",
+    "description": "kloppy is a Python package providing (de)serializers for soccer tracking- and event data, standardized data models, filters, and transformers designed to make working with different tracking- and event data like a breeze. It aims to be the fundamental building blocks for loading, filtering and tranforming tracking- and event data.",
     "categories": [
       "IO (Reading/Writing)"
     ],
@@ -49,10 +49,11 @@ const projects = [
     ],
 
     "owners": [
-      "person:1", "person:2"
+      "person:1", "person:2", "organisation:1"
     ],
     "contributors": [
-      "person:1", "person:2", "person:3"
+      "person:1", "person:2", "person:3",
+      "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3"
     ]
 
   }
