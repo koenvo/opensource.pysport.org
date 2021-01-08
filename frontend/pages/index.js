@@ -132,7 +132,7 @@ const Card = ({project, highlight}) => {
         ><a className="sm:flex block">
           <div>
             <img src={project.logoUrl || `https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`}
-                 width="100" height="100" className="mx-auto sm:mx-0 inline-block" style={{width: "100px"}}/>
+                 width="100" height="100" className="mx-auto sm:mx-0" style={{width: "100px"}}/>
           </div>
           <div className="text-center sm:text-left sm:pl-8 text-left space-y-4 h-full">
             <figcaption>
