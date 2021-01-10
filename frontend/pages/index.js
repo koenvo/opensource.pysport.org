@@ -95,6 +95,7 @@ const Dropdown = ({languages, setLanguages, sports, setSports}) => {
 };
 
 const Card = ({project, highlight}) => {
+  const logoUrl = project.logoUrl || `https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`;
   return (
     <div
       className={`p-6 m-3 bg-white rounded-lg ${highlight ? 'ring-4 ring-indigo-300 sm:grid sm:grid-cols-2 sm:gap-8' : ''} relative z-0`}>
@@ -125,7 +126,7 @@ const Card = ({project, highlight}) => {
           }}
         ><a className="sm:flex block">
           <div>
-            <img src={project.logoUrl || `https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`}
+            <img src={logoUrl}
                  width="100" height="100" className="mx-auto sm:mx-0" style={{width: "100px"}}/>
           </div>
           <div className="text-center sm:text-left sm:pl-8 text-left space-y-4 h-full">
@@ -198,14 +199,14 @@ const Overview = ({projects}) => {
       return null;
     }
     return (
-      <cat key={category}>
+      <div key={category}>
         <div className="mx-auto p-8 text-center font-bold text-2xl">
           {category}
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
           {categoryProjects.map((project) => <Card key={project.projectId} project={project}/>)}
         </div>
-      </cat>
+      </div>
     )
   });
 };
@@ -246,7 +247,7 @@ export default function Home() {
         <div className="px-2">
           <input type="text"
                  className="w-40 md:w-60 border-gray-300 p-2 text-base font-light border block rounded-md"
-                 value={searchValue}
+                 value={searchValue || ""}
                  onChange={(e) => setSearchValue(e.target.value)}
                  placeholder="Search"/>
         </div>
@@ -269,4 +270,8 @@ export default function Home() {
       </div>
     </Layout>
   )
-}
+};
+
+Home.getInitialProps = ({query}) => {
+  return {query};
+};

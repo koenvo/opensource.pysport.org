@@ -1,5 +1,6 @@
 import { useState, useCallback } from "react";
 import * as qs from "query-string";
+import { useRouter } from "next/router";
 
 const setQueryStringWithoutPageReload = qsValue => {
   const newurl = window.location.protocol + "//" +
@@ -22,12 +23,9 @@ const setQueryStringValue = (
 export const getQueryStringValue = (
   key
 ) => {
-  if (typeof window !== "undefined") {
-    const values = qs.parse(window.location.search);
-    return values[key];
-  }
-  return undefined;
-};
+  const router = useRouter();
+  const values = router.query;
+  return values[key];};
 
 
 export function useQueryString(key, initialValue) {
