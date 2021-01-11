@@ -1,0 +1,97 @@
+[
+  {
+    "projectId": 1,
+    "name": "nflfastR",
+    "type": "package",
+    "sports": ["American Football"],
+    "license": "MIT",
+    "language": "R",
+    "logoUrl": "https://raw.githubusercontent.com/mrcaseb/nflfastR/master/man/figures/logo.png",
+    "description": "nflfastR is a set of functions to efficiently scrape NFL play-by-play data",
+    "categories": [
+      "Scraper/API"
+    ],
+
+    "latestVersion": "v3.2.0",
+    "lastCommit": "2021-01-07T08:25:40.420Z",
+
+    "urls": {
+      "github": "https://github.com/mrcaseb/nflfastR",
+      "cran": "https://cran.r-project.org/web/packages/nflfastR/index.html",
+      "website": "https://www.nflfastr.com/",
+      "discord": "https://discord.gg/5Er2FBnnQa"
+    },
+
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/mrcaseb/nflfastR/master/man/figures/readme-epa-model-1.png"
+      },
+      {
+        "url": "https://github.com/mrcaseb/nflfastR/raw/master/man/figures/readme-cp-model-1.png"
+      }
+    ],
+
+    "owners": [
+      "person:1", "person:2", "organisation:1"
+    ],
+    "contributors": [
+      "person:1", "person:2", "person:3"
+    ]
+  },
+  {
+    "projectId": 2,
+    "name": "kloppy",
+    "type": "package",
+    "sports": ["Soccer"],
+    "license": "BSD 3",
+    "language": "Python",
+    "description": "kloppy is a Python package providing (de)serializers for soccer tracking- and event data, standardized data models, filters, and transformers designed to make working with different tracking- and event data like a breeze. It aims to be the fundamental building blocks for loading, filtering and tranforming tracking- and event data.",
+    "categories": [
+      "IO (Reading/Writing)"
+    ],
+
+    "latestVersion": "1.5.2",
+    "lastCommit": "2021-01-07T08:25:40.420Z",
+
+    "urls": {
+      "github": "https://github.com/PySport/kloppy",
+      "pypi": "https://pypi.org/project/kloppy/",
+      "docs": "https://kloppy.pysport.org"
+    },
+
+    "images": [
+      {
+        "title": "What does kloppy do?",
+        "url": "/images/packages/1-1.png"
+      },
+      {
+        "title": "What does kloppy do?",
+        "url": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png"
+      },
+      {
+        "title": "What does kloppy do?",
+        "url": "/images/packages/1-1.png"
+      },
+      {
+        "title": "What does kloppy do?",
+        "url": "/images/packages/1-1.png"
+      },
+      {
+        "title": "What does kloppy do?",
+        "url": "/images/packages/1-1.png"
+      },
+      {
+        "title": "What does kloppy do?",
+        "url": "/images/packages/1-1.png"
+      }
+    ],
+
+    "owners": [
+      "person:1", "person:2", "organisation:1"
+    ],
+    "contributors": [
+      "person:1", "person:2", "person:3",
+      "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3"
+    ]
+  }
+]

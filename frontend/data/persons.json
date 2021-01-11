@@ -1,0 +1,22 @@
+[
+  {
+    "personId": 1,
+    "name": "Koen Vossen",
+    "description2": "Founder TeamTV / PyData Eindhoven committee member / Founder PySport / Instructor KNKV",
+    "imageUrl": "",
+    "urls": {
+      "github": "https://github.com/koenvo",
+      "twitter": "https://twitter.com/mr_le_fox"
+    }
+  },
+  {
+    "personId": 2,
+    "name": "Bruno Dagnino",
+    "imageUrl": "",
+    "urls": {
+      "github": "https://github.com/bdagnino",
+      "twitter": "https://twitter.com/brunodagnino",
+      "website": "https://bdagnino.com/"
+    }
+  }
+]
