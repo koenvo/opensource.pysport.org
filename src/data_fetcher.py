@@ -16,6 +16,8 @@ R:
 
 """
 
+BASE_DIR = "data"
+
 
 def download_to(url, fp):
     data = requests.get(url)
@@ -29,7 +31,7 @@ class FetchGithubUser(luigi.Task):
     login = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"tmp_data/github_users/{self.login}.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/github_users/{self.login}.json")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -43,7 +45,7 @@ class FetchGithubPythonSetup(luigi.Task):
     repository = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"tmp_data/{self.repository}/github/setup.py")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/setup.py")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -61,7 +63,7 @@ class FetchPyPiInfo(luigi.Task):
         return FetchGithubPythonSetup(repository=self.repository)
 
     def output(self):
-        return luigi.LocalTarget(f"tmp_data/{self.repository}/pypi/{self.date}.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/pypi/{self.date}.json")
 
     def run(self):
         with self.input().open('r') as fp:
@@ -99,7 +101,7 @@ class FetchGithubRDescription(luigi.Task):
     repository = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"tmp_data/{self.repository}/github/DESCRIPTION")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/DESCRIPTION")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -117,7 +119,7 @@ class FetchCRANInfo(luigi.Task):
         return FetchGithubRDescription(repository=self.repository)
 
     def output(self):
-        return luigi.LocalTarget(f"tmp_data/{self.repository}/cran/{self.date}.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/cran/{self.date}.json")
 
     def run(self):
         with self.input().open('r') as fp:
@@ -157,7 +159,7 @@ class FetchGithubRepoInfo(luigi.Task):
     repository = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"tmp_data/{self.repository}/github/repository.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/repository.json")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -172,7 +174,7 @@ class FetchGithubRepoContributors(luigi.Task):
     repository = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"tmp_data/{self.repository}/github/{self.date}_contributors.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.date}_contributors.json")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -186,7 +188,7 @@ class FetchGithubLanguage(luigi.Task):
     repository = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"tmp_data/{self.repository}/github/language.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/language.json")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -201,7 +203,7 @@ class FetchGithubCommits(luigi.Task):
     repository = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"tmp_data/{self.repository}/github/{self.date}_commits.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.date}_commits.json")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -223,7 +225,7 @@ class CollectProjectInfo(luigi.Task):
         }
 
     def output(self):
-        return luigi.LocalTarget(f"tmp_data/output/{self.date}/{self.repository.replace('/', '__')}.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/output/{self.date}/{self.repository.replace('/', '__')}.json")
 
     def run(self):
         with self.input()['language'].open('r') as fp:
