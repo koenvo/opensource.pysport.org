@@ -7,6 +7,14 @@ import { useQueryString } from "../lib/use-query-string";
 
 
 const sportOptions = ["American Football", "Austrial Football", "Baseball", "Basketball", "Cricket", "Field Hockey", "Ice Hockey", "Soccer", "Tennis"];
+const categoryOptions = [
+  "Scraper/API",
+  "Model/Calculations",
+  "IO (Reading/Writing)",
+  "Visualization",
+  "Open-data",
+  "Database"
+];
 
 const Label = ({title, children}) => {
   return (
@@ -52,7 +60,7 @@ const updateList = (add, option, options) => {
     return optionsNew;
 };
 
-const Dropdown = ({languages, setLanguages, sports, setSports}) => {
+const Dropdown = ({languages, setLanguages, sports, setSports, categories, setCategories}) => {
   const [isToggled, setIsToggled] = useState(false);
   const toggle = () => setIsToggled(state => !state);
 
@@ -72,12 +80,12 @@ const Dropdown = ({languages, setLanguages, sports, setSports}) => {
         </button>
       </div>
       {isToggled && <div
-        className="origin-top-left absolute left-0 mt-2 w-56 md:w-96 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-        <div className="py-1 grid grid-cols-1 md:grid-cols-2 pb-2" role="menu" aria-orientation="vertical"
+        className="origin-top-left absolute left-0 mt-2 w-56 md:w-max rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+        <div className="py-1 grid grid-cols-1 md:grid-cols-3 pb-2" role="menu" aria-orientation="vertical"
              aria-labelledby="options-menu">
           <FilterBox
             title="Languages"
-            options={["Python", "R"]}
+            options={["Haskell", "Python", "R", "Other"]}
             selectedOptions={languages}
             onSelect={(add, option) => setLanguages(updateList(add, option, languages))}
           />
@@ -87,6 +95,12 @@ const Dropdown = ({languages, setLanguages, sports, setSports}) => {
             selectedOptions={sports}
             onSelect={(add, option) => setSports(updateList(add, option, sports))}
           />
+          <FilterBox
+            title="Category"
+            options={categoryOptions}
+            selectedOptions={categories}
+            onSelect={(add, option) => setCategories(updateList(add, option, categories))}
+          />
 
         </div>
       </div>}
@@ -95,7 +109,9 @@ const Dropdown = ({languages, setLanguages, sports, setSports}) => {
 };
 
 const Card = ({project, highlight}) => {
-  const logoUrl = project.logoUrl || `https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`;
+  const logoUrl = project.logoUrl || `/languages/${project.language.toLowerCase()}.png`;
+  const hasLogo = !!project.logoUrl || project.language !== 'Other';
+
   let type = 'project';
   switch (project.type)
   {
@@ -142,14 +158,14 @@ const Card = ({project, highlight}) => {
             query: {name: project.name},
           }}
         ><a className="sm:flex block">
-          <div>
+          {hasLogo && <div>
             <img src={logoUrl}
                  width="100" height="100" className="mx-auto sm:mx-0" style={{width: "100px"}}/>
-          </div>
-          <div className="text-center sm:text-left sm:pl-8 text-left space-y-4 h-full">
+          </div>}
+          <div className={`text-center sm:text-left ${hasLogo ? 'sm:pl-8' : ''} text-left space-y-4 h-full`}>
             <figcaption>
-              <div className="font-bold text-4xl align-middle pt-3">
-                {project.name.length > 12 ? project.name.substring(0, 12) + '..' : project.name}
+              <div className="font-bold text-4xl align-middle pt-3 whitespace-nowrap">
+                {project.name.length > 12 ? project.name.substring(0, 11) + '..' : project.name}
               </div>
               <div className="text-blue-400 text-xl font-bold pt-3">
                 {project.language} {type}
@@ -200,16 +216,7 @@ const Card = ({project, highlight}) => {
   );
 };
 
-const Overview = ({projects}) => {
-  const categories = [
-    "Scraper/API",
-    "Model/Calculations",
-    "IO (Reading/Writing)",
-    "Visualization",
-    "Gambling",
-    "Other"
-  ];
-
+const Overview = ({projects, categories}) => {
   return categories.map((category) => {
     const categoryProjects = projects.filter((project) => {
       return (
@@ -225,8 +232,11 @@ const Overview = ({projects}) => {
     }
     return (
       <div key={category}>
+        <a name={category} className="-mt-16 absolute"/>
         <div className="mx-auto p-8 text-center font-bold text-2xl">
-          {category}
+          <a href={`#${category}`}>
+          {category} ({categoryProjects.length})
+          </a>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
           {categoryProjects.map((project) => <Card key={project.projectId} project={project}/>)}
@@ -239,13 +249,19 @@ const Overview = ({projects}) => {
 
 export default function Home() {
   const [searchValue, setSearchValue] = useQueryString("search");
-  const [languages, setLanguages] = useQueryString("languages", ['R', 'Python']);
-  const [sports, setSports] = useQueryString("sports", sportOptions);
+  let [languages, setLanguages] = useQueryString("languages", ['R', 'Python', "Haskell", "Other"]);
+  let [categories, setCategories] = useQueryString("categories", categoryOptions);
+  let [sports, setSports] = useQueryString("sports", sportOptions);
+
+  categories = Array.isArray(categories) ? categories : [categories];
+  languages = Array.isArray(languages) ? languages : [languages];
+  sports = Array.isArray(sports) ? sports : [sports];
 
   const isFiltering = (
     !!searchValue ||
-      languages.length !== 2 ||
-      sports.length !== sportOptions.length
+      languages.length !== 4 ||
+      sports.length !== sportOptions.length ||
+      categories.length !== categoryOptions.length
   );
 
   const projects = getProjects();
@@ -254,19 +270,23 @@ export default function Home() {
       return (
         languages.indexOf(project.language) !== -1 &&
         sports.indexOf(project.sports[0]) !== -1 &&
+        project.categories.filter(cat => categories.indexOf(cat) !== -1).length > 0 &&
         (!searchValue || JSON.stringify(project).toLowerCase().indexOf(searchValue.toLowerCase()) !== -1)
       );
     }
   );
+
   return (
     <Layout>
       <SubHeader>
         <div>
           <Dropdown
-            languages={Array.isArray(languages) ? languages : [languages]}
+            languages={languages}
             setLanguages={setLanguages}
-            sports={Array.isArray(sports) ? sports : [sports]}
+            sports={sports}
             setSports={setSports}
+            categories={categories}
+            setCategories={setCategories}
           />
         </div>
         <div className="px-2">
@@ -291,7 +311,8 @@ export default function Home() {
         {!isFiltering && <div className="grid grid-cols-1">
           <Card highlight project={projects[0]}/>
         </div>}
-        <Overview projects={filteredProjects}/>
+        <Overview projects={filteredProjects} categories={categories} />
+        {(filteredProjects.length === 0) && <div className="mx-auto p-8 text-center text-2xl">No matches found</div>}
       </div>
     </Layout>
   )

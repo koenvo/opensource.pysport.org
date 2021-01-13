@@ -1426,5 +1426,33 @@
         "urls": {
             "github": "https://github.com/npranav10"
         }
+    },
+    {
+        "login": "hugobordigoni",
+        "name": "hugobordigoni",
+        "urls": {
+            "github": "https://github.com/hugobordigoni"
+        }
+    },
+    {
+        "login": "allanderek",
+        "name": "allanderek",
+        "urls": {
+            "github": "https://github.com/allanderek"
+        }
+    },
+    {
+        "login": "JamesYorke77",
+        "name": "JamesYorke77",
+        "urls": {
+            "github": "https://github.com/JamesYorke77"
+        }
+    },
+    {
+        "login": "haghanim",
+        "name": "haghanim",
+        "urls": {
+            "github": "https://github.com/haghanim"
+        }
     }
 ]

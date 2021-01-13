@@ -131,7 +131,7 @@ export default function Project() {
             <div>
               <div className="flex">
                 <div>
-                  <img src={project.logoUrl || `https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`}
+                  <img src={project.logoUrl || `/languages/${project.language.toLowerCase()}.png`}
                        width="100" height="100" className="mx-0 inline-block" style={{width: "120px"}}/>
                 </div>
                 <div className="text-left pl-8 text-left space-y-4 h-full">
@@ -146,7 +146,24 @@ export default function Project() {
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 mt-4">
-                <Label title="Sports">{project.sports.join(", ")}</Label>
+                <Label title="Sports">{project.sports.map((sport, k) => {
+                  return (
+                    <span key={sport}>
+                      {k > 0 ? ", " : ""}
+                      <Link
+                        href={{
+                          pathname: `/`,
+                          query: {sports: sport},
+                        }}
+                      >
+                        <a
+                          className="underline">
+                          {sport}
+                        </a>
+                      </Link>
+                      </span>
+                  );
+                })}</Label>
                 <Label title="Language">{project.language}</Label>
                 {/*<Label title="Authors">
                  <a href="#" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">koenvo</a> |{' '}
@@ -158,6 +175,26 @@ export default function Project() {
                   month: 'short',
                   year: 'numeric'
                 })}</Label>
+                <Label title="Category">
+                  {project.categories.map((category, k) => {
+                    return (
+                      <span key={category}>
+                      {k > 0 ? ", " : ""}
+                      <Link
+                        href={{
+                          pathname: `/`,
+                          query: {categories: category},
+                        }}
+                      >
+                        <a
+                          className="underline">
+                          {category}
+                        </a>
+                      </Link>
+                      </span>
+                    );
+                  })}
+                </Label>
               </div>
               <div className="mt-4">
                 <div className="font-bold">Links</div>
@@ -200,7 +237,7 @@ export default function Project() {
         </div>
         {(project.images.length > 0) && (<div className="mx-4 mt-4">
           <div className="font-bold">Images</div>
-          <div className="mt-2 h-96">
+          <div className="mt-2 h-max">
             <div className="overflow-x-auto snap snap-x snap-mandatory scrollbar max-h-full whitespace-nowrap">
               {project.images.map((image, i) => {
                 return (

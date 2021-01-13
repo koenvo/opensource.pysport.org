@@ -329,9 +329,14 @@ def extract_images(repository, branch, content):
                 # if img.attrs.get('align') == "right":
                 url = img.attrs.get('src')
                 if url.startswith('http'):
-                    if url.startswith('https://github.com') or url.startswith('https://raw.githubusercontent.com'):
+                    if url.startswith('https://github.com') or \
+                            url.startswith('https://raw.githubusercontent.com') or \
+                            url.startswith('https://i.imgur.com'):
                         if 'badge' in url:
                             continue
+
+                        if 'raw' not in url:
+                            url += "?raw=true"
 
                         images.append(url)
                 else:
@@ -341,7 +346,7 @@ def extract_images(repository, branch, content):
 
 def determine_sports(*inputs):
     keywords = {
-        "Soccer": ["soccer", "opta", "understat", "transfermarkt", "metrica", "statsbomb"],
+        "Soccer": ["soccer", "opta", "understat", "transfermarkt", "metrica", "statsbomb", "lastrow", "wyscout", "midfielders"],
         "American Football": ["nfl", "football", "cfb"],
         "Australian Football": ["afl"],
         "Hockey": ["nhl", "hockey"],
@@ -414,7 +419,7 @@ class CollectProjectInfo(luigi.Task):
         elif haskell_counter > 0:
             language = 'Haskell'
         else:
-            language = 'Unknown'
+            language = 'Other'
 
         readme = ''
         if 'readme.md' in files:
@@ -471,6 +476,8 @@ class CollectProjectInfo(luigi.Task):
             license_ = package_info['license']
         elif 'license' in repository_info and repository_info['license']:
             license_ = repository_info['license']['spdx_id']
+            if license_ == 'NOASSERTION':
+                license_ = 'Other'
         else:
             license_ = None
 
@@ -543,12 +550,28 @@ class CollectAll(luigi.Task):
         projects = []
         users = {}
 
+        categories = {
+            "viz": "Visualization",
+            "api": "Scraper/API",
+            "scraper": "Scraper/API",
+            "data": "Open-data",
+            "db": "Database",
+            "io": "IO (Reading/Writing)",
+            "model": "Model/Calculations"
+        }
+
         for repository in self.input().open('r'):
-            repository = repository.strip()
+            project_categories, repository = repository.strip().split(",")
+
             project_output = yield CollectProjectInfo(repository=repository, run_id=self.run_id)
 
             with project_output.open('r') as fp:
                 project = json.load(fp)
+
+            project['categories'] = [
+                categories[cat]
+                for cat in project_categories.split("|")
+            ]
             projects.append(project)
 
             for contributor in project['contributors']:

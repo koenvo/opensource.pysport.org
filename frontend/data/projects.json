@@ -10,7 +10,7 @@
             "message": "Fix safety_team for non-scoring live games (#158)"
         },
         "type": "package",
-        "logoUrl": "https://raw.githubusercontent.com/mrcaseb/nflfastR//master/man/figures/logo.png",
+        "logoUrl": "https://raw.githubusercontent.com/mrcaseb/nflfastR/master/man/figures/logo.png",
         "description": "A set of functions to access National Football League play-by-play data from <https://www.nfl.com/>.",
         "images": [
             {
@@ -21,7 +21,7 @@
             }
         ],
         "urls": {
-            "github": "https://github.com/mrcaseb/nflfastR/",
+            "github": "https://github.com/mrcaseb/nflfastR",
             "cran": "https://cran.r-project.org/package=nflfastR",
             "website": "https://www.nflfastr.com/"
         },
@@ -33,7 +33,9 @@
         "sports": [
             "American Football"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "nflscrapR",
@@ -66,7 +68,9 @@
         "sports": [
             "American Football"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "fitzRoy",
@@ -102,7 +106,9 @@
         "sports": [
             "Australian Football"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "py_ball",
@@ -130,7 +136,9 @@
         "sports": [
             "Basketball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "hockey-all",
@@ -155,7 +163,9 @@
         "sports": [
             "Hockey"
         ],
-        "categories": []
+        "categories": [
+            "Model/Calculations"
+        ]
     },
     {
         "name": "evolving-hockey",
@@ -180,7 +190,9 @@
         "sports": [
             "Hockey"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "hockey_scraper",
@@ -211,7 +223,9 @@
         "sports": [
             "Hockey"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "tyrone_mings",
@@ -241,7 +255,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "StatsBombR",
@@ -268,7 +284,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "statsbombpy",
@@ -293,12 +311,14 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "statsbombapi",
         "language": "Python",
-        "license": "NOASSERTION",
+        "license": "Other",
         "latestVersion": null,
         "lastCommit": {
             "sha": "eba3dbeae32701b0258003139dfb6fce10de1ea9",
@@ -319,7 +339,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "statsbomb",
@@ -346,7 +368,10 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API",
+            "IO (Reading/Writing)"
+        ]
     },
     {
         "name": "soccermatics",
@@ -372,7 +397,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Visualization"
+        ]
     },
     {
         "name": "soccergraphR",
@@ -464,7 +491,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Visualization"
+        ]
     },
     {
         "name": "socceraction",
@@ -499,7 +528,10 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "IO (Reading/Writing)",
+            "Visualization"
+        ]
     },
     {
         "name": "mplsoccer",
@@ -530,7 +562,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Visualization"
+        ]
     },
     {
         "name": "kloppy",
@@ -569,7 +603,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "IO (Reading/Writing)"
+        ]
     },
     {
         "name": "football_packing",
@@ -596,7 +632,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Model/Calculations"
+        ]
     },
     {
         "name": "nfldb",
@@ -624,7 +662,9 @@
         "sports": [
             "American Football"
         ],
-        "categories": []
+        "categories": [
+            "IO (Reading/Writing)"
+        ]
     },
     {
         "name": "CFBScrapy",
@@ -652,7 +692,9 @@
         "sports": [
             "American Football"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "PyBall",
@@ -680,7 +722,9 @@
         "sports": [
             "American Football"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "pybaseball",
@@ -723,7 +767,9 @@
         "sports": [
             "Baseball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "mlbgame",
@@ -762,7 +808,9 @@
         "sports": [
             "Baseball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "pybbda",
@@ -789,7 +837,10 @@
         "sports": [
             "Baseball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API",
+            "Model/Calculations"
+        ]
     },
     {
         "name": "py-goldsberry",
@@ -818,7 +869,9 @@
         "sports": [
             "Basketball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "nba_scraper",
@@ -845,7 +898,9 @@
         "sports": [
             "Basketball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "sportsipy",
@@ -877,7 +932,9 @@
             "thomaslu2"
         ],
         "sports": [],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "CodaBonito",
@@ -957,7 +1014,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Visualization"
+        ]
     },
     {
         "name": "soccer_ggplots",
@@ -972,7 +1031,71 @@
         "type": "repository",
         "logoUrl": null,
         "description": "Soccer/football analytics blog posts & data viz from the World Cup, Premier League, Copa America, and beyond. Using ggplot2, ggsoccer, & more. (Est. June 2018) ****Please look at the README for best version of the code!****",
-        "images": [],
+        "images": [
+            {
+                "url": "https://i.imgur.com/Wmg3Yzg.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/AC5soJW.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/DWMWbf6.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/tkOcFd2.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/RWpad0G.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/21HNfhd.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/K2AMWnG.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/eaj8iGH.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/aGsEj93.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/J6LlWYb.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/Elzd0Sc.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/F5TOJQP.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/GqNHFPl.gif?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/Vr7VvJp.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/Xcw2nAK.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/Lk1lpMg.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/iFFOotS.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/Jmp57gL.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/FlntjgH.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/ceSA3YB.gif?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/UTirZjG.gif?raw=true"
+            }
+        ],
         "urls": {
             "github": "https://github.com/Ryo-N7/soccer_ggplots",
             "website": "https://ryo-n7.github.io"
@@ -983,7 +1106,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Visualization"
+        ]
     },
     {
         "name": "cfbscrapR",
@@ -1024,7 +1149,9 @@
         "sports": [
             "American Football"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "xflscrapR",
@@ -1052,7 +1179,9 @@
         "sports": [
             "American Football"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "espnscrapeR",
@@ -1078,7 +1207,9 @@
         "sports": [
             "American Football"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "collegeballR",
@@ -1105,7 +1236,9 @@
         "sports": [
             "Baseball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "baseballr",
@@ -1144,7 +1277,10 @@
         "sports": [
             "Baseball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API",
+            "Model/Calculations"
+        ]
     },
     {
         "name": "mlbgameday",
@@ -1177,7 +1313,11 @@
         "sports": [
             "Baseball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API",
+            "Visualization",
+            "Database"
+        ]
     },
     {
         "name": "GeomMLBStadiums",
@@ -1224,7 +1364,9 @@
         "sports": [
             "Baseball"
         ],
-        "categories": []
+        "categories": [
+            "Visualization"
+        ]
     },
     {
         "name": "openWAR",
@@ -1259,7 +1401,9 @@
         "sports": [
             "Baseball"
         ],
-        "categories": []
+        "categories": [
+            "Model/Calculations"
+        ]
     },
     {
         "name": "pitchRx",
@@ -1287,7 +1431,10 @@
         "sports": [
             "Baseball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API",
+            "Visualization"
+        ]
     },
     {
         "name": "retro",
@@ -1312,7 +1459,10 @@
         "sports": [
             "Baseball"
         ],
-        "categories": []
+        "categories": [
+            "Visualization",
+            "Database"
+        ]
     },
     {
         "name": "ncaahoopR",
@@ -1377,7 +1527,9 @@
         "sports": [
             "Basketball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "bigballR",
@@ -1404,7 +1556,10 @@
         "sports": [
             "Basketball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API",
+            "Model/Calculations"
+        ]
     },
     {
         "name": "nbastatR",
@@ -1434,7 +1589,9 @@
         "sports": [
             "Basketball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "ballr",
@@ -1461,7 +1618,10 @@
         "sports": [
             "Basketball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API",
+            "Model/Calculations"
+        ]
     },
     {
         "name": "wncaahoopR",
@@ -1512,7 +1672,11 @@
         "sports": [
             "Basketball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API",
+            "Model/Calculations",
+            "Visualization"
+        ]
     },
     {
         "name": "cricketr",
@@ -1538,7 +1702,10 @@
         "sports": [
             "Cricket"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API",
+            "Visualization"
+        ]
     },
     {
         "name": "yorkr",
@@ -1565,7 +1732,9 @@
         "sports": [
             "Cricket"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "cricketdata",
@@ -1609,7 +1778,9 @@
         "sports": [
             "Cricket"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "nwhlR",
@@ -1633,7 +1804,9 @@
             "jakeflancer"
         ],
         "sports": [],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "elite",
@@ -1658,7 +1831,9 @@
         "sports": [
             "Hockey"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "nhlapi",
@@ -1684,7 +1859,9 @@
         "sports": [
             "Hockey"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "nhlscrape",
@@ -1711,7 +1888,10 @@
         "sports": [
             "Hockey"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API",
+            "Database"
+        ]
     },
     {
         "name": "fcscrapR",
@@ -1741,7 +1921,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "footballR",
@@ -1766,7 +1948,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "eLPAR-soccer",
@@ -1789,7 +1973,9 @@
             "kpelechrinis"
         ],
         "sports": [],
-        "categories": []
+        "categories": [
+            "Model/Calculations"
+        ]
     },
     {
         "name": "engsoccerdata",
@@ -1827,7 +2013,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Open-data"
+        ]
     },
     {
         "name": "ggsoccer",
@@ -1881,7 +2069,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Visualization"
+        ]
     },
     {
         "name": "footballdatr",
@@ -1906,7 +2096,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "regista",
@@ -1932,7 +2124,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Model/Calculations"
+        ]
     },
     {
         "name": "FC.rSTATS",
@@ -1949,10 +2143,10 @@
         "description": "A package with various functions that help people working with OPTA and ChyronHego data.",
         "images": [
             {
-                "url": "https://github.com/FCrSTATS/fc.rstats/blob/master/images/twitterImage.jpg"
+                "url": "https://github.com/FCrSTATS/fc.rstats/blob/master/images/twitterImage.jpg?raw=true"
             },
             {
-                "url": "https://github.com/FCrSTATS/fc.rstats/blob/master/images/CHpitchoptions.jpg"
+                "url": "https://github.com/FCrSTATS/fc.rstats/blob/master/images/CHpitchoptions.jpg?raw=true"
             }
         ],
         "urls": {
@@ -1964,7 +2158,10 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "IO (Reading/Writing)",
+            "Visualization"
+        ]
     },
     {
         "name": "nwslR",
@@ -1999,7 +2196,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Open-data"
+        ]
     },
     {
         "name": "understatr",
@@ -2026,7 +2225,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
     },
     {
         "name": "LaurieOnTracking",
@@ -2052,7 +2253,11 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "IO (Reading/Writing)",
+            "Model/Calculations",
+            "Visualization"
+        ]
     },
     {
         "name": "balaban",
@@ -2067,7 +2272,14 @@
         "type": "package",
         "logoUrl": null,
         "description": "Bayesian hierarchical models for football",
-        "images": [],
+        "images": [
+            {
+                "url": "https://i.imgur.com/JlQadAq.png?raw=true"
+            },
+            {
+                "url": "https://i.imgur.com/cWWjryd.png?raw=true"
+            }
+        ],
         "urls": {
             "github": "https://github.com/anenglishgoat/balaban",
             "pypi": "https://pypi.org/project/balaban/"
@@ -2078,9 +2290,11 @@
             "suryako"
         ],
         "sports": [
-            "American Football"
+            "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Model/Calculations"
+        ]
     },
     {
         "name": "nba_parser",
@@ -2106,7 +2320,9 @@
         "sports": [
             "Basketball"
         ],
-        "categories": []
+        "categories": [
+            "Model/Calculations"
+        ]
     },
     {
         "name": "L2M",
@@ -2135,7 +2351,11 @@
         "sports": [
             "Basketball"
         ],
-        "categories": []
+        "categories": [
+            "Open-data",
+            "Model/Calculations",
+            "Visualization"
+        ]
     },
     {
         "name": "goalmodel",
@@ -2163,10 +2383,12 @@
         ],
         "sports": [
             "Soccer",
-            "Hockey",
-            "American Football"
+            "American Football",
+            "Hockey"
         ],
-        "categories": []
+        "categories": [
+            "Model/Calculations"
+        ]
     },
     {
         "name": "soccerAnimate",
@@ -2207,7 +2429,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Visualization"
+        ]
     },
     {
         "name": "Basketball_Analytics",
@@ -2232,7 +2456,10 @@
         "sports": [
             "Basketball"
         ],
-        "categories": []
+        "categories": [
+            "Model/Calculations",
+            "Visualization"
+        ]
     },
     {
         "name": "soccer_xg",
@@ -2258,7 +2485,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Model/Calculations"
+        ]
     },
     {
         "name": "soccerplots",
@@ -2284,7 +2513,9 @@
         "sports": [
             "Soccer"
         ],
-        "categories": []
+        "categories": [
+            "Visualization"
+        ]
     },
     {
         "name": "statsguRu",
@@ -2311,7 +2542,9 @@
         "sports": [
             "Cricket"
         ],
-        "categories": []
+        "categories": [
+            "Visualization"
+        ]
     },
     {
         "name": "kenpomR",
@@ -2337,6 +2570,185 @@
         "sports": [
             "Basketball"
         ],
-        "categories": []
+        "categories": [
+            "Scraper/API"
+        ]
+    },
+    {
+        "name": "sample-data",
+        "language": "Other",
+        "license": null,
+        "latestVersion": null,
+        "lastCommit": {
+            "sha": "c36749ad5593eeb94258ba42ea29c12960bef4bc",
+            "date": "2021-01-05T12:49:37Z",
+            "message": "Added events data sources"
+        },
+        "type": "repository",
+        "logoUrl": null,
+        "description": "Metrica Sports sample tracking and event data",
+        "images": [],
+        "urls": {
+            "github": "https://github.com/metrica-sports/sample-data"
+        },
+        "contributors": [
+            "bdagnino"
+        ],
+        "sports": [
+            "Soccer"
+        ],
+        "categories": [
+            "Open-data"
+        ]
+    },
+    {
+        "name": "Last-Row",
+        "language": "Python",
+        "license": null,
+        "latestVersion": null,
+        "lastCommit": {
+            "sha": "72129b58d0b866c21ab895d97b426333330f6294",
+            "date": "2020-05-02T12:04:32Z",
+            "message": "Calculating passes from positional data\n\nNew notebook and events data file"
+        },
+        "type": "tutorial",
+        "logoUrl": null,
+        "description": "Last row tracking data and code",
+        "images": [],
+        "urls": {
+            "github": "https://github.com/Friends-of-Tracking-Data-FoTD/Last-Row"
+        },
+        "contributors": [
+            "rjtavares",
+            "soccermatics"
+        ],
+        "sports": [
+            "Soccer"
+        ],
+        "categories": [
+            "Open-data"
+        ]
+    },
+    {
+        "name": "opendata",
+        "language": "Other",
+        "license": "MIT",
+        "latestVersion": null,
+        "lastCommit": {
+            "sha": "1b99d401ddc82e366c5c20d6860878668fd5858f",
+            "date": "2020-10-09T16:31:29Z",
+            "message": "Resync German, Spanish, Italian matches"
+        },
+        "type": "repository",
+        "logoUrl": null,
+        "description": "SkillCorner Open Data with 9 matches of broadcast tracking data.",
+        "images": [
+            {
+                "url": "https://raw.githubusercontent.com/SkillCorner/opendata/master/resources/field.jpg"
+            }
+        ],
+        "urls": {
+            "github": "https://github.com/SkillCorner/opendata",
+            "website": "https://skillcorner.com"
+        },
+        "contributors": [
+            "hugobordigoni"
+        ],
+        "sports": [],
+        "categories": [
+            "Open-data"
+        ]
+    },
+    {
+        "name": "sync.soccer",
+        "language": "Haskell",
+        "license": "AGPL-3.0",
+        "latestVersion": null,
+        "lastCommit": {
+            "sha": "c740446a65a8ff50d67a9110af7d0fcffb01b900",
+            "date": "2020-07-19T15:30:30Z",
+            "message": "Merge pull request #61 from huffyhenry/develop\n\nSetup CI"
+        },
+        "type": "github_package",
+        "logoUrl": null,
+        "description": "Synchronise event and tracking data using dynamic programming",
+        "images": [
+            {
+                "url": "https://raw.githubusercontent.com/huffyhenry/sync.soccer/master/doc/header-clip.gif"
+            }
+        ],
+        "urls": {
+            "github": "https://github.com/huffyhenry/sync.soccer",
+            "website": "https://kwiatkowski.io/sync.soccer"
+        },
+        "contributors": [
+            "huffyhenry",
+            "allanderek"
+        ],
+        "sports": [
+            "Soccer"
+        ],
+        "categories": [
+            "Model/Calculations"
+        ]
+    },
+    {
+        "name": "codeball",
+        "language": "Python",
+        "license": "MIT",
+        "latestVersion": "0.1.1",
+        "lastCommit": {
+            "sha": "dc8595f7125a93abb7adec0f3c0b7ac803935aca",
+            "date": "2020-10-19T14:45:54Z",
+            "message": "Added also published to trigger release actions so that releases can be drafted then published"
+        },
+        "type": "package",
+        "logoUrl": null,
+        "description": "Data driven tactical and video analysis of soccer games",
+        "images": [],
+        "urls": {
+            "github": "https://github.com/metrica-sports/codeball",
+            "pypi": "https://pypi.org/project/codeball/",
+            "website": "https://codeball.metrica-sports.com/"
+        },
+        "contributors": [
+            "bdagnino"
+        ],
+        "sports": [
+            "Soccer"
+        ],
+        "categories": [
+            "Model/Calculations"
+        ]
+    },
+    {
+        "name": "open-data",
+        "language": "Other",
+        "license": "Other",
+        "latestVersion": null,
+        "lastCommit": {
+            "sha": "0d5d17cb09736aa08ccd4c976698df8ec15194ea",
+            "date": "2021-01-12T14:05:33Z",
+            "message": "Added 0 new games, updated 0 games."
+        },
+        "type": "repository",
+        "logoUrl": null,
+        "description": "Free football data from StatsBomb",
+        "images": [],
+        "urls": {
+            "github": "https://github.com/statsbomb/open-data",
+            "website": "https://statsbomb.com/resource-centre/"
+        },
+        "contributors": [
+            "deepxg",
+            "JamesYorke77",
+            "haghanim"
+        ],
+        "sports": [
+            "Soccer"
+        ],
+        "categories": [
+            "Open-data"
+        ]
     }
 ]
