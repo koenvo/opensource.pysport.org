@@ -60,38 +60,29 @@
     },
 
     "images": [
-      {
-        "title": "What does kloppy do?",
-        "url": "/images/packages/1-1.png"
-      },
-      {
-        "title": "What does kloppy do?",
-        "url": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/164519901/original/4e908c48177528e9c857029305104a85a1527463/code-python-scripts-and-projects-for-you.png"
-      },
-      {
-        "title": "What does kloppy do?",
-        "url": "/images/packages/1-1.png"
-      },
-      {
-        "title": "What does kloppy do?",
-        "url": "/images/packages/1-1.png"
-      },
-      {
-        "title": "What does kloppy do?",
-        "url": "/images/packages/1-1.png"
-      },
-      {
-        "title": "What does kloppy do?",
-        "url": "/images/packages/1-1.png"
-      }
+        {
+            "url": "https://raw.githubusercontent.com/Dato-Futbol/soccerAnimate/master/man/goals_info.png"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Dato-Futbol/soccerAnimate/master/man/plot.png"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Dato-Futbol/soccerAnimate/master/man/example_A.gif"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Dato-Futbol/soccerAnimate/master/man/example_B.gif"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Dato-Futbol/soccerAnimate/master/man/example_C.gif"
+        }
     ],
 
     "owners": [
       "person:1", "person:2", "organisation:1"
     ],
     "contributors": [
-      "person:1", "person:2", "person:3",
-      "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3", "person:3"
+      "person:1", "person:2", "person:2",
+      "person:2", "person:2", "person:2", "person:2", "person:2", "person:2", "person:2", "person:2", "person:2", "person:2"
     ]
   }
 ]

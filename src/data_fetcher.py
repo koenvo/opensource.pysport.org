@@ -1,7 +1,10 @@
 import json
+import os
 import re
 import urllib.error
-from datetime import datetime
+
+import marko
+from bs4 import BeautifulSoup
 import pandas as pd
 
 import requests
@@ -42,28 +45,32 @@ class FetchGithubUser(luigi.Task):
 
 
 class FetchGithubPythonSetup(luigi.Task):
+    file = luigi.Parameter()
     repository = luigi.Parameter()
+    branch = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/setup.py")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.file}")
 
     def run(self):
         with self.output().open('w') as fp:
             download_to(
-                f"https://raw.githubusercontent.com/{self.repository}/master/setup.py",
+                f"https://raw.githubusercontent.com/{self.repository}/{self.branch}/{self.file}",
                 fp
             )
 
 
 class FetchPyPiInfo(luigi.Task):
-    date = luigi.DateParameter()
+    file = luigi.Parameter()
+    run_id = luigi.Parameter()
     repository = luigi.Parameter()
+    branch = luigi.Parameter()
 
     def requires(self):
-        return FetchGithubPythonSetup(repository=self.repository)
+        return FetchGithubPythonSetup(file=self.file, repository=self.repository, branch=self.branch)
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/pypi/{self.date}.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/pypi/{self.run_id}.json")
 
     def run(self):
         with self.input().open('r') as fp:
@@ -75,7 +82,7 @@ class FetchPyPiInfo(luigi.Task):
                     status="undefined"
                 )
             else:
-                regex = r'name=["\'](.+?)["\']'
+                regex = r'name\s*=\s*["\'](.+?)["\']'
                 match = re.search(regex, data)
 
                 response = requests.get(f"https://pypi.org/pypi/{match.group(1)}/json")
@@ -99,6 +106,7 @@ class FetchPyPiInfo(luigi.Task):
 
 class FetchGithubRDescription(luigi.Task):
     repository = luigi.Parameter()
+    branch = luigi.Parameter()
 
     def output(self):
         return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/DESCRIPTION")
@@ -106,20 +114,21 @@ class FetchGithubRDescription(luigi.Task):
     def run(self):
         with self.output().open('w') as fp:
             download_to(
-                f"https://raw.githubusercontent.com/{self.repository}/master/DESCRIPTION",
+                f"https://raw.githubusercontent.com/{self.repository}/{self.branch}/DESCRIPTION",
                 fp
             )
 
 
 class FetchCRANInfo(luigi.Task):
-    date = luigi.DateParameter()
+    run_id = luigi.Parameter()
     repository = luigi.Parameter()
+    branch = luigi.Parameter()
 
     def requires(self):
-        return FetchGithubRDescription(repository=self.repository)
+        return FetchGithubRDescription(repository=self.repository, branch=self.branch)
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/cran/{self.date}.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/cran/{self.run_id}.json")
 
     def run(self):
         with self.input().open('r') as fp:
@@ -133,23 +142,35 @@ class FetchCRANInfo(luigi.Task):
             else:
                 regex = r'Package: (.+?)\n'
                 match = re.search(regex, data)
-                url = f"https://cran.r-project.org/package={match.group(1)}"
+                name = match.group(1)
+                url = f"https://cran.r-project.org/package={name}"
                 try:
                     df = pd.read_html(url)
                 except urllib.error.HTTPError:
+                    regex = r'License: (.+?)\n'
+                    match = re.search(regex, data + '\n')
+                    license_ = match.group(1)
+                    if 'MIT' in license_:
+                        license_ = 'MIT'
+
                     package_info = dict(
                         status="not_found",
-                        name=match.group(1)
+                        license=license_,
+                        name=name
                     )
                 else:
                     data = dict(zip(df[0][0], df[0][1]))
+
+                    license_ = data['License:']
+                    if 'MIT' in license_:
+                        license_ = 'MIT'
 
                     package_info = dict(
                         status="found",
                         name=match.group(1),
                         version=data['Version:'],
                         url=url,
-                        license=data['License:']
+                        license=license_
                     )
 
             json.dump(package_info, fp)
@@ -169,17 +190,49 @@ class FetchGithubRepoInfo(luigi.Task):
             )
 
 
+class FetchGithubRepoTree(luigi.Task):
+    run_id = luigi.Parameter()
+    repository = luigi.Parameter()
+    branch = luigi.Parameter()
+
+    def output(self):
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.run_id}_tree.json")
+
+    def run(self):
+        with self.output().open('w') as fp:
+            download_to(
+                f"https://api.github.com/repos/{self.repository}/git/trees/{self.branch}",
+                fp
+            )
+
+
 class FetchGithubRepoContributors(luigi.Task):
-    date = luigi.DateParameter()
+    run_id = luigi.Parameter()
     repository = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.date}_contributors.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.run_id}_contributors.json")
 
     def run(self):
         with self.output().open('w') as fp:
             download_to(
                 f"https://api.github.com/repos/{self.repository}/contributors",
+                fp
+            )
+
+
+class FetchGithubReadme(luigi.Task):
+    run_id = luigi.Parameter()
+    repository = luigi.Parameter()
+    branch = luigi.Parameter()
+
+    def output(self):
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.run_id}_readme.md")
+
+    def run(self):
+        with self.output().open('w') as fp:
+            download_to(
+                f"https://raw.githubusercontent.com/{self.repository}/{self.branch}/README.md",
                 fp
             )
 
@@ -199,11 +252,11 @@ class FetchGithubLanguage(luigi.Task):
 
 
 class FetchGithubCommits(luigi.Task):
-    date = luigi.DateParameter()
+    run_id = luigi.Parameter()
     repository = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.date}_commits.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.run_id}_commits.json")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -213,28 +266,92 @@ class FetchGithubCommits(luigi.Task):
             )
 
 
+def determine_project_type(language, languages, package_info, files):
+    if package_info['status'] == 'found':
+        return language, 'package'
+    elif package_info['status'] == 'not_found':
+        return language, 'github_package'
+    else:
+        if languages.get('Jupyter Notebook', 0) > languages.get('Python', 0):
+            return 'Python', 'tutorial'
+        if any([file.endswith(".rmd") for file in files]):
+            return 'R', 'tutorial'
+
+        return language, 'repository'
+
+
+def extract_logo_url(repository, branch, content):
+    base_url = f"https://raw.githubusercontent.com/{repository}/{branch}/"
+    for line in content.splitlines()[:10]:
+        if '<img' in line:
+            soup = BeautifulSoup(line, features="lxml")
+            img = soup.find('img')
+            if img:
+                # if img.attrs.get('align') == "right":
+                url = img.attrs.get('src')
+                if url.startswith('http'):
+                    return url
+                else:
+                    return base_url + url
+    return None
+
+
+def extract_images(repository, branch, content):
+    images = []
+    base_url = f"https://raw.githubusercontent.com/{repository}/{branch}/"
+
+    def repl(m):
+        return '[' + m.group(1).replace("\n", " ").replace("\r", " ") + ']'
+    content = re.sub('\\[([^\\]]+)\\]', repl, content)
+
+    content_html = marko.convert(content)
+    for line in content_html.splitlines()[10:]:
+        if '<img' in line:
+            soup = BeautifulSoup(line, features="lxml")
+            img = soup.find('img')
+            if img:
+                # if img.attrs.get('align') == "right":
+                url = img.attrs.get('src')
+                if url.startswith('http'):
+                    if url.startswith('https://github.com') or url.startswith('https://raw.githubusercontent.com'):
+                        images.append(url)
+                else:
+                    images.append(base_url + url)
+    return images
+
+
 class CollectProjectInfo(luigi.Task):
-    date = luigi.DateParameter()
+    run_id = luigi.Parameter()
     repository = luigi.Parameter()
 
     def requires(self):
         return {
             'repository': FetchGithubRepoInfo(repository=self.repository),
             'language': FetchGithubLanguage(repository=self.repository),
-            'commits': FetchGithubCommits(repository=self.repository, date=self.date)
+            'commits': FetchGithubCommits(repository=self.repository, run_id=self.run_id)
         }
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/output/{self.date}/{self.repository.replace('/', '__')}.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/output/{self.run_id}/{self.repository.replace('/', '__')}.json")
 
     def run(self):
         with self.input()['language'].open('r') as fp:
             languages = json.load(fp)
 
+        with self.input()['commits'].open('r') as fp:
+            commits = json.load(fp)
+
         with self.input()['repository'].open('r') as fp:
             repository_info = json.load(fp)
+            default_branch = repository_info['default_branch']
 
-        python_counter = languages.get('Python', 0) + languages.get('Jupyter Notebook', 0)
+        tree_output = yield FetchGithubRepoTree(repository=self.repository, run_id=self.run_id, branch=default_branch)
+        with tree_output.open('r') as fp:
+            tree = json.load(fp)
+        files = [file['path'].lower() for file in tree['tree']]
+
+        notebook_counter = languages.get('Jupyter Notebook', 0)
+        python_counter = languages.get('Python', 0) + notebook_counter
         r_counter = languages.get('R', 0)
 
         if python_counter > r_counter:
@@ -242,28 +359,90 @@ class CollectProjectInfo(luigi.Task):
         else:
             language = "R"
 
+        readme = ''
+        if 'readme.md' in files:
+            readme_output = yield FetchGithubReadme(repository=self.repository, run_id=self.run_id, branch=default_branch)
+            with readme_output.open('r') as fp:
+                readme = fp.read()
+
+        logo_url = extract_logo_url(self.repository, default_branch, readme)
+        images = extract_images(self.repository, default_branch, readme)
+
+        package_info_output = None
         if language == "Python":
-            package_info_input = yield FetchPyPiInfo(date=self.date, repository=self.repository)
+            if 'setup.py' in files:
+                package_info_output = yield FetchPyPiInfo(
+                    file='setup.py',
+                    run_id=self.run_id,
+                    repository=self.repository,
+                    branch=default_branch
+                )
+            elif 'pyproject.toml' in files:
+                package_info_output = yield FetchPyPiInfo(
+                    file='pyproject.toml',
+                    run_id=self.run_id,
+                    repository=self.repository,
+                    branch=default_branch
+                )
+            else:
+                package_info = dict(
+                    status="undefined"
+                )
         else:
-            package_info_input = yield FetchCRANInfo(date=self.date, repository=self.repository)
+            if 'description' in files:
+                package_info_output = yield FetchCRANInfo(run_id=self.run_id, repository=self.repository, branch=default_branch)
+            else:
+                package_info = dict(
+                    status="undefined"
+                )
 
-        with package_info_input.open('r') as fp:
-            package_info = json.load(fp)
+        if package_info_output:
+            with package_info_output.open('r') as fp:
+                package_info = json.load(fp)
 
-        if 'license' in package_info:
-            license = package_info['license']
+        if package_info.get('license'):
+            license_ = package_info['license']
         elif 'license' in repository_info and repository_info['license']:
-            license = repository_info['license']['name']
+            license_ = repository_info['license']['spdx_id']
         else:
-            license = None
+            license_ = None
+
+        language, type_ = determine_project_type(
+            language,
+            languages,
+            package_info,
+            files
+        )
+
+        urls = {
+            'github': f"https://github.com/{self.repository}"
+        }
+        if package_info['status'] == 'found':
+            if language == 'R':
+                urls['cran'] = package_info['url']
+            else:
+                urls['pypi'] = package_info['url']
+        if repository_info['homepage']:
+            urls['website'] = repository_info['homepage']
 
         data = {
+            'name': package_info.get('name', os.path.basename(self.repository)),
             'language': language,
-            'license': license
+            'license': license_,
+            'latestVersion': package_info.get('version'),
+            'lastCommit': {
+                'sha': commits[0]['sha'],
+                'date': commits[0]['commit']['committer']['date'],
+                'message': commits[0]['commit']['message']
+            },
+            'type': type_,
+            'logoUrl': logo_url,
+            'images': [dict(url=img) for img in images],
+            'urls': urls
         }
 
         with self.output().open('w') as fp:
-            json.dump(data, fp)
+            json.dump(data, fp, indent=4)
 
 
 class CollectAll(luigi.Task):
@@ -276,16 +455,20 @@ class CollectAll(luigi.Task):
 
 
 if __name__ == "__main__":
-    now = datetime.now()
+    run_id = '2021-01-13.1'
 
     #
     tasks = [
         #CollectPackageInfo(repository="chonyy/ML-auto-baseball-pitching-overlay", date=now),
-        CollectProjectInfo(repository="PySport/kloppy", date=now),
-        CollectProjectInfo(repository="mrcaseb/nflfastR", date=now),
-        CollectProjectInfo(repository="maksimhorowitz/nflscrapR", date=now),
-        CollectProjectInfo(repository="ML-KULeuven/socceraction", date=now),
-        CollectProjectInfo(repository="arbues6/Euroleague-ML", date=now),
-        CollectProjectInfo(repository="Friends-of-Tracking-Data-FoTD/SoccermaticsForPython", date=now)
+        #CollectProjectInfo(repository="PySport/kloppy", run_id=run_id),
+        CollectProjectInfo(repository="Dato-Futbol/soccerAnimate", run_id=run_id),
+        CollectProjectInfo(repository="mrcaseb/nflfastR", run_id=run_id),
+        #CollectProjectInfo(repository="maksimhorowitz/nflscrapR", date=now),
+        CollectProjectInfo(repository="ML-KULeuven/socceraction", run_id=run_id),
+        CollectProjectInfo(repository="ML-KULeuven/soccer_xg", run_id=run_id),
+        CollectProjectInfo(repository="FCrSTATS/SportsCodeR", run_id=run_id),
+        CollectProjectInfo(repository="Slothfulwave612/soccerplots", run_id=run_id)
+        #CollectProjectInfo(repository="arbues6/Euroleague-ML", date=now),
+        #CollectProjectInfo(repository="Friends-of-Tracking-Data-FoTD/SoccermaticsForPython", date=now)
     ]
     luigi.build(tasks, local_scheduler=True)
