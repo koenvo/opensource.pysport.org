@@ -11,23 +11,23 @@ import requests
 import luigi
 import luigi.format
 
-"""
-url = "https://api.github.com/repos/PySport/kloppy/contributors"
-
-R:
-    CRAN https://cran.r-project.org/package=nflfastR
-
-"""
 
 BASE_DIR = "data"
 
 
 def download_to(url, fp):
-    data = requests.get(url)
-    if data.status_code != 404:
+    kwargs = {}
+    if 'github.com' in url:
+        kwargs = dict(
+            auth=('koenvo', os.environ['TOKEN'])
+        )
+    data = requests.get(url, **kwargs)
+    if data.status_code == 404:
+        fp.write('404')
+    elif data.status_code == 200:
         fp.write(data.text)
     else:
-        fp.write("404")
+        raise Exception(f"{data.status_code}: {data.text}")
 
 
 class FetchGithubUser(luigi.Task):
@@ -98,7 +98,8 @@ class FetchPyPiInfo(luigi.Task):
                         name=match.group(1),
                         version=data['info']['version'],
                         url=data['info']['package_url'],
-                        license=data['info']['license']
+                        license=data['info']['license'],
+                        description=data['info']['summary']
                     )
 
             json.dump(package_info, fp)
@@ -117,6 +118,18 @@ class FetchGithubRDescription(luigi.Task):
                 f"https://raw.githubusercontent.com/{self.repository}/{self.branch}/DESCRIPTION",
                 fp
             )
+
+
+def parse_yaml_like(inp_data):
+    key = None
+    data = {}
+    for line in inp_data.splitlines():
+        if line.lstrip() != line:
+            data[key] += '\n' + line.strip()
+        else:
+            key, content = line.split(':', 1)
+            data[key] = content.strip()
+    return data
 
 
 class FetchCRANInfo(luigi.Task):
@@ -140,38 +153,32 @@ class FetchCRANInfo(luigi.Task):
                     status="undefined"
                 )
             else:
-                regex = r'Package: (.+?)\n'
-                match = re.search(regex, data)
-                name = match.group(1)
+                data = parse_yaml_like(data)
+                name = data['Package']
+                package_info = dict(
+                    status='not_found',
+                    name=name,
+                    version=data['Version'],
+                    license=data['License'],
+                    description=data['Description']
+                )
+
                 url = f"https://cran.r-project.org/package={name}"
                 try:
                     df = pd.read_html(url)
                 except urllib.error.HTTPError:
-                    regex = r'License: (.+?)\n'
-                    match = re.search(regex, data + '\n')
-                    license_ = match.group(1)
-                    if 'MIT' in license_:
-                        license_ = 'MIT'
-
-                    package_info = dict(
-                        status="not_found",
-                        license=license_,
-                        name=name
-                    )
+                    pass
                 else:
                     data = dict(zip(df[0][0], df[0][1]))
+                    package_info.update({
+                        'status': 'found',
+                        'url': url,
+                        'version': data['Version:'],
+                        'license': data['License:']
+                    })
 
-                    license_ = data['License:']
-                    if 'MIT' in license_:
-                        license_ = 'MIT'
-
-                    package_info = dict(
-                        status="found",
-                        name=match.group(1),
-                        version=data['Version:'],
-                        url=url,
-                        license=license_
-                    )
+                if 'MIT' in package_info['license']:
+                    package_info['license'] = 'MIT'
 
             json.dump(package_info, fp)
 
@@ -305,7 +312,7 @@ def extract_images(repository, branch, content):
     content = re.sub('\\[([^\\]]+)\\]', repl, content)
 
     content_html = marko.convert(content)
-    for line in content_html.splitlines()[10:]:
+    for line in content_html.splitlines():
         if '<img' in line:
             soup = BeautifulSoup(line, features="lxml")
             img = soup.find('img')
@@ -319,6 +326,31 @@ def extract_images(repository, branch, content):
                     images.append(base_url + url)
     return images
 
+def determine_sport_types(*inputs):
+    keywords = {
+        "Soccer": ["soccer", "opta"],
+        "American Football": ["nfl", "football", "cfb"],
+        "Australian Football": ["afl"],
+        "Ice Hockey": ["nhl", "hockey"],
+        "Basketball": ["nba", "basketball"],
+        "Baseball": ["mlb", "baseball", "retrosheet"],
+        "Cricket": ["criket"]
+    }
+
+    sport_types = set()
+    for input_ in inputs:
+        for sport_type, keywords_ in keywords.items():
+            for keyword in keywords_:
+                if keyword in input_:
+                    sport_types.add(sport_type)
+
+    if sport_types == {"Soccer", "American Football"}:
+        sport_types = {"Soccer"}
+    if sport_types == {"American Football", "Australian Football"}:
+        sport_types = {"Australian Football"}
+
+    return list(sport_types)
+
 
 class CollectProjectInfo(luigi.Task):
     run_id = luigi.Parameter()
@@ -328,7 +360,8 @@ class CollectProjectInfo(luigi.Task):
         return {
             'repository': FetchGithubRepoInfo(repository=self.repository),
             'language': FetchGithubLanguage(repository=self.repository),
-            'commits': FetchGithubCommits(repository=self.repository, run_id=self.run_id)
+            'commits': FetchGithubCommits(repository=self.repository, run_id=self.run_id),
+            'contributors': FetchGithubRepoContributors(repository=self.repository, run_id=self.run_id)
         }
 
     def output(self):
@@ -340,6 +373,9 @@ class CollectProjectInfo(luigi.Task):
 
         with self.input()['commits'].open('r') as fp:
             commits = json.load(fp)
+
+        with self.input()['contributors'].open('r') as fp:
+            contributors = json.load(fp)
 
         with self.input()['repository'].open('r') as fp:
             repository_info = json.load(fp)
@@ -353,11 +389,16 @@ class CollectProjectInfo(luigi.Task):
         notebook_counter = languages.get('Jupyter Notebook', 0)
         python_counter = languages.get('Python', 0) + notebook_counter
         r_counter = languages.get('R', 0)
+        haskell_counter = languages.get('Haskell', 0)
 
         if python_counter > r_counter:
             language = "Python"
-        else:
+        elif r_counter > haskell_counter:
             language = "R"
+        elif haskell_counter > 0:
+            language = 'Haskell'
+        else:
+            language = 'Unknown'
 
         readme = ''
         if 'readme.md' in files:
@@ -366,9 +407,15 @@ class CollectProjectInfo(luigi.Task):
                 readme = fp.read()
 
         logo_url = extract_logo_url(self.repository, default_branch, readme)
-        images = extract_images(self.repository, default_branch, readme)
+        images = [
+            img for img in extract_images(self.repository, default_branch, readme)
+            if img != logo_url
+        ]
 
         package_info_output = None
+        package_info = dict(
+            status="undefined"
+        )
         if language == "Python":
             if 'setup.py' in files:
                 package_info_output = yield FetchPyPiInfo(
@@ -388,13 +435,17 @@ class CollectProjectInfo(luigi.Task):
                 package_info = dict(
                     status="undefined"
                 )
-        else:
+        elif language == 'R':
             if 'description' in files:
                 package_info_output = yield FetchCRANInfo(run_id=self.run_id, repository=self.repository, branch=default_branch)
             else:
                 package_info = dict(
                     status="undefined"
                 )
+        elif language == 'Haskell':
+            package_info = dict(
+                status='not_found'
+            )
 
         if package_info_output:
             with package_info_output.open('r') as fp:
@@ -437,8 +488,21 @@ class CollectProjectInfo(luigi.Task):
             },
             'type': type_,
             'logoUrl': logo_url,
+            'description': package_info.get('description', None),
             'images': [dict(url=img) for img in images],
-            'urls': urls
+            'urls': urls,
+            'contributors': [
+                {
+                    'name': contributor['login'],
+                    'count': contributor['contributions']
+                }
+                for contributor
+                in contributors
+            ],
+            'sports': determine_sport_types(
+                package_info.get('description', ''),
+                readme
+            )
         }
 
         with self.output().open('w') as fp:
@@ -460,14 +524,18 @@ if __name__ == "__main__":
     #
     tasks = [
         #CollectPackageInfo(repository="chonyy/ML-auto-baseball-pitching-overlay", date=now),
-        #CollectProjectInfo(repository="PySport/kloppy", run_id=run_id),
+        CollectProjectInfo(repository="PySport/kloppy", run_id=run_id),
         CollectProjectInfo(repository="Dato-Futbol/soccerAnimate", run_id=run_id),
         CollectProjectInfo(repository="mrcaseb/nflfastR", run_id=run_id),
         #CollectProjectInfo(repository="maksimhorowitz/nflscrapR", date=now),
         CollectProjectInfo(repository="ML-KULeuven/socceraction", run_id=run_id),
         CollectProjectInfo(repository="ML-KULeuven/soccer_xg", run_id=run_id),
         CollectProjectInfo(repository="FCrSTATS/SportsCodeR", run_id=run_id),
-        CollectProjectInfo(repository="Slothfulwave612/soccerplots", run_id=run_id)
+        CollectProjectInfo(repository="Slothfulwave612/soccerplots", run_id=run_id),
+        CollectProjectInfo(repository="jimmyday12/fitzRoy", run_id=run_id),
+        CollectProjectInfo(repository="andrewRowlinson/mplsoccer", run_id=run_id),
+        CollectProjectInfo(repository="Torvaney/ggsoccer", run_id=run_id),
+        CollectProjectInfo(repository="huffyhenry/sync.soccer", run_id=run_id)
         #CollectProjectInfo(repository="arbues6/Euroleague-ML", date=now),
         #CollectProjectInfo(repository="Friends-of-Tracking-Data-FoTD/SoccermaticsForPython", date=now)
     ]

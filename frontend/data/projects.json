@@ -1,4 +1,4 @@
-[
+[[
   {
     "projectId": 1,
     "name": "nflfastR",
@@ -6,7 +6,7 @@
     "sports": ["American Football"],
     "license": "MIT",
     "language": "R",
-    "logoUrl": "https://raw.githubusercontent.com/mrcaseb/nflfastR/master/man/figures/logo.png",
+    "logoUrl": "https://raw.githubusercontent.com/jimmyday12/fitzRoy/master/man/figures/fitz_hex.png",
     "description": "nflfastR is a set of functions to efficiently scrape NFL play-by-play data",
     "categories": [
       "Scraper/API"
@@ -85,4 +85,4 @@
       "person:2", "person:2", "person:2", "person:2", "person:2", "person:2", "person:2", "person:2", "person:2", "person:2"
     ]
   }
-]
+]]
