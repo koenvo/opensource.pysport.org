@@ -144,7 +144,7 @@
         },
         "type": "repository",
         "logoUrl": null,
-        "description": null,
+        "description": "all things hockey",
         "images": [],
         "urls": {
             "github": "https://github.com/evolvingwild/hockey-all"
@@ -169,7 +169,7 @@
         },
         "type": "repository",
         "logoUrl": null,
-        "description": null,
+        "description": "Scripts for Evolving-Hockey.com",
         "images": [],
         "urls": {
             "github": "https://github.com/evolvingwild/evolving-hockey"
@@ -307,7 +307,7 @@
         },
         "type": "github_package",
         "logoUrl": null,
-        "description": null,
+        "description": "Statsbomb API with Dataclasses",
         "images": [],
         "urls": {
             "github": "https://github.com/Torvaney/statsbombapi"
@@ -971,7 +971,7 @@
         },
         "type": "repository",
         "logoUrl": null,
-        "description": null,
+        "description": "Soccer/football analytics blog posts & data viz from the World Cup, Premier League, Copa America, and beyond. Using ggplot2, ggsoccer, & more. (Est. June 2018) ****Please look at the README for best version of the code!****",
         "images": [],
         "urls": {
             "github": "https://github.com/Ryo-N7/soccer_ggplots",
@@ -1780,7 +1780,7 @@
         },
         "type": "repository",
         "logoUrl": null,
-        "description": null,
+        "description": "This repository includes all the code and data used for developing the expected league points above replacement for soccer as described in \"Positional Value in Soccer: Expected League Points Added above Replacement\"",
         "images": [],
         "urls": {
             "github": "https://github.com/kpelechrinis/eLPAR-soccer"
@@ -2040,7 +2040,7 @@
         },
         "type": "repository",
         "logoUrl": null,
-        "description": null,
+        "description": "Laurie's code for Metrica tracking data. ",
         "images": [],
         "urls": {
             "github": "https://github.com/Friends-of-Tracking-Data-FoTD/LaurieOnTracking"
@@ -2120,7 +2120,7 @@
         },
         "type": "tutorial",
         "logoUrl": null,
-        "description": null,
+        "description": "Last two minute report data from the NBA",
         "images": [
             {
                 "url": "https://raw.githubusercontent.com/atlhawksfanatic/L2M/master/README_files/figure-gfm/calls-1.png"
@@ -2221,7 +2221,7 @@
         },
         "type": "tutorial",
         "logoUrl": null,
-        "description": null,
+        "description": "Repository which contains various scripts and work with various basketball statistics",
         "images": [],
         "urls": {
             "github": "https://github.com/danchyy/Basketball_Analytics"
@@ -2272,7 +2272,7 @@
         },
         "type": "package",
         "logoUrl": null,
-        "description": null,
+        "description": "A Python package for data visualisation for football analytics.",
         "images": [],
         "urls": {
             "github": "https://github.com/Slothfulwave612/soccerplots",

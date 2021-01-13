@@ -101,13 +101,13 @@ const Card = ({project, highlight}) => {
   {
     case 'package':
       if (project.language === 'Python') {
-        type = 'package (PyPi)';
+        type = 'package';
       } else {
-        type = 'package (CRAN)';
+        type = 'package';
       }
       break;
     case 'github_package':
-      type = 'package (GitHub)';
+      type = 'package';
       break;
     default:
       type = project.type;

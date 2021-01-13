@@ -97,12 +97,6 @@ export default function Project() {
   }
   const project = getProjectByName(name);
 
-  const goBack = (e) => {
-    if (window.history.length > 2) {
-      e.preventDefault();
-      router.back();
-    }
-  };
   return (
     <Layout subtitle={project.name}>
       <SubHeader>
@@ -111,7 +105,6 @@ export default function Project() {
             <a
               rel="noopener"
               href="#"
-              onClick={goBack}
               className="inline-block text-gray-400 py-2 px-4 border border-transparent text-base font-medium rounded-md flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                    className="h-5">
