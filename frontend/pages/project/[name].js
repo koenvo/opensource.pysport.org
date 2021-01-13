@@ -80,8 +80,8 @@ const Contributors = ({project}) => {
     {/*{owners.map((owner) => {*/}
       {/*return <Entity entity={owner} className="font-medium" />;*/}
       {/*})}*/}
-      {contributors.map((user) => {
-        return <User user={user} />;
+      {contributors.map((user, k) => {
+        return <User key={k} user={user} />;
       })}
     </div>
     </>

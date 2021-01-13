@@ -239,7 +239,7 @@ const Overview = ({projects, categories}) => {
           </a>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-          {categoryProjects.map((project) => <Card key={project.projectId} project={project}/>)}
+          {categoryProjects.map((project) => <Card key={project.name} project={project}/>)}
         </div>
       </div>
     )
