@@ -2103,7 +2103,7 @@
     {
         "name": "regista",
         "language": "R",
-        "license": "file LICENSE",
+        "license": "GPL-3.0",
         "latestVersion": "0.4.1.9000",
         "lastCommit": {
             "sha": "7e6288a49b1ce9d611129b75b08c600c3cd05f88",

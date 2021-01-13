@@ -189,6 +189,9 @@ class FetchCRANInfo(luigi.Task):
                 if 'MIT' in package_info['license']:
                     package_info['license'] = 'MIT'
 
+            if package_info['license'] == 'file LICENSE':
+                del package_info['license']
+
             json.dump(package_info, fp)
 
 
