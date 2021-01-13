@@ -164,7 +164,19 @@ export default function Project() {
                       </span>
                   );
                 })}</Label>
-                <Label title="Language">{project.language}</Label>
+                <Label title="Language">
+                  <Link
+                  href={{
+                    pathname: `/`,
+                    query: {languages: project.language},
+                  }}
+                >
+                  <a
+                    className="underline">
+                    {project.language}
+                  </a>
+                </Link>
+                </Label>
                 {/*<Label title="Authors">
                  <a href="#" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">koenvo</a> |{' '}
                  <a href="#" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">koenvo</a>
