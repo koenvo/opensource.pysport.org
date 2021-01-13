@@ -1,4 +1,4 @@
-import { getPersonById } from "../../lib/data";
+import { getUserByLogin } from "../../lib/data";
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
@@ -7,15 +7,14 @@ import SubHeader from "../../components/subheader";
 
 export default function Person() {
   const router = useRouter();
-  const {id} = router.query;
-  if (!id) {
+  const {login} = router.query;
+  if (!login) {
     return null;
   }
-  const personId = id[0];
-  const entity = getPersonById(personId);
+  const user = getUserByLogin(login);
 
   return (
-    <Layout subtitle={entity.name}>
+    <Layout subtitle={user.name}>
       <SubHeader>
         <div>
           <Link href="/">
@@ -35,48 +34,30 @@ export default function Person() {
       </SubHeader>
       <div className="container mx-auto max-w-screen-xl">
         <div className="mx-4 mt-16">
-          <div className="text-3xl">{entity.name}</div>
-          <div className="mt-4">{entity.description}</div>
+          <div className="text-3xl">{user.name}</div>
+          <div className="mt-4">{user.description}</div>
           <div className="mt-4 font-bold">Links</div>
-          {!!entity.urls.github && (
-            <a href={entity.urls.github} className="block" target="_blank" rel="noopener">Github</a>
+          {!!user.urls.github && (
+            <a href={user.urls.github} className="block" target="_blank" rel="noopener">Github</a>
           )}
-          {!!entity.urls.twitter && (
-            <a href={entity.urls.twitter} className="block" target="_blank" rel="noopener">Twitter</a>
+          {!!user.urls.twitter && (
+            <a href={user.urls.twitter} className="block" target="_blank" rel="noopener">Twitter</a>
           )}
-          {!!entity.urls.website && (
-            <a href={entity.urls.website} className="blocks" target="_blank" rel="noopener">Website</a>
+          {!!user.urls.website && (
+            <a href={user.urls.website} className="blocks" target="_blank" rel="noopener">Website</a>
           )}
 
 
           <div className="mt-4">
             <div className="font-bold mb-2">Projects</div>
-            {entity.projects.owner.map((project) => {
-                return (
-                  <div className="font-medium">
-                    <Link
-                      href={{
-                        pathname: `/project/[id]/[name]`,
-                        query: {id: project.projectId, name: project.name},
-                      }}
-                    >
-                      <a href="#">
-                        {project.name}
-                      </a>
-                    </Link>
-                  </div>
-                );
-              })
-            }
-            {entity.projects.contributor
-              .filter((project) => entity.projects.owner.indexOf(project) === -1)
+            {user.projects.contributor
               .map((project) => {
                 return (
                   <div>
                     <Link
                       href={{
-                        pathname: `/project/[id]/[name]`,
-                        query: {id: project.projectId, name: project.name},
+                        pathname: `/project/[name]`,
+                        query: {name: project.name},
                       }}
                     >
                       <a href="#">

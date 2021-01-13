@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import time
 import urllib.error
 
 import marko
@@ -16,12 +17,14 @@ BASE_DIR = "data"
 
 
 def download_to(url, fp):
-    kwargs = {}
+    headers = {
+        'User-Agent': 'PySport https://opensource.pysport.org / info@koenvossen.nl',
+    }
+
     if 'github.com' in url:
-        kwargs = dict(
-            auth=('koenvo', os.environ['TOKEN'])
-        )
-    data = requests.get(url, **kwargs)
+        headers['Authorization'] = f"token {os.environ['TOKEN']}"
+
+    data = requests.get(url, headers=headers)
     if data.status_code == 404:
         fp.write('404')
     elif data.status_code == 200:
@@ -124,6 +127,8 @@ def parse_yaml_like(inp_data):
     key = None
     data = {}
     for line in inp_data.splitlines():
+        if line.strip() == '':
+            continue
         if line.lstrip() != line:
             data[key] += '\n' + line.strip()
         else:
@@ -167,6 +172,10 @@ class FetchCRANInfo(luigi.Task):
                 try:
                     df = pd.read_html(url)
                 except urllib.error.HTTPError:
+                    pass
+                except ValueError:
+                    # https://cran.r-project.org/web/packages/mlbgameday/index.html
+                    # "Package ‘mlbgameday’ was removed from the CRAN repository."
                     pass
                 else:
                     data = dict(zip(df[0][0], df[0][1]))
@@ -321,35 +330,40 @@ def extract_images(repository, branch, content):
                 url = img.attrs.get('src')
                 if url.startswith('http'):
                     if url.startswith('https://github.com') or url.startswith('https://raw.githubusercontent.com'):
+                        if 'badge' in url:
+                            continue
+
                         images.append(url)
                 else:
                     images.append(base_url + url)
     return images
 
-def determine_sport_types(*inputs):
+
+def determine_sports(*inputs):
     keywords = {
-        "Soccer": ["soccer", "opta"],
+        "Soccer": ["soccer", "opta", "understat", "transfermarkt", "metrica", "statsbomb"],
         "American Football": ["nfl", "football", "cfb"],
         "Australian Football": ["afl"],
-        "Ice Hockey": ["nhl", "hockey"],
+        "Hockey": ["nhl", "hockey"],
         "Basketball": ["nba", "basketball"],
         "Baseball": ["mlb", "baseball", "retrosheet"],
-        "Cricket": ["criket"]
+        "Cricket": ["cricket"]
     }
 
-    sport_types = set()
+    sports = set()
     for input_ in inputs:
-        for sport_type, keywords_ in keywords.items():
+        input_ = input_.lower()
+        for sport, keywords_ in keywords.items():
             for keyword in keywords_:
                 if keyword in input_:
-                    sport_types.add(sport_type)
+                    sports.add(sport)
 
-    if sport_types == {"Soccer", "American Football"}:
-        sport_types = {"Soccer"}
-    if sport_types == {"American Football", "Australian Football"}:
-        sport_types = {"Australian Football"}
+    if sports == {"Soccer", "American Football"}:
+        sports = {"Soccer"}
+    if sports == {"American Football", "Australian Football"}:
+        sports = {"Australian Football"}
 
-    return list(sport_types)
+    return list(sports)
 
 
 class CollectProjectInfo(luigi.Task):
@@ -379,6 +393,8 @@ class CollectProjectInfo(luigi.Task):
 
         with self.input()['repository'].open('r') as fp:
             repository_info = json.load(fp)
+            if repository_info == 404:
+                raise Exception("Repo not found")
             default_branch = repository_info['default_branch']
 
         tree_output = yield FetchGithubRepoTree(repository=self.repository, run_id=self.run_id, branch=default_branch)
@@ -488,21 +504,22 @@ class CollectProjectInfo(luigi.Task):
             },
             'type': type_,
             'logoUrl': logo_url,
-            'description': package_info.get('description', None),
+            'description': package_info.get(
+                'description',
+                repository_info.get('description')
+            ),
             'images': [dict(url=img) for img in images],
             'urls': urls,
             'contributors': [
-                {
-                    'name': contributor['login'],
-                    'count': contributor['contributions']
-                }
+                contributor['login']
                 for contributor
                 in contributors
             ],
-            'sports': determine_sport_types(
+            'sports': determine_sports(
                 package_info.get('description', ''),
                 readme
-            )
+            ),
+            'categories': []
         }
 
         with self.output().open('w') as fp:
@@ -510,33 +527,53 @@ class CollectProjectInfo(luigi.Task):
 
 
 class CollectAll(luigi.Task):
-    def requires(self):
-        return luigi.LocalTarget("list.csv")
+    run_id = luigi.Parameter()
+    input_file = luigi.Parameter()
+
+    def input(self):
+        return luigi.LocalTarget(self.input_file)
+
+    def output(self):
+        return {
+            'projects': luigi.LocalTarget(f"../frontend/data/projects.json"),
+            'users': luigi.LocalTarget(f"../frontend/data/users.json"),
+        }
 
     def run(self):
-        pass
+        projects = []
+        users = {}
 
+        for repository in self.input().open('r'):
+            repository = repository.strip()
+            project_output = yield CollectProjectInfo(repository=repository, run_id=self.run_id)
+
+            with project_output.open('r') as fp:
+                project = json.load(fp)
+            projects.append(project)
+
+            for contributor in project['contributors']:
+                users[contributor] = dict(
+                    login=contributor,
+                    name=contributor,
+                    urls={
+                        'github': f"https://github.com/{contributor}"
+                    }
+                )
+
+        with self.output()['projects'].open('w') as fp:
+            json.dump(projects, fp, indent=4)
+
+        with self.output()['users'].open('w') as fp:
+            json.dump(list(users.values()), fp, indent=4)
 
 
 if __name__ == "__main__":
     run_id = '2021-01-13.1'
 
-    #
     tasks = [
-        #CollectPackageInfo(repository="chonyy/ML-auto-baseball-pitching-overlay", date=now),
-        CollectProjectInfo(repository="PySport/kloppy", run_id=run_id),
-        CollectProjectInfo(repository="Dato-Futbol/soccerAnimate", run_id=run_id),
-        CollectProjectInfo(repository="mrcaseb/nflfastR", run_id=run_id),
-        #CollectProjectInfo(repository="maksimhorowitz/nflscrapR", date=now),
-        CollectProjectInfo(repository="ML-KULeuven/socceraction", run_id=run_id),
-        CollectProjectInfo(repository="ML-KULeuven/soccer_xg", run_id=run_id),
-        CollectProjectInfo(repository="FCrSTATS/SportsCodeR", run_id=run_id),
-        CollectProjectInfo(repository="Slothfulwave612/soccerplots", run_id=run_id),
-        CollectProjectInfo(repository="jimmyday12/fitzRoy", run_id=run_id),
-        CollectProjectInfo(repository="andrewRowlinson/mplsoccer", run_id=run_id),
-        CollectProjectInfo(repository="Torvaney/ggsoccer", run_id=run_id),
-        CollectProjectInfo(repository="huffyhenry/sync.soccer", run_id=run_id)
-        #CollectProjectInfo(repository="arbues6/Euroleague-ML", date=now),
-        #CollectProjectInfo(repository="Friends-of-Tracking-Data-FoTD/SoccermaticsForPython", date=now)
+        CollectAll(
+            input_file="data/input.txt",
+            run_id=run_id
+        )
     ]
     luigi.build(tasks, local_scheduler=True)

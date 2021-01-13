@@ -96,6 +96,23 @@ const Dropdown = ({languages, setLanguages, sports, setSports}) => {
 
 const Card = ({project, highlight}) => {
   const logoUrl = project.logoUrl || `https://opensource.pysport.org/img/${project.language.toLowerCase()}.png`;
+  let type = 'project';
+  switch (project.type)
+  {
+    case 'package':
+      if (project.language === 'Python') {
+        type = 'package (PyPi)';
+      } else {
+        type = 'package (CRAN)';
+      }
+      break;
+    case 'github_package':
+      type = 'package (GitHub)';
+      break;
+    default:
+      type = project.type;
+
+  }
   return (
     <div
       className={`p-6 m-3 bg-white rounded-lg ${highlight ? 'ring-4 ring-indigo-300 sm:grid sm:grid-cols-2 sm:gap-8' : ''} relative z-0`}>
@@ -121,8 +138,8 @@ const Card = ({project, highlight}) => {
       <div>
         <Link
           href={{
-            pathname: '/project/[id]/[name]',
-            query: {id: project.projectId, name: project.name},
+            pathname: '/project/[name]',
+            query: {name: project.name},
           }}
         ><a className="sm:flex block">
           <div>
@@ -132,10 +149,10 @@ const Card = ({project, highlight}) => {
           <div className="text-center sm:text-left sm:pl-8 text-left space-y-4 h-full">
             <figcaption>
               <div className="font-bold text-4xl align-middle pt-3">
-                {project.name}
+                {project.name.length > 12 ? project.name.substring(0, 12) + '..' : project.name}
               </div>
               <div className="text-blue-400 text-xl font-bold pt-3">
-                {project.language} package
+                {project.language} {type}
               </div>
             </figcaption>
           </div>
@@ -155,9 +172,9 @@ const Card = ({project, highlight}) => {
              <a href="#" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">koenvo</a> |{' '}
              <a href="#" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">koenvo</a>
              </Label> */}
-            <Label title="License">{project.license}</Label>
+            <Label title="License">{(project.license || '').substring(0, 10)}</Label>
             <Label title="Latest version">{project.latestVersion}</Label>
-            <Label title="Last commit">{new Date(project.lastCommit).toLocaleDateString('en-US', {
+            <Label title="Last commit">{new Date(project.lastCommit.date).toLocaleDateString('en-US', {
               month: 'short',
               year: 'numeric'
             })}</Label>
@@ -169,8 +186,8 @@ const Card = ({project, highlight}) => {
         </blockquote>
         <Link
           href={{
-            pathname: '/project/[id]/[name]',
-            query: {id: project.projectId, name: project.name},
+            pathname: '/project/[name]',
+            query: {name: project.name},
           }}
         >
           <a
@@ -194,7 +211,15 @@ const Overview = ({projects}) => {
   ];
 
   return categories.map((category) => {
-    const categoryProjects = projects.filter((project) => project.categories.indexOf(category) !== -1);
+    const categoryProjects = projects.filter((project) => {
+      return (
+        project.categories.indexOf(category) !== -1
+        || (
+          category === 'Other' &&
+            project.categories.length === 0
+        )
+      );
+    });
     if (categoryProjects.length === 0) {
       return null;
     }

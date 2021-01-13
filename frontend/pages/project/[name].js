@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 
 import Layout from "../../components/layout";
 import SubHeader from "../../components/subheader";
-import { getProjectById } from "../../lib/data";
+import { getProjectByName } from "../../lib/data";
 
 const Label = ({title, children}) => {
   return (
@@ -14,22 +14,22 @@ const Label = ({title, children}) => {
   );
 };
 
-const Entity = ({entity, className}) => {
+const User = ({user, className}) => {
   return (
     <div>
       <Link
         href={{
-          pathname: `/${entity.type}/[id]/[name]`,
-          query: {id: entity[entity.type === "person" ? 'personId' : 'organisationId'], name: entity.name},
+          pathname: `/user/[login]`,
+          query: {login: user.login},
         }}
       >
         <a
           className={className}>
-          {entity.name}
+          {user.name}
         </a>
       </Link>
       <span className="h-4 text-gray-600 inline-block ml-4">
-      {!!entity.urls.twitter && <a href={entity.urls.twitter} target="_blank" rel="noopener">
+      {!!user.urls.twitter && <a href={user.urls.twitter} target="_blank" rel="noopener">
         <svg version="1.1" id="White" xmlns="http://www.w3.org/2000/svg"
              viewBox="0 0 400 400" xmlSpace="preserve" fill="currentColor"
              className="h-4 inline-block">
@@ -42,7 +42,7 @@ const Entity = ({entity, className}) => {
         </svg>
       </a>
       }
-        {!!entity.urls.github && <a href={entity.urls.github} target="_blank" rel="noopener">
+        {!!user.urls.github && <a href={user.urls.github} target="_blank" rel="noopener">
 
           <svg viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg"className="h-4 inline-block ml-1">
             <path fillRule="evenodd" clipRule="evenodd"
@@ -51,7 +51,7 @@ const Entity = ({entity, className}) => {
           </svg>
         </a>
         }
-        {!!entity.urls.website && <a href={entity.urls.website} target="_blank" rel="noopener">
+        {!!user.urls.website && <a href={user.urls.website} target="_blank" rel="noopener">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="inline-block h-4 ml-1">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
           </svg>
@@ -62,25 +62,26 @@ const Entity = ({entity, className}) => {
   )
 };
 
-const OwnersContributors = ({project}) => {
-  const owners = project.owners;
-  owners.sort((a, b) => a.name.localeCompare(b.name));
+const Contributors = ({project}) => {
+  // const owners = project.owners;
+  // owners.sort((a, b) => a.name.localeCompare(b.name));
 
-  const contributors = project.contributors.filter(
-    (contributor) => {
-      return !owners.find((owner) => owner.entityIdRef === contributor.entityIdRef);
-    }
-  );
+  const contributors = project.contributors;
+  //   .filter(
+  //   (contributor) => {
+  //     return !owners.find((owner) => owner.entityIdRef === contributor.entityIdRef);
+  //   }
+  // );
   contributors.sort((a, b) => a.name.toLocaleString(b.name));
 
   return (
     <>
     <div className="mt-2 grid grid-cols-1 md:grid-cols-2">
-    {owners.map((owner) => {
-      return <Entity entity={owner} className="font-medium" />;
-      })}
-      {contributors.map((owner) => {
-        return <Entity entity={owner} />;
+    {/*{owners.map((owner) => {*/}
+      {/*return <Entity entity={owner} className="font-medium" />;*/}
+      {/*})}*/}
+      {contributors.map((user) => {
+        return <User user={user} />;
       })}
     </div>
     </>
@@ -90,12 +91,11 @@ const OwnersContributors = ({project}) => {
 
 export default function Project() {
   const router = useRouter();
-  const {id} = router.query;
-  if (!id) {
+  const {name} = router.query;
+  if (!name) {
     return null;
   }
-  const projectId = id[0];
-  const project = getProjectById(projectId);
+  const project = getProjectByName(name);
 
   const goBack = (e) => {
     if (window.history.length > 2) {
@@ -161,7 +161,7 @@ export default function Project() {
                  </Label> */}
                 <Label title="License">{project.license}</Label>
                 <Label title="Latest version">{project.latestVersion}</Label>
-                <Label title="Last commit">{new Date(project.lastCommit).toLocaleDateString('en-US', {
+                <Label title="Last commit">{new Date(project.lastCommit.date).toLocaleDateString('en-US', {
                   month: 'short',
                   year: 'numeric'
                 })}</Label>
@@ -170,25 +170,25 @@ export default function Project() {
                 <div className="font-bold">Links</div>
                 <div className="grid grid-cols-2">
                 {!!project.urls.website && (
-                  <a href={project.urls.website} className="block" target="_blank" rel="noopener">Website</a>
+                  <a href={project.urls.website} className="block underline hover:text-gray-600" target="_blank" rel="noopener">Website</a>
                 )}
                 {!!project.urls.docs && (
-                  <a href={project.urls.docs} className="block" target="_blank" rel="noopener">Documentation</a>
+                  <a href={project.urls.docs} className="block underline hover:text-gray-600" target="_blank" rel="noopener">Documentation</a>
                 )}
                 {!!project.urls.github && (
-                  <a href={project.urls.github} className="block" target="_blank" rel="noopener">Github</a>
+                  <a href={project.urls.github} className="block underline hover:text-gray-600" target="_blank" rel="noopener">Github</a>
                 )}
                 {!!project.urls.pypi && (
-                  <a href={project.urls.pypi} className="block" target="_blank" rel="noopener">PyPi</a>
+                  <a href={project.urls.pypi} className="block underline hover:text-gray-600" target="_blank" rel="noopener">PyPi</a>
                 )}
                 {!!project.urls.cran && (
-                  <a href={project.urls.cran} className="block" target="_blank" rel="noopener">CRAN</a>
+                  <a href={project.urls.cran} className="block underline hover:text-gray-600" target="_blank" rel="noopener">CRAN</a>
                 )}
                 {!!project.urls.twitter && (
-                  <a href={project.urls.twitter} className="block" target="_blank" rel="noopener">Twitter</a>
+                  <a href={project.urls.twitter} className="block underline hover:text-gray-600" target="_blank" rel="noopener">Twitter</a>
                 )}
                 {!!project.urls.discord && (
-                  <a href={project.urls.discord} className="block" target="_blank" rel="noopener">Discord</a>
+                  <a href={project.urls.discord} className="block underline hover:text-gray-600" target="_blank" rel="noopener">Discord</a>
                 )}
                 </div>
               </div>
@@ -199,8 +199,8 @@ export default function Project() {
                 {project.description}
               </div>
               <div className="mt-4">
-                <div className="font-bold">Owners/Contributors</div>
-                <OwnersContributors project={project} />
+                <div className="font-bold">Contributors</div>
+                <Contributors project={project} />
               </div>
             </div>
           </div>
