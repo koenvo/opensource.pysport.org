@@ -2750,5 +2750,42 @@
         "categories": [
             "Open-data"
         ]
+    },
+    {
+        "name": "airball",
+        "language": "R",
+        "license": "MIT",
+        "latestVersion": "0.4.0",
+        "lastCommit": {
+            "sha": "69c414803c9e2ff3a724adda7044ac626e4659f7",
+            "date": "2020-12-29T18:25:27Z",
+            "message": "description"
+        },
+        "type": "github_package",
+        "logoUrl": "https://raw.githubusercontent.com/josedv82/airball/master/man/images/airballlogo.PNG",
+        "description": "Quick calculations of common travel and schedule related information for Basketball teams (currently only NBA teams) and various different seasons (since 1947). The retrieved data includes distance travelled between games, time zone for each game, time shifts betwen games, number of rest days between games, estimated flight duration, etc. Plotting options enable users to visualize maps of flight paths between games. This package uses the game_logs() function from the really useful nbastatR package written by Bresler. A (2020) <https://github.com/abresler/nbastatR> to query seasonn schedule and player stats from publicly available sources.",
+        "images": [
+            {
+                "url": "https://raw.githubusercontent.com/josedv82/airball/master/man/images/plot2.png"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/josedv82/airball/master/man/images/plot1.png"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/josedv82/airball/master/man/images/globe.gif"
+            }
+        ],
+        "urls": {
+            "github": "https://github.com/josedv82/airball"
+        },
+        "contributors": [
+            "josedv82"
+        ],
+        "sports": [
+            "Basketball"
+        ],
+        "categories": [
+            "Scraper/API"
+        ]
     }
 ]
