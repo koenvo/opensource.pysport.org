@@ -1475,5 +1475,12 @@
         "urls": {
             "github": "https://github.com/mitch-mooney"
         }
+    },
+    {
+        "login": "schmidtfx",
+        "name": "schmidtfx",
+        "urls": {
+            "github": "https://github.com/schmidtfx"
+        }
     }
 ]

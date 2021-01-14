@@ -350,7 +350,7 @@ def extract_images(repository, branch, content):
 
 def determine_sports(*inputs):
     keywords = {
-        "Soccer": ["soccer", "opta", "understat", "transfermarkt", "metrica", "statsbomb", "lastrow", "wyscout", "midfielders"],
+        "Soccer": ["soccer", "opta", "understat", "transfermarkt", "metrica", "statsbomb", "lastrow", "wyscout", "midfielders", "kloppy"],
         "American Football": ["nfl", "football", "cfb"],
         "Australian Football": ["afl"],
         "Hockey": ["nhl", "hockey"],

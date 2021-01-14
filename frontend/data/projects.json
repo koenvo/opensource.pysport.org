@@ -3085,5 +3085,37 @@
         "dates": {
             "created": "2021-01-14T10:14:03Z"
         }
+    },
+    {
+        "name": "kloppy-spark",
+        "language": "Python",
+        "license": "BSD",
+        "latestVersion": "0.0.3",
+        "lastCommit": {
+            "sha": "47bf1ed8b258e7354075d3ba6373cbc4cbd33a75",
+            "date": "2020-12-28T13:07:56Z",
+            "message": "Bump version"
+        },
+        "type": "package",
+        "logoUrl": null,
+        "description": "Spark Tools to work with Kloppy",
+        "images": [],
+        "urls": {
+            "github": "https://github.com/deepsports-io/kloppy-spark",
+            "pypi": "https://pypi.org/project/kloppy-spark/"
+        },
+        "contributors": [
+            "schmidtfx"
+        ],
+        "sports": [
+            "Soccer"
+        ],
+        "categories": [
+            "IO (Reading/Writing)",
+            "Model/Calculations"
+        ],
+        "dates": {
+            "created": "2021-01-14T10:21:13Z"
+        }
     }
 ]
