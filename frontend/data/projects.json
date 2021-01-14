@@ -35,7 +35,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "nflscrapR",
@@ -70,7 +73,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "fitzRoy",
@@ -108,7 +114,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "py_ball",
@@ -138,7 +147,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "hockey-all",
@@ -165,7 +177,10 @@
         ],
         "categories": [
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "evolving-hockey",
@@ -192,7 +207,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "hockey_scraper",
@@ -225,7 +243,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "tyrone_mings",
@@ -257,7 +278,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "StatsBombR",
@@ -286,7 +310,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "statsbombpy",
@@ -313,7 +340,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "statsbombapi",
@@ -341,7 +371,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "statsbomb",
@@ -371,7 +404,10 @@
         "categories": [
             "Scraper/API",
             "IO (Reading/Writing)"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "soccermatics",
@@ -399,7 +435,10 @@
         ],
         "categories": [
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "soccergraphR",
@@ -493,7 +532,10 @@
         ],
         "categories": [
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "socceraction",
@@ -531,7 +573,10 @@
         "categories": [
             "IO (Reading/Writing)",
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "mplsoccer",
@@ -564,7 +609,10 @@
         ],
         "categories": [
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "kloppy",
@@ -605,7 +653,10 @@
         ],
         "categories": [
             "IO (Reading/Writing)"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "football_packing",
@@ -634,7 +685,10 @@
         ],
         "categories": [
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "nfldb",
@@ -664,7 +718,10 @@
         ],
         "categories": [
             "IO (Reading/Writing)"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "CFBScrapy",
@@ -694,7 +751,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "PyBall",
@@ -724,7 +784,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "pybaseball",
@@ -769,7 +832,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "mlbgame",
@@ -810,7 +876,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "pybbda",
@@ -840,7 +909,10 @@
         "categories": [
             "Scraper/API",
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "py-goldsberry",
@@ -871,7 +943,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:00Z"
+        }
     },
     {
         "name": "nba_scraper",
@@ -900,7 +975,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "sportsipy",
@@ -934,7 +1012,10 @@
         "sports": [],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "CodaBonito",
@@ -1016,7 +1097,10 @@
         ],
         "categories": [
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "soccer_ggplots",
@@ -1108,7 +1192,10 @@
         ],
         "categories": [
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "cfbscrapR",
@@ -1151,7 +1238,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "xflscrapR",
@@ -1181,7 +1271,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "espnscrapeR",
@@ -1209,7 +1302,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "collegeballR",
@@ -1238,7 +1334,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "baseballr",
@@ -1280,7 +1379,10 @@
         "categories": [
             "Scraper/API",
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "mlbgameday",
@@ -1317,7 +1419,10 @@
             "Scraper/API",
             "Visualization",
             "Database"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "GeomMLBStadiums",
@@ -1366,7 +1471,10 @@
         ],
         "categories": [
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "openWAR",
@@ -1403,7 +1511,10 @@
         ],
         "categories": [
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "pitchRx",
@@ -1434,7 +1545,10 @@
         "categories": [
             "Scraper/API",
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "retro",
@@ -1462,7 +1576,10 @@
         "categories": [
             "Visualization",
             "Database"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "ncaahoopR",
@@ -1529,7 +1646,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "bigballR",
@@ -1559,7 +1679,10 @@
         "categories": [
             "Scraper/API",
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "nbastatR",
@@ -1591,7 +1714,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "ballr",
@@ -1621,7 +1747,10 @@
         "categories": [
             "Scraper/API",
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "wncaahoopR",
@@ -1676,7 +1805,10 @@
             "Scraper/API",
             "Model/Calculations",
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "cricketr",
@@ -1705,7 +1837,10 @@
         "categories": [
             "Scraper/API",
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "yorkr",
@@ -1734,7 +1869,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "cricketdata",
@@ -1780,7 +1918,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "nwhlR",
@@ -1806,7 +1947,10 @@
         "sports": [],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:01Z"
+        }
     },
     {
         "name": "elite",
@@ -1833,7 +1977,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "nhlapi",
@@ -1861,7 +2008,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "nhlscrape",
@@ -1891,7 +2041,10 @@
         "categories": [
             "Scraper/API",
             "Database"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "fcscrapR",
@@ -1923,7 +2076,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "footballR",
@@ -1950,7 +2106,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "eLPAR-soccer",
@@ -1975,7 +2134,10 @@
         "sports": [],
         "categories": [
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "engsoccerdata",
@@ -2015,7 +2177,10 @@
         ],
         "categories": [
             "Open-data"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "ggsoccer",
@@ -2071,7 +2236,10 @@
         ],
         "categories": [
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "footballdatr",
@@ -2098,7 +2266,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "regista",
@@ -2126,7 +2297,10 @@
         ],
         "categories": [
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "FC.rSTATS",
@@ -2161,7 +2335,10 @@
         "categories": [
             "IO (Reading/Writing)",
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "nwslR",
@@ -2198,7 +2375,10 @@
         ],
         "categories": [
             "Open-data"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "understatr",
@@ -2227,7 +2407,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "LaurieOnTracking",
@@ -2257,7 +2440,10 @@
             "IO (Reading/Writing)",
             "Model/Calculations",
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "balaban",
@@ -2294,7 +2480,10 @@
         ],
         "categories": [
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "nba_parser",
@@ -2322,7 +2511,10 @@
         ],
         "categories": [
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "L2M",
@@ -2355,7 +2547,10 @@
             "Open-data",
             "Model/Calculations",
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:02Z"
+        }
     },
     {
         "name": "goalmodel",
@@ -2382,13 +2577,16 @@
             "opisthokonta"
         ],
         "sports": [
+            "Hockey",
             "Soccer",
-            "American Football",
-            "Hockey"
+            "American Football"
         ],
         "categories": [
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "soccerAnimate",
@@ -2431,7 +2629,10 @@
         ],
         "categories": [
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "Basketball_Analytics",
@@ -2459,7 +2660,10 @@
         "categories": [
             "Model/Calculations",
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "soccer_xg",
@@ -2487,7 +2691,10 @@
         ],
         "categories": [
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "soccerplots",
@@ -2515,7 +2722,10 @@
         ],
         "categories": [
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "statsguRu",
@@ -2544,7 +2754,10 @@
         ],
         "categories": [
             "Visualization"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "kenpomR",
@@ -2572,7 +2785,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "sample-data",
@@ -2599,7 +2815,10 @@
         ],
         "categories": [
             "Open-data"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "Last-Row",
@@ -2627,7 +2846,10 @@
         ],
         "categories": [
             "Open-data"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "opendata",
@@ -2657,7 +2879,10 @@
         "sports": [],
         "categories": [
             "Open-data"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "sync.soccer",
@@ -2690,7 +2915,10 @@
         ],
         "categories": [
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "codeball",
@@ -2719,7 +2947,10 @@
         ],
         "categories": [
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "open-data",
@@ -2749,7 +2980,10 @@
         ],
         "categories": [
             "Open-data"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "airball",
@@ -2786,7 +3020,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "superNetballR",
@@ -2814,7 +3051,10 @@
         ],
         "categories": [
             "Scraper/API"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     },
     {
         "name": "netball_prediction",
@@ -2841,6 +3081,9 @@
         ],
         "categories": [
             "Model/Calculations"
-        ]
+        ],
+        "dates": {
+            "created": "2021-01-14T10:14:03Z"
+        }
     }
 ]

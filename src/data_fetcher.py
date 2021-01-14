@@ -3,6 +3,7 @@ import os
 import re
 import time
 import urllib.error
+from datetime import datetime
 
 import marko
 from bs4 import BeautifulSoup
@@ -530,7 +531,10 @@ class CollectProjectInfo(luigi.Task):
                 package_info.get('description', ''),
                 readme
             ),
-            'categories': []
+            'categories': [],
+            'dates': {
+                'created': datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+            }
         }
 
         with self.output().open('w') as fp:
