@@ -11,7 +11,7 @@
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/mrcaseb/nflfastR/master/man/figures/logo.png",
-        "description": "A set of functions to access National Football League play-by-play data from <https://www.nfl.com/>.",
+        "description": "A set of functions to access National Football League play-by-play\ndata from <https://www.nfl.com/>.",
         "images": [
             {
                 "url": "https://github.com/mrcaseb/nflfastR/raw/master/man/figures/readme-epa-model-1.png"
@@ -37,7 +37,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:16Z"
         }
     },
     {
@@ -75,7 +75,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:19Z"
         }
     },
     {
@@ -116,7 +116,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:22Z"
         }
     },
     {
@@ -149,7 +149,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:25Z"
         }
     },
     {
@@ -179,7 +179,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:27Z"
         }
     },
     {
@@ -209,7 +209,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:29Z"
         }
     },
     {
@@ -245,7 +245,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:32Z"
         }
     },
     {
@@ -280,7 +280,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:34Z"
         }
     },
     {
@@ -312,7 +312,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:38Z"
         }
     },
     {
@@ -342,7 +342,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:40Z"
         }
     },
     {
@@ -373,7 +373,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:43Z"
         }
     },
     {
@@ -406,7 +406,7 @@
             "IO (Reading/Writing)"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:46Z"
         }
     },
     {
@@ -437,7 +437,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:48Z"
         }
     },
     {
@@ -534,7 +534,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:51Z"
         }
     },
     {
@@ -543,9 +543,9 @@
         "license": "MIT",
         "latestVersion": "1.0.0",
         "lastCommit": {
-            "sha": "26007bf93657eafaa9e92c8807e9d9f2185d93ad",
-            "date": "2021-01-11T11:06:24Z",
-            "message": "Trying to fix readthedocs autodoc #3"
+            "sha": "47b14a8b826e053f1c30c11d94e9270338d9d6af",
+            "date": "2021-01-13T23:04:37Z",
+            "message": "fixing readthedocs, part 5"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/ML-KULeuven/socceraction/master/docs/_static/logo_white.png",
@@ -575,7 +575,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:54Z"
         }
     },
     {
@@ -611,7 +611,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:57Z"
         }
     },
     {
@@ -655,7 +655,7 @@
             "IO (Reading/Writing)"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:13:59Z"
         }
     },
     {
@@ -687,7 +687,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:14:03Z"
         }
     },
     {
@@ -720,7 +720,7 @@
             "IO (Reading/Writing)"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:14:06Z"
         }
     },
     {
@@ -753,7 +753,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:14:08Z"
         }
     },
     {
@@ -786,7 +786,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:14:11Z"
         }
     },
     {
@@ -834,7 +834,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:14:14Z"
         }
     },
     {
@@ -878,7 +878,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:14:17Z"
         }
     },
     {
@@ -911,7 +911,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:14:19Z"
         }
     },
     {
@@ -945,7 +945,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:00Z"
+            "created": "2021-01-14T21:14:22Z"
         }
     },
     {
@@ -977,7 +977,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:14:25Z"
         }
     },
     {
@@ -1014,7 +1014,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:14:28Z"
         }
     },
     {
@@ -1099,7 +1099,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:14:32Z"
         }
     },
     {
@@ -1108,9 +1108,9 @@
         "license": "AGPL-3.0",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "7be8aa4e90a861349d1e05a6680cf209cf60307e",
-            "date": "2021-01-11T05:01:34Z",
-            "message": "add some fc tokyo match notes to readme"
+            "sha": "06fbf077ed16aea6dd9f6321d10dd7a0f47d9675",
+            "date": "2021-01-14T15:10:57Z",
+            "message": "upload more jleague 2020 review blogpost code"
         },
         "type": "repository",
         "logoUrl": null,
@@ -1194,7 +1194,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:14:35Z"
         }
     },
     {
@@ -1240,7 +1240,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:14:37Z"
         }
     },
     {
@@ -1273,7 +1273,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:14:40Z"
         }
     },
     {
@@ -1304,7 +1304,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:14:42Z"
         }
     },
     {
@@ -1336,7 +1336,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:14:45Z"
         }
     },
     {
@@ -1381,7 +1381,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:14:48Z"
         }
     },
     {
@@ -1421,7 +1421,7 @@
             "Database"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:14:51Z"
         }
     },
     {
@@ -1473,7 +1473,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:14:53Z"
         }
     },
     {
@@ -1513,7 +1513,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:14:56Z"
         }
     },
     {
@@ -1547,7 +1547,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:14:59Z"
         }
     },
     {
@@ -1578,7 +1578,7 @@
             "Database"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:15:02Z"
         }
     },
     {
@@ -1648,7 +1648,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:15:05Z"
         }
     },
     {
@@ -1657,9 +1657,9 @@
         "license": "What license is it under?",
         "latestVersion": "0.1.0",
         "lastCommit": {
-            "sha": "cd2830591ce25ef6790e9e75c9149797a4f3fd62",
-            "date": "2021-01-13T07:14:36Z",
-            "message": "read me notify"
+            "sha": "4196046305fcaef29563461e2bdb810214d4fda3",
+            "date": "2021-01-14T16:06:37Z",
+            "message": "Handle missing schedule/cancelled season in get_team_schedule"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -1681,7 +1681,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:15:08Z"
         }
     },
     {
@@ -1690,9 +1690,9 @@
         "license": "MIT",
         "latestVersion": "0.1.1505",
         "lastCommit": {
-            "sha": "478d385d74a55dcf88bcc641056a532bc61464b2",
-            "date": "2021-01-05T12:56:05Z",
-            "message": "Where is Jack Ma"
+            "sha": "565746882893d858e30d7774a0ca5961a746df4f",
+            "date": "2021-01-14T15:56:20Z",
+            "message": "CCP harvests organs"
         },
         "type": "github_package",
         "logoUrl": "https://asbcllc.com/logos/nbastatR.png",
@@ -1716,7 +1716,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:15:11Z"
         }
     },
     {
@@ -1749,7 +1749,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:15:14Z"
         }
     },
     {
@@ -1807,7 +1807,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:15:17Z"
         }
     },
     {
@@ -1839,7 +1839,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:15:20Z"
         }
     },
     {
@@ -1871,7 +1871,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:15:22Z"
         }
     },
     {
@@ -1920,7 +1920,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:15:25Z"
         }
     },
     {
@@ -1949,7 +1949,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:01Z"
+            "created": "2021-01-14T21:15:27Z"
         }
     },
     {
@@ -1979,7 +1979,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:15:31Z"
         }
     },
     {
@@ -2010,7 +2010,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:15:33Z"
         }
     },
     {
@@ -2043,7 +2043,7 @@
             "Database"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:15:36Z"
         }
     },
     {
@@ -2078,7 +2078,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:15:39Z"
         }
     },
     {
@@ -2108,7 +2108,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:15:42Z"
         }
     },
     {
@@ -2136,7 +2136,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:15:45Z"
         }
     },
     {
@@ -2179,7 +2179,7 @@
             "Open-data"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:15:49Z"
         }
     },
     {
@@ -2238,7 +2238,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:15:52Z"
         }
     },
     {
@@ -2268,7 +2268,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:15:55Z"
         }
     },
     {
@@ -2299,7 +2299,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:15:57Z"
         }
     },
     {
@@ -2337,7 +2337,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:16:00Z"
         }
     },
     {
@@ -2377,7 +2377,7 @@
             "Open-data"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:16:03Z"
         }
     },
     {
@@ -2409,7 +2409,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:16:06Z"
         }
     },
     {
@@ -2442,7 +2442,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:16:08Z"
         }
     },
     {
@@ -2482,7 +2482,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:16:11Z"
         }
     },
     {
@@ -2513,7 +2513,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:16:14Z"
         }
     },
     {
@@ -2522,9 +2522,9 @@
         "license": "MIT",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "807ea0384d0ff8ffdb2cf6776f295e60708c27a2",
-            "date": "2021-01-12T19:40:15Z",
-            "message": "updated through 2021-01-11"
+            "sha": "1123340664bca30d5ee4b55a27891b4f55a21f51",
+            "date": "2021-01-13T21:24:01Z",
+            "message": "updated through 2021-01-12"
         },
         "type": "tutorial",
         "logoUrl": null,
@@ -2549,7 +2549,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:02Z"
+            "created": "2021-01-14T21:16:16Z"
         }
     },
     {
@@ -2577,15 +2577,15 @@
             "opisthokonta"
         ],
         "sports": [
-            "Hockey",
             "Soccer",
+            "Hockey",
             "American Football"
         ],
         "categories": [
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:19Z"
         }
     },
     {
@@ -2631,7 +2631,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:23Z"
         }
     },
     {
@@ -2662,7 +2662,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:25Z"
         }
     },
     {
@@ -2693,7 +2693,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:28Z"
         }
     },
     {
@@ -2708,7 +2708,7 @@
         },
         "type": "package",
         "logoUrl": null,
-        "description": "A Python package for data visualisation for football analytics.",
+        "description": "A Python package for data visualization for football analytics",
         "images": [],
         "urls": {
             "github": "https://github.com/Slothfulwave612/soccerplots",
@@ -2724,7 +2724,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:30Z"
         }
     },
     {
@@ -2756,7 +2756,7 @@
             "Visualization"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:33Z"
         }
     },
     {
@@ -2787,7 +2787,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:35Z"
         }
     },
     {
@@ -2817,7 +2817,7 @@
             "Open-data"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:37Z"
         }
     },
     {
@@ -2848,7 +2848,7 @@
             "Open-data"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:40Z"
         }
     },
     {
@@ -2881,7 +2881,7 @@
             "Open-data"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:42Z"
         }
     },
     {
@@ -2917,7 +2917,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:44Z"
         }
     },
     {
@@ -2949,7 +2949,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:47Z"
         }
     },
     {
@@ -2958,8 +2958,8 @@
         "license": "Other",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "0d5d17cb09736aa08ccd4c976698df8ec15194ea",
-            "date": "2021-01-12T14:05:33Z",
+            "sha": "cbf648e4a2fe91f061c8b28817f2ccc381338991",
+            "date": "2021-01-14T14:15:24Z",
             "message": "Added 0 new games, updated 0 games."
         },
         "type": "repository",
@@ -2982,18 +2982,18 @@
             "Open-data"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:49Z"
         }
     },
     {
         "name": "airball",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "0.4.0",
+        "latestVersion": "0.4.1",
         "lastCommit": {
-            "sha": "69c414803c9e2ff3a724adda7044ac626e4659f7",
-            "date": "2020-12-29T18:25:27Z",
-            "message": "description"
+            "sha": "751d0fec10e3f47851c0ff65b895b773414daa1e",
+            "date": "2021-01-14T14:11:01Z",
+            "message": "version"
         },
         "type": "github_package",
         "logoUrl": "https://raw.githubusercontent.com/josedv82/airball/master/man/images/airballlogo.PNG",
@@ -3022,7 +3022,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:52Z"
         }
     },
     {
@@ -3053,7 +3053,7 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:54Z"
         }
     },
     {
@@ -3083,7 +3083,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:14:03Z"
+            "created": "2021-01-14T21:16:57Z"
         }
     },
     {
@@ -3115,7 +3115,7 @@
             "Model/Calculations"
         ],
         "dates": {
-            "created": "2021-01-14T10:21:13Z"
+            "created": "2021-01-14T21:17:00Z"
         }
     }
 ]

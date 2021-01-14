@@ -49,12 +49,13 @@ class FetchGithubUser(luigi.Task):
 
 
 class FetchGithubPythonSetup(luigi.Task):
+    run_id = luigi.Parameter()
     file = luigi.Parameter()
     repository = luigi.Parameter()
     branch = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.file}")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/github_{self.file}")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -65,16 +66,16 @@ class FetchGithubPythonSetup(luigi.Task):
 
 
 class FetchPyPiInfo(luigi.Task):
-    file = luigi.Parameter()
     run_id = luigi.Parameter()
+    file = luigi.Parameter()
     repository = luigi.Parameter()
     branch = luigi.Parameter()
 
     def requires(self):
-        return FetchGithubPythonSetup(file=self.file, repository=self.repository, branch=self.branch)
+        return FetchGithubPythonSetup(file=self.file, repository=self.repository, branch=self.branch, run_id=self.run_id)
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/pypi/{self.run_id}.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/pypi.json")
 
     def run(self):
         with self.input().open('r') as fp:
@@ -110,11 +111,12 @@ class FetchPyPiInfo(luigi.Task):
 
 
 class FetchGithubRDescription(luigi.Task):
+    run_id = luigi.Parameter()
     repository = luigi.Parameter()
     branch = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/DESCRIPTION")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/github_DESCRIPTION")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -144,10 +146,10 @@ class FetchCRANInfo(luigi.Task):
     branch = luigi.Parameter()
 
     def requires(self):
-        return FetchGithubRDescription(repository=self.repository, branch=self.branch)
+        return FetchGithubRDescription(repository=self.repository, branch=self.branch, run_id=self.run_id)
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/cran/{self.run_id}.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/cran.json")
 
     def run(self):
         with self.input().open('r') as fp:
@@ -197,10 +199,11 @@ class FetchCRANInfo(luigi.Task):
 
 
 class FetchGithubRepoInfo(luigi.Task):
+    run_id = luigi.Parameter()
     repository = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/repository.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/github_repository.json")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -216,7 +219,7 @@ class FetchGithubRepoTree(luigi.Task):
     branch = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.run_id}_tree.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/github_tree.json")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -231,7 +234,7 @@ class FetchGithubRepoContributors(luigi.Task):
     repository = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.run_id}_contributors.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/github_contributors.json")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -247,7 +250,7 @@ class FetchGithubReadme(luigi.Task):
     branch = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.run_id}_readme.md")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/github_readme.md")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -258,10 +261,11 @@ class FetchGithubReadme(luigi.Task):
 
 
 class FetchGithubLanguage(luigi.Task):
+    run_id = luigi.Parameter()
     repository = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/language.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/github_languages.json")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -276,7 +280,7 @@ class FetchGithubCommits(luigi.Task):
     repository = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.repository}/github/{self.run_id}_commits.json")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/github_commits.json")
 
     def run(self):
         with self.output().open('w') as fp:
@@ -382,8 +386,8 @@ class CollectProjectInfo(luigi.Task):
 
     def requires(self):
         return {
-            'repository': FetchGithubRepoInfo(repository=self.repository),
-            'language': FetchGithubLanguage(repository=self.repository),
+            'repository': FetchGithubRepoInfo(repository=self.repository, run_id=self.run_id),
+            'language': FetchGithubLanguage(repository=self.repository, run_id=self.run_id),
             'commits': FetchGithubCommits(repository=self.repository, run_id=self.run_id),
             'contributors': FetchGithubRepoContributors(repository=self.repository, run_id=self.run_id)
         }
@@ -599,7 +603,7 @@ class CollectAll(luigi.Task):
 
 
 if __name__ == "__main__":
-    run_id = '2021-01-13.1'
+    run_id = '2021-01-14'
 
     tasks = [
         CollectAll(
