@@ -2787,5 +2787,60 @@
         "categories": [
             "Scraper/API"
         ]
+    },
+    {
+        "name": "superNetballR",
+        "language": "R",
+        "license": "MIT",
+        "latestVersion": "0.1.0",
+        "lastCommit": {
+            "sha": "c594e1dc8e8e8b2f455752c41cea18946d794981",
+            "date": "2020-08-06T12:04:20Z",
+            "message": "update for installation instructions"
+        },
+        "type": "github_package",
+        "logoUrl": null,
+        "description": "This package provides functions to easily download and manipulate data from super netball matches.",
+        "images": [],
+        "urls": {
+            "github": "https://github.com/SteveLane/superNetballR",
+            "website": "https://stevelane.github.io/superNetballR/"
+        },
+        "contributors": [
+            "SteveLane"
+        ],
+        "sports": [
+            "Netball"
+        ],
+        "categories": [
+            "Scraper/API"
+        ]
+    },
+    {
+        "name": "netball_prediction",
+        "language": "R",
+        "license": null,
+        "latestVersion": null,
+        "lastCommit": {
+            "sha": "1901caf16a1ae7b80a7d97ef20e394f41add5d9a",
+            "date": "2020-07-22T03:50:20Z",
+            "message": "Update README.md"
+        },
+        "type": "repository",
+        "logoUrl": null,
+        "description": "Running a deep learning model to predict netball matches",
+        "images": [],
+        "urls": {
+            "github": "https://github.com/mitch-mooney/netball_prediction"
+        },
+        "contributors": [
+            "mitch-mooney"
+        ],
+        "sports": [
+            "Netball"
+        ],
+        "categories": [
+            "Model/Calculations"
+        ]
     }
 ]

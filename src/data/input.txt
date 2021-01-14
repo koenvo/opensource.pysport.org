@@ -77,3 +77,5 @@ model,huffyhenry/sync.soccer
 model,metrica-sports/codeball
 data,statsbomb/open-data
 scraper,josedv82/airball
+scraper,SteveLane/superNetballR
+model,mitch-mooney/netball_prediction

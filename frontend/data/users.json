@@ -1461,5 +1461,19 @@
         "urls": {
             "github": "https://github.com/josedv82"
         }
+    },
+    {
+        "login": "SteveLane",
+        "name": "SteveLane",
+        "urls": {
+            "github": "https://github.com/SteveLane"
+        }
+    },
+    {
+        "login": "mitch-mooney",
+        "name": "mitch-mooney",
+        "urls": {
+            "github": "https://github.com/mitch-mooney"
+        }
     }
 ]
