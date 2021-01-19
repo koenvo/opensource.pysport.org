@@ -80,3 +80,4 @@ scraper,josedv82/airball
 scraper,SteveLane/superNetballR
 model,mitch-mooney/netball_prediction
 io|model,deepsports-io/kloppy-spark
+scraper,fantasydatapros/nflfastpy

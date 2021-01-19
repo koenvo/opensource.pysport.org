@@ -1482,5 +1482,12 @@
         "urls": {
             "github": "https://github.com/schmidtfx"
         }
+    },
+    {
+        "login": "fantasydatapros",
+        "name": "fantasydatapros",
+        "urls": {
+            "github": "https://github.com/fantasydatapros"
+        }
     }
 ]
