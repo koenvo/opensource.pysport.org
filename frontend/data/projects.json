@@ -3147,5 +3147,36 @@
         "dates": {
             "created": "2021-01-19T15:26:51Z"
         }
+    },
+    {
+        "name": "midsprint",
+        "language": "R",
+        "license": "What license is it under?",
+        "latestVersion": "0.1.0",
+        "lastCommit": {
+            "sha": "512ecb71787ca3f221beb9f4218465c1425737c1",
+            "date": "2021-01-19T13:45:19Z",
+            "message": "Update vignette.html"
+        },
+        "type": "github_package",
+        "logoUrl": null,
+        "description": "This package allows coaches and sports practitioners to model an athlete's force-velocity-power profile from positional tracking data.    Profiles can be built from velocities >= 0.    Version 0.1.0 is released as part of Aaron Pearson's 2021 Big Data Bowl submission.    The submission can be found here: www.github.io/aaronzpearson/portfolio",
+        "images": [],
+        "urls": {
+            "github": "https://github.com/aaronzpearson/midsprint"
+        },
+        "contributors": [
+            "aaronzpearson",
+            "danichusfu"
+        ],
+        "sports": [
+            "American Football"
+        ],
+        "categories": [
+            "Model/Calculations"
+        ],
+        "dates": {
+            "created": "2021-01-19T15:38:07Z"
+        }
     }
 ]

@@ -1489,5 +1489,19 @@
         "urls": {
             "github": "https://github.com/fantasydatapros"
         }
+    },
+    {
+        "login": "aaronzpearson",
+        "name": "aaronzpearson",
+        "urls": {
+            "github": "https://github.com/aaronzpearson"
+        }
+    },
+    {
+        "login": "danichusfu",
+        "name": "danichusfu",
+        "urls": {
+            "github": "https://github.com/danichusfu"
+        }
     }
 ]
