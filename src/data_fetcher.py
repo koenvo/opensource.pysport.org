@@ -508,6 +508,8 @@ class CollectProjectInfo(luigi.Task):
         if repository_info['homepage']:
             urls['website'] = repository_info['homepage']
 
+        now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+
         data = {
             'name': package_info.get('name', os.path.basename(self.repository)),
             'language': language,
@@ -537,12 +539,24 @@ class CollectProjectInfo(luigi.Task):
             ),
             'categories': [],
             'dates': {
-                'created': datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+                'created': now,
+                'updated': now,
+                'lastChecked': now
             }
         }
 
         with self.output().open('w') as fp:
             json.dump(data, fp, indent=4)
+
+
+def is_project_modified(project, prev_project):
+    for k, v in project.items():
+        if k == 'dates':
+            continue
+
+        if k not in prev_project or prev_project[k] != v:
+            return True
+    return False
 
 
 class CollectAll(luigi.Task):
@@ -557,6 +571,10 @@ class CollectAll(luigi.Task):
             'projects': luigi.LocalTarget(f"../frontend/data/projects.json"),
             'users': luigi.LocalTarget(f"../frontend/data/users.json"),
         }
+
+    def complete(self):
+        # always run
+        return False
 
     def run(self):
         projects = []
@@ -595,6 +613,18 @@ class CollectAll(luigi.Task):
                     }
                 )
 
+        if self.output()['projects'].exists():
+            with self.output()['projects'].open('r') as fp:
+                previous_data = json.load(fp)
+
+            for project in projects:
+                for prev_project in previous_data:
+                    if prev_project['name'] == project['name']:
+                        if not is_project_modified(prev_project, project):
+                            project['dates']['updated'] = prev_project['dates']['updated']
+                        project['dates']['created'] = prev_project['dates']['created']
+                        break
+
         with self.output()['projects'].open('w') as fp:
             json.dump(projects, fp, indent=4)
 
@@ -603,7 +633,7 @@ class CollectAll(luigi.Task):
 
 
 if __name__ == "__main__":
-    run_id = '2021-01-19'
+    run_id = '2021-01-20'
 
     tasks = [
         CollectAll(
