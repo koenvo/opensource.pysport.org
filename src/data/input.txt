@@ -83,3 +83,4 @@ io|model,deepsports-io/kloppy-spark
 scraper,fantasydatapros/nflfastpy
 model,aaronzpearson/midsprint
 scraper|model,jflancer/wbigballR
+io,RobWHickman/Rteta

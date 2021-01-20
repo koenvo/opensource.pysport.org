@@ -3381,5 +3381,38 @@
             "updated": "2021-01-20T07:23:37Z",
             "lastChecked": "2021-01-20T07:23:37Z"
         }
+    },
+    {
+        "name": "Rteta",
+        "language": "R",
+        "license": "`use_gpl3_license()`",
+        "latestVersion": "0.0.1.0",
+        "lastCommit": {
+            "sha": "e406331788e7c69fddfaa6b89b1eb39fd2d7073e",
+            "date": "2020-10-25T21:03:14Z",
+            "message": "Merge pull request #9 from larsmaurath/fix_standardize_coordinates\n\nRoxygenise new functions"
+        },
+        "type": "github_package",
+        "logoUrl": null,
+        "description": "R package to do the equivalent work of Kloppy for python. General helpers and models for football analytics in R.",
+        "images": [],
+        "urls": {
+            "github": "https://github.com/RobWHickman/Rteta"
+        },
+        "contributors": [
+            "RobWHickman",
+            "larsmaurath"
+        ],
+        "sports": [
+            "Soccer"
+        ],
+        "categories": [
+            "IO (Reading/Writing)"
+        ],
+        "dates": {
+            "created": "2021-01-20T07:41:41Z",
+            "updated": "2021-01-20T07:41:41Z",
+            "lastChecked": "2021-01-20T07:41:41Z"
+        }
     }
 ]
