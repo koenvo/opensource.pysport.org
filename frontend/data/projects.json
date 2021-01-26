@@ -5,9 +5,9 @@
         "license": "MIT",
         "latestVersion": "3.2.0",
         "lastCommit": {
-            "sha": "c124e3ac4cb17746d2962ec957eabaff4d7e8882",
-            "date": "2021-01-01T12:55:03Z",
-            "message": "Fix safety_team for non-scoring live games (#158)"
+            "sha": "c007c6b4ca77b2ace0a0d8bc67404bd2b2e6c29a",
+            "date": "2021-01-23T21:52:34Z",
+            "message": "Ran tidyverse styler and added package names"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/mrcaseb/nflfastR/master/man/figures/logo.png",
@@ -38,8 +38,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:22:58Z",
-            "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "updated": "2021-01-25T13:27:08Z",
+            "lastChecked": "2021-01-26T08:46:57Z"
         }
     },
     {
@@ -79,7 +79,7 @@
         "dates": {
             "created": "2021-01-19T15:23:01Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "lastChecked": "2021-01-26T08:47:09Z"
         }
     },
     {
@@ -122,18 +122,18 @@
         "dates": {
             "created": "2021-01-19T15:23:04Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "lastChecked": "2021-01-26T08:47:12Z"
         }
     },
     {
         "name": "py_ball",
         "language": "Python",
         "license": "MIT",
-        "latestVersion": "1.1",
+        "latestVersion": "1.2",
         "lastCommit": {
-            "sha": "cf96aa6c983927f84a315e2bd6f7b9683ce66b19",
-            "date": "2020-07-08T00:20:11Z",
-            "message": "Update README.md"
+            "sha": "218a49cd1e55e81020695545e9458ec5417ecabc",
+            "date": "2021-01-23T03:04:56Z",
+            "message": "adding leaguedashptstats endpoint"
         },
         "type": "package",
         "logoUrl": null,
@@ -146,7 +146,8 @@
         },
         "contributors": [
             "basketballrelativity",
-            "avyayv"
+            "avyayv",
+            "dependabot[bot]"
         ],
         "sports": [
             "Basketball"
@@ -156,8 +157,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:07Z",
-            "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "updated": "2021-01-25T13:27:15Z",
+            "lastChecked": "2021-01-26T08:47:14Z"
         }
     },
     {
@@ -189,7 +190,7 @@
         "dates": {
             "created": "2021-01-19T15:23:09Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "lastChecked": "2021-01-26T08:47:17Z"
         }
     },
     {
@@ -198,9 +199,9 @@
         "license": "GPL-3.0",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "1d12405ea47c84afbd0f846ff5abf49b963058ca",
-            "date": "2021-01-17T07:36:24Z",
-            "message": "player name update for EGOR.SHARANGOVICH"
+            "sha": "61074e74910e7493e17e906941cb98fd2833c8c1",
+            "date": "2021-01-21T07:37:26Z",
+            "message": "update readme"
         },
         "type": "repository",
         "logoUrl": null,
@@ -220,19 +221,19 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:12Z",
-            "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "updated": "2021-01-25T13:27:19Z",
+            "lastChecked": "2021-01-26T08:47:18Z"
         }
     },
     {
         "name": "hockey_scraper",
         "language": "Python",
         "license": "GNU General Public License v3 (GPLv3)",
-        "latestVersion": "1.37.3",
+        "latestVersion": "1.37.4",
         "lastCommit": {
-            "sha": "35e615608d87ba85bc4a464f08bf1e03ee94336d",
-            "date": "2021-01-12T02:49:34Z",
-            "message": "Remake docs & increment version"
+            "sha": "fb145348d81c68f55a5a543250de16124524df8b",
+            "date": "2021-01-25T04:08:41Z",
+            "message": "update nhl schedule to always rescrape the page. See the docstring for nhl.json_schedule.get_schedule for more details"
         },
         "type": "package",
         "logoUrl": null,
@@ -258,8 +259,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:15Z",
-            "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "updated": "2021-01-26T08:47:21Z",
+            "lastChecked": "2021-01-26T08:47:21Z"
         }
     },
     {
@@ -296,7 +297,7 @@
         "dates": {
             "created": "2021-01-19T15:23:17Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "lastChecked": "2021-01-26T08:47:23Z"
         }
     },
     {
@@ -330,7 +331,7 @@
         "dates": {
             "created": "2021-01-19T15:23:20Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "lastChecked": "2021-01-26T08:47:28Z"
         }
     },
     {
@@ -362,7 +363,7 @@
         "dates": {
             "created": "2021-01-19T15:23:23Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "lastChecked": "2021-01-26T08:47:30Z"
         }
     },
     {
@@ -395,7 +396,7 @@
         "dates": {
             "created": "2021-01-19T15:23:25Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "lastChecked": "2021-01-26T08:47:33Z"
         }
     },
     {
@@ -430,7 +431,7 @@
         "dates": {
             "created": "2021-01-19T15:23:27Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "lastChecked": "2021-01-26T08:47:35Z"
         }
     },
     {
@@ -463,7 +464,7 @@
         "dates": {
             "created": "2021-01-19T15:23:31Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "lastChecked": "2021-01-26T08:47:37Z"
         }
     },
     {
@@ -562,7 +563,7 @@
         "dates": {
             "created": "2021-01-19T15:23:34Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "lastChecked": "2021-01-26T08:47:39Z"
         }
     },
     {
@@ -605,7 +606,7 @@
         "dates": {
             "created": "2021-01-19T15:23:37Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "lastChecked": "2021-01-26T08:47:41Z"
         }
     },
     {
@@ -643,7 +644,7 @@
         "dates": {
             "created": "2021-01-19T15:23:41Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "lastChecked": "2021-01-26T08:47:44Z"
         }
     },
     {
@@ -689,7 +690,7 @@
         "dates": {
             "created": "2021-01-19T15:23:43Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-20T07:23:34Z"
+            "lastChecked": "2021-01-26T08:47:46Z"
         }
     },
     {
@@ -723,7 +724,7 @@
         "dates": {
             "created": "2021-01-19T15:23:46Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:47:49Z"
         }
     },
     {
@@ -758,7 +759,7 @@
         "dates": {
             "created": "2021-01-19T15:23:52Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:47:51Z"
         }
     },
     {
@@ -793,7 +794,7 @@
         "dates": {
             "created": "2021-01-19T15:23:54Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:47:53Z"
         }
     },
     {
@@ -828,7 +829,7 @@
         "dates": {
             "created": "2021-01-19T15:23:57Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:47:55Z"
         }
     },
     {
@@ -878,7 +879,7 @@
         "dates": {
             "created": "2021-01-19T15:24:01Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:47:58Z"
         }
     },
     {
@@ -924,7 +925,7 @@
         "dates": {
             "created": "2021-01-19T15:24:04Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:00Z"
         }
     },
     {
@@ -959,7 +960,7 @@
         "dates": {
             "created": "2021-01-19T15:24:07Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:02Z"
         }
     },
     {
@@ -995,7 +996,7 @@
         "dates": {
             "created": "2021-01-19T15:24:10Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:04Z"
         }
     },
     {
@@ -1029,7 +1030,7 @@
         "dates": {
             "created": "2021-01-19T15:24:13Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:07Z"
         }
     },
     {
@@ -1068,7 +1069,7 @@
         "dates": {
             "created": "2021-01-19T15:24:16Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:09Z"
         }
     },
     {
@@ -1155,7 +1156,7 @@
         "dates": {
             "created": "2021-01-19T15:24:19Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:13Z"
         }
     },
     {
@@ -1164,9 +1165,9 @@
         "license": "AGPL-3.0",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "06fbf077ed16aea6dd9f6321d10dd7a0f47d9675",
-            "date": "2021-01-14T15:10:57Z",
-            "message": "upload more jleague 2020 review blogpost code"
+            "sha": "07b7f2c28ff70045f53a5360d5f4c7c519d0acab",
+            "date": "2021-01-20T14:48:15Z",
+            "message": "add jleague review blog post to readme"
         },
         "type": "repository",
         "logoUrl": null,
@@ -1251,8 +1252,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:21Z",
-            "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "updated": "2021-01-25T13:28:17Z",
+            "lastChecked": "2021-01-26T08:48:16Z"
         }
     },
     {
@@ -1300,7 +1301,7 @@
         "dates": {
             "created": "2021-01-19T15:24:24Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:18Z"
         }
     },
     {
@@ -1335,18 +1336,18 @@
         "dates": {
             "created": "2021-01-19T15:24:26Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:20Z"
         }
     },
     {
         "name": "espnscrapeR",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "0.2.1",
+        "latestVersion": "0.3.1",
         "lastCommit": {
-            "sha": "c5e6e56c631664e26a5b19df36008e72d3879be1",
-            "date": "2020-12-19T16:36:50Z",
-            "message": "add conference to get_nfl_standings()"
+            "sha": "dc4e1e7a4bd4e70bfedeec874b49884097ad6599",
+            "date": "2021-01-23T17:21:42Z",
+            "message": "update version, assign minimal versions of dplyr/tidyr (for various function) and assign gt as a dependency for gt_theme_???"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -1367,8 +1368,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:29Z",
-            "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "updated": "2021-01-25T13:28:24Z",
+            "lastChecked": "2021-01-26T08:48:22Z"
         }
     },
     {
@@ -1402,7 +1403,7 @@
         "dates": {
             "created": "2021-01-19T15:24:31Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:24Z"
         }
     },
     {
@@ -1449,7 +1450,7 @@
         "dates": {
             "created": "2021-01-19T15:24:34Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:27Z"
         }
     },
     {
@@ -1491,7 +1492,7 @@
         "dates": {
             "created": "2021-01-19T15:24:36Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:29Z"
         }
     },
     {
@@ -1545,7 +1546,7 @@
         "dates": {
             "created": "2021-01-19T15:24:39Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:31Z"
         }
     },
     {
@@ -1587,7 +1588,7 @@
         "dates": {
             "created": "2021-01-19T15:24:43Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:34Z"
         }
     },
     {
@@ -1623,7 +1624,7 @@
         "dates": {
             "created": "2021-01-19T15:24:45Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:36Z"
         }
     },
     {
@@ -1656,7 +1657,7 @@
         "dates": {
             "created": "2021-01-19T15:24:48Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:39Z"
         }
     },
     {
@@ -1728,7 +1729,7 @@
         "dates": {
             "created": "2021-01-19T15:24:52Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "lastChecked": "2021-01-26T08:48:41Z"
         }
     },
     {
@@ -1737,9 +1738,9 @@
         "license": "What license is it under?",
         "latestVersion": "0.1.0",
         "lastCommit": {
-            "sha": "cb370758eecbbbb4f28c392d63fdaa5e2cdf8a4e",
-            "date": "2021-01-16T19:40:08Z",
-            "message": "Fixing documentation for player_combos update"
+            "sha": "ec38536c7a4cab4c3a3053774ecc285c5b37dc08",
+            "date": "2021-01-22T17:07:44Z",
+            "message": "Fix get_date_games for D3 schools and plot_mins_dist for duplicate team games"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -1762,8 +1763,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:55Z",
-            "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-20T07:23:35Z"
+            "updated": "2021-01-25T13:28:46Z",
+            "lastChecked": "2021-01-26T08:48:43Z"
         }
     },
     {
@@ -1800,7 +1801,7 @@
         "dates": {
             "created": "2021-01-19T15:24:57Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:48:45Z"
         }
     },
     {
@@ -1835,7 +1836,7 @@
         "dates": {
             "created": "2021-01-19T15:25:00Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:48:49Z"
         }
     },
     {
@@ -1895,7 +1896,7 @@
         "dates": {
             "created": "2021-01-19T15:25:03Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:48:51Z"
         }
     },
     {
@@ -1929,7 +1930,7 @@
         "dates": {
             "created": "2021-01-19T15:25:05Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:48:53Z"
         }
     },
     {
@@ -1938,13 +1939,13 @@
         "license": "MIT",
         "latestVersion": "0.0.17",
         "lastCommit": {
-            "sha": "1a4e4289bd718fb4d048cf2528c949121eb50aeb",
-            "date": "2021-01-10T12:15:48Z",
-            "message": "Reworked rankBatsmen"
+            "sha": "674a6996ba41d891409c7035e4dd99492f9f7780",
+            "date": "2021-01-26T07:38:46Z",
+            "message": "Changes to T20 ranking, added helper functions"
         },
         "type": "package",
         "logoUrl": null,
-        "description": "Analyzing performances of cricketers and cricket teams\nbased on 'yaml' match data from Cricsheet <https://cricsheet.org>.",
+        "description": "Analyzing performances of cricketers and cricket teams\nbased on 'yaml' match data from Cricsheet <https://cricsheet.org/>.",
         "images": [],
         "urls": {
             "github": "https://github.com/tvganesh/yorkr",
@@ -1962,8 +1963,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:25:10Z",
-            "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "updated": "2021-01-26T08:48:55Z",
+            "lastChecked": "2021-01-26T08:48:55Z"
         }
     },
     {
@@ -2014,7 +2015,7 @@
         "dates": {
             "created": "2021-01-19T15:25:13Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:48:58Z"
         }
     },
     {
@@ -2045,7 +2046,7 @@
         "dates": {
             "created": "2021-01-19T15:25:16Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:00Z"
         }
     },
     {
@@ -2077,7 +2078,7 @@
         "dates": {
             "created": "2021-01-19T15:25:19Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:02Z"
         }
     },
     {
@@ -2110,7 +2111,7 @@
         "dates": {
             "created": "2021-01-19T15:25:22Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:05Z"
         }
     },
     {
@@ -2145,7 +2146,7 @@
         "dates": {
             "created": "2021-01-19T15:25:24Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:07Z"
         }
     },
     {
@@ -2182,7 +2183,7 @@
         "dates": {
             "created": "2021-01-19T15:25:27Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:09Z"
         }
     },
     {
@@ -2214,7 +2215,7 @@
         "dates": {
             "created": "2021-01-19T15:25:30Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:11Z"
         }
     },
     {
@@ -2244,7 +2245,7 @@
         "dates": {
             "created": "2021-01-19T15:25:32Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:13Z"
         }
     },
     {
@@ -2289,7 +2290,7 @@
         "dates": {
             "created": "2021-01-19T15:25:34Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:15Z"
         }
     },
     {
@@ -2350,7 +2351,7 @@
         "dates": {
             "created": "2021-01-19T15:25:37Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:18Z"
         }
     },
     {
@@ -2382,7 +2383,7 @@
         "dates": {
             "created": "2021-01-19T15:25:39Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:20Z"
         }
     },
     {
@@ -2415,7 +2416,7 @@
         "dates": {
             "created": "2021-01-19T15:25:42Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:22Z"
         }
     },
     {
@@ -2455,7 +2456,7 @@
         "dates": {
             "created": "2021-01-19T15:25:46Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:24Z"
         }
     },
     {
@@ -2497,7 +2498,7 @@
         "dates": {
             "created": "2021-01-19T15:25:48Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:26Z"
         }
     },
     {
@@ -2531,7 +2532,7 @@
         "dates": {
             "created": "2021-01-19T15:25:51Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:28Z"
         }
     },
     {
@@ -2566,7 +2567,7 @@
         "dates": {
             "created": "2021-01-19T15:25:53Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:30Z"
         }
     },
     {
@@ -2608,7 +2609,7 @@
         "dates": {
             "created": "2021-01-19T15:25:56Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:33Z"
         }
     },
     {
@@ -2641,7 +2642,7 @@
         "dates": {
             "created": "2021-01-19T15:26:00Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "lastChecked": "2021-01-26T08:49:35Z"
         }
     },
     {
@@ -2650,9 +2651,9 @@
         "license": "MIT",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "39e2f8d02f4da416fb67625b4a8590927a3f81e2",
-            "date": "2021-01-19T20:15:51Z",
-            "message": "updated through 2021-01-18"
+            "sha": "e8d8b0a5f2aad17c72bdb41009527de8475c068b",
+            "date": "2021-01-24T23:08:45Z",
+            "message": "updated through 2021-01-23"
         },
         "type": "tutorial",
         "logoUrl": null,
@@ -2678,8 +2679,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:02Z",
-            "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-20T07:23:36Z"
+            "updated": "2021-01-25T13:29:43Z",
+            "lastChecked": "2021-01-26T08:49:36Z"
         }
     },
     {
@@ -2708,16 +2709,16 @@
         ],
         "sports": [
             "American Football",
-            "Soccer",
-            "Hockey"
+            "Hockey",
+            "Soccer"
         ],
         "categories": [
             "Model/Calculations"
         ],
         "dates": {
             "created": "2021-01-19T15:26:05Z",
-            "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "updated": "2021-01-26T08:49:39Z",
+            "lastChecked": "2021-01-26T08:49:39Z"
         }
     },
     {
@@ -2765,7 +2766,7 @@
         "dates": {
             "created": "2021-01-19T15:26:09Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:49:41Z"
         }
     },
     {
@@ -2774,9 +2775,9 @@
         "license": null,
         "latestVersion": null,
         "lastCommit": {
-            "sha": "b9c3bcc7ec0109fe9e709acad7ce393cb6c25637",
-            "date": "2020-12-06T09:34:57Z",
-            "message": "Added assists script"
+            "sha": "bf01fb471742afce9955906cc52d2c6755c46723",
+            "date": "2021-01-22T17:47:25Z",
+            "message": "Updated readme"
         },
         "type": "tutorial",
         "logoUrl": null,
@@ -2797,8 +2798,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:11Z",
-            "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "updated": "2021-01-25T13:29:51Z",
+            "lastChecked": "2021-01-26T08:49:44Z"
         }
     },
     {
@@ -2831,7 +2832,7 @@
         "dates": {
             "created": "2021-01-19T15:26:14Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:49:46Z"
         }
     },
     {
@@ -2864,7 +2865,7 @@
         "dates": {
             "created": "2021-01-19T15:26:16Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:49:48Z"
         }
     },
     {
@@ -2877,13 +2878,12 @@
             "date": "2021-01-15T13:22:23Z",
             "message": "updated to statsguRu_0.1.1"
         },
-        "type": "package",
+        "type": "github_package",
         "logoUrl": null,
         "description": "Use this package to scrap Test Matches, One Day Internationals, Twenty-20 Internationals data of a player from ESPNCricinfo's Statsguru (<http://stats.espncricinfo.com/ci/engine/stats/index.html>) and then visualize their batting, bowling and fielding performances in the form of charts and graphs.",
         "images": [],
         "urls": {
             "github": "https://github.com/npranav10/statsguRu",
-            "cran": "https://cran.r-project.org/package=statsguRu",
             "website": "http://npranav10.shinyapps.io/statsguRu/"
         },
         "contributors": [
@@ -2897,8 +2897,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:19Z",
-            "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "updated": "2021-01-25T13:29:59Z",
+            "lastChecked": "2021-01-26T08:49:50Z"
         }
     },
     {
@@ -2931,7 +2931,7 @@
         "dates": {
             "created": "2021-01-19T15:26:23Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:49:52Z"
         }
     },
     {
@@ -2963,7 +2963,7 @@
         "dates": {
             "created": "2021-01-19T15:26:26Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:49:54Z"
         }
     },
     {
@@ -2996,7 +2996,7 @@
         "dates": {
             "created": "2021-01-19T15:26:28Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:49:56Z"
         }
     },
     {
@@ -3031,7 +3031,7 @@
         "dates": {
             "created": "2021-01-19T15:26:30Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:49:57Z"
         }
     },
     {
@@ -3069,7 +3069,7 @@
         "dates": {
             "created": "2021-01-19T15:26:32Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:49:59Z"
         }
     },
     {
@@ -3103,7 +3103,7 @@
         "dates": {
             "created": "2021-01-19T15:26:35Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:50:01Z"
         }
     },
     {
@@ -3112,9 +3112,9 @@
         "license": "Other",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "b1a095d4390fda15f38a705b28a84a369fc6abd1",
-            "date": "2021-01-17T14:05:24Z",
-            "message": "Added 0 new games, updated 0 games."
+            "sha": "02c776ece24e1893551e4f094f1361f9d4237691",
+            "date": "2021-01-24T14:05:43Z",
+            "message": "Added 0 new games, updated 1 games."
         },
         "type": "repository",
         "logoUrl": null,
@@ -3137,19 +3137,19 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:37Z",
-            "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "updated": "2021-01-25T13:30:15Z",
+            "lastChecked": "2021-01-26T08:50:03Z"
         }
     },
     {
         "name": "airball",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "0.4.1",
+        "latestVersion": "0.4.2",
         "lastCommit": {
-            "sha": "751d0fec10e3f47851c0ff65b895b773414daa1e",
-            "date": "2021-01-14T14:11:01Z",
-            "message": "version"
+            "sha": "017d990c2785bc3c088463b5af7238f18da12229",
+            "date": "2021-01-24T23:27:39Z",
+            "message": "Update README.md"
         },
         "type": "github_package",
         "logoUrl": "https://raw.githubusercontent.com/josedv82/airball/master/man/images/airballlogo.PNG",
@@ -3179,8 +3179,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:41Z",
-            "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "updated": "2021-01-25T13:30:19Z",
+            "lastChecked": "2021-01-26T08:50:06Z"
         }
     },
     {
@@ -3213,7 +3213,7 @@
         "dates": {
             "created": "2021-01-19T15:26:44Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:50:09Z"
         }
     },
     {
@@ -3245,7 +3245,7 @@
         "dates": {
             "created": "2021-01-19T15:26:46Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:50:11Z"
         }
     },
     {
@@ -3279,7 +3279,7 @@
         "dates": {
             "created": "2021-01-19T15:26:49Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:50:13Z"
         }
     },
     {
@@ -3311,7 +3311,7 @@
         "dates": {
             "created": "2021-01-19T15:26:51Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:50:15Z"
         }
     },
     {
@@ -3344,7 +3344,7 @@
         "dates": {
             "created": "2021-01-19T15:38:07Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:25:38Z"
+            "lastChecked": "2021-01-26T08:50:17Z"
         }
     },
     {
@@ -3379,7 +3379,7 @@
         "dates": {
             "created": "2021-01-20T07:13:13Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-20T07:23:37Z"
+            "lastChecked": "2021-01-26T08:50:20Z"
         }
     },
     {
@@ -3412,7 +3412,7 @@
         "dates": {
             "created": "2021-01-20T07:41:41Z",
             "updated": "2021-01-20T07:41:41Z",
-            "lastChecked": "2021-01-20T07:41:41Z"
+            "lastChecked": "2021-01-26T08:50:22Z"
         }
     }
 ]

@@ -133,6 +133,13 @@
         }
     },
     {
+        "login": "dependabot[bot]",
+        "name": "dependabot[bot]",
+        "urls": {
+            "github": "https://github.com/dependabot[bot]"
+        }
+    },
+    {
         "login": "evolvingwild",
         "name": "evolvingwild",
         "urls": {

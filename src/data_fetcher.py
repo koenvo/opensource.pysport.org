@@ -171,9 +171,13 @@ class FetchCRANInfo(luigi.Task):
                     description=data['Description']
                 )
 
-                url = f"https://cran.r-project.org/package={name}"
+                CRAN_URL = "https://cran.r-project.org/package={}"
+                CRAN_URL_SCRAPE = "https://mirror.lyrahosting.com/CRAN/web/packages/{}/index.html"
+
+                url = CRAN_URL.format(name)
                 try:
-                    df = pd.read_html(url)
+                    scrape_url = CRAN_URL_SCRAPE.format(name)
+                    df = pd.read_html(scrape_url)
                 except urllib.error.HTTPError:
                     pass
                 except ValueError:
@@ -633,7 +637,7 @@ class CollectAll(luigi.Task):
 
 
 if __name__ == "__main__":
-    run_id = '2021-01-20'
+    run_id = '2021-01-26'
 
     tasks = [
         CollectAll(
