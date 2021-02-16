@@ -5,13 +5,13 @@
         "license": "MIT",
         "latestVersion": "3.2.0",
         "lastCommit": {
-            "sha": "c007c6b4ca77b2ace0a0d8bc67404bd2b2e6c29a",
-            "date": "2021-01-23T21:52:34Z",
-            "message": "Ran tidyverse styler and added package names"
+            "sha": "7f50f3ac1df23e42849c6be953583ea04bcf29c9",
+            "date": "2021-02-16T09:20:35Z",
+            "message": "Add minimum logo size and update favicons"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/mrcaseb/nflfastR/master/man/figures/logo.png",
-        "description": "A set of functions to access National Football League play-by-play\ndata from <https://www.nfl.com/>.",
+        "description": "A set of functions to access National Football\nLeague play-by-play data from <https://www.nfl.com/>.",
         "images": [
             {
                 "url": "https://github.com/mrcaseb/nflfastR/raw/master/man/figures/readme-epa-model-1.png"
@@ -38,8 +38,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:22:58Z",
-            "updated": "2021-01-25T13:27:08Z",
-            "lastChecked": "2021-01-26T08:46:57Z"
+            "updated": "2021-02-16T13:09:03Z",
+            "lastChecked": "2021-02-16T13:09:03Z"
         }
     },
     {
@@ -79,7 +79,7 @@
         "dates": {
             "created": "2021-01-19T15:23:01Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-26T08:47:09Z"
+            "lastChecked": "2021-02-16T13:09:05Z"
         }
     },
     {
@@ -88,9 +88,9 @@
         "license": "GPL-3",
         "latestVersion": "0.3.3",
         "lastCommit": {
-            "sha": "1706641e1dcb05551d3c6abfbda51a3ff9a4ce06",
-            "date": "2021-01-13T00:52:11Z",
-            "message": "setting development version"
+            "sha": "ee7ffc66f1693144d3a796a0c97c3292069fd4bc",
+            "date": "2021-02-09T11:32:31Z",
+            "message": "fixing modify url call"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/jimmyday12/fitzRoy/master/man/figures/fitz_hex.png",
@@ -121,8 +121,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:04Z",
-            "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-26T08:47:12Z"
+            "updated": "2021-02-16T13:09:25Z",
+            "lastChecked": "2021-02-16T13:09:25Z"
         }
     },
     {
@@ -158,7 +158,7 @@
         "dates": {
             "created": "2021-01-19T15:23:07Z",
             "updated": "2021-01-25T13:27:15Z",
-            "lastChecked": "2021-01-26T08:47:14Z"
+            "lastChecked": "2021-02-16T13:09:27Z"
         }
     },
     {
@@ -190,7 +190,7 @@
         "dates": {
             "created": "2021-01-19T15:23:09Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-26T08:47:17Z"
+            "lastChecked": "2021-02-16T13:09:29Z"
         }
     },
     {
@@ -199,9 +199,9 @@
         "license": "GPL-3.0",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "61074e74910e7493e17e906941cb98fd2833c8c1",
-            "date": "2021-01-21T07:37:26Z",
-            "message": "update readme"
+            "sha": "7e3362e4195e9e073803ce2db5bdb8224e11d27e",
+            "date": "2021-02-14T08:21:04Z",
+            "message": "player names and formatting update"
         },
         "type": "repository",
         "logoUrl": null,
@@ -221,19 +221,19 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:12Z",
-            "updated": "2021-01-25T13:27:19Z",
-            "lastChecked": "2021-01-26T08:47:18Z"
+            "updated": "2021-02-16T13:09:30Z",
+            "lastChecked": "2021-02-16T13:09:30Z"
         }
     },
     {
         "name": "hockey_scraper",
         "language": "Python",
         "license": "GNU General Public License v3 (GPLv3)",
-        "latestVersion": "1.37.4",
+        "latestVersion": "1.37.5",
         "lastCommit": {
-            "sha": "fb145348d81c68f55a5a543250de16124524df8b",
-            "date": "2021-01-25T04:08:41Z",
-            "message": "update nhl schedule to always rescrape the page. See the docstring for nhl.json_schedule.get_schedule for more details"
+            "sha": "e0fbdb61ab7717014c15843c902e57ada9b26811",
+            "date": "2021-01-26T21:31:58Z",
+            "message": "add json to package data files in setup. Wasn't being included in wheel"
         },
         "type": "package",
         "logoUrl": null,
@@ -259,8 +259,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:15Z",
-            "updated": "2021-01-26T08:47:21Z",
-            "lastChecked": "2021-01-26T08:47:21Z"
+            "updated": "2021-01-30T15:10:01Z",
+            "lastChecked": "2021-02-16T13:09:32Z"
         }
     },
     {
@@ -297,7 +297,7 @@
         "dates": {
             "created": "2021-01-19T15:23:17Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-26T08:47:23Z"
+            "lastChecked": "2021-02-16T13:09:34Z"
         }
     },
     {
@@ -331,7 +331,7 @@
         "dates": {
             "created": "2021-01-19T15:23:20Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-26T08:47:28Z"
+            "lastChecked": "2021-02-16T13:09:36Z"
         }
     },
     {
@@ -363,7 +363,7 @@
         "dates": {
             "created": "2021-01-19T15:23:23Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-26T08:47:30Z"
+            "lastChecked": "2021-02-16T13:09:38Z"
         }
     },
     {
@@ -396,7 +396,7 @@
         "dates": {
             "created": "2021-01-19T15:23:25Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-26T08:47:33Z"
+            "lastChecked": "2021-02-16T13:09:40Z"
         }
     },
     {
@@ -431,7 +431,7 @@
         "dates": {
             "created": "2021-01-19T15:23:27Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-26T08:47:35Z"
+            "lastChecked": "2021-02-16T13:09:42Z"
         }
     },
     {
@@ -464,7 +464,7 @@
         "dates": {
             "created": "2021-01-19T15:23:31Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-26T08:47:37Z"
+            "lastChecked": "2021-02-16T13:09:44Z"
         }
     },
     {
@@ -563,7 +563,7 @@
         "dates": {
             "created": "2021-01-19T15:23:34Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-26T08:47:39Z"
+            "lastChecked": "2021-02-16T13:09:46Z"
         }
     },
     {
@@ -606,7 +606,7 @@
         "dates": {
             "created": "2021-01-19T15:23:37Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-26T08:47:41Z"
+            "lastChecked": "2021-02-16T13:09:47Z"
         }
     },
     {
@@ -644,7 +644,7 @@
         "dates": {
             "created": "2021-01-19T15:23:41Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-26T08:47:44Z"
+            "lastChecked": "2021-02-16T13:09:49Z"
         }
     },
     {
@@ -653,9 +653,9 @@
         "license": "BSD",
         "latestVersion": "1.5.1",
         "lastCommit": {
-            "sha": "3a958531086719e0653e25085d0d9f100c2822e1",
-            "date": "2020-12-28T13:20:47Z",
-            "message": "Merge branch 'more-docs'"
+            "sha": "e0fad6ebdf255f894f3e3d6d5359227a34a1daf8",
+            "date": "2021-01-26T14:58:47Z",
+            "message": "Merge pull request #86 from BenjaminLarrousse/add_statsbomb_body_part_for_pass_and_shot\n\nAdd body_part for pass events and shot events in Statsbomb's serializer."
         },
         "type": "package",
         "logoUrl": null,
@@ -689,8 +689,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:43Z",
-            "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-01-26T08:47:46Z"
+            "updated": "2021-01-30T15:10:26Z",
+            "lastChecked": "2021-02-16T13:09:51Z"
         }
     },
     {
@@ -724,7 +724,7 @@
         "dates": {
             "created": "2021-01-19T15:23:46Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:47:49Z"
+            "lastChecked": "2021-02-16T13:09:53Z"
         }
     },
     {
@@ -759,7 +759,7 @@
         "dates": {
             "created": "2021-01-19T15:23:52Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:47:51Z"
+            "lastChecked": "2021-02-16T13:09:55Z"
         }
     },
     {
@@ -794,7 +794,7 @@
         "dates": {
             "created": "2021-01-19T15:23:54Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:47:53Z"
+            "lastChecked": "2021-02-16T13:09:57Z"
         }
     },
     {
@@ -829,7 +829,7 @@
         "dates": {
             "created": "2021-01-19T15:23:57Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:47:55Z"
+            "lastChecked": "2021-02-16T13:09:59Z"
         }
     },
     {
@@ -838,9 +838,9 @@
         "license": "MIT",
         "latestVersion": "2.1.1",
         "lastCommit": {
-            "sha": "e5d4e85fb1bac6d16fe9c60431adbc9ae0076f47",
-            "date": "2020-12-25T13:58:59Z",
-            "message": "Add Marcels Example (#174)"
+            "sha": "83588a186b38558a576ee70e96c849c04a2475b9",
+            "date": "2021-01-26T19:36:27Z",
+            "message": "Fix BREF standings code; fix statcast exitvelo test (#176)\n\n* Add most_recent_season helper function\r\n\r\n* Fix standings to be less brittle"
         },
         "type": "package",
         "logoUrl": null,
@@ -878,8 +878,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:01Z",
-            "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:47:58Z"
+            "updated": "2021-01-30T15:10:38Z",
+            "lastChecked": "2021-02-16T13:10:01Z"
         }
     },
     {
@@ -925,18 +925,18 @@
         "dates": {
             "created": "2021-01-19T15:24:04Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:00Z"
+            "lastChecked": "2021-02-16T13:10:03Z"
         }
     },
     {
         "name": "pybbda",
         "language": "Python",
         "license": "GPL-2.0",
-        "latestVersion": "0.3.0",
+        "latestVersion": "0.3.1",
         "lastCommit": {
-            "sha": "d7623ba9f69a911a419081ce163a3bc722e27085",
-            "date": "2020-11-09T11:41:02Z",
-            "message": "coverage in CI (#56)\n\n* coverage in CI\r\n\r\n* updates circleci orb\r\n\r\n* circleci"
+            "sha": "b960d0811c562fb6c35c13ac9f76b2a033230bc6",
+            "date": "2021-02-06T17:59:42Z",
+            "message": "Bump lxml from 4.5.0 to 4.6.2 (#57)\n\nBumps [lxml](https://github.com/lxml/lxml) from 4.5.0 to 4.6.2.\r\n- [Release notes](https://github.com/lxml/lxml/releases)\r\n- [Changelog](https://github.com/lxml/lxml/blob/master/CHANGES.txt)\r\n- [Commits](https://github.com/lxml/lxml/compare/lxml-4.5.0...lxml-4.6.2)\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
         },
         "type": "package",
         "logoUrl": null,
@@ -948,7 +948,8 @@
             "website": "https://pybbda.readthedocs.io/en/stable/"
         },
         "contributors": [
-            "bdilday"
+            "bdilday",
+            "dependabot[bot]"
         ],
         "sports": [
             "Baseball"
@@ -959,8 +960,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:07Z",
-            "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:02Z"
+            "updated": "2021-02-16T13:10:05Z",
+            "lastChecked": "2021-02-16T13:10:05Z"
         }
     },
     {
@@ -969,9 +970,9 @@
         "license": "MIT",
         "latestVersion": "1.1",
         "lastCommit": {
-            "sha": "9378811376c9e26482efc959aadaa01499cbac60",
-            "date": "2019-11-16T14:21:04Z",
-            "message": "Change header data to something I found here:\n\nhttps://github.com/swar/nba_api/blob/master/docs/nba_api/stats/examples.md\n\nDon't know why this works (I suspect it's because of the Referer) and the old one doesn't but it's true."
+            "sha": "07ee2b00b539049acec6317c434aa08496149477",
+            "date": "2021-01-30T19:43:38Z",
+            "message": "Remove `ReadTimeout` from retry exception (wouldn't help)"
         },
         "type": "package",
         "logoUrl": null,
@@ -995,8 +996,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:10Z",
-            "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:04Z"
+            "updated": "2021-02-16T13:10:06Z",
+            "lastChecked": "2021-02-16T13:10:06Z"
         }
     },
     {
@@ -1005,9 +1006,9 @@
         "license": "GNU General Public License v3.0",
         "latestVersion": "1.0.10",
         "lastCommit": {
-            "sha": "7d3e819d1053b4dbc93345400405a089e6a429ac",
-            "date": "2020-08-17T16:32:29Z",
-            "message": "fixed issue with play in game"
+            "sha": "70d51f1d19b91fcf7880ad1ee099cfdfb30a0a40",
+            "date": "2021-01-30T15:51:26Z",
+            "message": "Shutting Down"
         },
         "type": "package",
         "logoUrl": null,
@@ -1029,8 +1030,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:13Z",
-            "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:07Z"
+            "updated": "2021-02-16T13:10:08Z",
+            "lastChecked": "2021-02-16T13:10:08Z"
         }
     },
     {
@@ -1069,7 +1070,7 @@
         "dates": {
             "created": "2021-01-19T15:24:16Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:09Z"
+            "lastChecked": "2021-02-16T13:10:11Z"
         }
     },
     {
@@ -1078,9 +1079,9 @@
         "license": "Use for non-commercial purpose with credit, author permission required for commercial use",
         "latestVersion": "0.1.0",
         "lastCommit": {
-            "sha": "110631b5ff71490e889496f51f803ce7bda7f954",
-            "date": "2020-09-25T19:20:08Z",
-            "message": "Minor modifications to plot sonar"
+            "sha": "3f48bb5485dd989f448b2268fce26f02b66da037",
+            "date": "2021-02-10T19:14:13Z",
+            "message": "Some bug fixes + some opta tracking data compatibility"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -1155,8 +1156,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:19Z",
-            "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:13Z"
+            "updated": "2021-02-16T13:10:13Z",
+            "lastChecked": "2021-02-16T13:10:13Z"
         }
     },
     {
@@ -1253,7 +1254,7 @@
         "dates": {
             "created": "2021-01-19T15:24:21Z",
             "updated": "2021-01-25T13:28:17Z",
-            "lastChecked": "2021-01-26T08:48:16Z"
+            "lastChecked": "2021-02-16T13:10:14Z"
         }
     },
     {
@@ -1301,7 +1302,7 @@
         "dates": {
             "created": "2021-01-19T15:24:24Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:18Z"
+            "lastChecked": "2021-02-16T13:10:16Z"
         }
     },
     {
@@ -1336,18 +1337,18 @@
         "dates": {
             "created": "2021-01-19T15:24:26Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:20Z"
+            "lastChecked": "2021-02-16T13:10:17Z"
         }
     },
     {
         "name": "espnscrapeR",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "0.3.1",
+        "latestVersion": "0.4.0",
         "lastCommit": {
-            "sha": "dc4e1e7a4bd4e70bfedeec874b49884097ad6599",
-            "date": "2021-01-23T17:21:42Z",
-            "message": "update version, assign minimal versions of dplyr/tidyr (for various function) and assign gt as a dependency for gt_theme_???"
+            "sha": "bec3863350c6f06be6733c60e9b1c941ed1fb45c",
+            "date": "2021-02-10T03:58:42Z",
+            "message": "update to 0.4, update documentation and namespace, update packagedown site"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -1368,8 +1369,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:29Z",
-            "updated": "2021-01-25T13:28:24Z",
-            "lastChecked": "2021-01-26T08:48:22Z"
+            "updated": "2021-02-16T13:10:19Z",
+            "lastChecked": "2021-02-16T13:10:19Z"
         }
     },
     {
@@ -1403,7 +1404,7 @@
         "dates": {
             "created": "2021-01-19T15:24:31Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:24Z"
+            "lastChecked": "2021-02-16T13:10:21Z"
         }
     },
     {
@@ -1412,9 +1413,9 @@
         "license": "MIT",
         "latestVersion": "0.8.3",
         "lastCommit": {
-            "sha": "f052b7349b814e0677f1c34d30713f6e2d7bca97",
-            "date": "2020-10-12T13:25:36Z",
-            "message": "Merge pull request #181 from BillPetti/development_branch\n\nadded infielder and role functionality to statcast leaderboard functi\u2026"
+            "sha": "db8417989b7ea8f80d7788b7157088fc3cf14749",
+            "date": "2021-02-15T19:19:27Z",
+            "message": "updated package tests"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -1449,8 +1450,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:34Z",
-            "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:27Z"
+            "updated": "2021-02-16T13:10:23Z",
+            "lastChecked": "2021-02-16T13:10:23Z"
         }
     },
     {
@@ -1492,7 +1493,7 @@
         "dates": {
             "created": "2021-01-19T15:24:36Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:29Z"
+            "lastChecked": "2021-02-16T13:10:25Z"
         }
     },
     {
@@ -1546,7 +1547,7 @@
         "dates": {
             "created": "2021-01-19T15:24:39Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:31Z"
+            "lastChecked": "2021-02-16T13:10:27Z"
         }
     },
     {
@@ -1588,7 +1589,7 @@
         "dates": {
             "created": "2021-01-19T15:24:43Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:34Z"
+            "lastChecked": "2021-02-16T13:10:28Z"
         }
     },
     {
@@ -1624,7 +1625,7 @@
         "dates": {
             "created": "2021-01-19T15:24:45Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:36Z"
+            "lastChecked": "2021-02-16T13:10:30Z"
         }
     },
     {
@@ -1657,7 +1658,7 @@
         "dates": {
             "created": "2021-01-19T15:24:48Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:39Z"
+            "lastChecked": "2021-02-16T13:10:32Z"
         }
     },
     {
@@ -1729,7 +1730,7 @@
         "dates": {
             "created": "2021-01-19T15:24:52Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-01-26T08:48:41Z"
+            "lastChecked": "2021-02-16T13:10:34Z"
         }
     },
     {
@@ -1764,7 +1765,7 @@
         "dates": {
             "created": "2021-01-19T15:24:55Z",
             "updated": "2021-01-25T13:28:46Z",
-            "lastChecked": "2021-01-26T08:48:43Z"
+            "lastChecked": "2021-02-16T13:10:36Z"
         }
     },
     {
@@ -1801,7 +1802,7 @@
         "dates": {
             "created": "2021-01-19T15:24:57Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:48:45Z"
+            "lastChecked": "2021-02-16T13:10:38Z"
         }
     },
     {
@@ -1836,7 +1837,7 @@
         "dates": {
             "created": "2021-01-19T15:25:00Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:48:49Z"
+            "lastChecked": "2021-02-16T13:10:39Z"
         }
     },
     {
@@ -1896,7 +1897,7 @@
         "dates": {
             "created": "2021-01-19T15:25:03Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:48:51Z"
+            "lastChecked": "2021-02-16T13:10:41Z"
         }
     },
     {
@@ -1930,18 +1931,18 @@
         "dates": {
             "created": "2021-01-19T15:25:05Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:48:53Z"
+            "lastChecked": "2021-02-16T13:10:43Z"
         }
     },
     {
         "name": "yorkr",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "0.0.17",
+        "latestVersion": "0.0.19",
         "lastCommit": {
-            "sha": "674a6996ba41d891409c7035e4dd99492f9f7780",
-            "date": "2021-01-26T07:38:46Z",
-            "message": "Changes to T20 ranking, added helper functions"
+            "sha": "1166e73a164542ac1c20895d0758e795f05adfbc",
+            "date": "2021-02-03T16:16:44Z",
+            "message": "Made labels vertical in plot"
         },
         "type": "package",
         "logoUrl": null,
@@ -1963,8 +1964,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:25:10Z",
-            "updated": "2021-01-26T08:48:55Z",
-            "lastChecked": "2021-01-26T08:48:55Z"
+            "updated": "2021-02-16T13:10:45Z",
+            "lastChecked": "2021-02-16T13:10:45Z"
         }
     },
     {
@@ -2015,7 +2016,7 @@
         "dates": {
             "created": "2021-01-19T15:25:13Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:48:58Z"
+            "lastChecked": "2021-02-16T13:10:47Z"
         }
     },
     {
@@ -2046,7 +2047,7 @@
         "dates": {
             "created": "2021-01-19T15:25:16Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:00Z"
+            "lastChecked": "2021-02-16T13:10:49Z"
         }
     },
     {
@@ -2078,7 +2079,7 @@
         "dates": {
             "created": "2021-01-19T15:25:19Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:02Z"
+            "lastChecked": "2021-02-16T13:10:50Z"
         }
     },
     {
@@ -2087,9 +2088,9 @@
         "license": "AGPL-3",
         "latestVersion": "0.1.2",
         "lastCommit": {
-            "sha": "9b89368cac0e54e482b5406192ed2992c6d4590c",
-            "date": "2021-01-08T15:54:57Z",
-            "message": "Update roxygen2 docs from 6.0.1 to 7.1.1"
+            "sha": "c47b5be1e3b4ed1b84606b6cdfeeb901f5a56052",
+            "date": "2021-02-15T18:48:20Z",
+            "message": "Merge pull request #14 from jozefhajnala/prep-0-1-3-release\n\nPrepare nhlapi 0.1.3 CRAN release"
         },
         "type": "package",
         "logoUrl": "https://user-images.githubusercontent.com/23148397/82825728-05f92900-9eac-11ea-88bc-4de15b14c7c4.png",
@@ -2100,7 +2101,8 @@
             "cran": "https://cran.r-project.org/package=nhlapi"
         },
         "contributors": [
-            "jozefhajnala"
+            "jozefhajnala",
+            "MichaelChirico"
         ],
         "sports": [
             "Hockey"
@@ -2110,8 +2112,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:25:22Z",
-            "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:05Z"
+            "updated": "2021-02-16T13:10:52Z",
+            "lastChecked": "2021-02-16T13:10:52Z"
         }
     },
     {
@@ -2146,7 +2148,7 @@
         "dates": {
             "created": "2021-01-19T15:25:24Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:07Z"
+            "lastChecked": "2021-02-16T13:10:54Z"
         }
     },
     {
@@ -2183,7 +2185,7 @@
         "dates": {
             "created": "2021-01-19T15:25:27Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:09Z"
+            "lastChecked": "2021-02-16T13:10:56Z"
         }
     },
     {
@@ -2215,7 +2217,7 @@
         "dates": {
             "created": "2021-01-19T15:25:30Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:11Z"
+            "lastChecked": "2021-02-16T13:10:58Z"
         }
     },
     {
@@ -2245,7 +2247,7 @@
         "dates": {
             "created": "2021-01-19T15:25:32Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:13Z"
+            "lastChecked": "2021-02-16T13:10:59Z"
         }
     },
     {
@@ -2290,7 +2292,7 @@
         "dates": {
             "created": "2021-01-19T15:25:34Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:15Z"
+            "lastChecked": "2021-02-16T13:11:08Z"
         }
     },
     {
@@ -2351,7 +2353,7 @@
         "dates": {
             "created": "2021-01-19T15:25:37Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:18Z"
+            "lastChecked": "2021-02-16T13:11:16Z"
         }
     },
     {
@@ -2383,7 +2385,7 @@
         "dates": {
             "created": "2021-01-19T15:25:39Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:20Z"
+            "lastChecked": "2021-02-16T13:11:18Z"
         }
     },
     {
@@ -2416,7 +2418,7 @@
         "dates": {
             "created": "2021-01-19T15:25:42Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:22Z"
+            "lastChecked": "2021-02-16T13:11:20Z"
         }
     },
     {
@@ -2456,7 +2458,7 @@
         "dates": {
             "created": "2021-01-19T15:25:46Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:24Z"
+            "lastChecked": "2021-02-16T13:11:22Z"
         }
     },
     {
@@ -2498,7 +2500,7 @@
         "dates": {
             "created": "2021-01-19T15:25:48Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:26Z"
+            "lastChecked": "2021-02-16T13:11:24Z"
         }
     },
     {
@@ -2532,7 +2534,7 @@
         "dates": {
             "created": "2021-01-19T15:25:51Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:28Z"
+            "lastChecked": "2021-02-16T13:11:25Z"
         }
     },
     {
@@ -2567,7 +2569,7 @@
         "dates": {
             "created": "2021-01-19T15:25:53Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:30Z"
+            "lastChecked": "2021-02-16T13:11:27Z"
         }
     },
     {
@@ -2609,7 +2611,7 @@
         "dates": {
             "created": "2021-01-19T15:25:56Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:33Z"
+            "lastChecked": "2021-02-16T13:11:29Z"
         }
     },
     {
@@ -2618,9 +2620,9 @@
         "license": "GNU General Public License v3.0",
         "latestVersion": "0.2.1",
         "lastCommit": {
-            "sha": "26689d549f0f5051c22f3d11ca0f890536b118c0",
-            "date": "2020-08-25T21:40:10Z",
-            "message": "updated versions in setup.py and requirements.txt"
+            "sha": "2ca72ecaed55af60619828952638df9ed3427b1b",
+            "date": "2021-01-30T15:53:29Z",
+            "message": "Shutting Down"
         },
         "type": "package",
         "logoUrl": null,
@@ -2641,8 +2643,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:00Z",
-            "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-01-26T08:49:35Z"
+            "updated": "2021-02-16T13:11:31Z",
+            "lastChecked": "2021-02-16T13:11:31Z"
         }
     },
     {
@@ -2651,9 +2653,9 @@
         "license": "MIT",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "e8d8b0a5f2aad17c72bdb41009527de8475c068b",
-            "date": "2021-01-24T23:08:45Z",
-            "message": "updated through 2021-01-23"
+            "sha": "98ede5237fb53aa47543831973a538dd72f27f23",
+            "date": "2021-02-13T21:43:04Z",
+            "message": "updated through 2021-02-12"
         },
         "type": "tutorial",
         "logoUrl": null,
@@ -2679,19 +2681,19 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:02Z",
-            "updated": "2021-01-25T13:29:43Z",
-            "lastChecked": "2021-01-26T08:49:36Z"
+            "updated": "2021-02-16T13:11:32Z",
+            "lastChecked": "2021-02-16T13:11:32Z"
         }
     },
     {
         "name": "goalmodel",
         "language": "R",
         "license": "GPL-3",
-        "latestVersion": "0.4.1",
+        "latestVersion": "0.4.2",
         "lastCommit": {
-            "sha": "5684fe36bc7686d6f9bb53bb87e34db16ebe5692",
-            "date": "2020-12-29T19:22:39Z",
-            "message": "require rcpp"
+            "sha": "21c89ed858d69bc8115b4cd0d3fa90e9e84d4f64",
+            "date": "2021-02-12T19:02:10Z",
+            "message": "Merge branch 'master' of https://github.com/opisthokonta/goalmodel"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -2708,17 +2710,17 @@
             "opisthokonta"
         ],
         "sports": [
-            "American Football",
             "Hockey",
-            "Soccer"
+            "Soccer",
+            "American Football"
         ],
         "categories": [
             "Model/Calculations"
         ],
         "dates": {
             "created": "2021-01-19T15:26:05Z",
-            "updated": "2021-01-26T08:49:39Z",
-            "lastChecked": "2021-01-26T08:49:39Z"
+            "updated": "2021-02-16T13:11:34Z",
+            "lastChecked": "2021-02-16T13:11:34Z"
         }
     },
     {
@@ -2766,7 +2768,7 @@
         "dates": {
             "created": "2021-01-19T15:26:09Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:49:41Z"
+            "lastChecked": "2021-02-16T13:11:36Z"
         }
     },
     {
@@ -2775,9 +2777,9 @@
         "license": null,
         "latestVersion": null,
         "lastCommit": {
-            "sha": "bf01fb471742afce9955906cc52d2c6755c46723",
-            "date": "2021-01-22T17:47:25Z",
-            "message": "Updated readme"
+            "sha": "f45f2489ff57a5fbfe4315608c8139b04a7a2f9c",
+            "date": "2021-02-07T16:34:30Z",
+            "message": "Added daily shotchart notebook"
         },
         "type": "tutorial",
         "logoUrl": null,
@@ -2798,8 +2800,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:11Z",
-            "updated": "2021-01-25T13:29:51Z",
-            "lastChecked": "2021-01-26T08:49:44Z"
+            "updated": "2021-02-16T13:11:38Z",
+            "lastChecked": "2021-02-16T13:11:38Z"
         }
     },
     {
@@ -2832,7 +2834,7 @@
         "dates": {
             "created": "2021-01-19T15:26:14Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:49:46Z"
+            "lastChecked": "2021-02-16T13:11:40Z"
         }
     },
     {
@@ -2865,7 +2867,7 @@
         "dates": {
             "created": "2021-01-19T15:26:16Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:49:48Z"
+            "lastChecked": "2021-02-16T13:11:41Z"
         }
     },
     {
@@ -2898,18 +2900,18 @@
         "dates": {
             "created": "2021-01-19T15:26:19Z",
             "updated": "2021-01-25T13:29:59Z",
-            "lastChecked": "2021-01-26T08:49:50Z"
+            "lastChecked": "2021-02-16T13:11:43Z"
         }
     },
     {
         "name": "kenpomR",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "0.0.0.9",
+        "latestVersion": "0.1.0",
         "lastCommit": {
-            "sha": "0a3ae8c545b364ca2cd9b619f4dc5d35d86b625c",
-            "date": "2020-12-10T01:34:40Z",
-            "message": "add player_career function"
+            "sha": "c593982c1e526ef846d471ec87ce146d3dea246c",
+            "date": "2021-01-29T03:26:00Z",
+            "message": "Merge pull request #4 from saiemgilani/fix-gameplan\n\nFix gameplan maybe"
         },
         "type": "github_package",
         "logoUrl": "https://raw.githubusercontent.com/saiemgilani/kenpomR/master/man/figures/logo.png",
@@ -2930,8 +2932,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:23Z",
-            "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:49:52Z"
+            "updated": "2021-01-30T15:12:29Z",
+            "lastChecked": "2021-02-16T13:11:45Z"
         }
     },
     {
@@ -2963,7 +2965,7 @@
         "dates": {
             "created": "2021-01-19T15:26:26Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:49:54Z"
+            "lastChecked": "2021-02-16T13:11:47Z"
         }
     },
     {
@@ -2996,7 +2998,7 @@
         "dates": {
             "created": "2021-01-19T15:26:28Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:49:56Z"
+            "lastChecked": "2021-02-16T13:11:48Z"
         }
     },
     {
@@ -3031,7 +3033,7 @@
         "dates": {
             "created": "2021-01-19T15:26:30Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:49:57Z"
+            "lastChecked": "2021-02-16T13:11:49Z"
         }
     },
     {
@@ -3069,7 +3071,7 @@
         "dates": {
             "created": "2021-01-19T15:26:32Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:49:59Z"
+            "lastChecked": "2021-02-16T13:11:51Z"
         }
     },
     {
@@ -3103,7 +3105,7 @@
         "dates": {
             "created": "2021-01-19T15:26:35Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:50:01Z"
+            "lastChecked": "2021-02-16T13:11:53Z"
         }
     },
     {
@@ -3112,9 +3114,9 @@
         "license": "Other",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "02c776ece24e1893551e4f094f1361f9d4237691",
-            "date": "2021-01-24T14:05:43Z",
-            "message": "Added 0 new games, updated 1 games."
+            "sha": "c4dcd55985898e354de62d722a08bb9a39f2fb34",
+            "date": "2021-02-13T14:03:52Z",
+            "message": "Added 0 new games, updated 0 games."
         },
         "type": "repository",
         "logoUrl": null,
@@ -3137,8 +3139,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:37Z",
-            "updated": "2021-01-25T13:30:15Z",
-            "lastChecked": "2021-01-26T08:50:03Z"
+            "updated": "2021-02-16T13:11:54Z",
+            "lastChecked": "2021-02-16T13:11:54Z"
         }
     },
     {
@@ -3180,7 +3182,7 @@
         "dates": {
             "created": "2021-01-19T15:26:41Z",
             "updated": "2021-01-25T13:30:19Z",
-            "lastChecked": "2021-01-26T08:50:06Z"
+            "lastChecked": "2021-02-16T13:11:56Z"
         }
     },
     {
@@ -3213,7 +3215,7 @@
         "dates": {
             "created": "2021-01-19T15:26:44Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:50:09Z"
+            "lastChecked": "2021-02-16T13:11:58Z"
         }
     },
     {
@@ -3245,7 +3247,7 @@
         "dates": {
             "created": "2021-01-19T15:26:46Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:50:11Z"
+            "lastChecked": "2021-02-16T13:11:59Z"
         }
     },
     {
@@ -3279,7 +3281,7 @@
         "dates": {
             "created": "2021-01-19T15:26:49Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:50:13Z"
+            "lastChecked": "2021-02-16T13:12:01Z"
         }
     },
     {
@@ -3311,22 +3313,22 @@
         "dates": {
             "created": "2021-01-19T15:26:51Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:50:15Z"
+            "lastChecked": "2021-02-16T13:12:03Z"
         }
     },
     {
         "name": "midsprint",
         "language": "R",
         "license": "What license is it under?",
-        "latestVersion": "0.1.0",
+        "latestVersion": "0.1.1",
         "lastCommit": {
-            "sha": "973311479e3da9804857d19adff0de3e14a6d196",
-            "date": "2021-01-19T18:26:39Z",
-            "message": "Update DESCRIPTION"
+            "sha": "e506d3063db40c9ca2d5059f967c059f71a12b91",
+            "date": "2021-02-15T16:59:33Z",
+            "message": "Delete midsprint.Rproj"
         },
         "type": "github_package",
         "logoUrl": null,
-        "description": "This package allows coaches and sports practitioners to model an athlete's force-velocity-power profile from positional tracking data.    Profiles can be built from velocities >= 0.    Version 0.1.0 is released as part of Aaron Pearson's 2021 Big Data Bowl submission.    The submission can be found here: https://www.kaggle.com/haljordan/modeling-player-biomechanics/",
+        "description": "A small package that accompanies the Big Data Bowl 2021 submission \"5 Seconds or Less: Modeling player biomechanics to predict pass outcomes\" [https://www.kaggle.com/haljordan/modeling-player-biomechanics]",
         "images": [],
         "urls": {
             "github": "https://github.com/aaronzpearson/midsprint"
@@ -3343,8 +3345,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:38:07Z",
-            "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:50:17Z"
+            "updated": "2021-02-16T13:12:05Z",
+            "lastChecked": "2021-02-16T13:12:05Z"
         }
     },
     {
@@ -3379,7 +3381,7 @@
         "dates": {
             "created": "2021-01-20T07:13:13Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-01-26T08:50:20Z"
+            "lastChecked": "2021-02-16T13:12:07Z"
         }
     },
     {
@@ -3412,7 +3414,7 @@
         "dates": {
             "created": "2021-01-20T07:41:41Z",
             "updated": "2021-01-20T07:41:41Z",
-            "lastChecked": "2021-01-26T08:50:22Z"
+            "lastChecked": "2021-02-16T13:12:09Z"
         }
     }
 ]
