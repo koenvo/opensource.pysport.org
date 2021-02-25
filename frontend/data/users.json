@@ -245,6 +245,13 @@
         }
     },
     {
+        "login": "SJTButler",
+        "name": "SJTButler",
+        "urls": {
+            "github": "https://github.com/SJTButler"
+        }
+    },
+    {
         "login": "Torvaney",
         "name": "Torvaney",
         "urls": {
@@ -326,6 +333,13 @@
         "name": "0xflotus",
         "urls": {
             "github": "https://github.com/0xflotus"
+        }
+    },
+    {
+        "login": "zanderhinton",
+        "name": "zanderhinton",
+        "urls": {
+            "github": "https://github.com/zanderhinton"
         }
     },
     {
@@ -581,6 +595,13 @@
         }
     },
     {
+        "login": "wfordh",
+        "name": "wfordh",
+        "urls": {
+            "github": "https://github.com/wfordh"
+        }
+    },
+    {
         "login": "jamiek5",
         "name": "jamiek5",
         "urls": {
@@ -599,6 +620,13 @@
         "name": "jelloslinger",
         "urls": {
             "github": "https://github.com/jelloslinger"
+        }
+    },
+    {
+        "login": "tpoatsy3",
+        "name": "tpoatsy3",
+        "urls": {
+            "github": "https://github.com/tpoatsy3"
         }
     },
     {
@@ -1523,6 +1551,13 @@
         "name": "larsmaurath",
         "urls": {
             "github": "https://github.com/larsmaurath"
+        }
+    },
+    {
+        "login": "leesharpe",
+        "name": "leesharpe",
+        "urls": {
+            "github": "https://github.com/leesharpe"
         }
     }
 ]
