@@ -309,7 +309,7 @@ export default function Home() {
       </div>
       <div className="container mx-auto max-w-screen-xl -m-4">
         {!isFiltering && <div className="grid grid-cols-1">
-          <Card highlight project={projects[0]}/>
+          <Card highlight project={projects.find((project) => project.name === "ggsoccer")}/>
         </div>}
         <Overview projects={filteredProjects} categories={categories} />
         {(filteredProjects.length === 0) && <div className="mx-auto p-8 text-center text-2xl">No matches found</div>}
