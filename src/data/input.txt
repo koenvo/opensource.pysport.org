@@ -85,3 +85,4 @@ model,aaronzpearson/midsprint
 scraper|model,jflancer/wbigballR
 io,RobWHickman/Rteta
 model,leesharpe/nflseedR
+scraper|model,saiemgilani/wehoop

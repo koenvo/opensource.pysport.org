@@ -350,17 +350,17 @@
         }
     },
     {
-        "login": "DymondFormation",
-        "name": "DymondFormation",
-        "urls": {
-            "github": "https://github.com/DymondFormation"
-        }
-    },
-    {
         "login": "andrewRowlinson",
         "name": "andrewRowlinson",
         "urls": {
             "github": "https://github.com/andrewRowlinson"
+        }
+    },
+    {
+        "login": "DymondFormation",
+        "name": "DymondFormation",
+        "urls": {
+            "github": "https://github.com/DymondFormation"
         }
     },
     {
@@ -1299,13 +1299,6 @@
         "name": "MikeyBronowski",
         "urls": {
             "github": "https://github.com/MikeyBronowski"
-        }
-    },
-    {
-        "login": "internationalwordoftheday",
-        "name": "internationalwordoftheday",
-        "urls": {
-            "github": "https://github.com/internationalwordoftheday"
         }
     },
     {
