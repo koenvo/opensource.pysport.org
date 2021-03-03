@@ -86,3 +86,4 @@ scraper|model,jflancer/wbigballR
 io,RobWHickman/Rteta
 model,leesharpe/nflseedR
 scraper|model,saiemgilani/wehoop
+viz,AndrewRook/ptplot

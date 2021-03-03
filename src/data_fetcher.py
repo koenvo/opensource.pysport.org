@@ -359,7 +359,7 @@ def extract_images(repository, branch, content):
 def determine_sports(*inputs):
     keywords = {
         "Soccer": ["soccer", "opta", "understat", "transfermarkt", "metrica", "statsbomb", "lastrow", "wyscout", "midfielders", "kloppy"],
-        "American Football": ["nfl", "football", "cfb", "big data bowl"],
+        "American Football": ["nfl", "football", "cfb", "big data bowl", "ptplot"],
         "Australian Football": ["afl"],
         "Hockey": ["nhl", "hockey"],
         "Basketball": ["nba", "basketball"],
@@ -637,7 +637,7 @@ class CollectAll(luigi.Task):
 
 
 if __name__ == "__main__":
-    run_id = '2021-03-01'
+    run_id = '2021-03-03'
 
     tasks = [
         CollectAll(
