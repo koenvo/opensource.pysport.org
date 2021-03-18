@@ -87,3 +87,5 @@ io,RobWHickman/Rteta
 model,leesharpe/nflseedR
 scraper|model,saiemgilani/wehoop
 viz,AndrewRook/ptplot
+scraper|viz,JackLich10/gamezoneR
+data,koenvo/wyscout-soccer-match-event-dataset

@@ -574,6 +574,13 @@
         }
     },
     {
+        "login": "wfordh",
+        "name": "wfordh",
+        "urls": {
+            "github": "https://github.com/wfordh"
+        }
+    },
+    {
         "login": "ntanners",
         "name": "ntanners",
         "urls": {
@@ -592,13 +599,6 @@
         "name": "bgunn34",
         "urls": {
             "github": "https://github.com/bgunn34"
-        }
-    },
-    {
-        "login": "wfordh",
-        "name": "wfordh",
-        "urls": {
-            "github": "https://github.com/wfordh"
         }
     },
     {
@@ -1558,6 +1558,13 @@
         "name": "AndrewRook",
         "urls": {
             "github": "https://github.com/AndrewRook"
+        }
+    },
+    {
+        "login": "JackLich10",
+        "name": "JackLich10",
+        "urls": {
+            "github": "https://github.com/JackLich10"
         }
     }
 ]
