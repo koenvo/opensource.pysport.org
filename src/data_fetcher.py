@@ -637,7 +637,7 @@ class CollectAll(luigi.Task):
 
 
 if __name__ == "__main__":
-    run_id = '2021-03-18'
+    run_id = '2021-04-22'
 
     tasks = [
         CollectAll(
