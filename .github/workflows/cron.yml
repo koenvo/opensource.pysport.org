@@ -17,7 +17,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Update data
-        run: cd src && python data_fetcher.py
+        run: cd src && TOKEN=${{ secrets.GITHUB_TOKEN }} python data_fetcher.py
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update
