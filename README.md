@@ -25,6 +25,10 @@ We collect data from:
 - [pypi](https://pypi.org): name of the project, url to pypi page, latest version, license and description
 - [CRAN](https://cran.org): name of the project, url to CRAN page, latest version and license
 
+The backend aggregates all the data and compares it with what's already in the 'database'. The data itself is stored in two json files:
+- [project.json](https://github.com/koenvo/opensource.pysport.org/blob/with-data/frontend/data/projects.json): containing all information about the projects
+- [users.json](https://github.com/koenvo/opensource.pysport.org/blob/with-data/frontend/data/users.json): all contributors
+
 
 ## Contribute
 
