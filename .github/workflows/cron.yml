@@ -1,0 +1,25 @@
+on:
+    workflow_dispatch:
+
+name: Update data
+
+jobs:
+  build:
+    name: Update data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+            python-version: 3.9
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Update data
+        run: cd src && python data_fetcher.py
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update
+          branch: with-data
+          commit_author: Auto fetch <actions@github.com> # defaults to author of the commit that triggered the run
