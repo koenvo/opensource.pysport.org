@@ -167,7 +167,7 @@ class FetchCRANInfo(luigi.Task):
                     status='not_found',
                     name=name,
                     version=data['Version'],
-                    license=data['License'],
+                    license=data.get('License', ''),
                     description=data['Description']
                 )
 
