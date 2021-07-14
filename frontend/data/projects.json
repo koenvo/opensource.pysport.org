@@ -5,9 +5,9 @@
         "license": "MIT",
         "latestVersion": "4.1.0",
         "lastCommit": {
-            "sha": "ef163986e629237211fc0444a546781635052aa7",
-            "date": "2021-04-19T13:17:55Z",
-            "message": "fix beginner's guide"
+            "sha": "9e182614ffd446d8e5693d2045f20ba1c6a0d791",
+            "date": "2021-07-08T14:26:05Z",
+            "message": "More safety info (#252)\n\n* add safety vars to tidy play stats row\r\n\r\n* fill safety vars\r\n\r\n* add safety vars to variable selector\r\n\r\n* add docs for safety vars\r\n\r\n* don't really need safety team\r\n\r\n* Increment version number\r\n\r\n* update NEWS\r\n\r\n* remove safety team, it's unnecessary"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/mrcaseb/nflfastR/master/man/figures/logo.png",
@@ -39,8 +39,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:22:58Z",
-            "updated": "2021-04-22T11:36:36Z",
-            "lastChecked": "2021-04-22T11:36:36Z"
+            "updated": "2021-07-14T14:27:03Z",
+            "lastChecked": "2021-07-14T14:27:03Z"
         }
     },
     {
@@ -80,7 +80,7 @@
         "dates": {
             "created": "2021-01-19T15:23:01Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-04-22T11:36:38Z"
+            "lastChecked": "2021-07-14T14:27:05Z"
         }
     },
     {
@@ -123,7 +123,7 @@
         "dates": {
             "created": "2021-01-19T15:23:04Z",
             "updated": "2021-04-22T11:36:40Z",
-            "lastChecked": "2021-04-22T11:36:40Z"
+            "lastChecked": "2021-07-14T14:27:07Z"
         }
     },
     {
@@ -159,7 +159,7 @@
         "dates": {
             "created": "2021-01-19T15:23:07Z",
             "updated": "2021-01-25T13:27:15Z",
-            "lastChecked": "2021-04-22T11:36:42Z"
+            "lastChecked": "2021-07-14T14:27:08Z"
         }
     },
     {
@@ -191,7 +191,7 @@
         "dates": {
             "created": "2021-01-19T15:23:09Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-04-22T11:36:44Z"
+            "lastChecked": "2021-07-14T14:27:09Z"
         }
     },
     {
@@ -223,18 +223,18 @@
         "dates": {
             "created": "2021-01-19T15:23:12Z",
             "updated": "2021-04-22T11:36:45Z",
-            "lastChecked": "2021-04-22T11:36:45Z"
+            "lastChecked": "2021-07-14T14:27:11Z"
         }
     },
     {
         "name": "hockey_scraper",
         "language": "Python",
         "license": "GNU General Public License v3 (GPLv3)",
-        "latestVersion": "1.37.6",
+        "latestVersion": "1.37.8",
         "lastCommit": {
-            "sha": "b8c4acc456a8425794f9e493c62d77a5281aca32",
-            "date": "2021-03-06T19:34:09Z",
-            "message": "Fix issue when no players listed in html description of block. Also moved some stuff to a new config file"
+            "sha": "26d89b0a6d3a7d61ad896347e9e6658ff1abc238",
+            "date": "2021-07-11T04:00:26Z",
+            "message": "End of season player name fixes. Remade docs. Incremented version"
         },
         "type": "package",
         "logoUrl": null,
@@ -248,6 +248,7 @@
         "contributors": [
             "HarryShomer",
             "mcbarlowe",
+            "903124",
             "frutoper",
             "mattdonders",
             "boisvert42"
@@ -260,8 +261,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:15Z",
-            "updated": "2021-03-18T07:20:14Z",
-            "lastChecked": "2021-04-22T11:36:47Z"
+            "updated": "2021-07-14T14:27:12Z",
+            "lastChecked": "2021-07-14T14:27:12Z"
         }
     },
     {
@@ -285,7 +286,6 @@
         "contributors": [
             "FCrSTATS",
             "koenvossen",
-            "JayJayGH",
             "alibekk93",
             "mancunian1792"
         ],
@@ -297,8 +297,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:17Z",
-            "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-04-22T11:36:49Z"
+            "updated": "2021-07-14T14:27:14Z",
+            "lastChecked": "2021-07-14T14:27:14Z"
         }
     },
     {
@@ -307,9 +307,9 @@
         "license": "3.5.0",
         "latestVersion": "0.1.0",
         "lastCommit": {
-            "sha": "efce19d697f19a5e924caa579b93c96348a29de5",
-            "date": "2020-07-09T16:05:26Z",
-            "message": "Create FreeJoinPlayerNickname.R"
+            "sha": "d001ec3c30013447a6b5c9fb4bfd7afa1aac94df",
+            "date": "2021-07-14T08:50:45Z",
+            "message": "Update README.md"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -331,8 +331,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:20Z",
-            "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-04-22T11:36:51Z"
+            "updated": "2021-07-14T14:27:16Z",
+            "lastChecked": "2021-07-14T14:27:16Z"
         }
     },
     {
@@ -341,9 +341,9 @@
         "license": null,
         "latestVersion": "1.0",
         "lastCommit": {
-            "sha": "ea1ec4e65830bb88242943cdfee76cb8605a2e0b",
-            "date": "2021-02-23T17:22:10Z",
-            "message": "Update README.md"
+            "sha": "1e693629c0904835fc963222a967e1ed8cc08e21",
+            "date": "2021-05-12T15:18:17Z",
+            "message": "Competition events fix (#11)\n\n* Fixed incorrect matches and competitions calls\r\n\r\n* changed `cred` arg to kwargs\r\n\r\n* Changed tests to use a competition in open data"
         },
         "type": "package",
         "logoUrl": null,
@@ -355,6 +355,8 @@
         },
         "contributors": [
             "FranGoitia",
+            "dimas91",
+            "dvatvani",
             "SJTButler"
         ],
         "sports": [
@@ -365,8 +367,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:23Z",
-            "updated": "2021-02-25T12:10:03Z",
-            "lastChecked": "2021-04-22T11:36:53Z"
+            "updated": "2021-07-14T14:27:18Z",
+            "lastChecked": "2021-07-14T14:27:18Z"
         }
     },
     {
@@ -375,13 +377,13 @@
         "license": "Other",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "eba3dbeae32701b0258003139dfb6fce10de1ea9",
-            "date": "2020-05-24T16:49:21Z",
-            "message": "Merge pull request #7 from Ben8t/fix_auth\n\n[fix_auth] fix authentification in lineup and event"
+            "sha": "f0d12aba433c685373772cb2707759d8138a8c64",
+            "date": "2021-05-04T15:48:12Z",
+            "message": "Clarify loaders+decoders description"
         },
         "type": "github_package",
         "logoUrl": null,
-        "description": "Statsbomb API with Dataclasses",
+        "description": "An extendable Statsbomb API wrapper for data-pipelines",
         "images": [],
         "urls": {
             "github": "https://github.com/Torvaney/statsbombapi"
@@ -398,8 +400,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:25Z",
-            "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-04-22T11:36:55Z"
+            "updated": "2021-07-14T14:27:19Z",
+            "lastChecked": "2021-07-14T14:27:19Z"
         }
     },
     {
@@ -435,7 +437,7 @@
         "dates": {
             "created": "2021-01-19T15:23:27Z",
             "updated": "2021-04-22T11:36:57Z",
-            "lastChecked": "2021-04-22T11:36:57Z"
+            "lastChecked": "2021-07-14T14:27:21Z"
         }
     },
     {
@@ -468,7 +470,7 @@
         "dates": {
             "created": "2021-01-19T15:23:31Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-04-22T11:36:58Z"
+            "lastChecked": "2021-07-14T14:27:22Z"
         }
     },
     {
@@ -567,7 +569,7 @@
         "dates": {
             "created": "2021-01-19T15:23:34Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2021-04-22T11:37:00Z"
+            "lastChecked": "2021-07-14T14:27:24Z"
         }
     },
     {
@@ -576,9 +578,9 @@
         "license": "MIT",
         "latestVersion": "1.0.2",
         "lastCommit": {
-            "sha": "3f5a339c1b60a5fc20d0b8b58642558b3b823729",
-            "date": "2021-04-03T16:08:13Z",
-            "message": "Bump version: 1.0.1 \u2192 1.0.2"
+            "sha": "1bf274208496283a044da0000eee7fade15ebb23",
+            "date": "2021-07-05T09:04:28Z",
+            "message": "Fix only relevant features in VAEP._estimate"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/ML-KULeuven/socceraction/master/docs/_static/logo_white.png",
@@ -599,6 +601,8 @@
             "MaaikeVR",
             "0xflotus",
             "zanderhinton",
+            "npranav10",
+            "prateek-senapati",
             "kim-younghan"
         ],
         "sports": [
@@ -610,19 +614,19 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:37Z",
-            "updated": "2021-04-22T11:37:02Z",
-            "lastChecked": "2021-04-22T11:37:02Z"
+            "updated": "2021-07-14T14:27:26Z",
+            "lastChecked": "2021-07-14T14:27:26Z"
         }
     },
     {
         "name": "mplsoccer",
         "language": "Python",
         "license": "MIT",
-        "latestVersion": "1.0.2",
+        "latestVersion": "1.0.5",
         "lastCommit": {
-            "sha": "73705bd269c035a97382eda1166c241bcbee154c",
-            "date": "2021-04-16T19:35:41Z",
-            "message": "updated README and setup"
+            "sha": "6fefbe008181459665bc23d518eb35c09b2c9566",
+            "date": "2021-06-03T09:54:56Z",
+            "message": "Version 1.0.5 - Fix the install process so setup.py does not import mplsoccer."
         },
         "type": "package",
         "logoUrl": "https://github.com/andrewRowlinson/mplsoccer/blob/master/docs/source/logo.png?raw=true",
@@ -643,9 +647,11 @@
             "andrewRowlinson",
             "Slothfulwave612",
             "DymondFormation",
+            "reedkihaddi",
             "willthomson1",
             "anenglishgoat",
-            "ElJdP"
+            "ElJdP",
+            "devinpleuler"
         ],
         "sports": [
             "Soccer"
@@ -655,19 +661,19 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:41Z",
-            "updated": "2021-04-22T11:37:05Z",
-            "lastChecked": "2021-04-22T11:37:05Z"
+            "updated": "2021-07-14T14:27:27Z",
+            "lastChecked": "2021-07-14T14:27:27Z"
         }
     },
     {
         "name": "kloppy",
         "language": "Python",
         "license": "BSD",
-        "latestVersion": "1.5.2",
+        "latestVersion": "1.7.0",
         "lastCommit": {
-            "sha": "1276988ef47aab6b6a34d243ae72b33937e74f5a",
-            "date": "2021-03-19T15:47:22Z",
-            "message": "Merge pull request #89 from znstrider/add_vscode_to_gitignore\n\nadd *.code-workspace to .gitignore"
+            "sha": "ae12e063903abbecf7639731da20ba6123cf2bd2",
+            "date": "2021-07-01T14:43:08Z",
+            "message": "Update docs"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/pySport/kloppy/master/docs/logo.png",
@@ -682,7 +688,7 @@
             "koenvossen",
             "koenvo",
             "bdagnino",
-            "JayJayGH",
+            "znstrider",
             "rjtavares",
             "dmallory42",
             "eujern",
@@ -691,8 +697,7 @@
             "pratikthanki",
             "BenjaminLarrousse",
             "benoitblanc",
-            "TK5-Tim",
-            "znstrider"
+            "TK5-Tim"
         ],
         "sports": [
             "Soccer"
@@ -702,8 +707,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:43Z",
-            "updated": "2021-04-22T11:37:07Z",
-            "lastChecked": "2021-04-22T11:37:07Z"
+            "updated": "2021-07-14T14:27:29Z",
+            "lastChecked": "2021-07-14T14:27:29Z"
         }
     },
     {
@@ -737,7 +742,7 @@
         "dates": {
             "created": "2021-01-19T15:23:46Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:09Z"
+            "lastChecked": "2021-07-14T14:27:31Z"
         }
     },
     {
@@ -772,14 +777,14 @@
         "dates": {
             "created": "2021-01-19T15:23:52Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:10Z"
+            "lastChecked": "2021-07-14T14:27:33Z"
         }
     },
     {
         "name": "CFBScrapy",
         "language": "Python",
         "license": null,
-        "latestVersion": "0.1.9",
+        "latestVersion": "0.2.0",
         "lastCommit": {
             "sha": "45056401fd0025019618e07c1e63bd69a2f8741a",
             "date": "2020-01-08T02:45:07Z",
@@ -806,8 +811,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:54Z",
-            "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:12Z"
+            "updated": "2021-07-14T14:27:34Z",
+            "lastChecked": "2021-07-14T14:27:34Z"
         }
     },
     {
@@ -842,18 +847,18 @@
         "dates": {
             "created": "2021-01-19T15:23:57Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:14Z"
+            "lastChecked": "2021-07-14T14:27:36Z"
         }
     },
     {
         "name": "pybaseball",
         "language": "Python",
         "license": "MIT",
-        "latestVersion": "2.2.0",
+        "latestVersion": "2.2.1",
         "lastCommit": {
-            "sha": "5869a2d9c5cd1f8defc3b5da91d5d5ca5dc5ebb5",
-            "date": "2021-04-19T09:02:38Z",
-            "message": "Statcast Fielding & Running leaderboards (#198)"
+            "sha": "091565278a1399c1b256f6e738a6edc5be4fc869",
+            "date": "2021-07-07T09:55:33Z",
+            "message": "adds test of stats parsing (#220)"
         },
         "type": "package",
         "logoUrl": null,
@@ -872,17 +877,19 @@
             "andersonfrailey",
             "wfordh",
             "mwisnie5",
+            "alanbauer",
             "fonnesbeck",
             "hellerpdx",
             "ntanners",
+            "reddigari",
             "TAThor",
-            "alanbauer",
             "bgunn34",
+            "Latonis",
             "jamiek5",
             "jfreynolds",
+            "johnclary",
             "Maradonna90",
             "jelloslinger",
-            "reddigari",
             "tpoatsy3",
             "WillAyd",
             "tonycpsu"
@@ -895,8 +902,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:01Z",
-            "updated": "2021-04-22T11:37:16Z",
-            "lastChecked": "2021-04-22T11:37:16Z"
+            "updated": "2021-07-14T14:27:37Z",
+            "lastChecked": "2021-07-14T14:27:37Z"
         }
     },
     {
@@ -942,7 +949,7 @@
         "dates": {
             "created": "2021-01-19T15:24:04Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:18Z"
+            "lastChecked": "2021-07-14T14:27:39Z"
         }
     },
     {
@@ -951,9 +958,9 @@
         "license": "GPL-2.0",
         "latestVersion": "0.3.1",
         "lastCommit": {
-            "sha": "b960d0811c562fb6c35c13ac9f76b2a033230bc6",
-            "date": "2021-02-06T17:59:42Z",
-            "message": "Bump lxml from 4.5.0 to 4.6.2 (#57)\n\nBumps [lxml](https://github.com/lxml/lxml) from 4.5.0 to 4.6.2.\r\n- [Release notes](https://github.com/lxml/lxml/releases)\r\n- [Changelog](https://github.com/lxml/lxml/blob/master/CHANGES.txt)\r\n- [Commits](https://github.com/lxml/lxml/compare/lxml-4.5.0...lxml-4.6.2)\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+            "sha": "4e14bd5fa345ccfe3460dacaca4adf9d33fd5e56",
+            "date": "2021-04-29T11:35:48Z",
+            "message": "lahman-data export  (#61)\n\n* fixes lahman export bug\r\n\r\n- avoids unpacking the upstream directory\r\n  in the baseball-databank zip-file payload\r\n\r\n* updates bref daily-war test\r\n\r\n* fixes statcast test"
         },
         "type": "package",
         "logoUrl": null,
@@ -977,8 +984,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:07Z",
-            "updated": "2021-02-16T13:10:05Z",
-            "lastChecked": "2021-04-22T11:37:20Z"
+            "updated": "2021-07-14T14:27:40Z",
+            "lastChecked": "2021-07-14T14:27:40Z"
         }
     },
     {
@@ -987,9 +994,9 @@
         "license": "MIT",
         "latestVersion": "1.1",
         "lastCommit": {
-            "sha": "07ee2b00b539049acec6317c434aa08496149477",
-            "date": "2021-01-30T19:43:38Z",
-            "message": "Remove `ReadTimeout` from retry exception (wouldn't help)"
+            "sha": "13f6ff3d18ddebd95010fddcd7ba0c8d19dea997",
+            "date": "2021-05-29T17:48:35Z",
+            "message": "Retry on broader exception scope"
         },
         "type": "package",
         "logoUrl": null,
@@ -1013,8 +1020,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:10Z",
-            "updated": "2021-02-16T13:10:06Z",
-            "lastChecked": "2021-04-22T11:37:21Z"
+            "updated": "2021-07-14T14:27:41Z",
+            "lastChecked": "2021-07-14T14:27:41Z"
         }
     },
     {
@@ -1023,9 +1030,9 @@
         "license": "GNU General Public License v3.0",
         "latestVersion": "1.0.10",
         "lastCommit": {
-            "sha": "70d51f1d19b91fcf7880ad1ee099cfdfb30a0a40",
-            "date": "2021-01-30T15:51:26Z",
-            "message": "Shutting Down"
+            "sha": "da4d6a56d6819b7c61201ece4dbeb41d088f9461",
+            "date": "2021-06-02T02:25:25Z",
+            "message": "Merge pull request #20 from mcbarlowe/dependabot/pip/urllib3-1.26.5\n\nBump urllib3 from 1.24.3 to 1.26.5"
         },
         "type": "package",
         "logoUrl": null,
@@ -1037,7 +1044,8 @@
         },
         "contributors": [
             "mcbarlowe",
-            "HarryShomer"
+            "HarryShomer",
+            "dependabot[bot]"
         ],
         "sports": [
             "Basketball"
@@ -1047,8 +1055,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:13Z",
-            "updated": "2021-02-16T13:10:08Z",
-            "lastChecked": "2021-04-22T11:37:23Z"
+            "updated": "2021-07-14T14:27:43Z",
+            "lastChecked": "2021-07-14T14:27:43Z"
         }
     },
     {
@@ -1077,8 +1085,7 @@
             "SeanAmmirati",
             "ajhodges",
             "AidanGlickman",
-            "mateuszz0000",
-            "thomaslu2"
+            "mateuszz0000"
         ],
         "sports": [],
         "categories": [
@@ -1086,8 +1093,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:16Z",
-            "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:25Z"
+            "updated": "2021-07-14T14:27:45Z",
+            "lastChecked": "2021-07-14T14:27:45Z"
         }
     },
     {
@@ -1096,9 +1103,9 @@
         "license": "Use for non-commercial purpose with credit, author permission required for commercial use",
         "latestVersion": "0.1.0",
         "lastCommit": {
-            "sha": "211c3b7c0ad23e94d78a988e5e64cf1c8f83c8ee",
-            "date": "2021-04-19T14:52:06Z",
-            "message": "Player naming convention change. Miiiiight break things"
+            "sha": "82a2c0cf742c3d272fdbd43fa226df200e4afe4f",
+            "date": "2021-06-06T02:19:11Z",
+            "message": "PV function"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -1173,8 +1180,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:19Z",
-            "updated": "2021-04-22T11:37:27Z",
-            "lastChecked": "2021-04-22T11:37:27Z"
+            "updated": "2021-07-14T14:27:47Z",
+            "lastChecked": "2021-07-14T14:27:47Z"
         }
     },
     {
@@ -1271,7 +1278,7 @@
         "dates": {
             "created": "2021-01-19T15:24:21Z",
             "updated": "2021-01-25T13:28:17Z",
-            "lastChecked": "2021-04-22T11:37:29Z"
+            "lastChecked": "2021-07-14T14:27:49Z"
         }
     },
     {
@@ -1319,7 +1326,7 @@
         "dates": {
             "created": "2021-01-19T15:24:24Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:31Z"
+            "lastChecked": "2021-07-14T14:27:51Z"
         }
     },
     {
@@ -1354,7 +1361,7 @@
         "dates": {
             "created": "2021-01-19T15:24:26Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:33Z"
+            "lastChecked": "2021-07-14T14:27:52Z"
         }
     },
     {
@@ -1363,9 +1370,9 @@
         "license": "MIT",
         "latestVersion": "0.4.0",
         "lastCommit": {
-            "sha": "754b6b6df3c514a2b4231d97547a614795e1efa9",
-            "date": "2021-03-16T15:16:48Z",
-            "message": "remove stray commas in get_nfl_schedule() - closes issue #6 - thanks @bmacGTPM !"
+            "sha": "b615cdb64bb5a8a305ea93acf51871e16e8e345f",
+            "date": "2021-04-25T15:03:17Z",
+            "message": "Merge pull request #11 from bmacGTPM/bmac\n\nInclude venue information"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -1376,7 +1383,9 @@
             "website": "https://jthomasmock.github.io/espnscrapeR/"
         },
         "contributors": [
-            "jthomasmock"
+            "jthomasmock",
+            "bmacGTPM",
+            "tonyelhabr"
         ],
         "sports": [
             "American Football"
@@ -1386,8 +1395,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:29Z",
-            "updated": "2021-03-18T07:21:12Z",
-            "lastChecked": "2021-04-22T11:37:34Z"
+            "updated": "2021-07-14T14:27:54Z",
+            "lastChecked": "2021-07-14T14:27:54Z"
         }
     },
     {
@@ -1421,18 +1430,18 @@
         "dates": {
             "created": "2021-01-19T15:24:31Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:36Z"
+            "lastChecked": "2021-07-14T14:27:55Z"
         }
     },
     {
         "name": "baseballr",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "0.8.4",
+        "latestVersion": "0.8.5",
         "lastCommit": {
-            "sha": "93d6ee7d13a2a92306889d648454371a2e95d6aa",
-            "date": "2021-04-13T13:47:21Z",
-            "message": "fixed issue with team ids not populating correctly in boxscore functions"
+            "sha": "f4c942050dbc5c1f56ee432aa6e3393a05c21caf",
+            "date": "2021-05-30T20:44:22Z",
+            "message": "fix for years 2019-2021 where RPI results where being included in first row of schedule; fix for games that are post-poned"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -1467,8 +1476,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:34Z",
-            "updated": "2021-04-22T11:37:38Z",
-            "lastChecked": "2021-04-22T11:37:38Z"
+            "updated": "2021-07-14T14:27:57Z",
+            "lastChecked": "2021-07-14T14:27:57Z"
         }
     },
     {
@@ -1510,7 +1519,7 @@
         "dates": {
             "created": "2021-01-19T15:24:36Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:40Z"
+            "lastChecked": "2021-07-14T14:28:03Z"
         }
     },
     {
@@ -1564,7 +1573,7 @@
         "dates": {
             "created": "2021-01-19T15:24:39Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:42Z"
+            "lastChecked": "2021-07-14T14:28:05Z"
         }
     },
     {
@@ -1606,7 +1615,7 @@
         "dates": {
             "created": "2021-01-19T15:24:43Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:43Z"
+            "lastChecked": "2021-07-14T14:28:06Z"
         }
     },
     {
@@ -1642,7 +1651,7 @@
         "dates": {
             "created": "2021-01-19T15:24:45Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:45Z"
+            "lastChecked": "2021-07-14T14:28:08Z"
         }
     },
     {
@@ -1675,7 +1684,7 @@
         "dates": {
             "created": "2021-01-19T15:24:48Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2021-04-22T11:37:47Z"
+            "lastChecked": "2021-07-14T14:28:10Z"
         }
     },
     {
@@ -1684,9 +1693,9 @@
         "license": "MIT",
         "latestVersion": "1.5.8",
         "lastCommit": {
-            "sha": "abf69a8a17a42689623e3057deb4e91f99a8907c",
-            "date": "2021-04-16T00:50:42Z",
-            "message": "Update ids"
+            "sha": "15199300ad5356054025f1158f7304aa38447a96",
+            "date": "2021-04-27T04:46:51Z",
+            "message": "Merge pull request #61 from wyattowalsh/master\n\nExtra comma in author DESCRIPTION fix"
         },
         "type": "github_package",
         "logoUrl": "https://raw.githubusercontent.com/lbenz730/ncaahoopR/master/figures/logo.png",
@@ -1734,6 +1743,7 @@
             "morrisLuke",
             "TyWalters",
             "znmeb",
+            "wyattowalsh",
             "dylorr",
             "j-andrews7",
             "meysubb"
@@ -1746,8 +1756,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:52Z",
-            "updated": "2021-04-22T11:37:48Z",
-            "lastChecked": "2021-04-22T11:37:48Z"
+            "updated": "2021-07-14T14:28:12Z",
+            "lastChecked": "2021-07-14T14:28:12Z"
         }
     },
     {
@@ -1783,7 +1793,7 @@
         "dates": {
             "created": "2021-01-19T15:24:55Z",
             "updated": "2021-04-22T11:37:51Z",
-            "lastChecked": "2021-04-22T11:37:51Z"
+            "lastChecked": "2021-07-14T14:28:14Z"
         }
     },
     {
@@ -1809,7 +1819,7 @@
             "bmacGTPM",
             "saadaslam",
             "batpigandme",
-            "pachamaltese",
+            "pachadotdev",
             "rtelmore"
         ],
         "sports": [
@@ -1820,8 +1830,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:57Z",
-            "updated": "2021-04-22T11:37:52Z",
-            "lastChecked": "2021-04-22T11:37:52Z"
+            "updated": "2021-07-14T14:28:16Z",
+            "lastChecked": "2021-07-14T14:28:16Z"
         }
     },
     {
@@ -1856,7 +1866,7 @@
         "dates": {
             "created": "2021-01-19T15:25:00Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:37:54Z"
+            "lastChecked": "2021-07-14T14:28:19Z"
         }
     },
     {
@@ -1916,7 +1926,7 @@
         "dates": {
             "created": "2021-01-19T15:25:03Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:37:56Z"
+            "lastChecked": "2021-07-14T14:28:21Z"
         }
     },
     {
@@ -1950,18 +1960,18 @@
         "dates": {
             "created": "2021-01-19T15:25:05Z",
             "updated": "2021-04-22T11:37:58Z",
-            "lastChecked": "2021-04-22T11:37:58Z"
+            "lastChecked": "2021-07-14T14:28:23Z"
         }
     },
     {
         "name": "yorkr",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "0.0.21",
+        "latestVersion": "0.0.25",
         "lastCommit": {
-            "sha": "35f7a2f8f8dbb2bea368d7e72192d69065e073d6",
-            "date": "2021-04-18T05:25:02Z",
-            "message": "Maintained Kings XI Punjab & Punjab Kings for ease of maintenance"
+            "sha": "fc5bb4103126ea3e1681b615f22df492ef9b5266",
+            "date": "2021-07-10T10:49:02Z",
+            "message": "Changes to wins & losses\n\nChanges to wins and losses with date range"
         },
         "type": "package",
         "logoUrl": null,
@@ -1983,8 +1993,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:25:10Z",
-            "updated": "2021-04-22T11:37:59Z",
-            "lastChecked": "2021-04-22T11:37:59Z"
+            "updated": "2021-07-14T14:28:26Z",
+            "lastChecked": "2021-07-14T14:28:26Z"
         }
     },
     {
@@ -1993,9 +2003,9 @@
         "license": "GPL-3",
         "latestVersion": "0.0.3",
         "lastCommit": {
-            "sha": "844cc619160526ec7160cc554af3896754ef866d",
-            "date": "2021-04-06T08:30:36Z",
-            "message": "Merge pull request #17 from robjhyndman/imgbot\n\n[ImgBot] Optimize images"
+            "sha": "9a31b503c30224d56b1cd654b0a2621ca555dec4",
+            "date": "2021-05-04T00:53:13Z",
+            "message": "Merge pull request #18 from huizezhang-sherry/master\n\nfix strsplit(tables[[2]][1, 1], 'Page 1 of ')"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -2025,7 +2035,8 @@
             "alexwhan",
             "Sayani-0711",
             "TimothyHyndman",
-            "ImgBotApp"
+            "ImgBotApp",
+            "huizezhang-sherry"
         ],
         "sports": [
             "Cricket"
@@ -2035,8 +2046,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:25:13Z",
-            "updated": "2021-04-22T11:38:02Z",
-            "lastChecked": "2021-04-22T11:38:02Z"
+            "updated": "2021-07-14T14:28:28Z",
+            "lastChecked": "2021-07-14T14:28:28Z"
         }
     },
     {
@@ -2067,7 +2078,7 @@
         "dates": {
             "created": "2021-01-19T15:25:16Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:38:04Z"
+            "lastChecked": "2021-07-14T14:28:30Z"
         }
     },
     {
@@ -2099,7 +2110,7 @@
         "dates": {
             "created": "2021-01-19T15:25:19Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:38:06Z"
+            "lastChecked": "2021-07-14T14:28:32Z"
         }
     },
     {
@@ -2133,7 +2144,7 @@
         "dates": {
             "created": "2021-01-19T15:25:22Z",
             "updated": "2021-03-03T14:23:48Z",
-            "lastChecked": "2021-04-22T11:38:08Z"
+            "lastChecked": "2021-07-14T14:28:34Z"
         }
     },
     {
@@ -2168,7 +2179,7 @@
         "dates": {
             "created": "2021-01-19T15:25:24Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:38:10Z"
+            "lastChecked": "2021-07-14T14:28:36Z"
         }
     },
     {
@@ -2205,7 +2216,7 @@
         "dates": {
             "created": "2021-01-19T15:25:27Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:38:12Z"
+            "lastChecked": "2021-07-14T14:28:38Z"
         }
     },
     {
@@ -2237,7 +2248,7 @@
         "dates": {
             "created": "2021-01-19T15:25:30Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:38:13Z"
+            "lastChecked": "2021-07-14T14:28:40Z"
         }
     },
     {
@@ -2267,7 +2278,7 @@
         "dates": {
             "created": "2021-01-19T15:25:32Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:38:15Z"
+            "lastChecked": "2021-07-14T14:28:41Z"
         }
     },
     {
@@ -2311,7 +2322,7 @@
         "dates": {
             "created": "2021-01-19T15:25:34Z",
             "updated": "2021-03-18T07:22:02Z",
-            "lastChecked": "2021-04-22T11:38:17Z"
+            "lastChecked": "2021-07-14T14:28:43Z"
         }
     },
     {
@@ -2372,7 +2383,7 @@
         "dates": {
             "created": "2021-01-19T15:25:37Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:38:18Z"
+            "lastChecked": "2021-07-14T14:28:45Z"
         }
     },
     {
@@ -2404,7 +2415,7 @@
         "dates": {
             "created": "2021-01-19T15:25:39Z",
             "updated": "2021-04-22T11:38:20Z",
-            "lastChecked": "2021-04-22T11:38:20Z"
+            "lastChecked": "2021-07-14T14:28:47Z"
         }
     },
     {
@@ -2413,9 +2424,9 @@
         "license": "GPL-3.0",
         "latestVersion": "0.4.1.9000",
         "lastCommit": {
-            "sha": "7e6288a49b1ce9d611129b75b08c600c3cd05f88",
-            "date": "2020-04-08T10:41:10Z",
-            "message": "Use latest pkgdown"
+            "sha": "0b884242c32970b16e51b9c94139ac2f58188a28",
+            "date": "2021-06-02T11:16:34Z",
+            "message": "Add mezzala to readme"
         },
         "type": "github_package",
         "logoUrl": "https://raw.githubusercontent.com/Torvaney/regista/master/man/figures/logo.png",
@@ -2436,8 +2447,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:25:42Z",
-            "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:38:22Z"
+            "updated": "2021-07-14T14:28:49Z",
+            "lastChecked": "2021-07-14T14:28:49Z"
         }
     },
     {
@@ -2477,18 +2488,18 @@
         "dates": {
             "created": "2021-01-19T15:25:46Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:38:24Z"
+            "lastChecked": "2021-07-14T14:28:51Z"
         }
     },
     {
         "name": "nwslR",
         "language": "R",
         "license": "GPL-3",
-        "latestVersion": "0.0.0.9000",
+        "latestVersion": "0.9.0.0000",
         "lastCommit": {
-            "sha": "b7c01cdbdc24dbc048a90a7927fca8429f79e2dd",
-            "date": "2020-07-19T19:08:40Z",
-            "message": "Merge pull request #81 from adror1/arielle_v2\n\nArielle v2"
+            "sha": "911f3b959ee620383e963a7f83bd2f9034a79ae0",
+            "date": "2021-05-02T03:28:57Z",
+            "message": "Merge pull request #84 from adror1/adror/update_year\n\nUpdate for 2021 Season!"
         },
         "type": "github_package",
         "logoUrl": "https://raw.githubusercontent.com/adror1/nwslR/master/man/figures/hex-nwslR.png",
@@ -2518,8 +2529,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:25:48Z",
-            "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:38:26Z"
+            "updated": "2021-07-14T14:28:53Z",
+            "lastChecked": "2021-07-14T14:28:53Z"
         }
     },
     {
@@ -2553,18 +2564,18 @@
         "dates": {
             "created": "2021-01-19T15:25:51Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:38:28Z"
+            "lastChecked": "2021-07-14T14:28:55Z"
         }
     },
     {
         "name": "LaurieOnTracking",
         "language": "Python",
-        "license": null,
+        "license": "MIT",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "7910cc0c5397ddd84b303c32247f410704f34271",
-            "date": "2020-06-01T14:51:02Z",
-            "message": "Updating description of Tutorial 4"
+            "sha": "7ed3ff857940d3f4611be55f3c08c79525c32171",
+            "date": "2021-06-15T08:40:03Z",
+            "message": "Merge pull request #3 from Friends-of-Tracking-Data-FoTD/add-license-1\n\nCreate LICENSE"
         },
         "type": "repository",
         "logoUrl": null,
@@ -2574,8 +2585,8 @@
             "github": "https://github.com/Friends-of-Tracking-Data-FoTD/LaurieOnTracking"
         },
         "contributors": [
-            "HarvardSoccer",
-            "soccermatics"
+            "soccermatics",
+            "HarvardSoccer"
         ],
         "sports": [
             "Soccer"
@@ -2587,8 +2598,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:25:53Z",
-            "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:38:29Z"
+            "updated": "2021-07-14T14:28:56Z",
+            "lastChecked": "2021-07-14T14:28:56Z"
         }
     },
     {
@@ -2630,7 +2641,7 @@
         "dates": {
             "created": "2021-01-19T15:25:56Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2021-04-22T11:38:31Z"
+            "lastChecked": "2021-07-14T14:28:57Z"
         }
     },
     {
@@ -2639,9 +2650,9 @@
         "license": "GNU General Public License v3.0",
         "latestVersion": "0.2.1",
         "lastCommit": {
-            "sha": "2ca72ecaed55af60619828952638df9ed3427b1b",
-            "date": "2021-01-30T15:53:29Z",
-            "message": "Shutting Down"
+            "sha": "cf9fa2c55864d90ca93e73f5535c9de48ddfac8a",
+            "date": "2021-06-02T02:24:03Z",
+            "message": "Merge pull request #3 from mcbarlowe/dependabot/pip/urllib3-1.26.5\n\nBump urllib3 from 1.25.8 to 1.26.5"
         },
         "type": "package",
         "logoUrl": null,
@@ -2652,7 +2663,8 @@
             "pypi": "https://pypi.org/project/nba-parser/"
         },
         "contributors": [
-            "mcbarlowe"
+            "mcbarlowe",
+            "dependabot[bot]"
         ],
         "sports": [
             "Basketball"
@@ -2662,8 +2674,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:00Z",
-            "updated": "2021-02-16T13:11:31Z",
-            "lastChecked": "2021-04-22T11:38:34Z"
+            "updated": "2021-07-14T14:28:59Z",
+            "lastChecked": "2021-07-14T14:28:59Z"
         }
     },
     {
@@ -2672,9 +2684,9 @@
         "license": "MIT",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "1e9478fc52524a7a4479de17a5fba8371db2c43e",
-            "date": "2021-04-22T02:54:14Z",
-            "message": "updated through 2021-04-20"
+            "sha": "65c84c3a7a781a410874ba73a8a6eb25eb83dcc6",
+            "date": "2021-06-29T15:06:45Z",
+            "message": "updated through 2021-06-26"
         },
         "type": "tutorial",
         "logoUrl": null,
@@ -2700,8 +2712,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:02Z",
-            "updated": "2021-04-22T11:38:35Z",
-            "lastChecked": "2021-04-22T11:38:35Z"
+            "updated": "2021-07-14T14:29:02Z",
+            "lastChecked": "2021-07-14T14:29:02Z"
         }
     },
     {
@@ -2729,8 +2741,8 @@
             "opisthokonta"
         ],
         "sports": [
-            "Soccer",
             "American Football",
+            "Soccer",
             "Hockey"
         ],
         "categories": [
@@ -2738,8 +2750,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:05Z",
-            "updated": "2021-04-22T11:38:37Z",
-            "lastChecked": "2021-04-22T11:38:37Z"
+            "updated": "2021-07-14T14:29:04Z",
+            "lastChecked": "2021-07-14T14:29:04Z"
         }
     },
     {
@@ -2787,7 +2799,7 @@
         "dates": {
             "created": "2021-01-19T15:26:09Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-04-22T11:38:39Z"
+            "lastChecked": "2021-07-14T14:29:06Z"
         }
     },
     {
@@ -2796,9 +2808,9 @@
         "license": null,
         "latestVersion": null,
         "lastCommit": {
-            "sha": "f45f2489ff57a5fbfe4315608c8139b04a7a2f9c",
-            "date": "2021-02-07T16:34:30Z",
-            "message": "Added daily shotchart notebook"
+            "sha": "de15c779a3874f8ee7039f9f9254e67f47335d9c",
+            "date": "2021-06-27T11:33:50Z",
+            "message": "Updated again"
         },
         "type": "tutorial",
         "logoUrl": null,
@@ -2819,8 +2831,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:11Z",
-            "updated": "2021-02-16T13:11:38Z",
-            "lastChecked": "2021-04-22T11:38:40Z"
+            "updated": "2021-07-14T14:29:07Z",
+            "lastChecked": "2021-07-14T14:29:07Z"
         }
     },
     {
@@ -2853,7 +2865,7 @@
         "dates": {
             "created": "2021-01-19T15:26:14Z",
             "updated": "2021-04-22T11:38:42Z",
-            "lastChecked": "2021-04-22T11:38:42Z"
+            "lastChecked": "2021-07-14T14:29:09Z"
         }
     },
     {
@@ -2862,9 +2874,9 @@
         "license": "MIT License",
         "latestVersion": "1.0.0",
         "lastCommit": {
-            "sha": "94fc35aa1a856da72b168ed6934302b32005e802",
-            "date": "2020-09-06T17:27:01Z",
-            "message": "bump charts, dark mode radars and add text"
+            "sha": "f6163ffeb351209f77abc5d76a3071b9a0f9dcb8",
+            "date": "2021-04-29T14:14:39Z",
+            "message": "Update README.md"
         },
         "type": "package",
         "logoUrl": null,
@@ -2885,19 +2897,19 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:16Z",
-            "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-04-22T11:38:44Z"
+            "updated": "2021-07-14T14:29:10Z",
+            "lastChecked": "2021-07-14T14:29:10Z"
         }
     },
     {
         "name": "statsguRu",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "0.1.1",
+        "latestVersion": "0.1.2",
         "lastCommit": {
-            "sha": "b9127c20556803dc6f305ae9cb98a0fd875d0bee",
-            "date": "2021-01-15T13:22:23Z",
-            "message": "updated to statsguRu_0.1.1"
+            "sha": "708ec817b20c3fba2f32712fff87b434bd21346e",
+            "date": "2021-07-01T14:39:38Z",
+            "message": "minor refresh"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -2918,27 +2930,27 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:19Z",
-            "updated": "2021-01-25T13:29:59Z",
-            "lastChecked": "2021-04-22T11:38:46Z"
+            "updated": "2021-07-14T14:29:13Z",
+            "lastChecked": "2021-07-14T14:29:13Z"
         }
     },
     {
-        "name": "kenpomR",
+        "name": "hoopR",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "0.2.3",
+        "latestVersion": "1.2.0",
         "lastCommit": {
-            "sha": "3ee9e785eebb81075e68fcc187b26085ae53bbdb",
-            "date": "2021-02-25T10:23:09Z",
-            "message": "add ncaa net and ap/coaches poll rankings"
+            "sha": "d93d4815b48567313cec48ee79ebceeb7e52c562",
+            "date": "2021-07-09T02:37:43Z",
+            "message": "styling"
         },
         "type": "github_package",
-        "logoUrl": "https://raw.githubusercontent.com/saiemgilani/kenpomR/master/man/figures/logo.png",
-        "description": "The R package kenpomR is for working with Ken Pomeroy's college basketball data. A scraping interface for Ken Pomeroy's college basketball statistics website, kenpom.com. It provides users with an active subscription and login the capability to scrape the website tables and analyze the data for themselves.",
+        "logoUrl": "https://hoopR.sportsdataverse.org/img/logo.png",
+        "description": "An R package to quickly obtain clean and tidy men's\nbasketball play by play data. The package has functions to access\nlive play by play and box score data from ESPN with shot locations\nwhen available. It is also a scraping and aggregating\ninterface for Ken Pomeroy's men's college basketball statistics\nwebsite. It provides users with an\nactive subscription to kenpom.com the capability to scrape the website tables and\nanalyze the data for themselves.",
         "images": [],
         "urls": {
             "github": "https://github.com/saiemgilani/kenpomR",
-            "website": "https://saiemgilani.github.io/kenpomR/"
+            "website": "https://hoopR.sportsdataverse.org"
         },
         "contributors": [
             "saiemgilani"
@@ -2950,9 +2962,9 @@
             "Scraper/API"
         ],
         "dates": {
-            "created": "2021-01-19T15:26:23Z",
-            "updated": "2021-02-25T12:12:00Z",
-            "lastChecked": "2021-04-22T11:38:48Z"
+            "created": "2021-07-14T14:29:15Z",
+            "updated": "2021-07-14T14:29:15Z",
+            "lastChecked": "2021-07-14T14:29:15Z"
         }
     },
     {
@@ -2984,7 +2996,7 @@
         "dates": {
             "created": "2021-01-19T15:26:26Z",
             "updated": "2021-04-22T11:38:50Z",
-            "lastChecked": "2021-04-22T11:38:50Z"
+            "lastChecked": "2021-07-14T14:29:17Z"
         }
     },
     {
@@ -3017,7 +3029,7 @@
         "dates": {
             "created": "2021-01-19T15:26:28Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-04-22T11:38:51Z"
+            "lastChecked": "2021-07-14T14:29:18Z"
         }
     },
     {
@@ -3052,7 +3064,7 @@
         "dates": {
             "created": "2021-01-19T15:26:30Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-04-22T11:38:53Z"
+            "lastChecked": "2021-07-14T14:29:19Z"
         }
     },
     {
@@ -3090,18 +3102,18 @@
         "dates": {
             "created": "2021-01-19T15:26:32Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-04-22T11:38:54Z"
+            "lastChecked": "2021-07-14T14:29:20Z"
         }
     },
     {
         "name": "codeball",
         "language": "Python",
         "license": "MIT",
-        "latestVersion": "0.1.3",
+        "latestVersion": "0.2.0",
         "lastCommit": {
-            "sha": "44d0cfbe691990e03adc52c595a6451736bfba2b",
-            "date": "2021-03-01T23:26:12Z",
-            "message": "version to 0.1.4"
+            "sha": "f8be7b01ecf42d9ade9cd5173a013802620cd388",
+            "date": "2021-07-01T19:24:00Z",
+            "message": "Merge pull request #4 from metrica-sports/codes-frames\n\nCodes frames"
         },
         "type": "package",
         "logoUrl": null,
@@ -3123,8 +3135,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:35Z",
-            "updated": "2021-03-03T14:24:35Z",
-            "lastChecked": "2021-04-22T11:38:56Z"
+            "updated": "2021-07-14T14:29:22Z",
+            "lastChecked": "2021-07-14T14:29:22Z"
         }
     },
     {
@@ -3133,8 +3145,8 @@
         "license": "Other",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "6b46f2d0a81fe063fd21c0bd2fe4f91be522ea26",
-            "date": "2021-04-20T14:12:30Z",
+            "sha": "3f89dc765e1ec5335a254a7a83f35a4c038e31b6",
+            "date": "2021-05-20T14:17:03Z",
             "message": "Added 0 new games, updated 0 games."
         },
         "type": "repository",
@@ -3158,8 +3170,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:37Z",
-            "updated": "2021-04-22T11:38:57Z",
-            "lastChecked": "2021-04-22T11:38:57Z"
+            "updated": "2021-07-14T14:29:23Z",
+            "lastChecked": "2021-07-14T14:29:23Z"
         }
     },
     {
@@ -3168,8 +3180,8 @@
         "license": "MIT",
         "latestVersion": "0.4.3",
         "lastCommit": {
-            "sha": "0ad3c549f595842edaf17bc5b342c728eab55da6",
-            "date": "2021-04-16T14:00:53Z",
+            "sha": "3f8a73cdb91cc93b566c07bc62564efbe1d068d4",
+            "date": "2021-05-18T14:19:33Z",
             "message": "Update README.md"
         },
         "type": "github_package",
@@ -3200,8 +3212,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:41Z",
-            "updated": "2021-04-22T11:38:59Z",
-            "lastChecked": "2021-04-22T11:38:59Z"
+            "updated": "2021-07-14T14:29:25Z",
+            "lastChecked": "2021-07-14T14:29:25Z"
         }
     },
     {
@@ -3234,7 +3246,7 @@
         "dates": {
             "created": "2021-01-19T15:26:44Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-04-22T11:39:01Z"
+            "lastChecked": "2021-07-14T14:29:27Z"
         }
     },
     {
@@ -3266,7 +3278,7 @@
         "dates": {
             "created": "2021-01-19T15:26:46Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-04-22T11:39:03Z"
+            "lastChecked": "2021-07-14T14:29:28Z"
         }
     },
     {
@@ -3300,7 +3312,7 @@
         "dates": {
             "created": "2021-01-19T15:26:49Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-04-22T11:39:05Z"
+            "lastChecked": "2021-07-14T14:29:29Z"
         }
     },
     {
@@ -3332,22 +3344,22 @@
         "dates": {
             "created": "2021-01-19T15:26:51Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2021-04-22T11:39:07Z"
+            "lastChecked": "2021-07-14T14:29:31Z"
         }
     },
     {
         "name": "midsprint",
         "language": "R",
-        "license": "What license is it under?",
-        "latestVersion": "0.1.1",
+        "license": null,
+        "latestVersion": "0.2.0",
         "lastCommit": {
-            "sha": "4aaa5f3de62fea208e468f89a5bd24983ac611d1",
-            "date": "2021-04-14T01:04:47Z",
-            "message": "Fix render time"
+            "sha": "0d09696aa99d1451efa44037d1c04a6a7bec2270",
+            "date": "2021-06-27T01:28:20Z",
+            "message": "Update speed_accel.R"
         },
         "type": "github_package",
         "logoUrl": null,
-        "description": "A small package that accompanies the Big Data Bowl 2021 submission \"5 Seconds or Less: Modeling player biomechanics to predict pass outcomes\" [https://www.kaggle.com/haljordan/modeling-player-biomechanics]",
+        "description": "{midsprint} is a lightweight RStats package that allows sports scientists to build aspects of an athlete's force-velocity-power (fvp) profile from game data.\nBy following the vignette (sample walkthrough provided in .pdf format), you can create player reports in minutes.\nIf you would like to reach out and talk, have any issues, or suggest changes, please send an email Aaron Pearson (aaronzpearson@outlook.com).",
         "images": [],
         "urls": {
             "github": "https://github.com/aaronzpearson/midsprint"
@@ -3356,16 +3368,14 @@
             "aaronzpearson",
             "danichusfu"
         ],
-        "sports": [
-            "American Football"
-        ],
+        "sports": [],
         "categories": [
             "Model/Calculations"
         ],
         "dates": {
             "created": "2021-01-19T15:38:07Z",
-            "updated": "2021-04-22T11:39:09Z",
-            "lastChecked": "2021-04-22T11:39:09Z"
+            "updated": "2021-07-14T14:29:32Z",
+            "lastChecked": "2021-07-14T14:29:32Z"
         }
     },
     {
@@ -3400,7 +3410,7 @@
         "dates": {
             "created": "2021-01-20T07:13:13Z",
             "updated": "2021-04-22T11:39:11Z",
-            "lastChecked": "2021-04-22T11:39:11Z"
+            "lastChecked": "2021-07-14T14:29:34Z"
         }
     },
     {
@@ -3433,7 +3443,7 @@
         "dates": {
             "created": "2021-01-20T07:41:41Z",
             "updated": "2021-01-20T07:41:41Z",
-            "lastChecked": "2021-04-22T11:39:12Z"
+            "lastChecked": "2021-07-14T14:29:37Z"
         }
     },
     {
@@ -3442,9 +3452,9 @@
         "license": "MIT",
         "latestVersion": "1.0.2",
         "lastCommit": {
-            "sha": "d01e9b46457694ad86571151800c35586966fa4c",
-            "date": "2021-04-17T18:33:42Z",
-            "message": "Update urls (#21)"
+            "sha": "1d8481f3d8d9e5ed1fc863c43167ae0c998bc68c",
+            "date": "2021-07-08T17:33:24Z",
+            "message": "Increment version number"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/leesharpe/nflseedR/master/man/figures/logo.png",
@@ -3468,30 +3478,35 @@
         ],
         "dates": {
             "created": "2021-02-25T12:12:24Z",
-            "updated": "2021-04-22T11:39:15Z",
-            "lastChecked": "2021-04-22T11:39:15Z"
+            "updated": "2021-07-14T14:29:40Z",
+            "lastChecked": "2021-07-14T14:29:40Z"
         }
     },
     {
         "name": "wehoop",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "0.2.0",
+        "latestVersion": "1.1",
         "lastCommit": {
-            "sha": "3a35344ed19205e8de3ca51eeb063ec1ed306468",
-            "date": "2021-04-06T17:46:25Z",
-            "message": "Merge pull request #2 from saiemgilani/wbb-fix\n\nremove rankings and conferences functions for now"
+            "sha": "1ea68aebf94e2ea0a3724584a457db4f15ee70d1",
+            "date": "2021-07-09T02:28:36Z",
+            "message": "styling"
         },
         "type": "github_package",
-        "logoUrl": "https://raw.githubusercontent.com/saiemgilani/wehoop/master/man/figures/logo.png",
+        "logoUrl": "https://wehoop.sportsdataverse.org/img/logo.png",
         "description": "The R package wehoop is for working with women's college and professional basketball data. A scraping and aggregating interface for ESPN's women's college basketball and WNBA statistics, [espn.com](https://espn.com). It provides users with the capability to access the API's game play-by-plays, box scores, standings and results to analyze the data for themselves.",
-        "images": [],
+        "images": [
+            {
+                "url": "https://github.com/yonicd/issue/blob/master/inst/icons/pull-request-merged.png?raw=true"
+            }
+        ],
         "urls": {
             "github": "https://github.com/saiemgilani/wehoop",
-            "website": "https://saiemgilani.github.io/wehoop/"
+            "website": "https://wehoop.sportsdataverse.org/"
         },
         "contributors": [
-            "saiemgilani"
+            "saiemgilani",
+            "hutchngo"
         ],
         "sports": [
             "Basketball"
@@ -3502,8 +3517,8 @@
         ],
         "dates": {
             "created": "2021-03-01T18:45:50Z",
-            "updated": "2021-04-22T11:39:17Z",
-            "lastChecked": "2021-04-22T11:39:17Z"
+            "updated": "2021-07-14T14:29:42Z",
+            "lastChecked": "2021-07-14T14:29:42Z"
         }
     },
     {
@@ -3540,18 +3555,18 @@
         "dates": {
             "created": "2021-03-03T14:24:55Z",
             "updated": "2021-03-03T14:27:58Z",
-            "lastChecked": "2021-04-22T11:39:19Z"
+            "lastChecked": "2021-07-14T14:29:44Z"
         }
     },
     {
         "name": "gamezoneR",
         "language": "R",
         "license": "Apache License (>= 2)",
-        "latestVersion": "0.1.0",
+        "latestVersion": "0.1.1",
         "lastCommit": {
-            "sha": "0a7837e65dc953fe7e201d66006f1b81b012835a",
-            "date": "2021-03-15T23:28:33Z",
-            "message": "update error message in get_master_schedule"
+            "sha": "4682c741c1b970839fcf0324b8a79a36520e89bf",
+            "date": "2021-07-02T02:21:29Z",
+            "message": "rename to mbb_team_info"
         },
         "type": "github_package",
         "logoUrl": "https://raw.githubusercontent.com/JackLich10/gamezoneR/master/man/figures/gamezoneR_40trans.png",
@@ -3572,8 +3587,8 @@
         ],
         "dates": {
             "created": "2021-03-18T07:23:16Z",
-            "updated": "2021-03-18T07:23:16Z",
-            "lastChecked": "2021-04-22T11:39:21Z"
+            "updated": "2021-07-14T14:29:45Z",
+            "lastChecked": "2021-07-14T14:29:45Z"
         }
     },
     {
@@ -3605,7 +3620,7 @@
         "dates": {
             "created": "2021-03-18T07:23:18Z",
             "updated": "2021-03-18T07:23:18Z",
-            "lastChecked": "2021-04-22T11:39:22Z"
+            "lastChecked": "2021-07-14T14:29:46Z"
         }
     },
     {
@@ -3614,9 +3629,9 @@
         "license": null,
         "latestVersion": null,
         "lastCommit": {
-            "sha": "98a32ad073d7661f62afce26f781deec112459f9",
-            "date": "2021-04-21T14:09:57Z",
-            "message": "updated README"
+            "sha": "0e474a6197b9707d92b21db9bb47e5ab1b6bb876",
+            "date": "2021-05-23T23:22:48Z",
+            "message": "final update of the 20/21 season"
         },
         "type": "repository",
         "logoUrl": null,
@@ -3644,8 +3659,8 @@
         ],
         "dates": {
             "created": "2021-04-22T11:39:23Z",
-            "updated": "2021-04-22T11:39:23Z",
-            "lastChecked": "2021-04-22T11:39:23Z"
+            "updated": "2021-07-14T14:29:48Z",
+            "lastChecked": "2021-07-14T14:29:48Z"
         }
     },
     {
@@ -3654,9 +3669,9 @@
         "license": "use_mit_license()",
         "latestVersion": "0.0.0.9000",
         "lastCommit": {
-            "sha": "ec7d7ae6bc2abb0d5218480f6ee19d2bca8c18fc",
-            "date": "2021-04-17T15:40:52Z",
-            "message": "rosters update"
+            "sha": "6db9d9bbf76a85bf9cc7d0f7e7fa0e19992f68cc",
+            "date": "2021-07-09T17:45:56Z",
+            "message": "7/9 odds"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -3677,8 +3692,8 @@
         ],
         "dates": {
             "created": "2021-04-22T11:39:25Z",
-            "updated": "2021-04-22T11:39:25Z",
-            "lastChecked": "2021-04-22T11:39:25Z"
+            "updated": "2021-07-14T14:29:50Z",
+            "lastChecked": "2021-07-14T14:29:50Z"
         }
     }
 ]

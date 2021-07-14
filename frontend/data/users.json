@@ -168,6 +168,13 @@
         }
     },
     {
+        "login": "903124",
+        "name": "903124",
+        "urls": {
+            "github": "https://github.com/903124"
+        }
+    },
+    {
         "login": "frutoper",
         "name": "frutoper",
         "urls": {
@@ -200,13 +207,6 @@
         "name": "koenvossen",
         "urls": {
             "github": "https://github.com/koenvossen"
-        }
-    },
-    {
-        "login": "JayJayGH",
-        "name": "JayJayGH",
-        "urls": {
-            "github": "https://github.com/JayJayGH"
         }
     },
     {
@@ -249,6 +249,20 @@
         "name": "FranGoitia",
         "urls": {
             "github": "https://github.com/FranGoitia"
+        }
+    },
+    {
+        "login": "dimas91",
+        "name": "dimas91",
+        "urls": {
+            "github": "https://github.com/dimas91"
+        }
+    },
+    {
+        "login": "dvatvani",
+        "name": "dvatvani",
+        "urls": {
+            "github": "https://github.com/dvatvani"
         }
     },
     {
@@ -350,6 +364,20 @@
         }
     },
     {
+        "login": "npranav10",
+        "name": "npranav10",
+        "urls": {
+            "github": "https://github.com/npranav10"
+        }
+    },
+    {
+        "login": "prateek-senapati",
+        "name": "prateek-senapati",
+        "urls": {
+            "github": "https://github.com/prateek-senapati"
+        }
+    },
+    {
         "login": "kim-younghan",
         "name": "kim-younghan",
         "urls": {
@@ -378,6 +406,13 @@
         }
     },
     {
+        "login": "reedkihaddi",
+        "name": "reedkihaddi",
+        "urls": {
+            "github": "https://github.com/reedkihaddi"
+        }
+    },
+    {
         "login": "willthomson1",
         "name": "willthomson1",
         "urls": {
@@ -399,6 +434,13 @@
         }
     },
     {
+        "login": "devinpleuler",
+        "name": "devinpleuler",
+        "urls": {
+            "github": "https://github.com/devinpleuler"
+        }
+    },
+    {
         "login": "koenvo",
         "name": "koenvo",
         "urls": {
@@ -410,6 +452,13 @@
         "name": "bdagnino",
         "urls": {
             "github": "https://github.com/bdagnino"
+        }
+    },
+    {
+        "login": "znstrider",
+        "name": "znstrider",
+        "urls": {
+            "github": "https://github.com/znstrider"
         }
     },
     {
@@ -473,13 +522,6 @@
         "name": "TK5-Tim",
         "urls": {
             "github": "https://github.com/TK5-Tim"
-        }
-    },
-    {
-        "login": "znstrider",
-        "name": "znstrider",
-        "urls": {
-            "github": "https://github.com/znstrider"
         }
     },
     {
@@ -609,6 +651,13 @@
         }
     },
     {
+        "login": "alanbauer",
+        "name": "alanbauer",
+        "urls": {
+            "github": "https://github.com/alanbauer"
+        }
+    },
+    {
         "login": "fonnesbeck",
         "name": "fonnesbeck",
         "urls": {
@@ -637,17 +686,17 @@
         }
     },
     {
-        "login": "alanbauer",
-        "name": "alanbauer",
-        "urls": {
-            "github": "https://github.com/alanbauer"
-        }
-    },
-    {
         "login": "bgunn34",
         "name": "bgunn34",
         "urls": {
             "github": "https://github.com/bgunn34"
+        }
+    },
+    {
+        "login": "Latonis",
+        "name": "Latonis",
+        "urls": {
+            "github": "https://github.com/Latonis"
         }
     },
     {
@@ -662,6 +711,13 @@
         "name": "jfreynolds",
         "urls": {
             "github": "https://github.com/jfreynolds"
+        }
+    },
+    {
+        "login": "johnclary",
+        "name": "johnclary",
+        "urls": {
+            "github": "https://github.com/johnclary"
         }
     },
     {
@@ -861,13 +917,6 @@
         }
     },
     {
-        "login": "thomaslu2",
-        "name": "thomaslu2",
-        "urls": {
-            "github": "https://github.com/thomaslu2"
-        }
-    },
-    {
         "login": "thecomeonman",
         "name": "thecomeonman",
         "urls": {
@@ -942,6 +991,20 @@
         "name": "jthomasmock",
         "urls": {
             "github": "https://github.com/jthomasmock"
+        }
+    },
+    {
+        "login": "bmacGTPM",
+        "name": "bmacGTPM",
+        "urls": {
+            "github": "https://github.com/bmacGTPM"
+        }
+    },
+    {
+        "login": "tonyelhabr",
+        "name": "tonyelhabr",
+        "urls": {
+            "github": "https://github.com/tonyelhabr"
         }
     },
     {
@@ -1113,6 +1176,13 @@
         }
     },
     {
+        "login": "wyattowalsh",
+        "name": "wyattowalsh",
+        "urls": {
+            "github": "https://github.com/wyattowalsh"
+        }
+    },
+    {
         "login": "dylorr",
         "name": "dylorr",
         "urls": {
@@ -1155,13 +1225,6 @@
         }
     },
     {
-        "login": "bmacGTPM",
-        "name": "bmacGTPM",
-        "urls": {
-            "github": "https://github.com/bmacGTPM"
-        }
-    },
-    {
         "login": "saadaslam",
         "name": "saadaslam",
         "urls": {
@@ -1176,10 +1239,10 @@
         }
     },
     {
-        "login": "pachamaltese",
-        "name": "pachamaltese",
+        "login": "pachadotdev",
+        "name": "pachadotdev",
         "urls": {
-            "github": "https://github.com/pachamaltese"
+            "github": "https://github.com/pachadotdev"
         }
     },
     {
@@ -1271,6 +1334,13 @@
         "name": "ImgBotApp",
         "urls": {
             "github": "https://github.com/ImgBotApp"
+        }
+    },
+    {
+        "login": "huizezhang-sherry",
+        "name": "huizezhang-sherry",
+        "urls": {
+            "github": "https://github.com/huizezhang-sherry"
         }
     },
     {
@@ -1456,17 +1526,17 @@
         }
     },
     {
-        "login": "HarvardSoccer",
-        "name": "HarvardSoccer",
-        "urls": {
-            "github": "https://github.com/HarvardSoccer"
-        }
-    },
-    {
         "login": "soccermatics",
         "name": "soccermatics",
         "urls": {
             "github": "https://github.com/soccermatics"
+        }
+    },
+    {
+        "login": "HarvardSoccer",
+        "name": "HarvardSoccer",
+        "urls": {
+            "github": "https://github.com/HarvardSoccer"
         }
     },
     {
@@ -1502,13 +1572,6 @@
         "name": "danchyy",
         "urls": {
             "github": "https://github.com/danchyy"
-        }
-    },
-    {
-        "login": "npranav10",
-        "name": "npranav10",
-        "urls": {
-            "github": "https://github.com/npranav10"
         }
     },
     {
@@ -1600,6 +1663,13 @@
         "name": "leesharpe",
         "urls": {
             "github": "https://github.com/leesharpe"
+        }
+    },
+    {
+        "login": "hutchngo",
+        "name": "hutchngo",
+        "urls": {
+            "github": "https://github.com/hutchngo"
         }
     },
     {
