@@ -637,7 +637,7 @@ class CollectAll(luigi.Task):
 
 
 if __name__ == "__main__":
-    run_id = '2021-04-22'
+    run_id = datetime.now().date().isoformat()
 
     tasks = [
         CollectAll(
@@ -645,4 +645,4 @@ if __name__ == "__main__":
             run_id=run_id
         )
     ]
-    luigi.build(tasks, local_scheduler=True)
+    exit(luigi.build(tasks, local_scheduler=True))
