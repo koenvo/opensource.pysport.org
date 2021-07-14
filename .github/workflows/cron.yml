@@ -23,3 +23,4 @@ jobs:
           commit_message: Update
           branch: with-data
           commit_author: Auto fetch <actions@github.com> # defaults to author of the commit that triggered the run
+          add_options: '-u'
