@@ -91,3 +91,5 @@ scraper|viz,JackLich10/gamezoneR
 data,koenvo/wyscout-soccer-match-event-dataset
 scraper|data,douglasbc/scraping-understat-dataset
 scraper|model,RyanG73/rMLS
+viz,rossdrucker/sportyR
+model,Torvaney/mezzala

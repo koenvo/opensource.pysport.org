@@ -89,18 +89,23 @@ class FetchPyPiInfo(luigi.Task):
             else:
                 regex = r'name\s*=\s*["\'](.+?)["\']'
                 match = re.search(regex, data)
+                if match:
+                    package_name = match.group(1)
+                else:
+                    # TODO: fix
+                    package_name = self.repository.split("/")[1]
 
-                response = requests.get(f"https://pypi.org/pypi/{match.group(1)}/json")
+                response = requests.get(f"https://pypi.org/pypi/{package_name}/json")
                 if response.status_code == 404:
                     package_info = dict(
                         status="not_found",
-                        name=match.group(1)
+                        name=package_name
                     )
                 else:
                     data = response.json()
                     package_info = dict(
                         status="found",
-                        name=match.group(1),
+                        name=package_name,
                         version=data['info']['version'],
                         url=data['info']['package_url'],
                         license=data['info']['license'],
@@ -167,7 +172,7 @@ class FetchCRANInfo(luigi.Task):
                     status='not_found',
                     name=name,
                     version=data['Version'],
-                    license=data['License'],
+                    license=data.get('License', ''),
                     description=data['Description']
                 )
 
@@ -645,4 +650,5 @@ if __name__ == "__main__":
             run_id=run_id
         )
     ]
-    exit(luigi.build(tasks, local_scheduler=True))
+    if not luigi.build(tasks, local_scheduler=True):
+        exit(1)
