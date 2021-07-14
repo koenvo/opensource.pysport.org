@@ -645,5 +645,5 @@ if __name__ == "__main__":
             run_id=run_id
         )
     ]
-    if luigi.build(tasks, local_scheduler=True):
+    if not luigi.build(tasks, local_scheduler=True):
         exit(1)
