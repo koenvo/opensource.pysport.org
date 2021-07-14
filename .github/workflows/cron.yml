@@ -22,7 +22,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Update data
-        run: cd src && TOKEN=${{ secrets.GITHUB_TOKEN }} python data_fetcher.py
+        run: |
+          git checkout with-data
+          git merge main
+          cd src
+          TOKEN=${{ secrets.GITHUB_TOKEN }} python data_fetcher.py
       - name: Get current date
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
