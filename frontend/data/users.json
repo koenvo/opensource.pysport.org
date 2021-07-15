@@ -1699,5 +1699,12 @@
         "urls": {
             "github": "https://github.com/RyanG73"
         }
+    },
+    {
+        "login": "rossdrucker",
+        "name": "rossdrucker",
+        "urls": {
+            "github": "https://github.com/rossdrucker"
+        }
     }
 ]
