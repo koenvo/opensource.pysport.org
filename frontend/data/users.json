@@ -728,6 +728,13 @@
         }
     },
     {
+        "login": "marek-slipski",
+        "name": "marek-slipski",
+        "urls": {
+            "github": "https://github.com/marek-slipski"
+        }
+    },
+    {
         "login": "jelloslinger",
         "name": "jelloslinger",
         "urls": {
