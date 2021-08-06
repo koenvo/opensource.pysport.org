@@ -3,7 +3,6 @@ scraper,maksimhorowitz/nflscrapR
 scraper,jimmyday12/fitzRoy
 api,basketballrelativity/py_ball
 model,evolvingwild/hockey-all
-scraper,evolvingwild/evolving-hockey
 scraper,HarryShomer/Hockey-Scraper
 scraper,FCrSTATS/tyrone_mings
 api,statsbomb/StatsBombR
