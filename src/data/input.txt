@@ -92,3 +92,4 @@ scraper|data,douglasbc/scraping-understat-dataset
 scraper|model,RyanG73/rMLS
 viz,rossdrucker/sportyR
 model,Torvaney/mezzala
+scraper,nflverse/nflreadr
