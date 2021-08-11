@@ -252,6 +252,13 @@
         }
     },
     {
+        "login": "anenglishgoat",
+        "name": "anenglishgoat",
+        "urls": {
+            "github": "https://github.com/anenglishgoat"
+        }
+    },
+    {
         "login": "dimas91",
         "name": "dimas91",
         "urls": {
@@ -417,13 +424,6 @@
         "name": "willthomson1",
         "urls": {
             "github": "https://github.com/willthomson1"
-        }
-    },
-    {
-        "login": "anenglishgoat",
-        "name": "anenglishgoat",
-        "urls": {
-            "github": "https://github.com/anenglishgoat"
         }
     },
     {
