@@ -518,6 +518,13 @@
         }
     },
     {
+        "login": "matiasb",
+        "name": "matiasb",
+        "urls": {
+            "github": "https://github.com/matiasb"
+        }
+    },
+    {
         "login": "TK5-Tim",
         "name": "TK5-Tim",
         "urls": {
@@ -753,6 +760,13 @@
         "name": "WillAyd",
         "urls": {
             "github": "https://github.com/WillAyd"
+        }
+    },
+    {
+        "login": "prs-watch",
+        "name": "prs-watch",
+        "urls": {
+            "github": "https://github.com/prs-watch"
         }
     },
     {
