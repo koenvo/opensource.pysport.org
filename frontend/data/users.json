@@ -721,6 +721,13 @@
         }
     },
     {
+        "login": "jzuhusky",
+        "name": "jzuhusky",
+        "urls": {
+            "github": "https://github.com/jzuhusky"
+        }
+    },
+    {
         "login": "jfreynolds",
         "name": "jfreynolds",
         "urls": {
