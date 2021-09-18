@@ -385,6 +385,13 @@
         }
     },
     {
+        "login": "denisov-vlad",
+        "name": "denisov-vlad",
+        "urls": {
+            "github": "https://github.com/denisov-vlad"
+        }
+    },
+    {
         "login": "kim-younghan",
         "name": "kim-younghan",
         "urls": {
@@ -1691,6 +1698,13 @@
         "name": "fantasydatapros",
         "urls": {
             "github": "https://github.com/fantasydatapros"
+        }
+    },
+    {
+        "login": "BenjaminDominguez",
+        "name": "BenjaminDominguez",
+        "urls": {
+            "github": "https://github.com/BenjaminDominguez"
         }
     },
     {
