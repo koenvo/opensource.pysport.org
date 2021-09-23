@@ -1323,17 +1323,17 @@
         }
     },
     {
-        "login": "snestler",
-        "name": "snestler",
-        "urls": {
-            "github": "https://github.com/snestler"
-        }
-    },
-    {
         "login": "saberry",
         "name": "saberry",
         "urls": {
             "github": "https://github.com/saberry"
+        }
+    },
+    {
+        "login": "snestler",
+        "name": "snestler",
+        "urls": {
+            "github": "https://github.com/snestler"
         }
     },
     {
