@@ -483,6 +483,13 @@
         }
     },
     {
+        "login": "ProformAnalytics",
+        "name": "ProformAnalytics",
+        "urls": {
+            "github": "https://github.com/ProformAnalytics"
+        }
+    },
+    {
         "login": "dmallory42",
         "name": "dmallory42",
         "urls": {
@@ -511,6 +518,13 @@
         }
     },
     {
+        "login": "matiasb",
+        "name": "matiasb",
+        "urls": {
+            "github": "https://github.com/matiasb"
+        }
+    },
+    {
         "login": "pratikthanki",
         "name": "pratikthanki",
         "urls": {
@@ -536,13 +550,6 @@
         "name": "benoitblanc",
         "urls": {
             "github": "https://github.com/benoitblanc"
-        }
-    },
-    {
-        "login": "matiasb",
-        "name": "matiasb",
-        "urls": {
-            "github": "https://github.com/matiasb"
         }
     },
     {
