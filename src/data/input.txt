@@ -93,3 +93,4 @@ scraper|model,RyanG73/rMLS
 viz,rossdrucker/sportyR
 model,Torvaney/mezzala
 scraper,nflverse/nflreadr
+viz,abhiamishra/ggshakeR
