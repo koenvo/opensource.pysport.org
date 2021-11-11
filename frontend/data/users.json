@@ -1295,17 +1295,17 @@
         }
     },
     {
-        "login": "jedwards757",
-        "name": "jedwards757",
-        "urls": {
-            "github": "https://github.com/jedwards757"
-        }
-    },
-    {
         "login": "evanmiyakawa",
         "name": "evanmiyakawa",
         "urls": {
             "github": "https://github.com/evanmiyakawa"
+        }
+    },
+    {
+        "login": "jedwards757",
+        "name": "jedwards757",
+        "urls": {
+            "github": "https://github.com/jedwards757"
         }
     },
     {
