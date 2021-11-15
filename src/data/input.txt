@@ -94,3 +94,6 @@ viz,rossdrucker/sportyR
 model,Torvaney/mezzala
 scraper,nflverse/nflreadr
 viz,abhiamishra/ggshakeR
+scraper,benhowell71/fastRhockey
+io,playerank/soccerLogger
+io,playerank/pysoccer
