@@ -366,7 +366,7 @@ def determine_sports(*inputs):
         "Soccer": ["soccer", "opta", "understat", "transfermarkt", "metrica", "statsbomb", "lastrow", "wyscout", "midfielders", "kloppy"],
         "American Football": ["nfl", "football", "cfb", "big data bowl", "ptplot"],
         "Australian Football": ["afl"],
-        "Hockey": ["nhl", "hockey"],
+        "Ice Hockey": ["nhl", "hockey"],
         "Basketball": ["nba", "basketball"],
         "Baseball": ["mlb", "baseball", "retrosheet"],
         "Cricket": ["cricket"],
