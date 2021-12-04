@@ -504,6 +504,13 @@
         }
     },
     {
+        "login": "ThomasSeidl",
+        "name": "ThomasSeidl",
+        "urls": {
+            "github": "https://github.com/ThomasSeidl"
+        }
+    },
+    {
         "login": "dmallory42",
         "name": "dmallory42",
         "urls": {
@@ -543,13 +550,6 @@
         "name": "pratikthanki",
         "urls": {
             "github": "https://github.com/pratikthanki"
-        }
-    },
-    {
-        "login": "ThomasSeidl",
-        "name": "ThomasSeidl",
-        "urls": {
-            "github": "https://github.com/ThomasSeidl"
         }
     },
     {
