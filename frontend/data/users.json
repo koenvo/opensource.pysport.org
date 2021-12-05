@@ -434,10 +434,10 @@
         }
     },
     {
-        "login": "reedkihaddi",
-        "name": "reedkihaddi",
+        "login": "sholaybhature",
+        "name": "sholaybhature",
         "urls": {
-            "github": "https://github.com/reedkihaddi"
+            "github": "https://github.com/sholaybhature"
         }
     },
     {
@@ -914,6 +914,13 @@
         "name": "danielmcintosh1",
         "urls": {
             "github": "https://github.com/danielmcintosh1"
+        }
+    },
+    {
+        "login": "omermazig",
+        "name": "omermazig",
+        "urls": {
+            "github": "https://github.com/omermazig"
         }
     },
     {
