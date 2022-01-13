@@ -532,6 +532,13 @@
         }
     },
     {
+        "login": "benoitblanc",
+        "name": "benoitblanc",
+        "urls": {
+            "github": "https://github.com/benoitblanc"
+        }
+    },
+    {
         "login": "Kludex",
         "name": "Kludex",
         "urls": {
@@ -557,13 +564,6 @@
         "name": "BenjaminLarrousse",
         "urls": {
             "github": "https://github.com/BenjaminLarrousse"
-        }
-    },
-    {
-        "login": "benoitblanc",
-        "name": "benoitblanc",
-        "urls": {
-            "github": "https://github.com/benoitblanc"
         }
     },
     {
