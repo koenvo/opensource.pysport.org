@@ -413,6 +413,13 @@
         }
     },
     {
+        "login": "znstrider",
+        "name": "znstrider",
+        "urls": {
+            "github": "https://github.com/znstrider"
+        }
+    },
+    {
         "login": "andrewRowlinson",
         "name": "andrewRowlinson",
         "urls": {
@@ -480,13 +487,6 @@
         "name": "bdagnino",
         "urls": {
             "github": "https://github.com/bdagnino"
-        }
-    },
-    {
-        "login": "znstrider",
-        "name": "znstrider",
-        "urls": {
-            "github": "https://github.com/znstrider"
         }
     },
     {
