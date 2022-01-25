@@ -357,6 +357,13 @@
         }
     },
     {
+        "login": "C-Roensholt",
+        "name": "C-Roensholt",
+        "urls": {
+            "github": "https://github.com/C-Roensholt"
+        }
+    },
+    {
         "login": "karunsingh",
         "name": "karunsingh",
         "urls": {
