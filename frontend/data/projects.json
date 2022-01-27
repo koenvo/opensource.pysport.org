@@ -40,7 +40,7 @@
         "dates": {
             "created": "2021-01-19T15:22:58Z",
             "updated": "2021-12-09T04:24:51Z",
-            "lastChecked": "2022-01-26T04:22:36Z"
+            "lastChecked": "2022-01-27T04:22:43Z"
         }
     },
     {
@@ -80,7 +80,7 @@
         "dates": {
             "created": "2021-01-19T15:23:01Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2022-01-26T04:22:38Z"
+            "lastChecked": "2022-01-27T04:22:45Z"
         }
     },
     {
@@ -124,7 +124,7 @@
         "dates": {
             "created": "2021-01-19T15:23:04Z",
             "updated": "2022-01-14T04:25:53Z",
-            "lastChecked": "2022-01-26T04:22:41Z"
+            "lastChecked": "2022-01-27T04:22:46Z"
         }
     },
     {
@@ -160,7 +160,7 @@
         "dates": {
             "created": "2021-01-19T15:23:07Z",
             "updated": "2022-01-20T04:23:02Z",
-            "lastChecked": "2022-01-26T04:22:43Z"
+            "lastChecked": "2022-01-27T04:22:47Z"
         }
     },
     {
@@ -192,7 +192,7 @@
         "dates": {
             "created": "2021-01-19T15:23:09Z",
             "updated": "2021-11-15T19:58:28Z",
-            "lastChecked": "2022-01-26T04:22:45Z"
+            "lastChecked": "2022-01-27T04:22:48Z"
         }
     },
     {
@@ -231,7 +231,7 @@
         "dates": {
             "created": "2021-01-19T15:23:15Z",
             "updated": "2021-11-15T19:58:29Z",
-            "lastChecked": "2022-01-26T04:22:47Z"
+            "lastChecked": "2022-01-27T04:22:49Z"
         }
     },
     {
@@ -267,7 +267,7 @@
         "dates": {
             "created": "2021-01-19T15:23:17Z",
             "updated": "2021-07-14T14:27:14Z",
-            "lastChecked": "2022-01-26T04:22:49Z"
+            "lastChecked": "2022-01-27T04:22:50Z"
         }
     },
     {
@@ -301,18 +301,18 @@
         "dates": {
             "created": "2021-01-19T15:23:20Z",
             "updated": "2021-12-15T04:24:44Z",
-            "lastChecked": "2022-01-26T04:22:51Z"
+            "lastChecked": "2022-01-27T04:22:51Z"
         }
     },
     {
         "name": "statsbombpy",
         "language": "Python",
         "license": null,
-        "latestVersion": "1.3.0",
+        "latestVersion": "1.4.0",
         "lastCommit": {
-            "sha": "b9867b1153c99826d7c7b7523c9e8971ea20ba64",
-            "date": "2021-11-18T10:50:22Z",
-            "message": "Merge pull request #20 from statsbomb/free-frames\n\nAdd free 360 functionality"
+            "sha": "67d264573eeb9a94358c6de9a31f73f1b2d3fc0a",
+            "date": "2022-01-26T15:08:11Z",
+            "message": "Add home and away managers to match dataframe output (#24)\n\n* Parse home and away managers from json & add to dataframe output. Apply black formatting.\r\n\r\n* Add tests for manager parsing in matches function.\r\n\r\n* Add managers to sb.matches example.\r\n\r\n* Bump version to 1.4.0"
         },
         "type": "package",
         "logoUrl": null,
@@ -329,7 +329,8 @@
             "dvatvani",
             "dimas91",
             "SJTButler",
-            "deepxg"
+            "deepxg",
+            "WillTGM"
         ],
         "sports": [
             "Soccer"
@@ -339,8 +340,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:23Z",
-            "updated": "2021-11-19T04:24:18Z",
-            "lastChecked": "2022-01-26T04:22:53Z"
+            "updated": "2022-01-27T04:22:52Z",
+            "lastChecked": "2022-01-27T04:22:52Z"
         }
     },
     {
@@ -373,7 +374,7 @@
         "dates": {
             "created": "2021-01-19T15:23:25Z",
             "updated": "2021-11-15T13:05:01Z",
-            "lastChecked": "2022-01-26T04:22:56Z"
+            "lastChecked": "2022-01-27T04:22:53Z"
         }
     },
     {
@@ -409,7 +410,7 @@
         "dates": {
             "created": "2021-01-19T15:23:27Z",
             "updated": "2021-04-22T11:36:57Z",
-            "lastChecked": "2022-01-26T04:22:58Z"
+            "lastChecked": "2022-01-27T04:22:54Z"
         }
     },
     {
@@ -442,7 +443,7 @@
         "dates": {
             "created": "2021-01-19T15:23:31Z",
             "updated": "2021-08-09T19:22:44Z",
-            "lastChecked": "2022-01-26T04:23:00Z"
+            "lastChecked": "2022-01-27T04:22:55Z"
         }
     },
     {
@@ -541,7 +542,7 @@
         "dates": {
             "created": "2021-01-19T15:23:34Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2022-01-26T04:23:03Z"
+            "lastChecked": "2022-01-27T04:22:57Z"
         }
     },
     {
@@ -550,9 +551,9 @@
         "license": "MIT",
         "latestVersion": "1.2.1",
         "lastCommit": {
-            "sha": "99bf1b36f09aadba78339c9d585893e4fd9ba545",
-            "date": "2022-01-25T12:49:31Z",
-            "message": "Requests cache breaks in Python 3.9 (2)"
+            "sha": "8e725fb1a6e160f4fba1edcf7becb6dd36c5fc87",
+            "date": "2022-01-26T10:45:07Z",
+            "message": "Bump coverage from 6.2 to 6.3\n\nBumps [coverage](https://github.com/nedbat/coveragepy) from 6.2 to 6.3.\n- [Release notes](https://github.com/nedbat/coveragepy/releases)\n- [Changelog](https://github.com/nedbat/coveragepy/blob/master/CHANGES.rst)\n- [Commits](https://github.com/nedbat/coveragepy/compare/6.2...6.3)\n\n---\nupdated-dependencies:\n- dependency-name: coverage\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
         },
         "type": "package",
         "logoUrl": "https://socceraction.readthedocs.io/en/latest/_static/logo_white.png",
@@ -586,8 +587,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:37Z",
-            "updated": "2022-01-26T04:23:05Z",
-            "lastChecked": "2022-01-26T04:23:05Z"
+            "updated": "2022-01-27T04:22:58Z",
+            "lastChecked": "2022-01-27T04:22:58Z"
         }
     },
     {
@@ -635,7 +636,7 @@
         "dates": {
             "created": "2021-01-19T15:23:41Z",
             "updated": "2021-12-05T04:25:10Z",
-            "lastChecked": "2022-01-26T04:23:08Z"
+            "lastChecked": "2022-01-27T04:22:59Z"
         }
     },
     {
@@ -644,9 +645,9 @@
         "license": "BSD",
         "latestVersion": "3.0.0",
         "lastCommit": {
-            "sha": "f0ab442372a57de5a795dd520e97f842ec905637",
-            "date": "2022-01-25T21:54:01Z",
-            "message": "Merge pull request #126 from JanVanHaaren/fix/extract-foul-committed-events\n\nFix extraction of foul committed events"
+            "sha": "1d19e9ed88a47da3f1ffb7a1e43fefaad0e29c6e",
+            "date": "2022-01-26T21:42:46Z",
+            "message": "Merge pull request #125 from MKlaasman/add_formation_state_builder_for_opta\n\nAdd formation state builder for Opta"
         },
         "type": "package",
         "logoUrl": "https://github.com/PySport/kloppy/raw/master/docs/logo.png",
@@ -668,6 +669,7 @@
             "dmallory42",
             "eujern",
             "ivd-git",
+            "MKlaasman",
             "benoitblanc",
             "Kludex",
             "matiasb",
@@ -684,8 +686,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:43Z",
-            "updated": "2022-01-26T04:23:10Z",
-            "lastChecked": "2022-01-26T04:23:10Z"
+            "updated": "2022-01-27T04:23:00Z",
+            "lastChecked": "2022-01-27T04:23:00Z"
         }
     },
     {
@@ -719,7 +721,7 @@
         "dates": {
             "created": "2021-01-19T15:23:46Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2022-01-26T04:23:12Z"
+            "lastChecked": "2022-01-27T04:23:01Z"
         }
     },
     {
@@ -754,7 +756,7 @@
         "dates": {
             "created": "2021-01-19T15:23:52Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2022-01-26T04:23:14Z"
+            "lastChecked": "2022-01-27T04:23:03Z"
         }
     },
     {
@@ -789,7 +791,7 @@
         "dates": {
             "created": "2021-01-19T15:23:54Z",
             "updated": "2021-07-14T14:27:34Z",
-            "lastChecked": "2022-01-26T04:23:16Z"
+            "lastChecked": "2022-01-27T04:23:04Z"
         }
     },
     {
@@ -824,7 +826,7 @@
         "dates": {
             "created": "2021-01-19T15:23:57Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2022-01-26T04:23:18Z"
+            "lastChecked": "2022-01-27T04:23:05Z"
         }
     },
     {
@@ -883,7 +885,7 @@
         "dates": {
             "created": "2021-01-19T15:24:01Z",
             "updated": "2022-01-20T04:23:44Z",
-            "lastChecked": "2022-01-26T04:23:20Z"
+            "lastChecked": "2022-01-27T04:23:06Z"
         }
     },
     {
@@ -929,7 +931,7 @@
         "dates": {
             "created": "2021-01-19T15:24:04Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2022-01-26T04:23:23Z"
+            "lastChecked": "2022-01-27T04:23:07Z"
         }
     },
     {
@@ -965,7 +967,7 @@
         "dates": {
             "created": "2021-01-19T15:24:07Z",
             "updated": "2021-07-14T14:27:40Z",
-            "lastChecked": "2022-01-26T04:23:25Z"
+            "lastChecked": "2022-01-27T04:23:08Z"
         }
     },
     {
@@ -1002,7 +1004,7 @@
         "dates": {
             "created": "2021-01-19T15:24:10Z",
             "updated": "2021-12-05T04:25:20Z",
-            "lastChecked": "2022-01-26T04:23:27Z"
+            "lastChecked": "2022-01-27T04:23:09Z"
         }
     },
     {
@@ -1037,7 +1039,7 @@
         "dates": {
             "created": "2021-01-19T15:24:13Z",
             "updated": "2021-07-14T14:27:43Z",
-            "lastChecked": "2022-01-26T04:23:29Z"
+            "lastChecked": "2022-01-27T04:23:10Z"
         }
     },
     {
@@ -1076,7 +1078,7 @@
         "dates": {
             "created": "2021-01-19T15:24:16Z",
             "updated": "2021-09-15T04:23:37Z",
-            "lastChecked": "2022-01-26T04:23:32Z"
+            "lastChecked": "2022-01-27T04:23:11Z"
         }
     },
     {
@@ -1163,7 +1165,7 @@
         "dates": {
             "created": "2021-01-19T15:24:19Z",
             "updated": "2021-07-14T14:27:47Z",
-            "lastChecked": "2022-01-26T04:23:34Z"
+            "lastChecked": "2022-01-27T04:23:12Z"
         }
     },
     {
@@ -1260,7 +1262,7 @@
         "dates": {
             "created": "2021-01-19T15:24:21Z",
             "updated": "2022-01-15T04:26:47Z",
-            "lastChecked": "2022-01-26T04:23:36Z"
+            "lastChecked": "2022-01-27T04:23:13Z"
         }
     },
     {
@@ -1308,7 +1310,7 @@
         "dates": {
             "created": "2021-01-19T15:24:24Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2022-01-26T04:23:39Z"
+            "lastChecked": "2022-01-27T04:23:15Z"
         }
     },
     {
@@ -1343,7 +1345,7 @@
         "dates": {
             "created": "2021-01-19T15:24:26Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2022-01-26T04:23:40Z"
+            "lastChecked": "2022-01-27T04:23:15Z"
         }
     },
     {
@@ -1379,7 +1381,7 @@
         "dates": {
             "created": "2021-01-19T15:24:29Z",
             "updated": "2021-10-20T04:24:37Z",
-            "lastChecked": "2022-01-26T04:23:43Z"
+            "lastChecked": "2022-01-27T04:23:17Z"
         }
     },
     {
@@ -1413,37 +1415,33 @@
         "dates": {
             "created": "2021-01-19T15:24:31Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2022-01-26T04:23:45Z"
+            "lastChecked": "2022-01-27T04:23:18Z"
         }
     },
     {
         "name": "baseballr",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "0.9.93",
+        "latestVersion": "1.0.0",
         "lastCommit": {
-            "sha": "aa4de9e62bfc567ae59811582063af74ff03bf68",
-            "date": "2021-11-18T23:27:33Z",
-            "message": "Fixing more ncaa functions (#230)\n\n* minor fix for `ncaa_game_info()` function\r\n* fixing `ncaa_game_log()` function\r\n* fixing `ncaa_park_factors()` function\r\n* improved responses to the FanGraphs game-log functions - `batter_game_logs_fg()`, `pitcher_game_logs_fg()`, `milb_batter_game_logs_fg()`, `milb_pitcher_game_logs_fg()`"
+            "sha": "c582cc530695824a37e88d5206a71b7db70659d4",
+            "date": "2022-01-26T14:30:47Z",
+            "message": "Merge pull request #234 from BillPetti/development_branch\n\nbaseballr 1.0.0"
         },
         "type": "github_package",
-        "logoUrl": null,
+        "logoUrl": "https://raw.githubusercontent.com/billpetti/baseballr/master/logo.png",
         "description": "Provides numerous functions for acquiring and analyzing baseball\ndata. Data can be acquired from various online sources from within R.\nCustom metrics can also be calculated, such as wOBA, FIP, and Edge%.",
-        "images": [
-            {
-                "url": "https://raw.githubusercontent.com/BillPetti/baseballr/master/man/figures/logo.png"
-            }
-        ],
+        "images": [],
         "urls": {
             "github": "https://github.com/BillPetti/baseballr",
             "website": "billpetti.github.io/baseballr"
         },
         "contributors": [
             "BillPetti",
+            "saiemgilani",
             "beanumber",
             "keberwein",
             "robert-frey",
-            "saiemgilani",
             "afeierman",
             "darh78",
             "jonathan-inwt",
@@ -1465,8 +1463,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:34Z",
-            "updated": "2021-11-19T04:25:02Z",
-            "lastChecked": "2022-01-26T04:23:48Z"
+            "updated": "2022-01-27T04:23:19Z",
+            "lastChecked": "2022-01-27T04:23:19Z"
         }
     },
     {
@@ -1508,7 +1506,7 @@
         "dates": {
             "created": "2021-01-19T15:24:36Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2022-01-26T04:23:51Z"
+            "lastChecked": "2022-01-27T04:23:21Z"
         }
     },
     {
@@ -1562,7 +1560,7 @@
         "dates": {
             "created": "2021-01-19T15:24:39Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2022-01-26T04:23:54Z"
+            "lastChecked": "2022-01-27T04:23:22Z"
         }
     },
     {
@@ -1604,7 +1602,7 @@
         "dates": {
             "created": "2021-01-19T15:24:43Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2022-01-26T04:23:56Z"
+            "lastChecked": "2022-01-27T04:23:23Z"
         }
     },
     {
@@ -1640,7 +1638,7 @@
         "dates": {
             "created": "2021-01-19T15:24:45Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2022-01-26T04:23:58Z"
+            "lastChecked": "2022-01-27T04:23:25Z"
         }
     },
     {
@@ -1673,7 +1671,7 @@
         "dates": {
             "created": "2021-01-19T15:24:48Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2022-01-26T04:24:01Z"
+            "lastChecked": "2022-01-27T04:23:26Z"
         }
     },
     {
@@ -1746,7 +1744,7 @@
         "dates": {
             "created": "2021-01-19T15:24:52Z",
             "updated": "2022-01-22T04:23:42Z",
-            "lastChecked": "2022-01-26T04:24:04Z"
+            "lastChecked": "2022-01-27T04:23:27Z"
         }
     },
     {
@@ -1783,7 +1781,7 @@
         "dates": {
             "created": "2021-01-19T15:24:55Z",
             "updated": "2021-12-07T04:27:12Z",
-            "lastChecked": "2022-01-26T04:24:06Z"
+            "lastChecked": "2022-01-27T04:23:29Z"
         }
     },
     {
@@ -1821,7 +1819,7 @@
         "dates": {
             "created": "2021-01-19T15:24:57Z",
             "updated": "2021-10-05T04:24:50Z",
-            "lastChecked": "2022-01-26T04:24:09Z"
+            "lastChecked": "2022-01-27T04:23:30Z"
         }
     },
     {
@@ -1856,7 +1854,7 @@
         "dates": {
             "created": "2021-01-19T15:25:00Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2022-01-26T04:24:12Z"
+            "lastChecked": "2022-01-27T04:23:31Z"
         }
     },
     {
@@ -1916,7 +1914,7 @@
         "dates": {
             "created": "2021-01-19T15:25:03Z",
             "updated": "2021-10-15T04:24:53Z",
-            "lastChecked": "2022-01-26T04:24:14Z"
+            "lastChecked": "2022-01-27T04:23:33Z"
         }
     },
     {
@@ -1950,7 +1948,7 @@
         "dates": {
             "created": "2021-01-19T15:25:05Z",
             "updated": "2021-04-22T11:37:58Z",
-            "lastChecked": "2022-01-26T04:24:17Z"
+            "lastChecked": "2022-01-27T04:23:34Z"
         }
     },
     {
@@ -1984,7 +1982,7 @@
         "dates": {
             "created": "2021-01-19T15:25:10Z",
             "updated": "2021-12-17T04:26:33Z",
-            "lastChecked": "2022-01-26T04:24:19Z"
+            "lastChecked": "2022-01-27T04:23:35Z"
         }
     },
     {
@@ -2024,7 +2022,7 @@
         "dates": {
             "created": "2021-01-19T15:25:13Z",
             "updated": "2022-01-08T04:26:58Z",
-            "lastChecked": "2022-01-26T04:24:22Z"
+            "lastChecked": "2022-01-27T04:23:37Z"
         }
     },
     {
@@ -2055,7 +2053,7 @@
         "dates": {
             "created": "2021-01-19T15:25:16Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2022-01-26T04:24:24Z"
+            "lastChecked": "2022-01-27T04:23:38Z"
         }
     },
     {
@@ -2087,7 +2085,7 @@
         "dates": {
             "created": "2021-01-19T15:25:19Z",
             "updated": "2021-11-15T19:59:28Z",
-            "lastChecked": "2022-01-26T04:24:27Z"
+            "lastChecked": "2022-01-27T04:23:39Z"
         }
     },
     {
@@ -2121,7 +2119,7 @@
         "dates": {
             "created": "2021-01-19T15:25:22Z",
             "updated": "2021-11-15T19:59:29Z",
-            "lastChecked": "2022-01-26T04:24:29Z"
+            "lastChecked": "2022-01-27T04:23:41Z"
         }
     },
     {
@@ -2156,7 +2154,7 @@
         "dates": {
             "created": "2021-01-19T15:25:24Z",
             "updated": "2021-11-15T19:59:30Z",
-            "lastChecked": "2022-01-26T04:24:32Z"
+            "lastChecked": "2022-01-27T04:23:42Z"
         }
     },
     {
@@ -2193,7 +2191,7 @@
         "dates": {
             "created": "2021-01-19T15:25:27Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2022-01-26T04:24:34Z"
+            "lastChecked": "2022-01-27T04:23:43Z"
         }
     },
     {
@@ -2225,7 +2223,7 @@
         "dates": {
             "created": "2021-01-19T15:25:30Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2022-01-26T04:24:36Z"
+            "lastChecked": "2022-01-27T04:23:44Z"
         }
     },
     {
@@ -2255,7 +2253,7 @@
         "dates": {
             "created": "2021-01-19T15:25:32Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2022-01-26T04:24:38Z"
+            "lastChecked": "2022-01-27T04:23:45Z"
         }
     },
     {
@@ -2299,7 +2297,7 @@
         "dates": {
             "created": "2021-01-19T15:25:34Z",
             "updated": "2022-01-19T04:25:30Z",
-            "lastChecked": "2022-01-26T04:24:41Z"
+            "lastChecked": "2022-01-27T04:23:46Z"
         }
     },
     {
@@ -2360,7 +2358,7 @@
         "dates": {
             "created": "2021-01-19T15:25:37Z",
             "updated": "2021-12-14T04:26:55Z",
-            "lastChecked": "2022-01-26T04:24:43Z"
+            "lastChecked": "2022-01-27T04:23:48Z"
         }
     },
     {
@@ -2392,7 +2390,7 @@
         "dates": {
             "created": "2021-01-19T15:25:39Z",
             "updated": "2021-04-22T11:38:20Z",
-            "lastChecked": "2022-01-26T04:24:45Z"
+            "lastChecked": "2022-01-27T04:23:49Z"
         }
     },
     {
@@ -2425,7 +2423,7 @@
         "dates": {
             "created": "2021-01-19T15:25:42Z",
             "updated": "2021-07-14T14:28:49Z",
-            "lastChecked": "2022-01-26T04:24:48Z"
+            "lastChecked": "2022-01-27T04:23:50Z"
         }
     },
     {
@@ -2465,7 +2463,7 @@
         "dates": {
             "created": "2021-01-19T15:25:46Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2022-01-26T04:24:50Z"
+            "lastChecked": "2022-01-27T04:23:51Z"
         }
     },
     {
@@ -2507,7 +2505,7 @@
         "dates": {
             "created": "2021-01-19T15:25:48Z",
             "updated": "2021-07-14T14:28:53Z",
-            "lastChecked": "2022-01-26T04:24:53Z"
+            "lastChecked": "2022-01-27T04:23:53Z"
         }
     },
     {
@@ -2541,7 +2539,7 @@
         "dates": {
             "created": "2021-01-19T15:25:51Z",
             "updated": "2021-09-03T04:25:26Z",
-            "lastChecked": "2022-01-26T04:24:55Z"
+            "lastChecked": "2022-01-27T04:23:54Z"
         }
     },
     {
@@ -2576,7 +2574,7 @@
         "dates": {
             "created": "2021-01-19T15:25:53Z",
             "updated": "2021-07-14T14:28:56Z",
-            "lastChecked": "2022-01-26T04:24:57Z"
+            "lastChecked": "2022-01-27T04:23:55Z"
         }
     },
     {
@@ -2618,7 +2616,7 @@
         "dates": {
             "created": "2021-01-19T15:25:56Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2022-01-26T04:25:00Z"
+            "lastChecked": "2022-01-27T04:23:56Z"
         }
     },
     {
@@ -2652,7 +2650,7 @@
         "dates": {
             "created": "2021-01-19T15:26:00Z",
             "updated": "2021-07-14T14:28:59Z",
-            "lastChecked": "2022-01-26T04:25:02Z"
+            "lastChecked": "2022-01-27T04:23:57Z"
         }
     },
     {
@@ -2661,9 +2659,9 @@
         "license": "MIT",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "2bd758583f81f56af168faab561ca70dadbccef5",
-            "date": "2022-01-24T20:01:11Z",
-            "message": "updated through 2022-01-23"
+            "sha": "3244ec4db845cb3e388732a89607b80ceaa36a11",
+            "date": "2022-01-26T22:24:06Z",
+            "message": "updated through 2022-01-25"
         },
         "type": "tutorial",
         "logoUrl": null,
@@ -2689,8 +2687,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:02Z",
-            "updated": "2022-01-25T04:25:11Z",
-            "lastChecked": "2022-01-26T04:25:04Z"
+            "updated": "2022-01-27T04:23:58Z",
+            "lastChecked": "2022-01-27T04:23:58Z"
         }
     },
     {
@@ -2721,17 +2719,17 @@
             "opisthokonta"
         ],
         "sports": [
+            "Soccer",
             "American Football",
-            "Ice Hockey",
-            "Soccer"
+            "Ice Hockey"
         ],
         "categories": [
             "Model/Calculations"
         ],
         "dates": {
             "created": "2021-01-19T15:26:05Z",
-            "updated": "2022-01-26T04:25:07Z",
-            "lastChecked": "2022-01-26T04:25:07Z"
+            "updated": "2022-01-27T04:23:59Z",
+            "lastChecked": "2022-01-27T04:23:59Z"
         }
     },
     {
@@ -2779,7 +2777,7 @@
         "dates": {
             "created": "2021-01-19T15:26:09Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2022-01-26T04:25:09Z"
+            "lastChecked": "2022-01-27T04:24:01Z"
         }
     },
     {
@@ -2812,7 +2810,7 @@
         "dates": {
             "created": "2021-01-19T15:26:11Z",
             "updated": "2022-01-16T04:27:26Z",
-            "lastChecked": "2022-01-26T04:25:12Z"
+            "lastChecked": "2022-01-27T04:24:02Z"
         }
     },
     {
@@ -2845,7 +2843,7 @@
         "dates": {
             "created": "2021-01-19T15:26:14Z",
             "updated": "2021-04-22T11:38:42Z",
-            "lastChecked": "2022-01-26T04:25:14Z"
+            "lastChecked": "2022-01-27T04:24:04Z"
         }
     },
     {
@@ -2878,7 +2876,7 @@
         "dates": {
             "created": "2021-01-19T15:26:16Z",
             "updated": "2021-07-14T14:29:10Z",
-            "lastChecked": "2022-01-26T04:25:17Z"
+            "lastChecked": "2022-01-27T04:24:05Z"
         }
     },
     {
@@ -2911,7 +2909,7 @@
         "dates": {
             "created": "2021-01-19T15:26:19Z",
             "updated": "2021-07-14T14:29:13Z",
-            "lastChecked": "2022-01-26T04:25:20Z"
+            "lastChecked": "2022-01-27T04:24:06Z"
         }
     },
     {
@@ -2945,7 +2943,7 @@
         "dates": {
             "created": "2021-07-14T14:29:15Z",
             "updated": "2021-12-30T04:26:44Z",
-            "lastChecked": "2022-01-26T04:25:23Z"
+            "lastChecked": "2022-01-27T04:24:08Z"
         }
     },
     {
@@ -2975,7 +2973,7 @@
         "dates": {
             "created": "2021-01-19T15:26:26Z",
             "updated": "2022-01-21T04:28:29Z",
-            "lastChecked": "2022-01-26T04:25:25Z"
+            "lastChecked": "2022-01-27T04:24:09Z"
         }
     },
     {
@@ -3008,7 +3006,7 @@
         "dates": {
             "created": "2021-01-19T15:26:28Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2022-01-26T04:25:26Z"
+            "lastChecked": "2022-01-27T04:24:10Z"
         }
     },
     {
@@ -3043,7 +3041,7 @@
         "dates": {
             "created": "2021-01-19T15:26:30Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2022-01-26T04:25:28Z"
+            "lastChecked": "2022-01-27T04:24:11Z"
         }
     },
     {
@@ -3081,7 +3079,7 @@
         "dates": {
             "created": "2021-01-19T15:26:32Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2022-01-26T04:25:30Z"
+            "lastChecked": "2022-01-27T04:24:12Z"
         }
     },
     {
@@ -3113,7 +3111,7 @@
         "dates": {
             "created": "2021-01-19T15:26:35Z",
             "updated": "2022-01-21T04:28:37Z",
-            "lastChecked": "2022-01-26T04:25:32Z"
+            "lastChecked": "2022-01-27T04:24:13Z"
         }
     },
     {
@@ -3122,8 +3120,8 @@
         "license": "Other",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "3b82c241c3503250d098a1de35e0b321ea5547f5",
-            "date": "2022-01-23T04:35:52Z",
+            "sha": "a2ab8921ba1869aca2ba11e6079ce7d7f5010a06",
+            "date": "2022-01-26T04:36:21Z",
             "message": "Added 0 new games, updated 0 games."
         },
         "type": "repository",
@@ -3147,8 +3145,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:37Z",
-            "updated": "2022-01-24T04:24:50Z",
-            "lastChecked": "2022-01-26T04:25:34Z"
+            "updated": "2022-01-27T04:24:14Z",
+            "lastChecked": "2022-01-27T04:24:14Z"
         }
     },
     {
@@ -3190,7 +3188,7 @@
         "dates": {
             "created": "2021-01-19T15:26:41Z",
             "updated": "2021-11-27T04:26:36Z",
-            "lastChecked": "2022-01-26T04:25:37Z"
+            "lastChecked": "2022-01-27T04:24:16Z"
         }
     },
     {
@@ -3223,7 +3221,7 @@
         "dates": {
             "created": "2021-01-19T15:26:44Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2022-01-26T04:25:40Z"
+            "lastChecked": "2022-01-27T04:24:17Z"
         }
     },
     {
@@ -3255,7 +3253,7 @@
         "dates": {
             "created": "2021-01-19T15:26:46Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2022-01-26T04:25:41Z"
+            "lastChecked": "2022-01-27T04:24:18Z"
         }
     },
     {
@@ -3289,7 +3287,7 @@
         "dates": {
             "created": "2021-01-19T15:26:49Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2022-01-26T04:25:44Z"
+            "lastChecked": "2022-01-27T04:24:19Z"
         }
     },
     {
@@ -3322,7 +3320,7 @@
         "dates": {
             "created": "2021-01-19T15:26:51Z",
             "updated": "2021-10-10T04:28:19Z",
-            "lastChecked": "2022-01-26T04:25:45Z"
+            "lastChecked": "2022-01-27T04:24:20Z"
         }
     },
     {
@@ -3353,7 +3351,7 @@
         "dates": {
             "created": "2021-01-19T15:38:07Z",
             "updated": "2021-12-25T04:26:53Z",
-            "lastChecked": "2022-01-26T04:25:48Z"
+            "lastChecked": "2022-01-27T04:24:21Z"
         }
     },
     {
@@ -3389,7 +3387,7 @@
         "dates": {
             "created": "2021-01-20T07:13:13Z",
             "updated": "2021-11-21T04:25:50Z",
-            "lastChecked": "2022-01-26T04:25:51Z"
+            "lastChecked": "2022-01-27T04:24:22Z"
         }
     },
     {
@@ -3422,7 +3420,7 @@
         "dates": {
             "created": "2021-01-20T07:41:41Z",
             "updated": "2021-01-20T07:41:41Z",
-            "lastChecked": "2022-01-26T04:25:53Z"
+            "lastChecked": "2022-01-27T04:24:24Z"
         }
     },
     {
@@ -3458,7 +3456,7 @@
         "dates": {
             "created": "2021-02-25T12:12:24Z",
             "updated": "2021-10-29T04:26:50Z",
-            "lastChecked": "2022-01-26T04:25:57Z"
+            "lastChecked": "2022-01-27T04:24:26Z"
         }
     },
     {
@@ -3495,7 +3493,7 @@
         "dates": {
             "created": "2021-03-01T18:45:50Z",
             "updated": "2021-12-30T04:27:02Z",
-            "lastChecked": "2022-01-26T04:25:59Z"
+            "lastChecked": "2022-01-27T04:24:27Z"
         }
     },
     {
@@ -3532,7 +3530,7 @@
         "dates": {
             "created": "2021-03-03T14:24:55Z",
             "updated": "2021-09-21T04:25:11Z",
-            "lastChecked": "2022-01-26T04:26:02Z"
+            "lastChecked": "2022-01-27T04:24:29Z"
         }
     },
     {
@@ -3565,7 +3563,7 @@
         "dates": {
             "created": "2021-03-18T07:23:16Z",
             "updated": "2021-10-17T04:26:00Z",
-            "lastChecked": "2022-01-26T04:26:04Z"
+            "lastChecked": "2022-01-27T04:24:30Z"
         }
     },
     {
@@ -3598,7 +3596,7 @@
         "dates": {
             "created": "2021-03-18T07:23:18Z",
             "updated": "2021-08-19T04:25:23Z",
-            "lastChecked": "2022-01-26T04:26:06Z"
+            "lastChecked": "2022-01-27T04:24:31Z"
         }
     },
     {
@@ -3638,7 +3636,7 @@
         "dates": {
             "created": "2021-04-22T11:39:23Z",
             "updated": "2021-12-13T04:26:50Z",
-            "lastChecked": "2022-01-26T04:26:08Z"
+            "lastChecked": "2022-01-27T04:24:32Z"
         }
     },
     {
@@ -3671,7 +3669,7 @@
         "dates": {
             "created": "2021-04-22T11:39:25Z",
             "updated": "2021-07-21T04:26:11Z",
-            "lastChecked": "2022-01-26T04:26:10Z"
+            "lastChecked": "2022-01-27T04:24:33Z"
         }
     },
     {
@@ -3718,19 +3716,19 @@
             "rossdrucker"
         ],
         "sports": [
-            "Baseball",
-            "American Football",
             "Soccer",
+            "Ice Hockey",
+            "Baseball",
             "Basketball",
-            "Ice Hockey"
+            "American Football"
         ],
         "categories": [
             "Visualization"
         ],
         "dates": {
             "created": "2021-07-15T05:16:36Z",
-            "updated": "2022-01-26T04:26:13Z",
-            "lastChecked": "2022-01-26T04:26:13Z"
+            "updated": "2022-01-27T04:24:35Z",
+            "lastChecked": "2022-01-27T04:24:35Z"
         }
     },
     {
@@ -3764,7 +3762,7 @@
         "dates": {
             "created": "2021-07-15T05:16:37Z",
             "updated": "2021-10-20T04:26:43Z",
-            "lastChecked": "2022-01-26T04:26:15Z"
+            "lastChecked": "2022-01-27T04:24:36Z"
         }
     },
     {
@@ -3802,7 +3800,7 @@
         "dates": {
             "created": "2021-08-09T19:25:28Z",
             "updated": "2022-01-25T04:26:07Z",
-            "lastChecked": "2022-01-26T04:26:18Z"
+            "lastChecked": "2022-01-27T04:24:37Z"
         }
     },
     {
@@ -3837,7 +3835,7 @@
         "dates": {
             "created": "2021-10-18T17:24:59Z",
             "updated": "2022-01-19T04:27:15Z",
-            "lastChecked": "2022-01-26T04:26:21Z"
+            "lastChecked": "2022-01-27T04:24:38Z"
         }
     },
     {
@@ -3877,7 +3875,7 @@
         "dates": {
             "created": "2021-11-15T13:08:41Z",
             "updated": "2021-12-23T04:27:40Z",
-            "lastChecked": "2022-01-26T04:26:23Z"
+            "lastChecked": "2022-01-27T04:24:40Z"
         }
     },
     {
@@ -3934,7 +3932,7 @@
         "dates": {
             "created": "2021-11-15T13:08:43Z",
             "updated": "2021-11-15T13:08:43Z",
-            "lastChecked": "2022-01-26T04:26:25Z"
+            "lastChecked": "2022-01-27T04:24:41Z"
         }
     },
     {
@@ -3971,7 +3969,7 @@
         "dates": {
             "created": "2021-11-15T13:08:45Z",
             "updated": "2021-11-15T13:08:45Z",
-            "lastChecked": "2022-01-26T04:26:27Z"
+            "lastChecked": "2022-01-27T04:24:42Z"
         }
     }
 ]

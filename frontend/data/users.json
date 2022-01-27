@@ -294,6 +294,13 @@
         }
     },
     {
+        "login": "WillTGM",
+        "name": "WillTGM",
+        "urls": {
+            "github": "https://github.com/WillTGM"
+        }
+    },
+    {
         "login": "Torvaney",
         "name": "Torvaney",
         "urls": {
@@ -536,6 +543,13 @@
         "name": "ivd-git",
         "urls": {
             "github": "https://github.com/ivd-git"
+        }
+    },
+    {
+        "login": "MKlaasman",
+        "name": "MKlaasman",
+        "urls": {
+            "github": "https://github.com/MKlaasman"
         }
     },
     {
