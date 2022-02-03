@@ -1442,17 +1442,17 @@
         }
     },
     {
-        "login": "TimothyHyndman",
-        "name": "TimothyHyndman",
-        "urls": {
-            "github": "https://github.com/TimothyHyndman"
-        }
-    },
-    {
         "login": "ImgBotApp",
         "name": "ImgBotApp",
         "urls": {
             "github": "https://github.com/ImgBotApp"
+        }
+    },
+    {
+        "login": "TimothyHyndman",
+        "name": "TimothyHyndman",
+        "urls": {
+            "github": "https://github.com/TimothyHyndman"
         }
     },
     {
