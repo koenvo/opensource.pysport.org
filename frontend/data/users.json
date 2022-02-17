@@ -504,6 +504,13 @@
         }
     },
     {
+        "login": "JanVanHaaren",
+        "name": "JanVanHaaren",
+        "urls": {
+            "github": "https://github.com/JanVanHaaren"
+        }
+    },
+    {
         "login": "ProformAnalytics",
         "name": "ProformAnalytics",
         "urls": {
@@ -515,13 +522,6 @@
         "name": "ThomasSeidl",
         "urls": {
             "github": "https://github.com/ThomasSeidl"
-        }
-    },
-    {
-        "login": "JanVanHaaren",
-        "name": "JanVanHaaren",
-        "urls": {
-            "github": "https://github.com/JanVanHaaren"
         }
     },
     {
