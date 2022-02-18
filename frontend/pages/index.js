@@ -249,6 +249,7 @@ const Overview = ({projects, categories}) => {
 
 export default function Home() {
   const [searchValue, setSearchValue] = useQueryString("search");
+  const [sort, _] = useQueryString("sort", null, true);
   let [languages, setLanguages] = useQueryString("languages", ['R', 'Python', "Haskell", "Other"]);
   let [categories, setCategories] = useQueryString("categories", categoryOptions);
   let [sports, setSports] = useQueryString("sports", sportOptions);
@@ -276,10 +277,19 @@ export default function Home() {
     }
   );
 
+  if (sort)
+  {
+    filteredProjects.sort(
+        (a, b) => {
+          return new Date(b.dates[sort]) - new Date(a.dates[sort]);
+        }
+    )
+  }
+
   return (
     <Layout>
       <SubHeader>
-        <div>
+        <div className="flex">
           <Dropdown
             languages={languages}
             setLanguages={setLanguages}
@@ -288,6 +298,34 @@ export default function Home() {
             categories={categories}
             setCategories={setCategories}
           />
+          <div className="py-2 px-4">
+            <Link
+                href={{
+                  pathname: '/',
+                  query: {
+                    sort: 'created'
+                  }
+                }}
+            >
+              <a className="py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                New projects!
+              </a>
+            </Link>
+          </div>
+          <div className="py-2 px-4">
+            <Link
+                href={{
+                  pathname: '/',
+                  query: {
+                    sort: 'updated'
+                  }
+                }}
+            >
+              <a className="py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                Recently updated
+              </a>
+            </Link>
+          </div>
         </div>
         <div className="px-2">
           <input type="text"
@@ -308,10 +346,13 @@ export default function Home() {
       </a>
       </div>
       <div className="container mx-auto max-w-screen-xl -m-4">
-        {!isFiltering && <div className="grid grid-cols-1">
-          <Card highlight project={projects.find((project) => project.name === "sportyR")}/>
+        {!isFiltering && !sort && <div className="grid grid-cols-1">
+          <Card highlight project={projects.find((project) => project.name === "nflfastR")}/>
         </div>}
-        <Overview projects={filteredProjects} categories={categories} />
+        {sort && <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+          {filteredProjects.map((project) => <Card key={project.name} project={project}/>)}
+        </div>}
+        {!sort && <Overview projects={filteredProjects} categories={categories} />}
         {(filteredProjects.length === 0) && <div className="mx-auto p-8 text-center text-2xl">No matches found</div>}
       </div>
     </Layout>
