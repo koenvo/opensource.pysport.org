@@ -97,3 +97,7 @@ viz,abhiamishra/ggshakeR
 scraper,benhowell71/fastRhockey
 io,playerank/soccerLogger
 io,playerank/pysoccer
+io,floodlight-sports/floodlight
+io,grantwenzinger/match-video
+scraper,JaseZiv/worldfootballR
+scraper,oseymour/ScraperFC
