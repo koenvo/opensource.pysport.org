@@ -101,3 +101,4 @@ io,floodlight-sports/floodlight
 io,grantwenzinger/match-video
 scraper,JaseZiv/worldfootballR
 scraper,oseymour/ScraperFC
+scraper|model,saiemgilani/sportsdataverse-py
