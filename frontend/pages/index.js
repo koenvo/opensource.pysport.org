@@ -216,6 +216,22 @@ const Card = ({project, highlight}) => {
   );
 };
 
+const Category = ({category, projects, title}) => {
+    return (
+        <div key={category}>
+            <a name={category} className="-mt-16 absolute"/>
+            <div className="mx-auto p-8 text-center font-bold text-2xl">
+                <a href={`#${category}`}>
+                    {title}
+                </a>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+                {projects.map((project) => <Card key={project.name} project={project}/>)}
+            </div>
+        </div>
+    );
+}
+
 const Overview = ({projects, categories}) => {
   return categories.map((category) => {
     const categoryProjects = projects.filter((project) => {
@@ -230,19 +246,7 @@ const Overview = ({projects, categories}) => {
     if (categoryProjects.length === 0) {
       return null;
     }
-    return (
-      <div key={category}>
-        <a name={category} className="-mt-16 absolute"/>
-        <div className="mx-auto p-8 text-center font-bold text-2xl">
-          <a href={`#${category}`}>
-          {category} ({categoryProjects.length})
-          </a>
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-          {categoryProjects.map((project) => <Card key={project.name} project={project}/>)}
-        </div>
-      </div>
-    )
+    return <Category category={category} projects={projects} title={`${category} (${projects.length})`}/>;
   });
 };
 
@@ -277,11 +281,21 @@ export default function Home() {
     }
   );
 
+  let title = null;
   if (sort)
   {
+      if (sort === "created") {
+        title = "New projects!";
+      } else {
+        title = "Last changed";
+      }
     filteredProjects.sort(
         (a, b) => {
-          return new Date(b.dates[sort]) - new Date(a.dates[sort]);
+          if (sort === 'created')
+          {
+            return new Date(b.dates.created) - new Date(a.dates.created);
+          }
+          return new Date(b.lastCommit.date) - new Date(a.lastCommit.date);
         }
     )
   }
@@ -289,7 +303,7 @@ export default function Home() {
   return (
     <Layout>
       <SubHeader>
-        <div className="flex">
+        <div className="sm:flex">
           <Dropdown
             languages={languages}
             setLanguages={setLanguages}
@@ -322,7 +336,7 @@ export default function Home() {
                 }}
             >
               <a className="py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                Recently updated
+                Last changed
               </a>
             </Link>
           </div>
@@ -349,9 +363,7 @@ export default function Home() {
         {!isFiltering && !sort && <div className="grid grid-cols-1">
           <Card highlight project={projects.find((project) => project.name === "nflfastR")}/>
         </div>}
-        {sort && <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
-          {filteredProjects.map((project) => <Card key={project.name} project={project}/>)}
-        </div>}
+        {sort && <Category category={sort} projects={filteredProjects} title={title}/>}
         {!sort && <Overview projects={filteredProjects} categories={categories} />}
         {(filteredProjects.length === 0) && <div className="mx-auto p-8 text-center text-2xl">No matches found</div>}
       </div>
