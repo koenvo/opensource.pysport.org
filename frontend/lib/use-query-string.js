@@ -25,11 +25,14 @@ export const getQueryStringValue = (
 ) => {
   const router = useRouter();
   const values = router.query;
-  return values[key];};
+  return values[key];
+};
 
 
-export function useQueryString(key, initialValue) {
-  const [value, setValue] = useState(getQueryStringValue(key) || initialValue);
+export function useQueryString(key, initialValue, autoUpdate=false) {
+  const currentValue = getQueryStringValue(key);
+
+  const [value, setValue] = useState(currentValue || initialValue);
   const onSetValue = useCallback(
     newValue => {
       setValue(newValue);
@@ -37,6 +40,11 @@ export function useQueryString(key, initialValue) {
     },
     [key]
   );
+
+  if (autoUpdate && currentValue !== value)
+  {
+    setValue(currentValue);
+  }
 
   return [value, onSetValue];
 }
