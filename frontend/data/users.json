@@ -1916,5 +1916,68 @@
         "urls": {
             "github": "https://github.com/marcotelle"
         }
+    },
+    {
+        "login": "draabe",
+        "name": "draabe",
+        "urls": {
+            "github": "https://github.com/draabe"
+        }
+    },
+    {
+        "login": "hbiermann95",
+        "name": "hbiermann95",
+        "urls": {
+            "github": "https://github.com/hbiermann95"
+        }
+    },
+    {
+        "login": "MartinWohlan",
+        "name": "MartinWohlan",
+        "urls": {
+            "github": "https://github.com/MartinWohlan"
+        }
+    },
+    {
+        "login": "manuba95",
+        "name": "manuba95",
+        "urls": {
+            "github": "https://github.com/manuba95"
+        }
+    },
+    {
+        "login": "rkomitova",
+        "name": "rkomitova",
+        "urls": {
+            "github": "https://github.com/rkomitova"
+        }
+    },
+    {
+        "login": "tkgroot",
+        "name": "tkgroot",
+        "urls": {
+            "github": "https://github.com/tkgroot"
+        }
+    },
+    {
+        "login": "grantwenzinger",
+        "name": "grantwenzinger",
+        "urls": {
+            "github": "https://github.com/grantwenzinger"
+        }
+    },
+    {
+        "login": "rvdmaazen",
+        "name": "rvdmaazen",
+        "urls": {
+            "github": "https://github.com/rvdmaazen"
+        }
+    },
+    {
+        "login": "oseymour",
+        "name": "oseymour",
+        "urls": {
+            "github": "https://github.com/oseymour"
+        }
     }
 ]
