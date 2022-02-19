@@ -6,7 +6,7 @@ import { getProjects } from "../lib/data";
 import { useQueryString } from "../lib/use-query-string";
 
 
-const sportOptions = ["American Football", "Australian Football", "Baseball", "Basketball", "Cricket", "Field Hockey", "Netball", "Ice Hockey", "Soccer", "Tennis"];
+const sportOptions = ["American Football", "Australian Football", "Baseball", "Basketball", "Cricket", "Field Hockey", "Netball", "Ice Hockey", "Soccer", "Tennis", "Chess"];
 const categoryOptions = [
   "Scraper/API",
   "Model/Calculations",
