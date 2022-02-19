@@ -102,5 +102,5 @@ io,grantwenzinger/match-video
 scraper,JaseZiv/worldfootballR
 scraper,oseymour/ScraperFC
 scraper|model,saiemgilani/sportsdataverse-py
-scraper|mode,JaseZiv/chessR
+scraper|model|viz,JaseZiv/chessR
 viz,nflverse/nflplotR
