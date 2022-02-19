@@ -6,7 +6,7 @@ import { getProjects } from "../lib/data";
 import { useQueryString } from "../lib/use-query-string";
 
 
-const sportOptions = ["American Football", "Australian Football", "Baseball", "Basketball", "Cricket", "Field Hockey", "Netball", "Ice Hockey", "Soccer", "Tennis"];
+const sportOptions = ["American Football", "Australian Football", "Baseball", "Basketball", "Cricket", "Field Hockey", "Netball", "Ice Hockey", "Soccer", "Tennis", "Chess"];
 const categoryOptions = [
   "Scraper/API",
   "Model/Calculations",
@@ -361,7 +361,7 @@ export default function Home() {
       </div>
       <div className="container mx-auto max-w-screen-xl -m-4">
         {!isFiltering && !sort && <div className="grid grid-cols-1">
-          <Card highlight project={projects.find((project) => project.name === "nflfastR")}/>
+          <Card highlight project={projects.find((project) => project.name === "mplsoccer")}/>
         </div>}
         {sort && <Category category={sort} projects={filteredProjects} title={title}/>}
         {!sort && <Overview projects={filteredProjects} categories={categories} />}
