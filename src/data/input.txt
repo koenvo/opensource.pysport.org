@@ -104,3 +104,4 @@ scraper,oseymour/ScraperFC
 scraper|model,saiemgilani/sportsdataverse-py
 scraper|model|viz,JaseZiv/chessR
 viz,nflverse/nflplotR
+scraper,American-Soccer-Analysis/itscalledsoccer
