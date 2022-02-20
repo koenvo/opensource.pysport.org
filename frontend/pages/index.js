@@ -361,7 +361,7 @@ export default function Home() {
       </div>
       <div className="container mx-auto max-w-screen-xl -m-4">
         {!isFiltering && !sort && <div className="grid grid-cols-1">
-          <Card highlight project={projects.find((project) => project.name === "mplsoccer")}/>
+          <Card highlight project={projects.find((project) => project.name === "chessR")}/>
         </div>}
         {sort && <Category category={sort} projects={filteredProjects} title={title}/>}
         {!sort && <Overview projects={filteredProjects} categories={categories} />}
