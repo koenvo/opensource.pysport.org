@@ -1993,5 +1993,19 @@
         "urls": {
             "github": "https://github.com/jonocarroll"
         }
+    },
+    {
+        "login": "bgrnwd",
+        "name": "bgrnwd",
+        "urls": {
+            "github": "https://github.com/bgrnwd"
+        }
+    },
+    {
+        "login": "tyler-richardett",
+        "name": "tyler-richardett",
+        "urls": {
+            "github": "https://github.com/tyler-richardett"
+        }
     }
 ]
