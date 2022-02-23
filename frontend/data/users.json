@@ -364,6 +364,13 @@
         }
     },
     {
+        "login": "BWyckaert",
+        "name": "BWyckaert",
+        "urls": {
+            "github": "https://github.com/BWyckaert"
+        }
+    },
+    {
         "login": "C-Roensholt",
         "name": "C-Roensholt",
         "urls": {
@@ -396,13 +403,6 @@
         "name": "zanderhinton",
         "urls": {
             "github": "https://github.com/zanderhinton"
-        }
-    },
-    {
-        "login": "BWyckaert",
-        "name": "BWyckaert",
-        "urls": {
-            "github": "https://github.com/BWyckaert"
         }
     },
     {
