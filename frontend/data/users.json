@@ -280,6 +280,13 @@
         }
     },
     {
+        "login": "probberechts",
+        "name": "probberechts",
+        "urls": {
+            "github": "https://github.com/probberechts"
+        }
+    },
+    {
         "login": "dimas91",
         "name": "dimas91",
         "urls": {
@@ -347,13 +354,6 @@
         "name": "Jelagmil",
         "urls": {
             "github": "https://github.com/Jelagmil"
-        }
-    },
-    {
-        "login": "probberechts",
-        "name": "probberechts",
-        "urls": {
-            "github": "https://github.com/probberechts"
         }
     },
     {
