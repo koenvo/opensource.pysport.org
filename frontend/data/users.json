@@ -1715,6 +1715,13 @@
         }
     },
     {
+        "login": "john-b-edwards",
+        "name": "john-b-edwards",
+        "urls": {
+            "github": "https://github.com/john-b-edwards"
+        }
+    },
+    {
         "login": "hugobordigoni",
         "name": "hugobordigoni",
         "urls": {
@@ -1859,13 +1866,6 @@
         "name": "rossdrucker",
         "urls": {
             "github": "https://github.com/rossdrucker"
-        }
-    },
-    {
-        "login": "john-b-edwards",
-        "name": "john-b-edwards",
-        "urls": {
-            "github": "https://github.com/john-b-edwards"
         }
     },
     {
