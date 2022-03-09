@@ -392,6 +392,13 @@
         }
     },
     {
+        "login": "denisov-vlad",
+        "name": "denisov-vlad",
+        "urls": {
+            "github": "https://github.com/denisov-vlad"
+        }
+    },
+    {
         "login": "0xflotus",
         "name": "0xflotus",
         "urls": {
@@ -417,13 +424,6 @@
         "name": "prateek-senapati",
         "urls": {
             "github": "https://github.com/prateek-senapati"
-        }
-    },
-    {
-        "login": "denisov-vlad",
-        "name": "denisov-vlad",
-        "urls": {
-            "github": "https://github.com/denisov-vlad"
         }
     },
     {
