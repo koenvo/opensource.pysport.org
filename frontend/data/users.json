@@ -1008,6 +1008,13 @@
         }
     },
     {
+        "login": "AgnijDave",
+        "name": "AgnijDave",
+        "urls": {
+            "github": "https://github.com/AgnijDave"
+        }
+    },
+    {
         "login": "AidanGlickman",
         "name": "AidanGlickman",
         "urls": {
@@ -1026,6 +1033,13 @@
         "name": "L3str4nge",
         "urls": {
             "github": "https://github.com/L3str4nge"
+        }
+    },
+    {
+        "login": "stiles",
+        "name": "stiles",
+        "urls": {
+            "github": "https://github.com/stiles"
         }
     },
     {
