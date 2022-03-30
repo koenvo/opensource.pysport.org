@@ -2042,5 +2042,19 @@
         "urls": {
             "github": "https://github.com/tyler-richardett"
         }
+    },
+    {
+        "login": "nathanblumenfeld",
+        "name": "nathanblumenfeld",
+        "urls": {
+            "github": "https://github.com/nathanblumenfeld"
+        }
+    },
+    {
+        "login": "airalcorn2",
+        "name": "airalcorn2",
+        "urls": {
+            "github": "https://github.com/airalcorn2"
+        }
     }
 ]
