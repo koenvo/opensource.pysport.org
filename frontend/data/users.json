@@ -826,6 +826,13 @@
         }
     },
     {
+        "login": "MichaelGFagan",
+        "name": "MichaelGFagan",
+        "urls": {
+            "github": "https://github.com/MichaelGFagan"
+        }
+    },
+    {
         "login": "tpoatsy3",
         "name": "tpoatsy3",
         "urls": {
@@ -837,6 +844,13 @@
         "name": "WillAyd",
         "urls": {
             "github": "https://github.com/WillAyd"
+        }
+    },
+    {
+        "login": "akern40",
+        "name": "akern40",
+        "urls": {
+            "github": "https://github.com/akern40"
         }
     },
     {
@@ -1222,6 +1236,13 @@
         "name": "lawwu",
         "urls": {
             "github": "https://github.com/lawwu"
+        }
+    },
+    {
+        "login": "markromanmiller",
+        "name": "markromanmiller",
+        "urls": {
+            "github": "https://github.com/markromanmiller"
         }
     },
     {
