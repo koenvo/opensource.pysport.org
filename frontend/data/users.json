@@ -490,6 +490,13 @@
         }
     },
     {
+        "login": "tdy",
+        "name": "tdy",
+        "urls": {
+            "github": "https://github.com/tdy"
+        }
+    },
+    {
         "login": "devinpleuler",
         "name": "devinpleuler",
         "urls": {
@@ -2048,6 +2055,13 @@
         "name": "akeaswaran",
         "urls": {
             "github": "https://github.com/akeaswaran"
+        }
+    },
+    {
+        "login": "dibbles21",
+        "name": "dibbles21",
+        "urls": {
+            "github": "https://github.com/dibbles21"
         }
     },
     {
