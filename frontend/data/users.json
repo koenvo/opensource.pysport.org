@@ -2009,13 +2009,6 @@
         }
     },
     {
-        "login": "MartinWohlan",
-        "name": "MartinWohlan",
-        "urls": {
-            "github": "https://github.com/MartinWohlan"
-        }
-    },
-    {
         "login": "manuba95",
         "name": "manuba95",
         "urls": {
@@ -2023,10 +2016,10 @@
         }
     },
     {
-        "login": "rkomitova",
-        "name": "rkomitova",
+        "login": "MartinWohlan",
+        "name": "MartinWohlan",
         "urls": {
-            "github": "https://github.com/rkomitova"
+            "github": "https://github.com/MartinWohlan"
         }
     },
     {
@@ -2034,6 +2027,13 @@
         "name": "tkgroot",
         "urls": {
             "github": "https://github.com/tkgroot"
+        }
+    },
+    {
+        "login": "rkomitova",
+        "name": "rkomitova",
+        "urls": {
+            "github": "https://github.com/rkomitova"
         }
     },
     {
