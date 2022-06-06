@@ -133,6 +133,13 @@
         }
     },
     {
+        "login": "hamgamb",
+        "name": "hamgamb",
+        "urls": {
+            "github": "https://github.com/hamgamb"
+        }
+    },
+    {
         "login": "basketballrelativity",
         "name": "basketballrelativity",
         "urls": {
@@ -2055,13 +2062,6 @@
         "name": "oseymour",
         "urls": {
             "github": "https://github.com/oseymour"
-        }
-    },
-    {
-        "login": "otseymour",
-        "name": "otseymour",
-        "urls": {
-            "github": "https://github.com/otseymour"
         }
     },
     {
