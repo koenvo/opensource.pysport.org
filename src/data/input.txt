@@ -108,3 +108,4 @@ scraper,American-Soccer-Analysis/itscalledsoccer
 scraper,nathanblumenfeld/collegebaseball
 model,airalcorn2/baller2vec
 model,airalcorn2/baller2vecplusplus
+data,b4billy/FHSTR
