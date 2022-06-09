@@ -2037,17 +2037,17 @@
         }
     },
     {
-        "login": "rkomitova",
-        "name": "rkomitova",
-        "urls": {
-            "github": "https://github.com/rkomitova"
-        }
-    },
-    {
         "login": "robertreingit",
         "name": "robertreingit",
         "urls": {
             "github": "https://github.com/robertreingit"
+        }
+    },
+    {
+        "login": "rkomitova",
+        "name": "rkomitova",
+        "urls": {
+            "github": "https://github.com/rkomitova"
         }
     },
     {
@@ -2125,6 +2125,13 @@
         "name": "airalcorn2",
         "urls": {
             "github": "https://github.com/airalcorn2"
+        }
+    },
+    {
+        "login": "b4billy",
+        "name": "b4billy",
+        "urls": {
+            "github": "https://github.com/b4billy"
         }
     }
 ]
