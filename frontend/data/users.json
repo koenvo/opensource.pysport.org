@@ -560,6 +560,13 @@
         }
     },
     {
+        "login": "MKlaasman",
+        "name": "MKlaasman",
+        "urls": {
+            "github": "https://github.com/MKlaasman"
+        }
+    },
+    {
         "login": "dmallory42",
         "name": "dmallory42",
         "urls": {
@@ -578,13 +585,6 @@
         "name": "ivd-git",
         "urls": {
             "github": "https://github.com/ivd-git"
-        }
-    },
-    {
-        "login": "MKlaasman",
-        "name": "MKlaasman",
-        "urls": {
-            "github": "https://github.com/MKlaasman"
         }
     },
     {
