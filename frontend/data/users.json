@@ -497,6 +497,13 @@
         }
     },
     {
+        "login": "devinpleuler",
+        "name": "devinpleuler",
+        "urls": {
+            "github": "https://github.com/devinpleuler"
+        }
+    },
+    {
         "login": "sharmaabhishekk",
         "name": "sharmaabhishekk",
         "urls": {
@@ -511,17 +518,24 @@
         }
     },
     {
+        "login": "matthew-williamson-he",
+        "name": "matthew-williamson-he",
+        "urls": {
+            "github": "https://github.com/matthew-williamson-he"
+        }
+    },
+    {
+        "login": "stats94",
+        "name": "stats94",
+        "urls": {
+            "github": "https://github.com/stats94"
+        }
+    },
+    {
         "login": "tdy",
         "name": "tdy",
         "urls": {
             "github": "https://github.com/tdy"
-        }
-    },
-    {
-        "login": "devinpleuler",
-        "name": "devinpleuler",
-        "urls": {
-            "github": "https://github.com/devinpleuler"
         }
     },
     {
