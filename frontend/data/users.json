@@ -2100,17 +2100,17 @@
         }
     },
     {
-        "login": "akeaswaran",
-        "name": "akeaswaran",
-        "urls": {
-            "github": "https://github.com/akeaswaran"
-        }
-    },
-    {
         "login": "armstjc",
         "name": "armstjc",
         "urls": {
             "github": "https://github.com/armstjc"
+        }
+    },
+    {
+        "login": "akeaswaran",
+        "name": "akeaswaran",
+        "urls": {
+            "github": "https://github.com/akeaswaran"
         }
     },
     {
