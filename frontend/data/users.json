@@ -2168,5 +2168,54 @@
         "urls": {
             "github": "https://github.com/billyfryer"
         }
+    },
+    {
+        "login": "SCasanova",
+        "name": "SCasanova",
+        "urls": {
+            "github": "https://github.com/SCasanova"
+        }
+    },
+    {
+        "login": "theOehrly",
+        "name": "theOehrly",
+        "urls": {
+            "github": "https://github.com/theOehrly"
+        }
+    },
+    {
+        "login": "Ax6",
+        "name": "Ax6",
+        "urls": {
+            "github": "https://github.com/Ax6"
+        }
+    },
+    {
+        "login": "bruzie",
+        "name": "bruzie",
+        "urls": {
+            "github": "https://github.com/bruzie"
+        }
+    },
+    {
+        "login": "dialtone",
+        "name": "dialtone",
+        "urls": {
+            "github": "https://github.com/dialtone"
+        }
+    },
+    {
+        "login": "vlesierse",
+        "name": "vlesierse",
+        "urls": {
+            "github": "https://github.com/vlesierse"
+        }
+    },
+    {
+        "login": "bambz96",
+        "name": "bambz96",
+        "urls": {
+            "github": "https://github.com/bambz96"
+        }
     }
 ]
