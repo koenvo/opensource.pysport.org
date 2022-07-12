@@ -257,14 +257,15 @@ class FetchGithubReadme(luigi.Task):
     run_id = luigi.Parameter()
     repository = luigi.Parameter()
     branch = luigi.Parameter()
+    filename = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/github_readme.md")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/github_{self.filename.lower()}")
 
     def run(self):
         with self.output().open('w') as fp:
             download_to(
-                f"https://raw.githubusercontent.com/{self.repository}/{self.branch}/README.md",
+                f"https://raw.githubusercontent.com/{self.repository}/{self.branch}/{self.filename}",
                 fp
             )
 
@@ -442,8 +443,13 @@ class CollectProjectInfo(luigi.Task):
             language = 'Other'
 
         readme = ''
-        if 'readme.md' in files:
-            readme_output = yield FetchGithubReadme(repository=self.repository, run_id=self.run_id, branch=default_branch)
+        if 'readme.md' in files or 'readme.rst' in files:
+            readme_output = yield FetchGithubReadme(
+                repository=self.repository,
+                run_id=self.run_id,
+                branch=default_branch,
+                filename='README.md' if 'readme.md' in files else 'README.rst'
+            )
             with readme_output.open('r') as fp:
                 readme = fp.read()
 
