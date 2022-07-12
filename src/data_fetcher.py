@@ -371,7 +371,8 @@ def determine_sports(*inputs):
         "Baseball": ["mlb", "baseball", "retrosheet"],
         "Cricket": ["cricket"],
         "Netball": ["netball"],
-        "Chess": ["chess", "lichess"]
+        "Chess": ["chess", "lichess"],
+        "Motorsport": ["f1"]
     }
 
     sports = set()
