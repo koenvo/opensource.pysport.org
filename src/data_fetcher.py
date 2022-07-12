@@ -257,14 +257,15 @@ class FetchGithubReadme(luigi.Task):
     run_id = luigi.Parameter()
     repository = luigi.Parameter()
     branch = luigi.Parameter()
+    filename = luigi.Parameter()
 
     def output(self):
-        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/github_readme.md")
+        return luigi.LocalTarget(f"{BASE_DIR}/tmp/{self.run_id}/{self.repository.replace('/', '__')}/github_{self.filename.lower()}")
 
     def run(self):
         with self.output().open('w') as fp:
             download_to(
-                f"https://raw.githubusercontent.com/{self.repository}/{self.branch}/README.md",
+                f"https://raw.githubusercontent.com/{self.repository}/{self.branch}/{self.filename}",
                 fp
             )
 
@@ -443,7 +444,12 @@ class CollectProjectInfo(luigi.Task):
 
         readme = ''
         if 'readme.md' in files:
-            readme_output = yield FetchGithubReadme(repository=self.repository, run_id=self.run_id, branch=default_branch)
+            readme_output = yield FetchGithubReadme(
+                repository=self.repository,
+                run_id=self.run_id,
+                branch=default_branch,
+                filename='README.md' if 'readme.md' in files else 'README.rst'
+            )
             with readme_output.open('r') as fp:
                 readme = fp.read()
 
@@ -521,8 +527,9 @@ class CollectProjectInfo(luigi.Task):
 
         now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
 
+        package_name = package_info.get('name', os.path.basename(self.repository))
         data = {
-            'name': package_info.get('name', os.path.basename(self.repository)),
+            'name': package_name,
             'language': language,
             'license': license_,
             'latestVersion': package_info.get('version'),
@@ -546,7 +553,8 @@ class CollectProjectInfo(luigi.Task):
             ],
             'sports': determine_sports(
                 package_info.get('description', ''),
-                readme
+                readme,
+                package_name
             ),
             'categories': [],
             'dates': {
