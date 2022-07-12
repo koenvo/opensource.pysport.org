@@ -443,7 +443,7 @@ class CollectProjectInfo(luigi.Task):
             language = 'Other'
 
         readme = ''
-        if 'readme.md' in files or 'readme.rst' in files:
+        if 'readme.md' in files:
             readme_output = yield FetchGithubReadme(
                 repository=self.repository,
                 run_id=self.run_id,
@@ -527,8 +527,9 @@ class CollectProjectInfo(luigi.Task):
 
         now = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
 
+        package_name = package_info.get('name', os.path.basename(self.repository))
         data = {
-            'name': package_info.get('name', os.path.basename(self.repository)),
+            'name': package_name,
             'language': language,
             'license': license_,
             'latestVersion': package_info.get('version'),
@@ -552,7 +553,8 @@ class CollectProjectInfo(luigi.Task):
             ],
             'sports': determine_sports(
                 package_info.get('description', ''),
-                readme
+                readme,
+                package_name
             ),
             'categories': [],
             'dates': {
