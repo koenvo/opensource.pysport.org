@@ -2224,5 +2224,19 @@
         "urls": {
             "github": "https://github.com/bambz96"
         }
+    },
+    {
+        "login": "renovate-bot",
+        "name": "renovate-bot",
+        "urls": {
+            "github": "https://github.com/renovate-bot"
+        }
+    },
+    {
+        "login": "renovate[bot]",
+        "name": "renovate[bot]",
+        "urls": {
+            "github": "https://github.com/renovate[bot]"
+        }
     }
 ]
