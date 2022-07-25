@@ -367,13 +367,14 @@ def determine_sports(*inputs):
         "Soccer": ["soccer", "opta", "understat", "transfermarkt", "metrica", "statsbomb", "lastrow", "wyscout", "midfielders", "kloppy"],
         "American Football": ["nfl", "football", "cfb", "big data bowl", "ptplot"],
         "Australian Football": ["afl"],
-        "Ice Hockey": ["nhl", "hockey"],
+        "Ice Hockey": ["nhl", "hockey", "big data cup"],
         "Basketball": ["nba", "basketball"],
         "Baseball": ["mlb", "baseball", "retrosheet"],
         "Cricket": ["cricket"],
         "Netball": ["netball"],
         "Chess": ["chess", "lichess"],
-        "Motorsport": ["f1"]
+        "Motorsport": ["f1"],
+        "Cycling": ["cycling"]
     }
 
     sports = set()
