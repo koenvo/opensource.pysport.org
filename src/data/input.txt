@@ -114,4 +114,5 @@ scraper|model|viz,theOehrly/Fast-F1
 scraper,probberechts/soccerdata
 scraper,baronet2/FirstCyclingAPI
 model,baronet2/RIPP
-``
+io|model,GoldenCheetah/sweatpy
+data,GoldenCheetah/OpenData/tree/master/opendata-python
