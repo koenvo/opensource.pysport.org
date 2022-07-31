@@ -2238,5 +2238,47 @@
         "urls": {
             "github": "https://github.com/renovate[bot]"
         }
+    },
+    {
+        "login": "baronet2",
+        "name": "baronet2",
+        "urls": {
+            "github": "https://github.com/baronet2"
+        }
+    },
+    {
+        "login": "airwhite54",
+        "name": "airwhite54",
+        "urls": {
+            "github": "https://github.com/airwhite54"
+        }
+    },
+    {
+        "login": "AartGoossens",
+        "name": "AartGoossens",
+        "urls": {
+            "github": "https://github.com/AartGoossens"
+        }
+    },
+    {
+        "login": "sladkovm",
+        "name": "sladkovm",
+        "urls": {
+            "github": "https://github.com/sladkovm"
+        }
+    },
+    {
+        "login": "piotr-kubica",
+        "name": "piotr-kubica",
+        "urls": {
+            "github": "https://github.com/piotr-kubica"
+        }
+    },
+    {
+        "login": "liversedge",
+        "name": "liversedge",
+        "urls": {
+            "github": "https://github.com/liversedge"
+        }
     }
 ]
