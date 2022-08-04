@@ -742,17 +742,17 @@
         }
     },
     {
-        "login": "bdilday",
-        "name": "bdilday",
-        "urls": {
-            "github": "https://github.com/bdilday"
-        }
-    },
-    {
         "login": "tjburch",
         "name": "tjburch",
         "urls": {
             "github": "https://github.com/tjburch"
+        }
+    },
+    {
+        "login": "bdilday",
+        "name": "bdilday",
+        "urls": {
+            "github": "https://github.com/bdilday"
         }
     },
     {
