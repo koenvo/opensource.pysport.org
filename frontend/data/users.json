@@ -1981,6 +1981,13 @@
         }
     },
     {
+        "login": "shirondru",
+        "name": "shirondru",
+        "urls": {
+            "github": "https://github.com/shirondru"
+        }
+    },
+    {
         "login": "abhiamishra",
         "name": "abhiamishra",
         "urls": {
@@ -2128,17 +2135,17 @@
         }
     },
     {
-        "login": "dibbles21",
-        "name": "dibbles21",
-        "urls": {
-            "github": "https://github.com/dibbles21"
-        }
-    },
-    {
         "login": "jonocarroll",
         "name": "jonocarroll",
         "urls": {
             "github": "https://github.com/jonocarroll"
+        }
+    },
+    {
+        "login": "dibbles21",
+        "name": "dibbles21",
+        "urls": {
+            "github": "https://github.com/dibbles21"
         }
     },
     {
