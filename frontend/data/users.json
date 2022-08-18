@@ -2205,6 +2205,13 @@
         }
     },
     {
+        "login": "wizviz",
+        "name": "wizviz",
+        "urls": {
+            "github": "https://github.com/wizviz"
+        }
+    },
+    {
         "login": "theOehrly",
         "name": "theOehrly",
         "urls": {
@@ -2226,6 +2233,13 @@
         }
     },
     {
+        "login": "oscr",
+        "name": "oscr",
+        "urls": {
+            "github": "https://github.com/oscr"
+        }
+    },
+    {
         "login": "dialtone",
         "name": "dialtone",
         "urls": {
@@ -2244,6 +2258,13 @@
         "name": "bambz96",
         "urls": {
             "github": "https://github.com/bambz96"
+        }
+    },
+    {
+        "login": "niallmcevoy",
+        "name": "niallmcevoy",
+        "urls": {
+            "github": "https://github.com/niallmcevoy"
         }
     },
     {
