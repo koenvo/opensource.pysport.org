@@ -116,3 +116,4 @@ scraper,baronet2/FirstCyclingAPI
 model,baronet2/RIPP
 io|model,GoldenCheetah/sweatpy
 data,GoldenCheetah/OpenData
+scraper,martineastwood/penaltyblog
