@@ -539,6 +539,13 @@
         }
     },
     {
+        "login": "koenvo",
+        "name": "koenvo",
+        "urls": {
+            "github": "https://github.com/koenvo"
+        }
+    },
+    {
         "login": "matthew-williamson-he",
         "name": "matthew-williamson-he",
         "urls": {
@@ -557,13 +564,6 @@
         "name": "tdy",
         "urls": {
             "github": "https://github.com/tdy"
-        }
-    },
-    {
-        "login": "koenvo",
-        "name": "koenvo",
-        "urls": {
-            "github": "https://github.com/koenvo"
         }
     },
     {
