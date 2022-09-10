@@ -2247,6 +2247,13 @@
         }
     },
     {
+        "login": "TasosOperatingInBinary",
+        "name": "TasosOperatingInBinary",
+        "urls": {
+            "github": "https://github.com/TasosOperatingInBinary"
+        }
+    },
+    {
         "login": "dialtone",
         "name": "dialtone",
         "urls": {
