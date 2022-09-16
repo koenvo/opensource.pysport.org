@@ -588,6 +588,13 @@
         }
     },
     {
+        "login": "MKlaasman",
+        "name": "MKlaasman",
+        "urls": {
+            "github": "https://github.com/MKlaasman"
+        }
+    },
+    {
         "login": "ProformAnalytics",
         "name": "ProformAnalytics",
         "urls": {
@@ -599,13 +606,6 @@
         "name": "ThomasSeidl",
         "urls": {
             "github": "https://github.com/ThomasSeidl"
-        }
-    },
-    {
-        "login": "MKlaasman",
-        "name": "MKlaasman",
-        "urls": {
-            "github": "https://github.com/MKlaasman"
         }
     },
     {
@@ -662,6 +662,13 @@
         "name": "BenjaminLarrousse",
         "urls": {
             "github": "https://github.com/BenjaminLarrousse"
+        }
+    },
+    {
+        "login": "deppen8",
+        "name": "deppen8",
+        "urls": {
+            "github": "https://github.com/deppen8"
         }
     },
     {
