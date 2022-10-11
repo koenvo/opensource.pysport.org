@@ -21,6 +21,13 @@
         }
     },
     {
+        "login": "atungate",
+        "name": "atungate",
+        "urls": {
+            "github": "https://github.com/atungate"
+        }
+    },
+    {
         "login": "christianlohr9",
         "name": "christianlohr9",
         "urls": {
@@ -504,6 +511,13 @@
         }
     },
     {
+        "login": "dmoggles",
+        "name": "dmoggles",
+        "urls": {
+            "github": "https://github.com/dmoggles"
+        }
+    },
+    {
         "login": "sholaybhature",
         "name": "sholaybhature",
         "urls": {
@@ -515,13 +529,6 @@
         "name": "willthomson1",
         "urls": {
             "github": "https://github.com/willthomson1"
-        }
-    },
-    {
-        "login": "dmoggles",
-        "name": "dmoggles",
-        "urls": {
-            "github": "https://github.com/dmoggles"
         }
     },
     {
