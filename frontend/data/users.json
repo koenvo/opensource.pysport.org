@@ -504,17 +504,17 @@
         }
     },
     {
-        "login": "DymondFormation",
-        "name": "DymondFormation",
-        "urls": {
-            "github": "https://github.com/DymondFormation"
-        }
-    },
-    {
         "login": "dmoggles",
         "name": "dmoggles",
         "urls": {
             "github": "https://github.com/dmoggles"
+        }
+    },
+    {
+        "login": "DymondFormation",
+        "name": "DymondFormation",
+        "urls": {
+            "github": "https://github.com/DymondFormation"
         }
     },
     {
