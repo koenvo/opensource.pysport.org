@@ -91,6 +91,13 @@
         }
     },
     {
+        "login": "JaseZiv",
+        "name": "JaseZiv",
+        "urls": {
+            "github": "https://github.com/JaseZiv"
+        }
+    },
+    {
         "login": "Fryzigg",
         "name": "Fryzigg",
         "urls": {
@@ -130,13 +137,6 @@
         "name": "hadley",
         "urls": {
             "github": "https://github.com/hadley"
-        }
-    },
-    {
-        "login": "JaseZiv",
-        "name": "JaseZiv",
-        "urls": {
-            "github": "https://github.com/JaseZiv"
         }
     },
     {
