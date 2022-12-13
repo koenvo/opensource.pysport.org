@@ -959,6 +959,13 @@
         }
     },
     {
+        "login": "zach-hopkins",
+        "name": "zach-hopkins",
+        "urls": {
+            "github": "https://github.com/zach-hopkins"
+        }
+    },
+    {
         "login": "akern40",
         "name": "akern40",
         "urls": {
@@ -970,13 +977,6 @@
         "name": "prs-watch",
         "urls": {
             "github": "https://github.com/prs-watch"
-        }
-    },
-    {
-        "login": "tonycpsu",
-        "name": "tonycpsu",
-        "urls": {
-            "github": "https://github.com/tonycpsu"
         }
     },
     {
