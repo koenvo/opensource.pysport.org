@@ -875,6 +875,13 @@
         }
     },
     {
+        "login": "BrayanMnz",
+        "name": "BrayanMnz",
+        "urls": {
+            "github": "https://github.com/BrayanMnz"
+        }
+    },
+    {
         "login": "latonis",
         "name": "latonis",
         "urls": {
@@ -970,13 +977,6 @@
         "name": "akern40",
         "urls": {
             "github": "https://github.com/akern40"
-        }
-    },
-    {
-        "login": "prs-watch",
-        "name": "prs-watch",
-        "urls": {
-            "github": "https://github.com/prs-watch"
         }
     },
     {
@@ -1554,10 +1554,24 @@
         }
     },
     {
+        "login": "bischrob",
+        "name": "bischrob",
+        "urls": {
+            "github": "https://github.com/bischrob"
+        }
+    },
+    {
         "login": "rtelmore",
         "name": "rtelmore",
         "urls": {
             "github": "https://github.com/rtelmore"
+        }
+    },
+    {
+        "login": "Worf2340",
+        "name": "Worf2340",
+        "urls": {
+            "github": "https://github.com/Worf2340"
         }
     },
     {
