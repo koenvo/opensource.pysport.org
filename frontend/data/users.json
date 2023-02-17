@@ -2366,6 +2366,13 @@
         }
     },
     {
+        "login": "SpyrosKoun",
+        "name": "SpyrosKoun",
+        "urls": {
+            "github": "https://github.com/SpyrosKoun"
+        }
+    },
+    {
         "login": "BCurbs",
         "name": "BCurbs",
         "urls": {
@@ -2377,13 +2384,6 @@
         "name": "Neron-png",
         "urls": {
             "github": "https://github.com/Neron-png"
-        }
-    },
-    {
-        "login": "SpyrosKoun",
-        "name": "SpyrosKoun",
-        "urls": {
-            "github": "https://github.com/SpyrosKoun"
         }
     },
     {
