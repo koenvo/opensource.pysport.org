@@ -882,6 +882,13 @@
         }
     },
     {
+        "login": "bryanpeabody",
+        "name": "bryanpeabody",
+        "urls": {
+            "github": "https://github.com/bryanpeabody"
+        }
+    },
+    {
         "login": "latonis",
         "name": "latonis",
         "urls": {
@@ -945,6 +952,13 @@
         }
     },
     {
+        "login": "TK2575",
+        "name": "TK2575",
+        "urls": {
+            "github": "https://github.com/TK2575"
+        }
+    },
+    {
         "login": "trogers19",
         "name": "trogers19",
         "urls": {
@@ -963,20 +977,6 @@
         "name": "WillAyd",
         "urls": {
             "github": "https://github.com/WillAyd"
-        }
-    },
-    {
-        "login": "zach-hopkins",
-        "name": "zach-hopkins",
-        "urls": {
-            "github": "https://github.com/zach-hopkins"
-        }
-    },
-    {
-        "login": "akern40",
-        "name": "akern40",
-        "urls": {
-            "github": "https://github.com/akern40"
         }
     },
     {
