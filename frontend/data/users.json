@@ -1379,6 +1379,13 @@
         }
     },
     {
+        "login": "a-meyers",
+        "name": "a-meyers",
+        "urls": {
+            "github": "https://github.com/a-meyers"
+        }
+    },
+    {
         "login": "apapanico",
         "name": "apapanico",
         "urls": {
@@ -1981,10 +1988,10 @@
         }
     },
     {
-        "login": "fantasydatapros",
-        "name": "fantasydatapros",
+        "login": "bendominguez0111",
+        "name": "bendominguez0111",
         "urls": {
-            "github": "https://github.com/fantasydatapros"
+            "github": "https://github.com/bendominguez0111"
         }
     },
     {
@@ -2377,6 +2384,13 @@
         "name": "BCurbs",
         "urls": {
             "github": "https://github.com/BCurbs"
+        }
+    },
+    {
+        "login": "f1multiviewer",
+        "name": "f1multiviewer",
+        "urls": {
+            "github": "https://github.com/f1multiviewer"
         }
     },
     {
