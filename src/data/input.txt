@@ -117,3 +117,6 @@ model,baronet2/RIPP
 io|model,GoldenCheetah/sweatpy
 data,GoldenCheetah/OpenData
 scraper,martineastwood/penaltyblog
+io,shufinskiy/nba-on-court
+io,corriporai/runpandas
+scraper,JaseZiv/nblR
