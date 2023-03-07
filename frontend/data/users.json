@@ -2518,5 +2518,26 @@
         "urls": {
             "github": "https://github.com/martin-woolstenhulme"
         }
+    },
+    {
+        "login": "shufinskiy",
+        "name": "shufinskiy",
+        "urls": {
+            "github": "https://github.com/shufinskiy"
+        }
+    },
+    {
+        "login": "marcelcaraciolo",
+        "name": "marcelcaraciolo",
+        "urls": {
+            "github": "https://github.com/marcelcaraciolo"
+        }
+    },
+    {
+        "login": "bitner",
+        "name": "bitner",
+        "urls": {
+            "github": "https://github.com/bitner"
+        }
     }
 ]
