@@ -287,17 +287,17 @@
         }
     },
     {
-        "login": "FranGoitia",
-        "name": "FranGoitia",
-        "urls": {
-            "github": "https://github.com/FranGoitia"
-        }
-    },
-    {
         "login": "scotty779",
         "name": "scotty779",
         "urls": {
             "github": "https://github.com/scotty779"
+        }
+    },
+    {
+        "login": "FranGoitia",
+        "name": "FranGoitia",
+        "urls": {
+            "github": "https://github.com/FranGoitia"
         }
     },
     {
