@@ -120,3 +120,5 @@ scraper,martineastwood/penaltyblog
 io,shufinskiy/nba-on-court
 io,corriporai/runpandas
 scraper,JaseZiv/nblR
+scraper,josh-bone/sportsrefscraper
+scraper,nwslR/nwslpy
