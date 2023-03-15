@@ -609,6 +609,13 @@
         }
     },
     {
+        "login": "DriesDeprest",
+        "name": "DriesDeprest",
+        "urls": {
+            "github": "https://github.com/DriesDeprest"
+        }
+    },
+    {
         "login": "ProformAnalytics",
         "name": "ProformAnalytics",
         "urls": {
@@ -2128,6 +2135,13 @@
         }
     },
     {
+        "login": "szfh",
+        "name": "szfh",
+        "urls": {
+            "github": "https://github.com/szfh"
+        }
+    },
+    {
         "login": "benhowell71",
         "name": "benhowell71",
         "urls": {
@@ -2223,13 +2237,6 @@
         "name": "grantwenzinger",
         "urls": {
             "github": "https://github.com/grantwenzinger"
-        }
-    },
-    {
-        "login": "szfh",
-        "name": "szfh",
-        "urls": {
-            "github": "https://github.com/szfh"
         }
     },
     {
@@ -2545,6 +2552,13 @@
         "name": "bitner",
         "urls": {
             "github": "https://github.com/bitner"
+        }
+    },
+    {
+        "login": "josh-bone",
+        "name": "josh-bone",
+        "urls": {
+            "github": "https://github.com/josh-bone"
         }
     }
 ]
