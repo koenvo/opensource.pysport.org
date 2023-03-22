@@ -1876,17 +1876,17 @@
         }
     },
     {
-        "login": "soccermatics",
-        "name": "soccermatics",
-        "urls": {
-            "github": "https://github.com/soccermatics"
-        }
-    },
-    {
         "login": "HarvardSoccer",
         "name": "HarvardSoccer",
         "urls": {
             "github": "https://github.com/HarvardSoccer"
+        }
+    },
+    {
+        "login": "soccermatics",
+        "name": "soccermatics",
+        "urls": {
+            "github": "https://github.com/soccermatics"
         }
     },
     {
@@ -2380,6 +2380,13 @@
         }
     },
     {
+        "login": "Casper-Guo",
+        "name": "Casper-Guo",
+        "urls": {
+            "github": "https://github.com/Casper-Guo"
+        }
+    },
+    {
         "login": "bruzie",
         "name": "bruzie",
         "urls": {
@@ -2401,10 +2408,10 @@
         }
     },
     {
-        "login": "Casper-Guo",
-        "name": "Casper-Guo",
+        "login": "lmontrieux",
+        "name": "lmontrieux",
         "urls": {
-            "github": "https://github.com/Casper-Guo"
+            "github": "https://github.com/lmontrieux"
         }
     },
     {
@@ -2436,6 +2443,13 @@
         }
     },
     {
+        "login": "TracingInsights",
+        "name": "TracingInsights",
+        "urls": {
+            "github": "https://github.com/TracingInsights"
+        }
+    },
+    {
         "login": "dialtone",
         "name": "dialtone",
         "urls": {
@@ -2454,6 +2468,13 @@
         "name": "bambz96",
         "urls": {
             "github": "https://github.com/bambz96"
+        }
+    },
+    {
+        "login": "daylinmorgan",
+        "name": "daylinmorgan",
+        "urls": {
+            "github": "https://github.com/daylinmorgan"
         }
     },
     {
