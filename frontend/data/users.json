@@ -602,6 +602,13 @@
         }
     },
     {
+        "login": "DriesDeprest",
+        "name": "DriesDeprest",
+        "urls": {
+            "github": "https://github.com/DriesDeprest"
+        }
+    },
+    {
         "login": "JanVanHaaren",
         "name": "JanVanHaaren",
         "urls": {
@@ -613,13 +620,6 @@
         "name": "MKlaasman",
         "urls": {
             "github": "https://github.com/MKlaasman"
-        }
-    },
-    {
-        "login": "DriesDeprest",
-        "name": "DriesDeprest",
-        "urls": {
-            "github": "https://github.com/DriesDeprest"
         }
     },
     {
@@ -1932,10 +1932,24 @@
         }
     },
     {
+        "login": "andreweatherman",
+        "name": "andreweatherman",
+        "urls": {
+            "github": "https://github.com/andreweatherman"
+        }
+    },
+    {
         "login": "jpatak16",
         "name": "jpatak16",
         "urls": {
             "github": "https://github.com/jpatak16"
+        }
+    },
+    {
+        "login": "rossdrucker",
+        "name": "rossdrucker",
+        "urls": {
+            "github": "https://github.com/rossdrucker"
         }
     },
     {
@@ -2083,13 +2097,6 @@
         "name": "RyanG73",
         "urls": {
             "github": "https://github.com/RyanG73"
-        }
-    },
-    {
-        "login": "rossdrucker",
-        "name": "rossdrucker",
-        "urls": {
-            "github": "https://github.com/rossdrucker"
         }
     },
     {
