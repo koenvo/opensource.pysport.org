@@ -2394,6 +2394,13 @@
         }
     },
     {
+        "login": "lmontrieux",
+        "name": "lmontrieux",
+        "urls": {
+            "github": "https://github.com/lmontrieux"
+        }
+    },
+    {
         "login": "bruzie",
         "name": "bruzie",
         "urls": {
@@ -2412,13 +2419,6 @@
         "name": "BCurbs",
         "urls": {
             "github": "https://github.com/BCurbs"
-        }
-    },
-    {
-        "login": "lmontrieux",
-        "name": "lmontrieux",
-        "urls": {
-            "github": "https://github.com/lmontrieux"
         }
     },
     {
