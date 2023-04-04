@@ -140,6 +140,13 @@
         }
     },
     {
+        "login": "bairdj",
+        "name": "bairdj",
+        "urls": {
+            "github": "https://github.com/bairdj"
+        }
+    },
+    {
         "login": "merbla",
         "name": "merbla",
         "urls": {
@@ -151,13 +158,6 @@
         "name": "hamgamb",
         "urls": {
             "github": "https://github.com/hamgamb"
-        }
-    },
-    {
-        "login": "bairdj",
-        "name": "bairdj",
-        "urls": {
-            "github": "https://github.com/bairdj"
         }
     },
     {
