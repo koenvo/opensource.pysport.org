@@ -2387,17 +2387,17 @@
         }
     },
     {
-        "login": "Casper-Guo",
-        "name": "Casper-Guo",
-        "urls": {
-            "github": "https://github.com/Casper-Guo"
-        }
-    },
-    {
         "login": "lmontrieux",
         "name": "lmontrieux",
         "urls": {
             "github": "https://github.com/lmontrieux"
+        }
+    },
+    {
+        "login": "Casper-Guo",
+        "name": "Casper-Guo",
+        "urls": {
+            "github": "https://github.com/Casper-Guo"
         }
     },
     {
