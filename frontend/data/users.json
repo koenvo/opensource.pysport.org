@@ -1470,6 +1470,13 @@
         }
     },
     {
+        "login": "rossdrucker",
+        "name": "rossdrucker",
+        "urls": {
+            "github": "https://github.com/rossdrucker"
+        }
+    },
+    {
         "login": "morrisLuke",
         "name": "morrisLuke",
         "urls": {
@@ -1943,13 +1950,6 @@
         "name": "jpatak16",
         "urls": {
             "github": "https://github.com/jpatak16"
-        }
-    },
-    {
-        "login": "rossdrucker",
-        "name": "rossdrucker",
-        "urls": {
-            "github": "https://github.com/rossdrucker"
         }
     },
     {
