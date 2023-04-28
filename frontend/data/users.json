@@ -588,6 +588,13 @@
         }
     },
     {
+        "login": "obreit",
+        "name": "obreit",
+        "urls": {
+            "github": "https://github.com/obreit"
+        }
+    },
+    {
         "login": "tdy",
         "name": "tdy",
         "urls": {
