@@ -2609,5 +2609,12 @@
         "urls": {
             "github": "https://github.com/josh-bone"
         }
+    },
+    {
+        "login": "nanodino",
+        "name": "nanodino",
+        "urls": {
+            "github": "https://github.com/nanodino"
+        }
     }
 ]
