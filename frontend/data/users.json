@@ -1939,17 +1939,17 @@
         }
     },
     {
-        "login": "john-b-edwards",
-        "name": "john-b-edwards",
-        "urls": {
-            "github": "https://github.com/john-b-edwards"
-        }
-    },
-    {
         "login": "andreweatherman",
         "name": "andreweatherman",
         "urls": {
             "github": "https://github.com/andreweatherman"
+        }
+    },
+    {
+        "login": "john-b-edwards",
+        "name": "john-b-edwards",
+        "urls": {
+            "github": "https://github.com/john-b-edwards"
         }
     },
     {
@@ -2422,6 +2422,13 @@
         }
     },
     {
+        "login": "daylinmorgan",
+        "name": "daylinmorgan",
+        "urls": {
+            "github": "https://github.com/daylinmorgan"
+        }
+    },
+    {
         "login": "BCurbs",
         "name": "BCurbs",
         "urls": {
@@ -2489,13 +2496,6 @@
         "name": "bambz96",
         "urls": {
             "github": "https://github.com/bambz96"
-        }
-    },
-    {
-        "login": "daylinmorgan",
-        "name": "daylinmorgan",
-        "urls": {
-            "github": "https://github.com/daylinmorgan"
         }
     },
     {
