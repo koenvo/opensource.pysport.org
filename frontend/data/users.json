@@ -903,13 +903,6 @@
         }
     },
     {
-        "login": "bryanpeabody",
-        "name": "bryanpeabody",
-        "urls": {
-            "github": "https://github.com/bryanpeabody"
-        }
-    },
-    {
         "login": "erin2722",
         "name": "erin2722",
         "urls": {
@@ -998,6 +991,13 @@
         "name": "tpoatsy3",
         "urls": {
             "github": "https://github.com/tpoatsy3"
+        }
+    },
+    {
+        "login": "WillAyd",
+        "name": "WillAyd",
+        "urls": {
+            "github": "https://github.com/WillAyd"
         }
     },
     {
