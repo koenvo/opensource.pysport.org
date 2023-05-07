@@ -910,6 +910,13 @@
         }
     },
     {
+        "login": "JackMentch",
+        "name": "JackMentch",
+        "urls": {
+            "github": "https://github.com/JackMentch"
+        }
+    },
+    {
         "login": "latonis",
         "name": "latonis",
         "urls": {
@@ -991,13 +998,6 @@
         "name": "tpoatsy3",
         "urls": {
             "github": "https://github.com/tpoatsy3"
-        }
-    },
-    {
-        "login": "WillAyd",
-        "name": "WillAyd",
-        "urls": {
-            "github": "https://github.com/WillAyd"
         }
     },
     {
