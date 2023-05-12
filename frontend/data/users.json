@@ -1806,13 +1806,6 @@
         }
     },
     {
-        "login": "Paulj1989",
-        "name": "Paulj1989",
-        "urls": {
-            "github": "https://github.com/Paulj1989"
-        }
-    },
-    {
         "login": "padpadpadpad",
         "name": "padpadpadpad",
         "urls": {
@@ -1824,6 +1817,13 @@
         "name": "geraldb",
         "urls": {
             "github": "https://github.com/geraldb"
+        }
+    },
+    {
+        "login": "Paulj1989",
+        "name": "Paulj1989",
+        "urls": {
+            "github": "https://github.com/Paulj1989"
         }
     },
     {
