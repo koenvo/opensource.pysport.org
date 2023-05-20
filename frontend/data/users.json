@@ -2394,17 +2394,17 @@
         }
     },
     {
-        "login": "oscr",
-        "name": "oscr",
-        "urls": {
-            "github": "https://github.com/oscr"
-        }
-    },
-    {
         "login": "Casper-Guo",
         "name": "Casper-Guo",
         "urls": {
             "github": "https://github.com/Casper-Guo"
+        }
+    },
+    {
+        "login": "oscr",
+        "name": "oscr",
+        "urls": {
+            "github": "https://github.com/oscr"
         }
     },
     {
