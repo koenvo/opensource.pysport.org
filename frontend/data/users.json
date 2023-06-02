@@ -133,10 +133,10 @@
         }
     },
     {
-        "login": "tyluRp",
-        "name": "tyluRp",
+        "login": "tylerlittlefield",
+        "name": "tylerlittlefield",
         "urls": {
-            "github": "https://github.com/tyluRp"
+            "github": "https://github.com/tylerlittlefield"
         }
     },
     {
@@ -602,6 +602,13 @@
         }
     },
     {
+        "login": "MKlaasman",
+        "name": "MKlaasman",
+        "urls": {
+            "github": "https://github.com/MKlaasman"
+        }
+    },
+    {
         "login": "rjtavares",
         "name": "rjtavares",
         "urls": {
@@ -620,13 +627,6 @@
         "name": "JanVanHaaren",
         "urls": {
             "github": "https://github.com/JanVanHaaren"
-        }
-    },
-    {
-        "login": "MKlaasman",
-        "name": "MKlaasman",
-        "urls": {
-            "github": "https://github.com/MKlaasman"
         }
     },
     {
@@ -697,6 +697,13 @@
         "name": "pratikthanki",
         "urls": {
             "github": "https://github.com/pratikthanki"
+        }
+    },
+    {
+        "login": "plaguss",
+        "name": "plaguss",
+        "urls": {
+            "github": "https://github.com/plaguss"
         }
     },
     {
