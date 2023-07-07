@@ -609,17 +609,17 @@
         }
     },
     {
-        "login": "rjtavares",
-        "name": "rjtavares",
-        "urls": {
-            "github": "https://github.com/rjtavares"
-        }
-    },
-    {
         "login": "DriesDeprest",
         "name": "DriesDeprest",
         "urls": {
             "github": "https://github.com/DriesDeprest"
+        }
+    },
+    {
+        "login": "rjtavares",
+        "name": "rjtavares",
+        "urls": {
+            "github": "https://github.com/rjtavares"
         }
     },
     {
@@ -725,6 +725,13 @@
         "name": "deppen8",
         "urls": {
             "github": "https://github.com/deppen8"
+        }
+    },
+    {
+        "login": "DrSleep",
+        "name": "DrSleep",
+        "urls": {
+            "github": "https://github.com/DrSleep"
         }
     },
     {
