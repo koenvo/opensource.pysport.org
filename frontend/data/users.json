@@ -2009,6 +2009,13 @@
         }
     },
     {
+        "login": "cddr",
+        "name": "cddr",
+        "urls": {
+            "github": "https://github.com/cddr"
+        }
+    },
+    {
         "login": "josedv82",
         "name": "josedv82",
         "urls": {
