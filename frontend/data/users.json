@@ -2562,6 +2562,13 @@
         }
     },
     {
+        "login": "lorenzodb1",
+        "name": "lorenzodb1",
+        "urls": {
+            "github": "https://github.com/lorenzodb1"
+        }
+    },
+    {
         "login": "Kalaweksh",
         "name": "Kalaweksh",
         "urls": {
