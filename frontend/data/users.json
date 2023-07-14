@@ -602,17 +602,17 @@
         }
     },
     {
-        "login": "MKlaasman",
-        "name": "MKlaasman",
-        "urls": {
-            "github": "https://github.com/MKlaasman"
-        }
-    },
-    {
         "login": "DriesDeprest",
         "name": "DriesDeprest",
         "urls": {
             "github": "https://github.com/DriesDeprest"
+        }
+    },
+    {
+        "login": "MKlaasman",
+        "name": "MKlaasman",
+        "urls": {
+            "github": "https://github.com/MKlaasman"
         }
     },
     {
@@ -746,6 +746,13 @@
         "name": "TK5-Tim",
         "urls": {
             "github": "https://github.com/TK5-Tim"
+        }
+    },
+    {
+        "login": "akuu666",
+        "name": "akuu666",
+        "urls": {
+            "github": "https://github.com/akuu666"
         }
     },
     {
