@@ -2002,6 +2002,13 @@
         }
     },
     {
+        "login": "cddr",
+        "name": "cddr",
+        "urls": {
+            "github": "https://github.com/cddr"
+        }
+    },
+    {
         "login": "JamesYorke77",
         "name": "JamesYorke77",
         "urls": {
@@ -2013,13 +2020,6 @@
         "name": "haghanim",
         "urls": {
             "github": "https://github.com/haghanim"
-        }
-    },
-    {
-        "login": "cddr",
-        "name": "cddr",
-        "urls": {
-            "github": "https://github.com/cddr"
         }
     },
     {
