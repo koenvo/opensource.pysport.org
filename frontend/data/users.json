@@ -2387,17 +2387,17 @@
         }
     },
     {
-        "login": "pbulsink",
-        "name": "pbulsink",
-        "urls": {
-            "github": "https://github.com/pbulsink"
-        }
-    },
-    {
         "login": "SCasanova",
         "name": "SCasanova",
         "urls": {
             "github": "https://github.com/SCasanova"
+        }
+    },
+    {
+        "login": "pbulsink",
+        "name": "pbulsink",
+        "urls": {
+            "github": "https://github.com/pbulsink"
         }
     },
     {
@@ -2482,6 +2482,13 @@
         "name": "mdsakalu",
         "urls": {
             "github": "https://github.com/mdsakalu"
+        }
+    },
+    {
+        "login": "wakamex",
+        "name": "wakamex",
+        "urls": {
+            "github": "https://github.com/wakamex"
         }
     },
     {
