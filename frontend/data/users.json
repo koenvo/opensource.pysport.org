@@ -154,6 +154,13 @@
         }
     },
     {
+        "login": "peteowen1",
+        "name": "peteowen1",
+        "urls": {
+            "github": "https://github.com/peteowen1"
+        }
+    },
+    {
         "login": "t-gummer",
         "name": "t-gummer",
         "urls": {
@@ -571,6 +578,13 @@
         "name": "Flosch1006",
         "urls": {
             "github": "https://github.com/Flosch1006"
+        }
+    },
+    {
+        "login": "francescozonaro",
+        "name": "francescozonaro",
+        "urls": {
+            "github": "https://github.com/francescozonaro"
         }
     },
     {
@@ -2163,6 +2177,13 @@
         }
     },
     {
+        "login": "mpcen",
+        "name": "mpcen",
+        "urls": {
+            "github": "https://github.com/mpcen"
+        }
+    },
+    {
         "login": "shirondru",
         "name": "shirondru",
         "urls": {
@@ -2300,13 +2321,6 @@
         "name": "nepito",
         "urls": {
             "github": "https://github.com/nepito"
-        }
-    },
-    {
-        "login": "francescozonaro",
-        "name": "francescozonaro",
-        "urls": {
-            "github": "https://github.com/francescozonaro"
         }
     },
     {
