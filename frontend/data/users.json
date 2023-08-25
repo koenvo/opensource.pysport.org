@@ -1981,6 +1981,13 @@
         }
     },
     {
+        "login": "shufinskiy",
+        "name": "shufinskiy",
+        "urls": {
+            "github": "https://github.com/shufinskiy"
+        }
+    },
+    {
         "login": "andreweatherman",
         "name": "andreweatherman",
         "urls": {
@@ -2692,13 +2699,6 @@
         "name": "martin-woolstenhulme",
         "urls": {
             "github": "https://github.com/martin-woolstenhulme"
-        }
-    },
-    {
-        "login": "shufinskiy",
-        "name": "shufinskiy",
-        "urls": {
-            "github": "https://github.com/shufinskiy"
         }
     },
     {
