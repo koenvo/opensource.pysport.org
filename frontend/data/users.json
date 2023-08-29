@@ -2485,6 +2485,13 @@
         }
     },
     {
+        "login": "pesaventofilippo",
+        "name": "pesaventofilippo",
+        "urls": {
+            "github": "https://github.com/pesaventofilippo"
+        }
+    },
+    {
         "login": "bruzie",
         "name": "bruzie",
         "urls": {
@@ -2513,10 +2520,10 @@
         }
     },
     {
-        "login": "pesaventofilippo",
-        "name": "pesaventofilippo",
+        "login": "dawiddzhafarov",
+        "name": "dawiddzhafarov",
         "urls": {
-            "github": "https://github.com/pesaventofilippo"
+            "github": "https://github.com/dawiddzhafarov"
         }
     },
     {
