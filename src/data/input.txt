@@ -122,3 +122,8 @@ io,corriporai/runpandas
 scraper,JaseZiv/nblR
 scraper,josh-bone/sportsrefscraper
 scraper,nwslR/nwslpy
+scraper,cooperdff/nfl_data_py
+scraper,giasemidis/euroleague_api
+viz|model,giasemidis/euroleague-shot-charts
+viz|model,giasemidis/basketball-data-analysis
+model|io,gotoConversion/goto_conversion
