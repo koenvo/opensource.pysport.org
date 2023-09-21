@@ -2742,5 +2742,75 @@
         "urls": {
             "github": "https://github.com/nanodino"
         }
+    },
+    {
+        "login": "cooperdff",
+        "name": "cooperdff",
+        "urls": {
+            "github": "https://github.com/cooperdff"
+        }
+    },
+    {
+        "login": "alecglen",
+        "name": "alecglen",
+        "urls": {
+            "github": "https://github.com/alecglen"
+        }
+    },
+    {
+        "login": "pseminatore",
+        "name": "pseminatore",
+        "urls": {
+            "github": "https://github.com/pseminatore"
+        }
+    },
+    {
+        "login": "erictruett-dotcom",
+        "name": "erictruett-dotcom",
+        "urls": {
+            "github": "https://github.com/erictruett-dotcom"
+        }
+    },
+    {
+        "login": "scottiegarcia",
+        "name": "scottiegarcia",
+        "urls": {
+            "github": "https://github.com/scottiegarcia"
+        }
+    },
+    {
+        "login": "sansbacon",
+        "name": "sansbacon",
+        "urls": {
+            "github": "https://github.com/sansbacon"
+        }
+    },
+    {
+        "login": "MMuta52",
+        "name": "MMuta52",
+        "urls": {
+            "github": "https://github.com/MMuta52"
+        }
+    },
+    {
+        "login": "wstrausser",
+        "name": "wstrausser",
+        "urls": {
+            "github": "https://github.com/wstrausser"
+        }
+    },
+    {
+        "login": "giasemidis",
+        "name": "giasemidis",
+        "urls": {
+            "github": "https://github.com/giasemidis"
+        }
+    },
+    {
+        "login": "gotoConversion",
+        "name": "gotoConversion",
+        "urls": {
+            "github": "https://github.com/gotoConversion"
+        }
     }
 ]
