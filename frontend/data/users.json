@@ -2506,6 +2506,13 @@
         }
     },
     {
+        "login": "harningle",
+        "name": "harningle",
+        "urls": {
+            "github": "https://github.com/harningle"
+        }
+    },
+    {
         "login": "daylinmorgan",
         "name": "daylinmorgan",
         "urls": {
@@ -2601,13 +2608,6 @@
         "name": "vlesierse",
         "urls": {
             "github": "https://github.com/vlesierse"
-        }
-    },
-    {
-        "login": "harningle",
-        "name": "harningle",
-        "urls": {
-            "github": "https://github.com/harningle"
         }
     },
     {
