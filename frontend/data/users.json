@@ -2513,6 +2513,13 @@
         }
     },
     {
+        "login": "TracingInsights",
+        "name": "TracingInsights",
+        "urls": {
+            "github": "https://github.com/TracingInsights"
+        }
+    },
+    {
         "login": "harningle",
         "name": "harningle",
         "urls": {
@@ -2594,13 +2601,6 @@
         "name": "Toskosz",
         "urls": {
             "github": "https://github.com/Toskosz"
-        }
-    },
-    {
-        "login": "TracingInsights",
-        "name": "TracingInsights",
-        "urls": {
-            "github": "https://github.com/TracingInsights"
         }
     },
     {
