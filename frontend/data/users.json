@@ -2485,17 +2485,17 @@
         }
     },
     {
-        "login": "lmontrieux",
-        "name": "lmontrieux",
-        "urls": {
-            "github": "https://github.com/lmontrieux"
-        }
-    },
-    {
         "login": "pesaventofilippo",
         "name": "pesaventofilippo",
         "urls": {
             "github": "https://github.com/pesaventofilippo"
+        }
+    },
+    {
+        "login": "lmontrieux",
+        "name": "lmontrieux",
+        "urls": {
+            "github": "https://github.com/lmontrieux"
         }
     },
     {
