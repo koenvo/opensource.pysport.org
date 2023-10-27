@@ -2359,6 +2359,13 @@
         }
     },
     {
+        "login": "lanusStats",
+        "name": "lanusStats",
+        "urls": {
+            "github": "https://github.com/lanusStats"
+        }
+    },
+    {
         "login": "harshm16",
         "name": "harshm16",
         "urls": {
