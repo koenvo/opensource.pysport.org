@@ -980,6 +980,13 @@
         }
     },
     {
+        "login": "EvanMad",
+        "name": "EvanMad",
+        "urls": {
+            "github": "https://github.com/EvanMad"
+        }
+    },
+    {
         "login": "JackMentch",
         "name": "JackMentch",
         "urls": {
@@ -1054,13 +1061,6 @@
         "name": "MichaelGFagan",
         "urls": {
             "github": "https://github.com/MichaelGFagan"
-        }
-    },
-    {
-        "login": "TK2575",
-        "name": "TK2575",
-        "urls": {
-            "github": "https://github.com/TK2575"
         }
     },
     {
