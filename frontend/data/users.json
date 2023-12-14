@@ -651,6 +651,13 @@
         }
     },
     {
+        "login": "JanVanHaaren",
+        "name": "JanVanHaaren",
+        "urls": {
+            "github": "https://github.com/JanVanHaaren"
+        }
+    },
+    {
         "login": "rjtavares",
         "name": "rjtavares",
         "urls": {
@@ -662,13 +669,6 @@
         "name": "jcnunezmoreno",
         "urls": {
             "github": "https://github.com/jcnunezmoreno"
-        }
-    },
-    {
-        "login": "JanVanHaaren",
-        "name": "JanVanHaaren",
-        "urls": {
-            "github": "https://github.com/JanVanHaaren"
         }
     },
     {
