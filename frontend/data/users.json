@@ -952,17 +952,17 @@
         }
     },
     {
-        "login": "bgunn34",
-        "name": "bgunn34",
-        "urls": {
-            "github": "https://github.com/bgunn34"
-        }
-    },
-    {
         "login": "BrayanMnz",
         "name": "BrayanMnz",
         "urls": {
             "github": "https://github.com/BrayanMnz"
+        }
+    },
+    {
+        "login": "bgunn34",
+        "name": "bgunn34",
+        "urls": {
+            "github": "https://github.com/bgunn34"
         }
     },
     {
