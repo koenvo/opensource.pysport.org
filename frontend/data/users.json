@@ -2219,6 +2219,13 @@
         }
     },
     {
+        "login": "SCasanova",
+        "name": "SCasanova",
+        "urls": {
+            "github": "https://github.com/SCasanova"
+        }
+    },
+    {
         "login": "shirondru",
         "name": "shirondru",
         "urls": {
@@ -2475,13 +2482,6 @@
         "name": "pbulsink",
         "urls": {
             "github": "https://github.com/pbulsink"
-        }
-    },
-    {
-        "login": "SCasanova",
-        "name": "SCasanova",
-        "urls": {
-            "github": "https://github.com/SCasanova"
         }
     },
     {
