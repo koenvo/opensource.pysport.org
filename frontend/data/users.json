@@ -2541,6 +2541,13 @@
         }
     },
     {
+        "login": "Lombardoc4",
+        "name": "Lombardoc4",
+        "urls": {
+            "github": "https://github.com/Lombardoc4"
+        }
+    },
+    {
         "login": "SpyrosKoun",
         "name": "SpyrosKoun",
         "urls": {
@@ -2573,13 +2580,6 @@
         "name": "BCurbs",
         "urls": {
             "github": "https://github.com/BCurbs"
-        }
-    },
-    {
-        "login": "Lombardoc4",
-        "name": "Lombardoc4",
-        "urls": {
-            "github": "https://github.com/Lombardoc4"
         }
     },
     {
