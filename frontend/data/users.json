@@ -686,10 +686,10 @@
         }
     },
     {
-        "login": "dmallory42",
-        "name": "dmallory42",
+        "login": "ivd-git",
+        "name": "ivd-git",
         "urls": {
-            "github": "https://github.com/dmallory42"
+            "github": "https://github.com/ivd-git"
         }
     },
     {
@@ -700,10 +700,10 @@
         }
     },
     {
-        "login": "ivd-git",
-        "name": "ivd-git",
+        "login": "dmallory42",
+        "name": "dmallory42",
         "urls": {
-            "github": "https://github.com/ivd-git"
+            "github": "https://github.com/dmallory42"
         }
     },
     {
@@ -917,31 +917,10 @@
         }
     },
     {
-        "login": "alanbauer",
-        "name": "alanbauer",
+        "login": "BrayanMnz",
+        "name": "BrayanMnz",
         "urls": {
-            "github": "https://github.com/alanbauer"
-        }
-    },
-    {
-        "login": "fonnesbeck",
-        "name": "fonnesbeck",
-        "urls": {
-            "github": "https://github.com/fonnesbeck"
-        }
-    },
-    {
-        "login": "hellerpdx",
-        "name": "hellerpdx",
-        "urls": {
-            "github": "https://github.com/hellerpdx"
-        }
-    },
-    {
-        "login": "ntanners",
-        "name": "ntanners",
-        "urls": {
-            "github": "https://github.com/ntanners"
+            "github": "https://github.com/BrayanMnz"
         }
     },
     {
@@ -952,94 +931,31 @@
         }
     },
     {
-        "login": "BrayanMnz",
-        "name": "BrayanMnz",
+        "login": "ntanners",
+        "name": "ntanners",
         "urls": {
-            "github": "https://github.com/BrayanMnz"
+            "github": "https://github.com/ntanners"
         }
     },
     {
-        "login": "bgunn34",
-        "name": "bgunn34",
+        "login": "hellerpdx",
+        "name": "hellerpdx",
         "urls": {
-            "github": "https://github.com/bgunn34"
+            "github": "https://github.com/hellerpdx"
         }
     },
     {
-        "login": "malerichc",
-        "name": "malerichc",
+        "login": "fonnesbeck",
+        "name": "fonnesbeck",
         "urls": {
-            "github": "https://github.com/malerichc"
+            "github": "https://github.com/fonnesbeck"
         }
     },
     {
-        "login": "erin2722",
-        "name": "erin2722",
+        "login": "alanbauer",
+        "name": "alanbauer",
         "urls": {
-            "github": "https://github.com/erin2722"
-        }
-    },
-    {
-        "login": "EvanMad",
-        "name": "EvanMad",
-        "urls": {
-            "github": "https://github.com/EvanMad"
-        }
-    },
-    {
-        "login": "JackMentch",
-        "name": "JackMentch",
-        "urls": {
-            "github": "https://github.com/JackMentch"
-        }
-    },
-    {
-        "login": "latonis",
-        "name": "latonis",
-        "urls": {
-            "github": "https://github.com/latonis"
-        }
-    },
-    {
-        "login": "jamiek5",
-        "name": "jamiek5",
-        "urls": {
-            "github": "https://github.com/jamiek5"
-        }
-    },
-    {
-        "login": "jzuhusky",
-        "name": "jzuhusky",
-        "urls": {
-            "github": "https://github.com/jzuhusky"
-        }
-    },
-    {
-        "login": "jfreynolds",
-        "name": "jfreynolds",
-        "urls": {
-            "github": "https://github.com/jfreynolds"
-        }
-    },
-    {
-        "login": "johnclary",
-        "name": "johnclary",
-        "urls": {
-            "github": "https://github.com/johnclary"
-        }
-    },
-    {
-        "login": "Maradonna90",
-        "name": "Maradonna90",
-        "urls": {
-            "github": "https://github.com/Maradonna90"
-        }
-    },
-    {
-        "login": "marek-slipski",
-        "name": "marek-slipski",
-        "urls": {
-            "github": "https://github.com/marek-slipski"
+            "github": "https://github.com/alanbauer"
         }
     },
     {
@@ -1061,6 +977,90 @@
         "name": "MichaelGFagan",
         "urls": {
             "github": "https://github.com/MichaelGFagan"
+        }
+    },
+    {
+        "login": "TK2575",
+        "name": "TK2575",
+        "urls": {
+            "github": "https://github.com/TK2575"
+        }
+    },
+    {
+        "login": "trogers19",
+        "name": "trogers19",
+        "urls": {
+            "github": "https://github.com/trogers19"
+        }
+    },
+    {
+        "login": "tpoatsy3",
+        "name": "tpoatsy3",
+        "urls": {
+            "github": "https://github.com/tpoatsy3"
+        }
+    },
+    {
+        "login": "WillAyd",
+        "name": "WillAyd",
+        "urls": {
+            "github": "https://github.com/WillAyd"
+        }
+    },
+    {
+        "login": "zach-hopkins",
+        "name": "zach-hopkins",
+        "urls": {
+            "github": "https://github.com/zach-hopkins"
+        }
+    },
+    {
+        "login": "akern40",
+        "name": "akern40",
+        "urls": {
+            "github": "https://github.com/akern40"
+        }
+    },
+    {
+        "login": "corleymj",
+        "name": "corleymj",
+        "urls": {
+            "github": "https://github.com/corleymj"
+        }
+    },
+    {
+        "login": "nwinston",
+        "name": "nwinston",
+        "urls": {
+            "github": "https://github.com/nwinston"
+        }
+    },
+    {
+        "login": "prs-watch",
+        "name": "prs-watch",
+        "urls": {
+            "github": "https://github.com/prs-watch"
+        }
+    },
+    {
+        "login": "tonycpsu",
+        "name": "tonycpsu",
+        "urls": {
+            "github": "https://github.com/tonycpsu"
+        }
+    },
+    {
+        "login": "marek-slipski",
+        "name": "marek-slipski",
+        "urls": {
+            "github": "https://github.com/marek-slipski"
+        }
+    },
+    {
+        "login": "Maradonna90",
+        "name": "Maradonna90",
+        "urls": {
+            "github": "https://github.com/Maradonna90"
         }
     },
     {
