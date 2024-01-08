@@ -2513,13 +2513,6 @@
         }
     },
     {
-        "login": "oscr",
-        "name": "oscr",
-        "urls": {
-            "github": "https://github.com/oscr"
-        }
-    },
-    {
         "login": "pesaventofilippo",
         "name": "pesaventofilippo",
         "urls": {
@@ -2527,10 +2520,31 @@
         }
     },
     {
+        "login": "oscr",
+        "name": "oscr",
+        "urls": {
+            "github": "https://github.com/oscr"
+        }
+    },
+    {
+        "login": "harningle",
+        "name": "harningle",
+        "urls": {
+            "github": "https://github.com/harningle"
+        }
+    },
+    {
         "login": "lmontrieux",
         "name": "lmontrieux",
         "urls": {
             "github": "https://github.com/lmontrieux"
+        }
+    },
+    {
+        "login": "TracingInsights",
+        "name": "TracingInsights",
+        "urls": {
+            "github": "https://github.com/TracingInsights"
         }
     },
     {
@@ -2552,20 +2566,6 @@
         "name": "SpyrosKoun",
         "urls": {
             "github": "https://github.com/SpyrosKoun"
-        }
-    },
-    {
-        "login": "TracingInsights",
-        "name": "TracingInsights",
-        "urls": {
-            "github": "https://github.com/TracingInsights"
-        }
-    },
-    {
-        "login": "harningle",
-        "name": "harningle",
-        "urls": {
-            "github": "https://github.com/harningle"
         }
     },
     {
