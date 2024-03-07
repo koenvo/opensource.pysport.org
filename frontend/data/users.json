@@ -2562,6 +2562,13 @@
         }
     },
     {
+        "login": "erdieee",
+        "name": "erdieee",
+        "urls": {
+            "github": "https://github.com/erdieee"
+        }
+    },
+    {
         "login": "SpyrosKoun",
         "name": "SpyrosKoun",
         "urls": {
@@ -2622,13 +2629,6 @@
         "name": "neron-png",
         "urls": {
             "github": "https://github.com/neron-png"
-        }
-    },
-    {
-        "login": "erdieee",
-        "name": "erdieee",
-        "urls": {
-            "github": "https://github.com/erdieee"
         }
     },
     {
