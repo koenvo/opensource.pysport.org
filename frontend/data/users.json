@@ -630,17 +630,17 @@
         }
     },
     {
-        "login": "MKlaasman",
-        "name": "MKlaasman",
-        "urls": {
-            "github": "https://github.com/MKlaasman"
-        }
-    },
-    {
         "login": "DriesDeprest",
         "name": "DriesDeprest",
         "urls": {
             "github": "https://github.com/DriesDeprest"
+        }
+    },
+    {
+        "login": "MKlaasman",
+        "name": "MKlaasman",
+        "urls": {
+            "github": "https://github.com/MKlaasman"
         }
     },
     {
