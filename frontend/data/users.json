@@ -364,13 +364,6 @@
         }
     },
     {
-        "login": "WillTGM",
-        "name": "WillTGM",
-        "urls": {
-            "github": "https://github.com/WillTGM"
-        }
-    },
-    {
         "login": "Torvaney",
         "name": "Torvaney",
         "urls": {
@@ -2737,17 +2730,17 @@
         }
     },
     {
-        "login": "mhd0528",
-        "name": "mhd0528",
-        "urls": {
-            "github": "https://github.com/mhd0528"
-        }
-    },
-    {
         "login": "marcjbaron",
         "name": "marcjbaron",
         "urls": {
             "github": "https://github.com/marcjbaron"
+        }
+    },
+    {
+        "login": "mhd0528",
+        "name": "mhd0528",
+        "urls": {
+            "github": "https://github.com/mhd0528"
         }
     },
     {
