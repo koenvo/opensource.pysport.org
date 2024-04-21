@@ -224,6 +224,13 @@
         }
     },
     {
+        "login": "JB13",
+        "name": "JB13",
+        "urls": {
+            "github": "https://github.com/JB13"
+        }
+    },
+    {
         "login": "frutoper",
         "name": "frutoper",
         "urls": {
