@@ -973,6 +973,13 @@
         }
     },
     {
+        "login": "thesabermaniac",
+        "name": "thesabermaniac",
+        "urls": {
+            "github": "https://github.com/thesabermaniac"
+        }
+    },
+    {
         "login": "TK2575",
         "name": "TK2575",
         "urls": {
@@ -1047,13 +1054,6 @@
         "name": "marek-slipski",
         "urls": {
             "github": "https://github.com/marek-slipski"
-        }
-    },
-    {
-        "login": "Maradonna90",
-        "name": "Maradonna90",
-        "urls": {
-            "github": "https://github.com/Maradonna90"
         }
     },
     {
