@@ -1407,59 +1407,17 @@
         }
     },
     {
-        "login": "bbwieland",
-        "name": "bbwieland",
+        "login": "camdenk",
+        "name": "camdenk",
         "urls": {
-            "github": "https://github.com/bbwieland"
+            "github": "https://github.com/camdenk"
         }
     },
     {
-        "login": "begavett",
-        "name": "begavett",
+        "login": "apapanico",
+        "name": "apapanico",
         "urls": {
-            "github": "https://github.com/begavett"
-        }
-    },
-    {
-        "login": "ChristianH00k",
-        "name": "ChristianH00k",
-        "urls": {
-            "github": "https://github.com/ChristianH00k"
-        }
-    },
-    {
-        "login": "lawwu",
-        "name": "lawwu",
-        "urls": {
-            "github": "https://github.com/lawwu"
-        }
-    },
-    {
-        "login": "markromanmiller",
-        "name": "markromanmiller",
-        "urls": {
-            "github": "https://github.com/markromanmiller"
-        }
-    },
-    {
-        "login": "sboysel",
-        "name": "sboysel",
-        "urls": {
-            "github": "https://github.com/sboysel"
-        }
-    },
-    {
-        "login": "shanepiesik",
-        "name": "shanepiesik",
-        "urls": {
-            "github": "https://github.com/shanepiesik"
-        }
-    },
-    {
-        "login": "TravisRPetersen",
-        "name": "TravisRPetersen",
-        "urls": {
-            "github": "https://github.com/TravisRPetersen"
+            "github": "https://github.com/apapanico"
         }
     },
     {
@@ -1470,10 +1428,59 @@
         }
     },
     {
-        "login": "apapanico",
-        "name": "apapanico",
+        "login": "TravisRPetersen",
+        "name": "TravisRPetersen",
         "urls": {
-            "github": "https://github.com/apapanico"
+            "github": "https://github.com/TravisRPetersen"
+        }
+    },
+    {
+        "login": "shanepiesik",
+        "name": "shanepiesik",
+        "urls": {
+            "github": "https://github.com/shanepiesik"
+        }
+    },
+    {
+        "login": "sboysel",
+        "name": "sboysel",
+        "urls": {
+            "github": "https://github.com/sboysel"
+        }
+    },
+    {
+        "login": "markromanmiller",
+        "name": "markromanmiller",
+        "urls": {
+            "github": "https://github.com/markromanmiller"
+        }
+    },
+    {
+        "login": "lawwu",
+        "name": "lawwu",
+        "urls": {
+            "github": "https://github.com/lawwu"
+        }
+    },
+    {
+        "login": "ChristianH00k",
+        "name": "ChristianH00k",
+        "urls": {
+            "github": "https://github.com/ChristianH00k"
+        }
+    },
+    {
+        "login": "begavett",
+        "name": "begavett",
+        "urls": {
+            "github": "https://github.com/begavett"
+        }
+    },
+    {
+        "login": "bbwieland",
+        "name": "bbwieland",
+        "urls": {
+            "github": "https://github.com/bbwieland"
         }
     },
     {
