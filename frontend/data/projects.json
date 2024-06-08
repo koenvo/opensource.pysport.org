@@ -42,7 +42,7 @@
         "dates": {
             "created": "2021-01-19T15:22:58Z",
             "updated": "2024-05-09T04:06:19Z",
-            "lastChecked": "2024-06-07T04:06:38Z"
+            "lastChecked": "2024-06-08T04:05:33Z"
         }
     },
     {
@@ -82,7 +82,7 @@
         "dates": {
             "created": "2021-01-19T15:23:01Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2024-06-07T04:06:47Z"
+            "lastChecked": "2024-06-08T04:05:36Z"
         }
     },
     {
@@ -91,9 +91,9 @@
         "license": "MIT",
         "latestVersion": "1.4.0",
         "lastCommit": {
-            "sha": "086cc20668bf626c18bec4f184c161cc287d3d1c",
-            "date": "2024-06-05T05:29:38Z",
-            "message": "Submitted to CRAN"
+            "sha": "5859bb0f4a527fe8f93dde09c9bc18c5c3c3387a",
+            "date": "2024-06-07T03:00:39Z",
+            "message": "updating news and pkgdown"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/jimmyday12/fitzRoy/main/man/figures/fitz_hex.png",
@@ -129,8 +129,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:04Z",
-            "updated": "2024-06-07T04:06:57Z",
-            "lastChecked": "2024-06-07T04:06:57Z"
+            "updated": "2024-06-08T04:05:39Z",
+            "lastChecked": "2024-06-08T04:05:39Z"
         }
     },
     {
@@ -166,7 +166,7 @@
         "dates": {
             "created": "2021-01-19T15:23:07Z",
             "updated": "2023-02-02T04:05:35Z",
-            "lastChecked": "2024-06-07T04:06:59Z"
+            "lastChecked": "2024-06-08T04:05:40Z"
         }
     },
     {
@@ -198,7 +198,7 @@
         "dates": {
             "created": "2021-01-19T15:23:09Z",
             "updated": "2021-11-15T19:58:28Z",
-            "lastChecked": "2024-06-07T04:07:00Z"
+            "lastChecked": "2024-06-08T04:05:41Z"
         }
     },
     {
@@ -239,7 +239,7 @@
         "dates": {
             "created": "2021-01-19T15:23:15Z",
             "updated": "2024-04-21T04:05:38Z",
-            "lastChecked": "2024-06-07T04:07:02Z"
+            "lastChecked": "2024-06-08T04:05:42Z"
         }
     },
     {
@@ -276,7 +276,7 @@
         "dates": {
             "created": "2021-01-19T15:23:17Z",
             "updated": "2022-06-29T04:21:13Z",
-            "lastChecked": "2024-06-07T04:07:04Z"
+            "lastChecked": "2024-06-08T04:05:43Z"
         }
     },
     {
@@ -315,7 +315,7 @@
         "dates": {
             "created": "2021-01-19T15:23:20Z",
             "updated": "2024-03-21T04:06:19Z",
-            "lastChecked": "2024-06-07T04:07:15Z"
+            "lastChecked": "2024-06-08T04:05:47Z"
         }
     },
     {
@@ -353,17 +353,17 @@
             "deepxg"
         ],
         "sports": [
-            "American Football",
+            "Soccer",
             "Motorsport",
-            "Soccer"
+            "American Football"
         ],
         "categories": [
             "Scraper/API"
         ],
         "dates": {
             "created": "2021-01-19T15:23:23Z",
-            "updated": "2024-06-07T04:07:17Z",
-            "lastChecked": "2024-06-07T04:07:17Z"
+            "updated": "2024-06-08T04:05:48Z",
+            "lastChecked": "2024-06-08T04:05:48Z"
         }
     },
     {
@@ -388,16 +388,16 @@
             "Ben8t"
         ],
         "sports": [
-            "Motorsport",
-            "Soccer"
+            "Soccer",
+            "Motorsport"
         ],
         "categories": [
             "Scraper/API"
         ],
         "dates": {
             "created": "2021-01-19T15:23:25Z",
-            "updated": "2024-06-06T04:06:24Z",
-            "lastChecked": "2024-06-07T04:07:19Z"
+            "updated": "2024-06-08T04:05:50Z",
+            "lastChecked": "2024-06-08T04:05:50Z"
         }
     },
     {
@@ -433,7 +433,7 @@
         "dates": {
             "created": "2021-01-19T15:23:27Z",
             "updated": "2021-04-22T11:36:57Z",
-            "lastChecked": "2024-06-07T04:07:21Z"
+            "lastChecked": "2024-06-08T04:05:51Z"
         }
     },
     {
@@ -458,17 +458,17 @@
             "TimHoare"
         ],
         "sports": [
-            "American Football",
+            "Soccer",
             "Motorsport",
-            "Soccer"
+            "American Football"
         ],
         "categories": [
             "Visualization"
         ],
         "dates": {
             "created": "2021-01-19T15:23:31Z",
-            "updated": "2024-06-07T04:07:31Z",
-            "lastChecked": "2024-06-07T04:07:31Z"
+            "updated": "2024-06-08T04:05:55Z",
+            "lastChecked": "2024-06-08T04:05:55Z"
         }
     },
     {
@@ -559,16 +559,16 @@
             "Jelagmil"
         ],
         "sports": [
-            "Motorsport",
-            "Soccer"
+            "Soccer",
+            "Motorsport"
         ],
         "categories": [
             "Visualization"
         ],
         "dates": {
             "created": "2021-01-19T15:23:34Z",
-            "updated": "2024-06-06T04:06:36Z",
-            "lastChecked": "2024-06-07T04:07:40Z"
+            "updated": "2024-06-08T04:06:00Z",
+            "lastChecked": "2024-06-08T04:06:00Z"
         }
     },
     {
@@ -616,7 +616,7 @@
         "dates": {
             "created": "2021-01-19T15:23:37Z",
             "updated": "2024-05-23T04:06:07Z",
-            "lastChecked": "2024-06-07T04:07:42Z"
+            "lastChecked": "2024-06-08T04:06:01Z"
         }
     },
     {
@@ -676,7 +676,7 @@
         "dates": {
             "created": "2021-01-19T15:23:41Z",
             "updated": "2024-04-16T04:06:05Z",
-            "lastChecked": "2024-06-07T04:07:44Z"
+            "lastChecked": "2024-06-08T04:06:02Z"
         }
     },
     {
@@ -685,9 +685,9 @@
         "license": "BSD",
         "latestVersion": "3.14.0",
         "lastCommit": {
-            "sha": "c720be50e1a3c8d27229acedb11f9f1890519053",
-            "date": "2024-06-03T12:23:53Z",
-            "message": "Merge pull request #323 from my-game-plan/feature/wyscout-carry\n\n[Wyscout v3] add parsing of carry event"
+            "sha": "d9170d159ff29562eeaba421ddadbdd073ce8d06",
+            "date": "2024-06-07T07:21:55Z",
+            "message": "Merge pull request #313 from my-game-plan/feature/fix-sb-create-periods\n\nFix StatsBomb create_periods"
         },
         "type": "package",
         "logoUrl": "https://github.com/PySport/kloppy/raw/master/docs/logo.png",
@@ -735,8 +735,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:43Z",
-            "updated": "2024-06-04T04:06:04Z",
-            "lastChecked": "2024-06-07T04:07:46Z"
+            "updated": "2024-06-08T04:06:03Z",
+            "lastChecked": "2024-06-08T04:06:03Z"
         }
     },
     {
@@ -770,7 +770,7 @@
         "dates": {
             "created": "2021-01-19T15:23:46Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-06-07T04:07:48Z"
+            "lastChecked": "2024-06-08T04:06:04Z"
         }
     },
     {
@@ -805,7 +805,7 @@
         "dates": {
             "created": "2021-01-19T15:23:52Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-06-07T04:07:50Z"
+            "lastChecked": "2024-06-08T04:06:05Z"
         }
     },
     {
@@ -840,7 +840,7 @@
         "dates": {
             "created": "2021-01-19T15:23:54Z",
             "updated": "2021-07-14T14:27:34Z",
-            "lastChecked": "2024-06-07T04:07:52Z"
+            "lastChecked": "2024-06-08T04:06:07Z"
         }
     },
     {
@@ -875,7 +875,7 @@
         "dates": {
             "created": "2021-01-19T15:23:57Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-06-07T04:07:54Z"
+            "lastChecked": "2024-06-08T04:06:08Z"
         }
     },
     {
@@ -937,7 +937,7 @@
         "dates": {
             "created": "2021-01-19T15:24:01Z",
             "updated": "2024-05-06T04:06:28Z",
-            "lastChecked": "2024-06-07T04:07:56Z"
+            "lastChecked": "2024-06-08T04:06:09Z"
         }
     },
     {
@@ -983,7 +983,7 @@
         "dates": {
             "created": "2021-01-19T15:24:04Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-06-07T04:07:58Z"
+            "lastChecked": "2024-06-08T04:06:10Z"
         }
     },
     {
@@ -1019,7 +1019,7 @@
         "dates": {
             "created": "2021-01-19T15:24:07Z",
             "updated": "2023-07-16T04:06:06Z",
-            "lastChecked": "2024-06-07T04:08:00Z"
+            "lastChecked": "2024-06-08T04:06:11Z"
         }
     },
     {
@@ -1056,7 +1056,7 @@
         "dates": {
             "created": "2021-01-19T15:24:10Z",
             "updated": "2021-12-05T04:25:20Z",
-            "lastChecked": "2024-06-07T04:08:01Z"
+            "lastChecked": "2024-06-08T04:06:12Z"
         }
     },
     {
@@ -1091,7 +1091,7 @@
         "dates": {
             "created": "2021-01-19T15:24:13Z",
             "updated": "2021-07-14T14:27:43Z",
-            "lastChecked": "2024-06-07T04:08:03Z"
+            "lastChecked": "2024-06-08T04:06:14Z"
         }
     },
     {
@@ -1133,7 +1133,7 @@
         "dates": {
             "created": "2021-01-19T15:24:16Z",
             "updated": "2023-02-05T04:06:32Z",
-            "lastChecked": "2024-06-07T04:08:06Z"
+            "lastChecked": "2024-06-08T04:06:15Z"
         }
     },
     {
@@ -1220,7 +1220,7 @@
         "dates": {
             "created": "2021-01-19T15:24:19Z",
             "updated": "2023-04-03T04:06:41Z",
-            "lastChecked": "2024-06-07T04:08:13Z"
+            "lastChecked": "2024-06-08T04:06:21Z"
         }
     },
     {
@@ -1309,17 +1309,17 @@
             "Ryo-N7"
         ],
         "sports": [
-            "American Football",
+            "Soccer",
             "Motorsport",
-            "Soccer"
+            "American Football"
         ],
         "categories": [
             "Visualization"
         ],
         "dates": {
             "created": "2021-01-19T15:24:21Z",
-            "updated": "2024-06-07T04:08:15Z",
-            "lastChecked": "2024-06-07T04:08:15Z"
+            "updated": "2024-06-08T04:06:22Z",
+            "lastChecked": "2024-06-08T04:06:22Z"
         }
     },
     {
@@ -1367,7 +1367,7 @@
         "dates": {
             "created": "2021-01-19T15:24:24Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-06-07T04:08:22Z"
+            "lastChecked": "2024-06-08T04:06:26Z"
         }
     },
     {
@@ -1402,7 +1402,7 @@
         "dates": {
             "created": "2021-01-19T15:24:26Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-06-07T04:08:24Z"
+            "lastChecked": "2024-06-08T04:06:27Z"
         }
     },
     {
@@ -1430,16 +1430,16 @@
             "tonyelhabr"
         ],
         "sports": [
-            "American Football",
-            "Motorsport"
+            "Motorsport",
+            "American Football"
         ],
         "categories": [
             "Scraper/API"
         ],
         "dates": {
             "created": "2021-01-19T15:24:29Z",
-            "updated": "2024-06-07T04:08:31Z",
-            "lastChecked": "2024-06-07T04:08:31Z"
+            "updated": "2024-06-08T04:06:31Z",
+            "lastChecked": "2024-06-08T04:06:31Z"
         }
     },
     {
@@ -1473,7 +1473,7 @@
         "dates": {
             "created": "2021-01-19T15:24:31Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-06-07T04:08:40Z"
+            "lastChecked": "2024-06-08T04:06:34Z"
         }
     },
     {
@@ -1529,7 +1529,7 @@
         "dates": {
             "created": "2021-01-19T15:24:34Z",
             "updated": "2024-05-14T04:06:02Z",
-            "lastChecked": "2024-06-07T04:08:46Z"
+            "lastChecked": "2024-06-08T04:06:39Z"
         }
     },
     {
@@ -1572,7 +1572,7 @@
         "dates": {
             "created": "2021-01-19T15:24:36Z",
             "updated": "2024-06-07T04:08:59Z",
-            "lastChecked": "2024-06-07T04:08:59Z"
+            "lastChecked": "2024-06-08T04:06:49Z"
         }
     },
     {
@@ -1626,7 +1626,7 @@
         "dates": {
             "created": "2021-01-19T15:24:39Z",
             "updated": "2023-09-22T04:06:48Z",
-            "lastChecked": "2024-06-07T04:09:05Z"
+            "lastChecked": "2024-06-08T04:06:54Z"
         }
     },
     {
@@ -1668,7 +1668,7 @@
         "dates": {
             "created": "2021-01-19T15:24:43Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-06-07T04:09:10Z"
+            "lastChecked": "2024-06-08T04:06:59Z"
         }
     },
     {
@@ -1704,7 +1704,7 @@
         "dates": {
             "created": "2021-01-19T15:24:45Z",
             "updated": "2023-11-24T04:06:56Z",
-            "lastChecked": "2024-06-07T04:09:19Z"
+            "lastChecked": "2024-06-08T04:07:07Z"
         }
     },
     {
@@ -1737,7 +1737,7 @@
         "dates": {
             "created": "2021-01-19T15:24:48Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-06-07T04:09:24Z"
+            "lastChecked": "2024-06-08T04:07:11Z"
         }
     },
     {
@@ -1815,7 +1815,7 @@
         "dates": {
             "created": "2021-01-19T15:24:52Z",
             "updated": "2024-05-02T04:06:17Z",
-            "lastChecked": "2024-06-07T04:09:28Z"
+            "lastChecked": "2024-06-08T04:07:15Z"
         }
     },
     {
@@ -1852,7 +1852,7 @@
         "dates": {
             "created": "2021-01-19T15:24:55Z",
             "updated": "2024-02-13T04:06:33Z",
-            "lastChecked": "2024-06-07T04:09:33Z"
+            "lastChecked": "2024-06-08T04:07:18Z"
         }
     },
     {
@@ -1893,7 +1893,7 @@
         "dates": {
             "created": "2021-01-19T15:24:57Z",
             "updated": "2023-11-09T04:06:18Z",
-            "lastChecked": "2024-06-07T04:09:38Z"
+            "lastChecked": "2024-06-08T04:07:22Z"
         }
     },
     {
@@ -1928,7 +1928,7 @@
         "dates": {
             "created": "2021-01-19T15:25:00Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2024-06-07T04:09:46Z"
+            "lastChecked": "2024-06-08T04:07:28Z"
         }
     },
     {
@@ -1988,7 +1988,7 @@
         "dates": {
             "created": "2021-01-19T15:25:03Z",
             "updated": "2021-10-15T04:24:53Z",
-            "lastChecked": "2024-06-07T04:09:52Z"
+            "lastChecked": "2024-06-08T04:07:30Z"
         }
     },
     {
@@ -2022,7 +2022,7 @@
         "dates": {
             "created": "2021-01-19T15:25:05Z",
             "updated": "2021-04-22T11:37:58Z",
-            "lastChecked": "2024-06-07T04:09:57Z"
+            "lastChecked": "2024-06-08T04:07:33Z"
         }
     },
     {
@@ -2056,7 +2056,7 @@
         "dates": {
             "created": "2021-01-19T15:25:10Z",
             "updated": "2024-03-25T04:07:23Z",
-            "lastChecked": "2024-06-07T04:10:02Z"
+            "lastChecked": "2024-06-08T04:07:37Z"
         }
     },
     {
@@ -2097,7 +2097,7 @@
         "dates": {
             "created": "2021-01-19T15:25:13Z",
             "updated": "2023-10-23T04:07:05Z",
-            "lastChecked": "2024-06-07T04:10:09Z"
+            "lastChecked": "2024-06-08T04:07:40Z"
         }
     },
     {
@@ -2128,7 +2128,7 @@
         "dates": {
             "created": "2021-01-19T15:25:16Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2024-06-07T04:10:15Z"
+            "lastChecked": "2024-06-08T04:07:42Z"
         }
     },
     {
@@ -2160,7 +2160,7 @@
         "dates": {
             "created": "2021-01-19T15:25:19Z",
             "updated": "2021-11-15T19:59:28Z",
-            "lastChecked": "2024-06-07T04:10:22Z"
+            "lastChecked": "2024-06-08T04:07:45Z"
         }
     },
     {
@@ -2194,7 +2194,7 @@
         "dates": {
             "created": "2021-01-19T15:25:22Z",
             "updated": "2021-11-15T19:59:29Z",
-            "lastChecked": "2024-06-07T04:10:30Z"
+            "lastChecked": "2024-06-08T04:07:49Z"
         }
     },
     {
@@ -2228,7 +2228,7 @@
         "dates": {
             "created": "2021-01-19T15:25:24Z",
             "updated": "2023-11-24T04:07:30Z",
-            "lastChecked": "2024-06-07T04:10:42Z"
+            "lastChecked": "2024-06-08T04:07:54Z"
         }
     },
     {
@@ -2265,7 +2265,7 @@
         "dates": {
             "created": "2021-01-19T15:25:27Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2024-06-07T04:10:48Z"
+            "lastChecked": "2024-06-08T04:07:56Z"
         }
     },
     {
@@ -2297,7 +2297,7 @@
         "dates": {
             "created": "2021-01-19T15:25:30Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2024-06-07T04:10:54Z"
+            "lastChecked": "2024-06-08T04:07:58Z"
         }
     },
     {
@@ -2329,7 +2329,7 @@
         "dates": {
             "created": "2021-01-19T15:25:32Z",
             "updated": "2022-07-13T04:18:41Z",
-            "lastChecked": "2024-06-07T04:10:56Z"
+            "lastChecked": "2024-06-08T04:07:59Z"
         }
     },
     {
@@ -2372,7 +2372,7 @@
         "dates": {
             "created": "2021-01-19T15:25:34Z",
             "updated": "2023-08-21T04:07:41Z",
-            "lastChecked": "2024-06-07T04:11:08Z"
+            "lastChecked": "2024-06-08T04:08:03Z"
         }
     },
     {
@@ -2438,7 +2438,7 @@
         "dates": {
             "created": "2021-01-19T15:25:37Z",
             "updated": "2024-04-05T04:07:30Z",
-            "lastChecked": "2024-06-07T04:11:16Z"
+            "lastChecked": "2024-06-08T04:08:07Z"
         }
     },
     {
@@ -2470,7 +2470,7 @@
         "dates": {
             "created": "2021-01-19T15:25:39Z",
             "updated": "2021-04-22T11:38:20Z",
-            "lastChecked": "2024-06-07T04:11:23Z"
+            "lastChecked": "2024-06-08T04:08:10Z"
         }
     },
     {
@@ -2503,7 +2503,7 @@
         "dates": {
             "created": "2021-01-19T15:25:42Z",
             "updated": "2021-07-14T14:28:49Z",
-            "lastChecked": "2024-06-07T04:11:31Z"
+            "lastChecked": "2024-06-08T04:08:14Z"
         }
     },
     {
@@ -2543,7 +2543,7 @@
         "dates": {
             "created": "2021-01-19T15:25:46Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2024-06-07T04:11:38Z"
+            "lastChecked": "2024-06-08T04:08:18Z"
         }
     },
     {
@@ -2585,7 +2585,7 @@
         "dates": {
             "created": "2021-01-19T15:25:48Z",
             "updated": "2022-09-29T04:39:07Z",
-            "lastChecked": "2024-06-07T04:11:47Z"
+            "lastChecked": "2024-06-08T04:08:21Z"
         }
     },
     {
@@ -2619,7 +2619,7 @@
         "dates": {
             "created": "2021-01-19T15:25:51Z",
             "updated": "2021-09-03T04:25:26Z",
-            "lastChecked": "2024-06-07T04:11:54Z"
+            "lastChecked": "2024-06-08T04:08:24Z"
         }
     },
     {
@@ -2654,7 +2654,7 @@
         "dates": {
             "created": "2021-01-19T15:25:53Z",
             "updated": "2023-03-22T04:07:04Z",
-            "lastChecked": "2024-06-07T04:11:56Z"
+            "lastChecked": "2024-06-08T04:08:25Z"
         }
     },
     {
@@ -2696,7 +2696,7 @@
         "dates": {
             "created": "2021-01-19T15:25:56Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2024-06-07T04:11:58Z"
+            "lastChecked": "2024-06-08T04:08:26Z"
         }
     },
     {
@@ -2730,7 +2730,7 @@
         "dates": {
             "created": "2021-01-19T15:26:00Z",
             "updated": "2021-07-14T14:28:59Z",
-            "lastChecked": "2024-06-07T04:11:59Z"
+            "lastChecked": "2024-06-08T04:08:27Z"
         }
     },
     {
@@ -2768,7 +2768,7 @@
         "dates": {
             "created": "2021-01-19T15:26:02Z",
             "updated": "2024-06-01T04:07:24Z",
-            "lastChecked": "2024-06-07T04:12:01Z"
+            "lastChecked": "2024-06-08T04:08:28Z"
         }
     },
     {
@@ -2799,17 +2799,17 @@
             "opisthokonta"
         ],
         "sports": [
-            "American Football",
+            "Soccer",
             "Ice Hockey",
-            "Soccer"
+            "American Football"
         ],
         "categories": [
             "Model/Calculations"
         ],
         "dates": {
             "created": "2021-01-19T15:26:05Z",
-            "updated": "2024-06-07T04:12:07Z",
-            "lastChecked": "2024-06-07T04:12:07Z"
+            "updated": "2024-06-08T04:08:33Z",
+            "lastChecked": "2024-06-08T04:08:33Z"
         }
     },
     {
@@ -2878,7 +2878,7 @@
         "dates": {
             "created": "2021-01-19T15:26:09Z",
             "updated": "2024-03-13T04:08:07Z",
-            "lastChecked": "2024-06-07T04:12:14Z"
+            "lastChecked": "2024-06-08T04:08:38Z"
         }
     },
     {
@@ -2911,7 +2911,7 @@
         "dates": {
             "created": "2021-01-19T15:26:11Z",
             "updated": "2024-01-25T04:08:22Z",
-            "lastChecked": "2024-06-07T04:12:15Z"
+            "lastChecked": "2024-06-08T04:08:39Z"
         }
     },
     {
@@ -2944,7 +2944,7 @@
         "dates": {
             "created": "2021-01-19T15:26:14Z",
             "updated": "2021-04-22T11:38:42Z",
-            "lastChecked": "2024-06-07T04:12:17Z"
+            "lastChecked": "2024-06-08T04:08:40Z"
         }
     },
     {
@@ -2977,7 +2977,7 @@
         "dates": {
             "created": "2021-01-19T15:26:16Z",
             "updated": "2021-07-14T14:29:10Z",
-            "lastChecked": "2024-06-07T04:12:19Z"
+            "lastChecked": "2024-06-08T04:08:41Z"
         }
     },
     {
@@ -3010,7 +3010,7 @@
         "dates": {
             "created": "2021-01-19T15:26:19Z",
             "updated": "2021-07-14T14:29:13Z",
-            "lastChecked": "2024-06-07T04:12:27Z"
+            "lastChecked": "2024-06-08T04:08:49Z"
         }
     },
     {
@@ -3049,7 +3049,7 @@
         "dates": {
             "created": "2021-07-14T14:29:15Z",
             "updated": "2023-11-29T04:07:17Z",
-            "lastChecked": "2024-06-07T04:12:30Z"
+            "lastChecked": "2024-06-08T04:08:54Z"
         }
     },
     {
@@ -3079,7 +3079,7 @@
         "dates": {
             "created": "2021-01-19T15:26:26Z",
             "updated": "2022-01-21T04:28:29Z",
-            "lastChecked": "2024-06-07T04:12:32Z"
+            "lastChecked": "2024-06-08T04:08:55Z"
         }
     },
     {
@@ -3111,7 +3111,7 @@
         "dates": {
             "created": "2021-01-19T15:26:28Z",
             "updated": "2023-03-22T04:07:25Z",
-            "lastChecked": "2024-06-07T04:12:33Z"
+            "lastChecked": "2024-06-08T04:08:56Z"
         }
     },
     {
@@ -3146,7 +3146,7 @@
         "dates": {
             "created": "2021-01-19T15:26:30Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2024-06-07T04:12:35Z"
+            "lastChecked": "2024-06-08T04:08:57Z"
         }
     },
     {
@@ -3184,7 +3184,7 @@
         "dates": {
             "created": "2021-01-19T15:26:32Z",
             "updated": "2024-03-24T04:07:27Z",
-            "lastChecked": "2024-06-07T04:12:36Z"
+            "lastChecked": "2024-06-08T04:08:58Z"
         }
     },
     {
@@ -3218,7 +3218,7 @@
         "dates": {
             "created": "2021-01-19T15:26:35Z",
             "updated": "2022-11-17T04:07:26Z",
-            "lastChecked": "2024-06-07T04:12:38Z"
+            "lastChecked": "2024-06-08T04:08:59Z"
         }
     },
     {
@@ -3255,7 +3255,7 @@
         "dates": {
             "created": "2021-01-19T15:26:37Z",
             "updated": "2024-05-22T04:07:23Z",
-            "lastChecked": "2024-06-07T04:12:40Z"
+            "lastChecked": "2024-06-08T04:09:00Z"
         }
     },
     {
@@ -3297,7 +3297,7 @@
         "dates": {
             "created": "2021-01-19T15:26:41Z",
             "updated": "2023-05-26T04:08:39Z",
-            "lastChecked": "2024-06-07T04:12:45Z"
+            "lastChecked": "2024-06-08T04:09:05Z"
         }
     },
     {
@@ -3330,7 +3330,7 @@
         "dates": {
             "created": "2021-01-19T15:26:44Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2024-06-07T04:12:50Z"
+            "lastChecked": "2024-06-08T04:09:10Z"
         }
     },
     {
@@ -3362,7 +3362,7 @@
         "dates": {
             "created": "2021-01-19T15:26:46Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2024-06-07T04:12:52Z"
+            "lastChecked": "2024-06-08T04:09:11Z"
         }
     },
     {
@@ -3396,7 +3396,7 @@
         "dates": {
             "created": "2021-01-19T15:26:49Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2024-06-07T04:12:54Z"
+            "lastChecked": "2024-06-08T04:09:12Z"
         }
     },
     {
@@ -3428,7 +3428,7 @@
         "dates": {
             "created": "2021-01-19T15:26:51Z",
             "updated": "2024-05-16T04:07:16Z",
-            "lastChecked": "2024-06-07T04:12:56Z"
+            "lastChecked": "2024-06-08T04:09:13Z"
         }
     },
     {
@@ -3459,7 +3459,7 @@
         "dates": {
             "created": "2021-01-19T15:38:07Z",
             "updated": "2021-12-25T04:26:53Z",
-            "lastChecked": "2024-06-07T04:12:59Z"
+            "lastChecked": "2024-06-08T04:09:19Z"
         }
     },
     {
@@ -3495,7 +3495,7 @@
         "dates": {
             "created": "2021-01-20T07:13:13Z",
             "updated": "2022-10-26T04:29:19Z",
-            "lastChecked": "2024-06-07T04:13:05Z"
+            "lastChecked": "2024-06-08T04:09:25Z"
         }
     },
     {
@@ -3528,7 +3528,7 @@
         "dates": {
             "created": "2021-01-20T07:41:41Z",
             "updated": "2021-01-20T07:41:41Z",
-            "lastChecked": "2024-06-07T04:13:09Z"
+            "lastChecked": "2024-06-08T04:09:29Z"
         }
     },
     {
@@ -3565,7 +3565,7 @@
         "dates": {
             "created": "2021-02-25T12:12:24Z",
             "updated": "2024-01-21T04:13:06Z",
-            "lastChecked": "2024-06-07T04:13:15Z"
+            "lastChecked": "2024-06-08T04:09:33Z"
         }
     },
     {
@@ -3603,7 +3603,7 @@
         "dates": {
             "created": "2021-03-01T18:45:50Z",
             "updated": "2023-11-27T04:07:39Z",
-            "lastChecked": "2024-06-07T04:13:19Z"
+            "lastChecked": "2024-06-08T04:09:37Z"
         }
     },
     {
@@ -3640,7 +3640,7 @@
         "dates": {
             "created": "2021-03-03T14:24:55Z",
             "updated": "2021-09-21T04:25:11Z",
-            "lastChecked": "2024-06-07T04:13:21Z"
+            "lastChecked": "2024-06-08T04:09:38Z"
         }
     },
     {
@@ -3673,7 +3673,7 @@
         "dates": {
             "created": "2021-03-18T07:23:16Z",
             "updated": "2023-04-12T04:09:19Z",
-            "lastChecked": "2024-06-07T04:13:24Z"
+            "lastChecked": "2024-06-08T04:09:43Z"
         }
     },
     {
@@ -3706,7 +3706,7 @@
         "dates": {
             "created": "2021-03-18T07:23:18Z",
             "updated": "2023-12-05T04:07:32Z",
-            "lastChecked": "2024-06-07T04:13:25Z"
+            "lastChecked": "2024-06-08T04:09:44Z"
         }
     },
     {
@@ -3746,7 +3746,7 @@
         "dates": {
             "created": "2021-04-22T11:39:23Z",
             "updated": "2021-12-13T04:26:50Z",
-            "lastChecked": "2024-06-07T04:13:27Z"
+            "lastChecked": "2024-06-08T04:09:45Z"
         }
     },
     {
@@ -3779,7 +3779,7 @@
         "dates": {
             "created": "2021-04-22T11:39:25Z",
             "updated": "2021-07-21T04:26:11Z",
-            "lastChecked": "2024-06-07T04:13:31Z"
+            "lastChecked": "2024-06-08T04:09:49Z"
         }
     },
     {
@@ -3824,19 +3824,19 @@
             "saiemgilani"
         ],
         "sports": [
-            "Baseball",
             "Soccer",
-            "American Football",
             "Ice Hockey",
-            "Basketball"
+            "American Football",
+            "Basketball",
+            "Baseball"
         ],
         "categories": [
             "Visualization"
         ],
         "dates": {
             "created": "2021-07-15T05:16:36Z",
-            "updated": "2024-06-07T04:13:36Z",
-            "lastChecked": "2024-06-07T04:13:36Z"
+            "updated": "2024-06-08T04:09:52Z",
+            "lastChecked": "2024-06-08T04:09:52Z"
         }
     },
     {
@@ -3870,7 +3870,7 @@
         "dates": {
             "created": "2021-07-15T05:16:37Z",
             "updated": "2021-10-20T04:26:43Z",
-            "lastChecked": "2024-06-07T04:13:38Z"
+            "lastChecked": "2024-06-08T04:09:53Z"
         }
     },
     {
@@ -3914,7 +3914,7 @@
         "dates": {
             "created": "2021-08-09T19:25:28Z",
             "updated": "2024-03-27T04:09:35Z",
-            "lastChecked": "2024-06-07T04:13:42Z"
+            "lastChecked": "2024-06-08T04:09:57Z"
         }
     },
     {
@@ -3951,7 +3951,7 @@
         "dates": {
             "created": "2021-10-18T17:24:59Z",
             "updated": "2023-08-19T04:10:57Z",
-            "lastChecked": "2024-06-07T04:13:45Z"
+            "lastChecked": "2024-06-08T04:10:00Z"
         }
     },
     {
@@ -3991,7 +3991,7 @@
         "dates": {
             "created": "2021-11-15T13:08:41Z",
             "updated": "2024-03-02T04:07:15Z",
-            "lastChecked": "2024-06-07T04:13:50Z"
+            "lastChecked": "2024-06-08T04:10:04Z"
         }
     },
     {
@@ -4048,7 +4048,7 @@
         "dates": {
             "created": "2021-11-15T13:08:43Z",
             "updated": "2021-11-15T13:08:43Z",
-            "lastChecked": "2024-06-07T04:13:52Z"
+            "lastChecked": "2024-06-08T04:10:05Z"
         }
     },
     {
@@ -4085,7 +4085,7 @@
         "dates": {
             "created": "2021-11-15T13:08:45Z",
             "updated": "2021-11-15T13:08:45Z",
-            "lastChecked": "2024-06-07T04:13:54Z"
+            "lastChecked": "2024-06-08T04:10:06Z"
         }
     },
     {
@@ -4125,7 +4125,7 @@
         "dates": {
             "created": "2022-02-18T13:26:15Z",
             "updated": "2023-02-04T04:09:16Z",
-            "lastChecked": "2024-06-07T04:13:55Z"
+            "lastChecked": "2024-06-08T04:10:07Z"
         }
     },
     {
@@ -4159,7 +4159,7 @@
         "dates": {
             "created": "2022-02-18T13:26:16Z",
             "updated": "2023-10-10T04:09:47Z",
-            "lastChecked": "2024-06-07T04:13:57Z"
+            "lastChecked": "2024-06-08T04:10:08Z"
         }
     },
     {
@@ -4205,7 +4205,7 @@
         "dates": {
             "created": "2022-02-18T13:26:18Z",
             "updated": "2024-05-08T04:07:13Z",
-            "lastChecked": "2024-06-07T04:14:02Z"
+            "lastChecked": "2024-06-08T04:10:13Z"
         }
     },
     {
@@ -4234,16 +4234,16 @@
             "obreit"
         ],
         "sports": [
-            "Motorsport",
-            "Soccer"
+            "Soccer",
+            "Motorsport"
         ],
         "categories": [
             "Scraper/API"
         ],
         "dates": {
             "created": "2022-02-18T13:26:20Z",
-            "updated": "2024-06-06T04:13:05Z",
-            "lastChecked": "2024-06-07T04:14:04Z"
+            "updated": "2024-06-08T04:10:15Z",
+            "lastChecked": "2024-06-08T04:10:15Z"
         }
     },
     {
@@ -4281,7 +4281,7 @@
         "dates": {
             "created": "2022-02-18T17:31:04Z",
             "updated": "2023-09-04T04:08:23Z",
-            "lastChecked": "2024-06-07T04:14:07Z"
+            "lastChecked": "2024-06-08T04:10:16Z"
         }
     },
     {
@@ -4324,7 +4324,7 @@
         "dates": {
             "created": "2022-02-20T04:09:05Z",
             "updated": "2024-06-05T04:11:17Z",
-            "lastChecked": "2024-06-07T04:14:13Z"
+            "lastChecked": "2024-06-08T04:10:24Z"
         }
     },
     {
@@ -4360,7 +4360,7 @@
         "dates": {
             "created": "2022-02-20T04:09:08Z",
             "updated": "2024-03-29T04:10:45Z",
-            "lastChecked": "2024-06-07T04:14:16Z"
+            "lastChecked": "2024-06-08T04:10:28Z"
         }
     },
     {
@@ -4396,7 +4396,7 @@
         "dates": {
             "created": "2022-02-20T15:49:10Z",
             "updated": "2024-06-05T04:11:24Z",
-            "lastChecked": "2024-06-07T04:14:18Z"
+            "lastChecked": "2024-06-08T04:10:30Z"
         }
     },
     {
@@ -4431,7 +4431,7 @@
         "dates": {
             "created": "2022-03-30T20:11:11Z",
             "updated": "2023-03-15T04:10:16Z",
-            "lastChecked": "2024-06-07T04:14:20Z"
+            "lastChecked": "2024-06-08T04:10:31Z"
         }
     },
     {
@@ -4480,7 +4480,7 @@
         "dates": {
             "created": "2022-03-30T20:11:12Z",
             "updated": "2022-03-30T20:11:12Z",
-            "lastChecked": "2024-06-07T04:14:22Z"
+            "lastChecked": "2024-06-08T04:10:32Z"
         }
     },
     {
@@ -4523,7 +4523,7 @@
         "dates": {
             "created": "2022-03-30T20:11:13Z",
             "updated": "2022-03-30T20:11:13Z",
-            "lastChecked": "2024-06-07T04:14:24Z"
+            "lastChecked": "2024-06-08T04:10:33Z"
         }
     },
     {
@@ -4556,7 +4556,7 @@
         "dates": {
             "created": "2022-06-09T04:15:20Z",
             "updated": "2022-06-25T04:13:31Z",
-            "lastChecked": "2024-06-07T04:14:28Z"
+            "lastChecked": "2024-06-08T04:10:38Z"
         }
     },
     {
@@ -4596,7 +4596,7 @@
         "dates": {
             "created": "2022-07-12T05:52:33Z",
             "updated": "2024-05-24T04:09:28Z",
-            "lastChecked": "2024-06-07T04:14:32Z"
+            "lastChecked": "2024-06-08T04:10:42Z"
         }
     },
     {
@@ -4665,7 +4665,7 @@
         "dates": {
             "created": "2024-01-01T04:10:04Z",
             "updated": "2024-05-29T04:14:16Z",
-            "lastChecked": "2024-06-07T04:14:34Z"
+            "lastChecked": "2024-06-08T04:10:43Z"
         }
     },
     {
@@ -4712,7 +4712,7 @@
         "dates": {
             "created": "2022-07-24T04:17:36Z",
             "updated": "2024-06-03T04:12:02Z",
-            "lastChecked": "2024-06-07T04:14:36Z"
+            "lastChecked": "2024-06-08T04:10:44Z"
         }
     },
     {
@@ -4745,7 +4745,7 @@
         "dates": {
             "created": "2022-07-31T04:19:06Z",
             "updated": "2023-05-24T04:09:05Z",
-            "lastChecked": "2024-06-07T04:14:38Z"
+            "lastChecked": "2024-06-08T04:10:45Z"
         }
     },
     {
@@ -4778,7 +4778,7 @@
         "dates": {
             "created": "2022-07-31T04:19:07Z",
             "updated": "2022-11-11T04:18:22Z",
-            "lastChecked": "2024-06-07T04:14:43Z"
+            "lastChecked": "2024-06-08T04:10:48Z"
         }
     },
     {
@@ -4814,7 +4814,7 @@
         "dates": {
             "created": "2022-07-31T04:19:08Z",
             "updated": "2022-07-31T04:19:08Z",
-            "lastChecked": "2024-06-07T04:14:44Z"
+            "lastChecked": "2024-06-08T04:10:49Z"
         }
     },
     {
@@ -4846,7 +4846,7 @@
         "dates": {
             "created": "2022-07-31T04:19:09Z",
             "updated": "2022-07-31T04:19:09Z",
-            "lastChecked": "2024-06-07T04:14:46Z"
+            "lastChecked": "2024-06-08T04:10:50Z"
         }
     },
     {
@@ -4880,7 +4880,7 @@
         "dates": {
             "created": "2022-09-03T04:31:32Z",
             "updated": "2023-10-01T04:08:25Z",
-            "lastChecked": "2024-06-07T04:14:48Z"
+            "lastChecked": "2024-06-08T04:10:51Z"
         }
     },
     {
@@ -4913,7 +4913,7 @@
         "dates": {
             "created": "2023-03-07T04:09:02Z",
             "updated": "2024-06-01T04:08:46Z",
-            "lastChecked": "2024-06-07T04:14:50Z"
+            "lastChecked": "2024-06-08T04:10:52Z"
         }
     },
     {
@@ -4946,7 +4946,7 @@
         "dates": {
             "created": "2023-03-07T04:09:04Z",
             "updated": "2023-03-07T04:09:04Z",
-            "lastChecked": "2024-06-07T04:14:52Z"
+            "lastChecked": "2024-06-08T04:10:54Z"
         }
     },
     {
@@ -4980,7 +4980,7 @@
         "dates": {
             "created": "2023-03-07T04:09:06Z",
             "updated": "2023-03-07T04:09:06Z",
-            "lastChecked": "2024-06-07T04:14:56Z"
+            "lastChecked": "2024-06-08T04:10:59Z"
         }
     },
     {
@@ -5004,17 +5004,17 @@
             "josh-bone"
         ],
         "sports": [
+            "Basketball",
             "Baseball",
-            "American Football",
-            "Basketball"
+            "American Football"
         ],
         "categories": [
             "Scraper/API"
         ],
         "dates": {
             "created": "2023-03-15T04:11:03Z",
-            "updated": "2024-06-07T04:14:58Z",
-            "lastChecked": "2024-06-07T04:14:58Z"
+            "updated": "2024-06-08T04:11:00Z",
+            "lastChecked": "2024-06-08T04:11:00Z"
         }
     },
     {
@@ -5046,7 +5046,7 @@
         "dates": {
             "created": "2023-03-15T04:11:05Z",
             "updated": "2023-04-30T04:09:03Z",
-            "lastChecked": "2024-06-07T04:15:00Z"
+            "lastChecked": "2024-06-08T04:11:01Z"
         }
     },
     {
@@ -5087,7 +5087,7 @@
         "dates": {
             "created": "2023-09-21T04:10:13Z",
             "updated": "2024-05-16T04:08:16Z",
-            "lastChecked": "2024-06-07T04:15:03Z"
+            "lastChecked": "2024-06-08T04:11:03Z"
         }
     },
     {
@@ -5119,7 +5119,7 @@
         "dates": {
             "created": "2023-09-21T04:10:15Z",
             "updated": "2024-05-19T04:08:57Z",
-            "lastChecked": "2024-06-07T04:15:05Z"
+            "lastChecked": "2024-06-08T04:11:04Z"
         }
     },
     {
@@ -5152,7 +5152,7 @@
         "dates": {
             "created": "2023-09-21T04:10:17Z",
             "updated": "2024-04-14T04:20:52Z",
-            "lastChecked": "2024-06-07T04:15:07Z"
+            "lastChecked": "2024-06-08T04:11:05Z"
         }
     },
     {
@@ -5185,7 +5185,7 @@
         "dates": {
             "created": "2023-09-21T04:10:19Z",
             "updated": "2023-09-21T04:10:19Z",
-            "lastChecked": "2024-06-07T04:15:08Z"
+            "lastChecked": "2024-06-08T04:11:06Z"
         }
     },
     {
@@ -5227,7 +5227,7 @@
         "dates": {
             "created": "2023-09-21T04:10:21Z",
             "updated": "2024-05-19T04:09:00Z",
-            "lastChecked": "2024-06-07T04:15:10Z"
+            "lastChecked": "2024-06-08T04:11:07Z"
         }
     }
 ]
