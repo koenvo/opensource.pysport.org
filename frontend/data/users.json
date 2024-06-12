@@ -2604,6 +2604,13 @@
         }
     },
     {
+        "login": "AND2797",
+        "name": "AND2797",
+        "urls": {
+            "github": "https://github.com/AND2797"
+        }
+    },
+    {
         "login": "BCurbs",
         "name": "BCurbs",
         "urls": {
@@ -2706,13 +2713,6 @@
         "name": "formulatimer",
         "urls": {
             "github": "https://github.com/formulatimer"
-        }
-    },
-    {
-        "login": "niallmcevoy",
-        "name": "niallmcevoy",
-        "urls": {
-            "github": "https://github.com/niallmcevoy"
         }
     },
     {
