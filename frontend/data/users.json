@@ -133,6 +133,13 @@
         }
     },
     {
+        "login": "peteowen1",
+        "name": "peteowen1",
+        "urls": {
+            "github": "https://github.com/peteowen1"
+        }
+    },
+    {
         "login": "tylerlittlefield",
         "name": "tylerlittlefield",
         "urls": {
@@ -151,13 +158,6 @@
         "name": "bairdj",
         "urls": {
             "github": "https://github.com/bairdj"
-        }
-    },
-    {
-        "login": "peteowen1",
-        "name": "peteowen1",
-        "urls": {
-            "github": "https://github.com/peteowen1"
         }
     },
     {
