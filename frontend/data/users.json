@@ -98,6 +98,13 @@
         }
     },
     {
+        "login": "peteowen1",
+        "name": "peteowen1",
+        "urls": {
+            "github": "https://github.com/peteowen1"
+        }
+    },
+    {
         "login": "Fryzigg",
         "name": "Fryzigg",
         "urls": {
@@ -130,13 +137,6 @@
         "name": "merbla",
         "urls": {
             "github": "https://github.com/merbla"
-        }
-    },
-    {
-        "login": "peteowen1",
-        "name": "peteowen1",
-        "urls": {
-            "github": "https://github.com/peteowen1"
         }
     },
     {
@@ -959,13 +959,6 @@
         }
     },
     {
-        "login": "nicholson2208",
-        "name": "nicholson2208",
-        "urls": {
-            "github": "https://github.com/nicholson2208"
-        }
-    },
-    {
         "login": "jelloslinger",
         "name": "jelloslinger",
         "urls": {
@@ -1050,6 +1043,13 @@
         }
     },
     {
+        "login": "LukeFabric",
+        "name": "LukeFabric",
+        "urls": {
+            "github": "https://github.com/LukeFabric"
+        }
+    },
+    {
         "login": "tonycpsu",
         "name": "tonycpsu",
         "urls": {
@@ -1057,10 +1057,10 @@
         }
     },
     {
-        "login": "marek-slipski",
-        "name": "marek-slipski",
+        "login": "nicholson2208",
+        "name": "nicholson2208",
         "urls": {
-            "github": "https://github.com/marek-slipski"
+            "github": "https://github.com/nicholson2208"
         }
     },
     {
@@ -2468,6 +2468,13 @@
         "name": "tyler-richardett",
         "urls": {
             "github": "https://github.com/tyler-richardett"
+        }
+    },
+    {
+        "login": "rbarman",
+        "name": "rbarman",
+        "urls": {
+            "github": "https://github.com/rbarman"
         }
     },
     {
