@@ -91,17 +91,17 @@
         }
     },
     {
-        "login": "JaseZiv",
-        "name": "JaseZiv",
-        "urls": {
-            "github": "https://github.com/JaseZiv"
-        }
-    },
-    {
         "login": "peteowen1",
         "name": "peteowen1",
         "urls": {
             "github": "https://github.com/peteowen1"
+        }
+    },
+    {
+        "login": "JaseZiv",
+        "name": "JaseZiv",
+        "urls": {
+            "github": "https://github.com/JaseZiv"
         }
     },
     {
