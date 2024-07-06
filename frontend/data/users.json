@@ -2604,6 +2604,13 @@
         }
     },
     {
+        "login": "grahamjwhite",
+        "name": "grahamjwhite",
+        "urls": {
+            "github": "https://github.com/grahamjwhite"
+        }
+    },
+    {
         "login": "mdsakalu",
         "name": "mdsakalu",
         "urls": {
@@ -2650,13 +2657,6 @@
         "name": "dawiddzhafarov",
         "urls": {
             "github": "https://github.com/dawiddzhafarov"
-        }
-    },
-    {
-        "login": "grahamjwhite",
-        "name": "grahamjwhite",
-        "urls": {
-            "github": "https://github.com/grahamjwhite"
         }
     },
     {
