@@ -112,17 +112,17 @@
         }
     },
     {
-        "login": "Lingtax",
-        "name": "Lingtax",
-        "urls": {
-            "github": "https://github.com/Lingtax"
-        }
-    },
-    {
         "login": "jlholden26",
         "name": "jlholden26",
         "urls": {
             "github": "https://github.com/jlholden26"
+        }
+    },
+    {
+        "login": "Lingtax",
+        "name": "Lingtax",
+        "urls": {
+            "github": "https://github.com/Lingtax"
         }
     },
     {
