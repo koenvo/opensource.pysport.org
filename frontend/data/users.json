@@ -2597,45 +2597,10 @@
         }
     },
     {
-        "login": "bruzie",
-        "name": "bruzie",
+        "login": "formulatimer",
+        "name": "formulatimer",
         "urls": {
-            "github": "https://github.com/bruzie"
-        }
-    },
-    {
-        "login": "Lombardoc4",
-        "name": "Lombardoc4",
-        "urls": {
-            "github": "https://github.com/Lombardoc4"
-        }
-    },
-    {
-        "login": "grahamjwhite",
-        "name": "grahamjwhite",
-        "urls": {
-            "github": "https://github.com/grahamjwhite"
-        }
-    },
-    {
-        "login": "mdsakalu",
-        "name": "mdsakalu",
-        "urls": {
-            "github": "https://github.com/mdsakalu"
-        }
-    },
-    {
-        "login": "erdieee",
-        "name": "erdieee",
-        "urls": {
-            "github": "https://github.com/erdieee"
-        }
-    },
-    {
-        "login": "SpyrosKoun",
-        "name": "SpyrosKoun",
-        "urls": {
-            "github": "https://github.com/SpyrosKoun"
+            "github": "https://github.com/formulatimer"
         }
     },
     {
@@ -2646,94 +2611,52 @@
         }
     },
     {
-        "login": "AND2797",
-        "name": "AND2797",
+        "login": "SpyrosKoun",
+        "name": "SpyrosKoun",
         "urls": {
-            "github": "https://github.com/AND2797"
+            "github": "https://github.com/SpyrosKoun"
         }
     },
     {
-        "login": "BCurbs",
-        "name": "BCurbs",
+        "login": "erdieee",
+        "name": "erdieee",
         "urls": {
-            "github": "https://github.com/BCurbs"
+            "github": "https://github.com/erdieee"
         }
     },
     {
-        "login": "dawiddzhafarov",
-        "name": "dawiddzhafarov",
+        "login": "mdsakalu",
+        "name": "mdsakalu",
         "urls": {
-            "github": "https://github.com/dawiddzhafarov"
+            "github": "https://github.com/mdsakalu"
         }
     },
     {
-        "login": "wakamex",
-        "name": "wakamex",
+        "login": "grahamjwhite",
+        "name": "grahamjwhite",
         "urls": {
-            "github": "https://github.com/wakamex"
+            "github": "https://github.com/grahamjwhite"
         }
     },
     {
-        "login": "f1multiviewer",
-        "name": "f1multiviewer",
+        "login": "Lombardoc4",
+        "name": "Lombardoc4",
         "urls": {
-            "github": "https://github.com/f1multiviewer"
+            "github": "https://github.com/Lombardoc4"
         }
     },
     {
-        "login": "neron-png",
-        "name": "neron-png",
+        "login": "bruzie",
+        "name": "bruzie",
         "urls": {
-            "github": "https://github.com/neron-png"
+            "github": "https://github.com/bruzie"
         }
     },
     {
-        "login": "RyanHaniff",
-        "name": "RyanHaniff",
+        "login": "niallmcevoy",
+        "name": "niallmcevoy",
         "urls": {
-            "github": "https://github.com/RyanHaniff"
-        }
-    },
-    {
-        "login": "apapadoi",
-        "name": "apapadoi",
-        "urls": {
-            "github": "https://github.com/apapadoi"
-        }
-    },
-    {
-        "login": "Toskosz",
-        "name": "Toskosz",
-        "urls": {
-            "github": "https://github.com/Toskosz"
-        }
-    },
-    {
-        "login": "dialtone",
-        "name": "dialtone",
-        "urls": {
-            "github": "https://github.com/dialtone"
-        }
-    },
-    {
-        "login": "vlesierse",
-        "name": "vlesierse",
-        "urls": {
-            "github": "https://github.com/vlesierse"
-        }
-    },
-    {
-        "login": "bambz96",
-        "name": "bambz96",
-        "urls": {
-            "github": "https://github.com/bambz96"
-        }
-    },
-    {
-        "login": "d-tomasino",
-        "name": "d-tomasino",
-        "urls": {
-            "github": "https://github.com/d-tomasino"
+            "github": "https://github.com/niallmcevoy"
         }
     },
     {
@@ -2744,10 +2667,87 @@
         }
     },
     {
-        "login": "formulatimer",
-        "name": "formulatimer",
+        "login": "d-tomasino",
+        "name": "d-tomasino",
         "urls": {
-            "github": "https://github.com/formulatimer"
+            "github": "https://github.com/d-tomasino"
+        }
+    },
+    {
+        "login": "bambz96",
+        "name": "bambz96",
+        "urls": {
+            "github": "https://github.com/bambz96"
+        }
+    },
+    {
+        "login": "vlesierse",
+        "name": "vlesierse",
+        "urls": {
+            "github": "https://github.com/vlesierse"
+        }
+    },
+    {
+        "login": "dialtone",
+        "name": "dialtone",
+        "urls": {
+            "github": "https://github.com/dialtone"
+        }
+    },
+    {
+        "login": "Toskosz",
+        "name": "Toskosz",
+        "urls": {
+            "github": "https://github.com/Toskosz"
+        }
+    },
+    {
+        "login": "apapadoi",
+        "name": "apapadoi",
+        "urls": {
+            "github": "https://github.com/apapadoi"
+        }
+    },
+    {
+        "login": "RyanHaniff",
+        "name": "RyanHaniff",
+        "urls": {
+            "github": "https://github.com/RyanHaniff"
+        }
+    },
+    {
+        "login": "neron-png",
+        "name": "neron-png",
+        "urls": {
+            "github": "https://github.com/neron-png"
+        }
+    },
+    {
+        "login": "f1multiviewer",
+        "name": "f1multiviewer",
+        "urls": {
+            "github": "https://github.com/f1multiviewer"
+        }
+    },
+    {
+        "login": "wakamex",
+        "name": "wakamex",
+        "urls": {
+            "github": "https://github.com/wakamex"
+        }
+    },
+    {
+        "login": "dawiddzhafarov",
+        "name": "dawiddzhafarov",
+        "urls": {
+            "github": "https://github.com/dawiddzhafarov"
+        }
+    },
+    {
+        "login": "BCurbs",
+        "name": "BCurbs",
+        "urls": {
+            "github": "https://github.com/BCurbs"
         }
     },
     {
