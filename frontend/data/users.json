@@ -84,17 +84,17 @@
         }
     },
     {
-        "login": "OscarLane",
-        "name": "OscarLane",
-        "urls": {
-            "github": "https://github.com/OscarLane"
-        }
-    },
-    {
         "login": "peteowen1",
         "name": "peteowen1",
         "urls": {
             "github": "https://github.com/peteowen1"
+        }
+    },
+    {
+        "login": "OscarLane",
+        "name": "OscarLane",
+        "urls": {
+            "github": "https://github.com/OscarLane"
         }
     },
     {
