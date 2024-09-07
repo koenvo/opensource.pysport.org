@@ -329,17 +329,17 @@
         }
     },
     {
-        "login": "dvatvani",
-        "name": "dvatvani",
-        "urls": {
-            "github": "https://github.com/dvatvani"
-        }
-    },
-    {
         "login": "anenglishgoat",
         "name": "anenglishgoat",
         "urls": {
             "github": "https://github.com/anenglishgoat"
+        }
+    },
+    {
+        "login": "dvatvani",
+        "name": "dvatvani",
+        "urls": {
+            "github": "https://github.com/dvatvani"
         }
     },
     {
