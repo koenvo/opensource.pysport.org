@@ -127,5 +127,5 @@ scraper,giasemidis/euroleague_api
 viz|model,giasemidis/euroleague-shot-charts
 viz|model,giasemidis/basketball-data-analysis
 model|io,gotoConversion/goto_conversion
-vzi,mlsedigital/mplbasketball
+viz,mlsedigital/mplbasketball
 data,mlsedigital/SPL-Open-Data
