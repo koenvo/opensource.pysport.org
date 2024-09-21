@@ -2947,10 +2947,24 @@
         }
     },
     {
+        "login": "felixblochwitz",
+        "name": "felixblochwitz",
+        "urls": {
+            "github": "https://github.com/felixblochwitz"
+        }
+    },
+    {
         "login": "MMuta52",
         "name": "MMuta52",
         "urls": {
             "github": "https://github.com/MMuta52"
+        }
+    },
+    {
+        "login": "RGAlexander216",
+        "name": "RGAlexander216",
+        "urls": {
+            "github": "https://github.com/RGAlexander216"
         }
     },
     {
