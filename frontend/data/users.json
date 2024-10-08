@@ -672,6 +672,13 @@
         }
     },
     {
+        "login": "BenjaminLarrousse",
+        "name": "BenjaminLarrousse",
+        "urls": {
+            "github": "https://github.com/BenjaminLarrousse"
+        }
+    },
+    {
         "login": "ProformAnalytics",
         "name": "ProformAnalytics",
         "urls": {
@@ -746,13 +753,6 @@
         "name": "plaguss",
         "urls": {
             "github": "https://github.com/plaguss"
-        }
-    },
-    {
-        "login": "BenjaminLarrousse",
-        "name": "BenjaminLarrousse",
-        "urls": {
-            "github": "https://github.com/BenjaminLarrousse"
         }
     },
     {
