@@ -777,6 +777,13 @@
         }
     },
     {
+        "login": "SportsDynamicsDS",
+        "name": "SportsDynamicsDS",
+        "urls": {
+            "github": "https://github.com/SportsDynamicsDS"
+        }
+    },
+    {
         "login": "TK5-Tim",
         "name": "TK5-Tim",
         "urls": {
