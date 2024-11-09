@@ -308,17 +308,17 @@
         }
     },
     {
-        "login": "deepxg",
-        "name": "deepxg",
-        "urls": {
-            "github": "https://github.com/deepxg"
-        }
-    },
-    {
         "login": "scotty779",
         "name": "scotty779",
         "urls": {
             "github": "https://github.com/scotty779"
+        }
+    },
+    {
+        "login": "deepxg",
+        "name": "deepxg",
+        "urls": {
+            "github": "https://github.com/deepxg"
         }
     },
     {
