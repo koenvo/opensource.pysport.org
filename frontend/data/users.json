@@ -2660,6 +2660,13 @@
         }
     },
     {
+        "login": "mihalisag",
+        "name": "mihalisag",
+        "urls": {
+            "github": "https://github.com/mihalisag"
+        }
+    },
+    {
         "login": "jpmiller97",
         "name": "jpmiller97",
         "urls": {
@@ -2741,13 +2748,6 @@
         "name": "dawiddzhafarov",
         "urls": {
             "github": "https://github.com/dawiddzhafarov"
-        }
-    },
-    {
-        "login": "BCurbs",
-        "name": "BCurbs",
-        "urls": {
-            "github": "https://github.com/BCurbs"
         }
     },
     {
