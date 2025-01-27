@@ -3,11 +3,11 @@
         "name": "nflfastR",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "4.6.1",
+        "latestVersion": "5.0.0",
         "lastCommit": {
-            "sha": "057fa74bec56ea7c447fcb763cb143f3a4c6540a",
-            "date": "2024-11-11T08:38:23Z",
-            "message": "fix typo"
+            "sha": "7d53e076bf51195aa04a674b98b89ae171d79b84",
+            "date": "2025-01-05T23:24:14Z",
+            "message": "Merge pull request #505 from nflverse/seasonlvl-targetshare-airyardshare"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/mrcaseb/nflfastR/master/man/figures/logo.png",
@@ -41,8 +41,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:22:58Z",
-            "updated": "2024-11-12T04:06:51Z",
-            "lastChecked": "2024-11-12T04:06:51Z"
+            "updated": "2025-01-27T19:30:49Z",
+            "lastChecked": "2025-01-27T19:30:49Z"
         }
     },
     {
@@ -82,18 +82,18 @@
         "dates": {
             "created": "2021-01-19T15:23:01Z",
             "updated": "2021-01-20T07:23:34Z",
-            "lastChecked": "2024-11-12T04:06:53Z"
+            "lastChecked": "2025-01-27T19:30:52Z"
         }
     },
     {
         "name": "fitzRoy",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "1.5.0",
+        "latestVersion": "1.6.0",
         "lastCommit": {
-            "sha": "1adbdf298d2e57d976947a2d9b39772138259da6",
-            "date": "2024-09-05T03:08:45Z",
-            "message": "Merge pull request #241 from peteowen1/main\n\nAdd score worm plots + issue fixes"
+            "sha": "006ebef7bc7d892aa8b999278ea460898c19200d",
+            "date": "2025-01-23T00:15:15Z",
+            "message": "Fixing test that was falsely failing"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/jimmyday12/fitzRoy/main/man/figures/fitz_hex.png",
@@ -129,19 +129,19 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:04Z",
-            "updated": "2024-09-05T04:06:36Z",
-            "lastChecked": "2024-11-12T04:06:55Z"
+            "updated": "2025-01-27T19:30:53Z",
+            "lastChecked": "2025-01-27T19:30:53Z"
         }
     },
     {
         "name": "py_ball",
         "language": "Python",
         "license": "MIT",
-        "latestVersion": "1.41",
+        "latestVersion": "1.42",
         "lastCommit": {
-            "sha": "1727f6a761261990e4a4fd5601f1342648e1c6dc",
-            "date": "2023-02-02T01:48:31Z",
-            "message": "Merge branch 'master' of https://github.com/basketballrelativity/py_ball"
+            "sha": "252bff7cfdf944f0c5cab9e5f2c216abf8c78084",
+            "date": "2024-11-29T20:47:33Z",
+            "message": "Merge pull request #22 from basketballrelativity/player-on-endpoint\n\nPlayer on endpoint"
         },
         "type": "package",
         "logoUrl": null,
@@ -165,8 +165,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:07Z",
-            "updated": "2023-02-02T04:05:35Z",
-            "lastChecked": "2024-11-12T04:06:56Z"
+            "updated": "2025-01-27T19:30:55Z",
+            "lastChecked": "2025-01-27T19:30:55Z"
         }
     },
     {
@@ -198,7 +198,7 @@
         "dates": {
             "created": "2021-01-19T15:23:09Z",
             "updated": "2021-11-15T19:58:28Z",
-            "lastChecked": "2024-11-12T04:06:57Z"
+            "lastChecked": "2025-01-27T19:30:56Z"
         }
     },
     {
@@ -217,8 +217,7 @@
         "images": [],
         "urls": {
             "github": "https://github.com/HarryShomer/Hockey-Scraper",
-            "pypi": "https://pypi.org/project/hockey-scraper/",
-            "website": "http://hockey-data.harryshomer.com"
+            "pypi": "https://pypi.org/project/hockey-scraper/"
         },
         "contributors": [
             "HarryShomer",
@@ -238,8 +237,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:15Z",
-            "updated": "2024-06-27T04:06:39Z",
-            "lastChecked": "2024-11-12T04:06:59Z"
+            "updated": "2025-01-27T19:30:59Z",
+            "lastChecked": "2025-01-27T19:30:59Z"
         }
     },
     {
@@ -276,7 +275,7 @@
         "dates": {
             "created": "2021-01-19T15:23:17Z",
             "updated": "2022-06-29T04:21:13Z",
-            "lastChecked": "2024-11-12T04:07:01Z"
+            "lastChecked": "2025-01-27T19:31:00Z"
         }
     },
     {
@@ -285,9 +284,9 @@
         "license": "3.5.0",
         "latestVersion": "0.1.0",
         "lastCommit": {
-            "sha": "85e8bc91929182c4895610b5fb6bc8850167f4e6",
-            "date": "2024-11-08T18:34:38Z",
-            "message": "Merge pull request #29 from statsbomb/scotty779-patch-1\n\nAdd new logos to readme"
+            "sha": "60d7e0b090ae5b4828e2c9c5ba5cf4074ae71051",
+            "date": "2024-12-03T17:04:00Z",
+            "message": "Merge pull request #30 from mattgirdler/patch-1\n\nUpdate usage example to use correct signature"
         },
         "type": "github_package",
         "logoUrl": "https://github.com/statsbomb/logos/blob/main/HudlStatsbomb_R_Hex.svg",
@@ -304,7 +303,8 @@
             "EuanDewar",
             "YamStats",
             "scotty779",
-            "deepxg"
+            "deepxg",
+            "mattgirdler"
         ],
         "sports": [
             "Soccer"
@@ -314,8 +314,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:20Z",
-            "updated": "2024-11-09T04:06:37Z",
-            "lastChecked": "2024-11-12T04:07:03Z"
+            "updated": "2025-01-27T19:31:03Z",
+            "lastChecked": "2025-01-27T19:31:03Z"
         }
     },
     {
@@ -363,7 +363,7 @@
         "dates": {
             "created": "2021-01-19T15:23:23Z",
             "updated": "2024-11-09T04:06:38Z",
-            "lastChecked": "2024-11-12T04:07:04Z"
+            "lastChecked": "2025-01-27T19:31:04Z"
         }
     },
     {
@@ -397,7 +397,7 @@
         "dates": {
             "created": "2021-01-19T15:23:25Z",
             "updated": "2024-11-06T04:07:18Z",
-            "lastChecked": "2024-11-12T04:07:06Z"
+            "lastChecked": "2025-01-27T19:31:06Z"
         }
     },
     {
@@ -433,7 +433,7 @@
         "dates": {
             "created": "2021-01-19T15:23:27Z",
             "updated": "2021-04-22T11:36:57Z",
-            "lastChecked": "2024-11-12T04:07:07Z"
+            "lastChecked": "2025-01-27T19:31:08Z"
         }
     },
     {
@@ -468,7 +468,7 @@
         "dates": {
             "created": "2021-01-19T15:23:31Z",
             "updated": "2024-11-09T04:06:42Z",
-            "lastChecked": "2024-11-12T04:07:09Z"
+            "lastChecked": "2025-01-27T19:31:12Z"
         }
     },
     {
@@ -568,7 +568,7 @@
         "dates": {
             "created": "2021-01-19T15:23:34Z",
             "updated": "2024-11-06T04:07:25Z",
-            "lastChecked": "2024-11-12T04:07:11Z"
+            "lastChecked": "2025-01-27T19:31:14Z"
         }
     },
     {
@@ -577,9 +577,9 @@
         "license": "MIT",
         "latestVersion": "1.5.3",
         "lastCommit": {
-            "sha": "17c16535f236217b0e5209008596f5bcd9c8c247",
-            "date": "2024-08-30T13:09:18Z",
-            "message": "build(deps): bump sphinx-autodoc-typehints from 2.2.3 to 2.3.0 in /docs\n\nBumps [sphinx-autodoc-typehints](https://github.com/tox-dev/sphinx-autodoc-typehints) from 2.2.3 to 2.3.0.\n- [Release notes](https://github.com/tox-dev/sphinx-autodoc-typehints/releases)\n- [Changelog](https://github.com/tox-dev/sphinx-autodoc-typehints/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/tox-dev/sphinx-autodoc-typehints/compare/2.2.3...2.3.0)\n\n---\nupdated-dependencies:\n- dependency-name: sphinx-autodoc-typehints\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+            "sha": "ed509965e8740d98224d806eb181a63febc72135",
+            "date": "2025-01-27T08:58:36Z",
+            "message": "build(deps-dev): bump pygments from 2.18.0 to 2.19.1\n\nBumps [pygments](https://github.com/pygments/pygments) from 2.18.0 to 2.19.1.\n- [Release notes](https://github.com/pygments/pygments/releases)\n- [Changelog](https://github.com/pygments/pygments/blob/master/CHANGES)\n- [Commits](https://github.com/pygments/pygments/compare/2.18.0...2.19.1)\n\n---\nupdated-dependencies:\n- dependency-name: pygments\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
         },
         "type": "package",
         "logoUrl": "https://socceraction.readthedocs.io/en/latest/_static/logo_white.png",
@@ -600,6 +600,7 @@
             "0xflotus",
             "abhishekvasu94",
             "zanderhinton",
+            "Alek050",
             "nikitakoselev",
             "npranav10",
             "prateek-senapati",
@@ -616,8 +617,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:37Z",
-            "updated": "2024-08-31T04:06:40Z",
-            "lastChecked": "2024-11-12T04:07:12Z"
+            "updated": "2025-01-27T19:31:16Z",
+            "lastChecked": "2025-01-27T19:31:16Z"
         }
     },
     {
@@ -677,18 +678,18 @@
         "dates": {
             "created": "2021-01-19T15:23:41Z",
             "updated": "2024-08-17T04:06:26Z",
-            "lastChecked": "2024-11-12T04:07:14Z"
+            "lastChecked": "2025-01-27T19:31:18Z"
         }
     },
     {
         "name": "kloppy",
         "language": "Python",
         "license": "BSD",
-        "latestVersion": "3.15.0",
+        "latestVersion": "3.16.0",
         "lastCommit": {
-            "sha": "ef2c3985715421188fdf138b19f9206ab47d9d32",
-            "date": "2024-10-28T16:14:55Z",
-            "message": "Merge pull request #357 from my-game-plan/bugfix/statsperform-tracking-referee-support\n\n[StatsPerform - Tracking] Recognize referee player type and handle accordingly"
+            "sha": "9692ec306b07fb1c6e63032515388ef78cf233b8",
+            "date": "2025-01-26T20:31:57Z",
+            "message": "Add support for loading PFF FC Tracking data (#409)\n\n\n---------\n\nCo-authored-by: UnravelSports [JB] <jors@unravelsports.com>\nCo-authored-by: Pieter Robberechts <pieter.robberechts@kuleuven.be>"
         },
         "type": "package",
         "logoUrl": "https://github.com/PySport/kloppy/raw/master/docs/logo.png",
@@ -712,22 +713,24 @@
             "BenjaminLarrousse",
             "ProformAnalytics",
             "ThomasSeidl",
-            "ivd-git",
-            "eujern",
             "dmallory42",
+            "eujern",
+            "ivd-git",
             "rishicarter",
-            "benoitblanc",
+            "UnravelSports",
             "Kludex",
+            "benoitblanc",
             "matiasb",
             "pratikthanki",
             "plaguss",
+            "SportsDynamicsDS",
+            "razor3598",
+            "AndrewRook",
+            "douglaspampu",
             "deppen8",
             "DrSleep",
             "OnerInce",
-            "SportsDynamicsDS",
-            "TK5-Tim",
-            "UnravelSports",
-            "akuu666"
+            "fubininho"
         ],
         "sports": [
             "Soccer"
@@ -737,8 +740,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:23:43Z",
-            "updated": "2024-10-29T04:07:28Z",
-            "lastChecked": "2024-11-12T04:07:15Z"
+            "updated": "2025-01-27T19:31:20Z",
+            "lastChecked": "2025-01-27T19:31:20Z"
         }
     },
     {
@@ -772,7 +775,7 @@
         "dates": {
             "created": "2021-01-19T15:23:46Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-11-12T04:07:17Z"
+            "lastChecked": "2025-01-27T19:31:22Z"
         }
     },
     {
@@ -807,7 +810,7 @@
         "dates": {
             "created": "2021-01-19T15:23:52Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-11-12T04:07:18Z"
+            "lastChecked": "2025-01-27T19:31:23Z"
         }
     },
     {
@@ -842,7 +845,7 @@
         "dates": {
             "created": "2021-01-19T15:23:54Z",
             "updated": "2021-07-14T14:27:34Z",
-            "lastChecked": "2024-11-12T04:07:19Z"
+            "lastChecked": "2025-01-27T19:31:25Z"
         }
     },
     {
@@ -877,7 +880,7 @@
         "dates": {
             "created": "2021-01-19T15:23:57Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-11-12T04:07:21Z"
+            "lastChecked": "2025-01-27T19:31:27Z"
         }
     },
     {
@@ -939,7 +942,7 @@
         "dates": {
             "created": "2021-01-19T15:24:01Z",
             "updated": "2024-09-25T04:07:45Z",
-            "lastChecked": "2024-11-12T04:07:22Z"
+            "lastChecked": "2025-01-27T19:31:29Z"
         }
     },
     {
@@ -985,7 +988,7 @@
         "dates": {
             "created": "2021-01-19T15:24:04Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-11-12T04:07:24Z"
+            "lastChecked": "2025-01-27T19:31:31Z"
         }
     },
     {
@@ -1021,7 +1024,7 @@
         "dates": {
             "created": "2021-01-19T15:24:07Z",
             "updated": "2023-07-16T04:06:06Z",
-            "lastChecked": "2024-11-12T04:07:25Z"
+            "lastChecked": "2025-01-27T19:31:33Z"
         }
     },
     {
@@ -1058,7 +1061,7 @@
         "dates": {
             "created": "2021-01-19T15:24:10Z",
             "updated": "2021-12-05T04:25:20Z",
-            "lastChecked": "2024-11-12T04:07:26Z"
+            "lastChecked": "2025-01-27T19:31:34Z"
         }
     },
     {
@@ -1093,7 +1096,7 @@
         "dates": {
             "created": "2021-01-19T15:24:13Z",
             "updated": "2021-07-14T14:27:43Z",
-            "lastChecked": "2024-11-12T04:07:28Z"
+            "lastChecked": "2025-01-27T19:31:36Z"
         }
     },
     {
@@ -1135,7 +1138,7 @@
         "dates": {
             "created": "2021-01-19T15:24:16Z",
             "updated": "2023-02-05T04:06:32Z",
-            "lastChecked": "2024-11-12T04:07:29Z"
+            "lastChecked": "2025-01-27T19:31:38Z"
         }
     },
     {
@@ -1222,7 +1225,7 @@
         "dates": {
             "created": "2021-01-19T15:24:19Z",
             "updated": "2023-04-03T04:06:41Z",
-            "lastChecked": "2024-11-12T04:07:31Z"
+            "lastChecked": "2025-01-27T19:31:40Z"
         }
     },
     {
@@ -1321,7 +1324,7 @@
         "dates": {
             "created": "2021-01-19T15:24:21Z",
             "updated": "2024-11-09T04:07:01Z",
-            "lastChecked": "2024-11-12T04:07:32Z"
+            "lastChecked": "2025-01-27T19:31:41Z"
         }
     },
     {
@@ -1369,7 +1372,7 @@
         "dates": {
             "created": "2021-01-19T15:24:24Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-11-12T04:07:34Z"
+            "lastChecked": "2025-01-27T19:31:44Z"
         }
     },
     {
@@ -1404,7 +1407,7 @@
         "dates": {
             "created": "2021-01-19T15:24:26Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-11-12T04:07:36Z"
+            "lastChecked": "2025-01-27T19:31:45Z"
         }
     },
     {
@@ -1441,7 +1444,7 @@
         "dates": {
             "created": "2021-01-19T15:24:29Z",
             "updated": "2024-11-08T04:07:57Z",
-            "lastChecked": "2024-11-12T04:07:37Z"
+            "lastChecked": "2025-01-27T19:31:47Z"
         }
     },
     {
@@ -1475,7 +1478,7 @@
         "dates": {
             "created": "2021-01-19T15:24:31Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-11-12T04:07:39Z"
+            "lastChecked": "2025-01-27T19:31:49Z"
         }
     },
     {
@@ -1484,9 +1487,9 @@
         "license": "MIT",
         "latestVersion": "1.6.0",
         "lastCommit": {
-            "sha": "2701dc70e3734b21626161f5f260a664647f542a",
-            "date": "2024-05-13T14:48:57Z",
-            "message": "Merge pull request #332 from BillPetti/bat_tracking_update"
+            "sha": "ec1af2f5b20fafe7d1fa4ec66c508cb048d9a9ff",
+            "date": "2024-11-15T16:57:18Z",
+            "message": "Merge pull request #355 from BillPetti/arm_angle_update\n\nArm angle hotfix"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/billpetti/baseballr/master/logo.png",
@@ -1506,9 +1509,9 @@
             "afeierman",
             "darh78",
             "jonathan-inwt",
+            "camdenk",
             "mmcgowan13",
             "bdilday",
-            "camdenk",
             "apapanico",
             "a-meyers",
             "TravisRPetersen",
@@ -1530,8 +1533,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:34Z",
-            "updated": "2024-05-14T04:06:02Z",
-            "lastChecked": "2024-11-12T04:07:41Z"
+            "updated": "2025-01-27T19:31:51Z",
+            "lastChecked": "2025-01-27T19:31:51Z"
         }
     },
     {
@@ -1563,8 +1566,8 @@
             "atroiano"
         ],
         "sports": [
-            "Baseball",
-            "Motorsport"
+            "Motorsport",
+            "Baseball"
         ],
         "categories": [
             "Scraper/API",
@@ -1573,8 +1576,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:36Z",
-            "updated": "2024-11-09T04:07:10Z",
-            "lastChecked": "2024-11-12T04:07:43Z"
+            "updated": "2025-01-27T19:31:54Z",
+            "lastChecked": "2025-01-27T19:31:54Z"
         }
     },
     {
@@ -1628,7 +1631,7 @@
         "dates": {
             "created": "2021-01-19T15:24:39Z",
             "updated": "2023-09-22T04:06:48Z",
-            "lastChecked": "2024-11-12T04:07:44Z"
+            "lastChecked": "2025-01-27T19:31:59Z"
         }
     },
     {
@@ -1670,7 +1673,7 @@
         "dates": {
             "created": "2021-01-19T15:24:43Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-11-12T04:07:46Z"
+            "lastChecked": "2025-01-27T19:32:01Z"
         }
     },
     {
@@ -1706,7 +1709,7 @@
         "dates": {
             "created": "2021-01-19T15:24:45Z",
             "updated": "2023-11-24T04:06:56Z",
-            "lastChecked": "2024-11-12T04:07:48Z"
+            "lastChecked": "2025-01-27T19:32:03Z"
         }
     },
     {
@@ -1739,18 +1742,18 @@
         "dates": {
             "created": "2021-01-19T15:24:48Z",
             "updated": "2021-01-20T07:23:35Z",
-            "lastChecked": "2024-11-12T04:07:50Z"
+            "lastChecked": "2025-01-27T19:32:05Z"
         }
     },
     {
         "name": "ncaahoopR",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "1.8.7",
+        "latestVersion": "1.8.7.1",
         "lastCommit": {
-            "sha": "a70e39d7d39dc7afc2f7ccd4694b8032357f4e76",
-            "date": "2024-11-05T15:25:24Z",
-            "message": "2024-25 bug fixes"
+            "sha": "0e9277f301f55329ad9980b1fa2c700f1e0c1ba6",
+            "date": "2024-11-18T16:41:01Z",
+            "message": "Updates for 2024-25 season"
         },
         "type": "github_package",
         "logoUrl": "https://raw.githubusercontent.com/lbenz730/ncaahoopR/master/figures/logo.png",
@@ -1816,8 +1819,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:52Z",
-            "updated": "2024-11-06T04:08:23Z",
-            "lastChecked": "2024-11-12T04:07:51Z"
+            "updated": "2025-01-27T19:32:07Z",
+            "lastChecked": "2025-01-27T19:32:07Z"
         }
     },
     {
@@ -1826,9 +1829,9 @@
         "license": "MIT",
         "latestVersion": "0.1.0",
         "lastCommit": {
-            "sha": "2cff2bb4fa4317d75b5f7bbea51f10ac4cd10e5d",
-            "date": "2024-11-11T03:30:24Z",
-            "message": "fix team name scraping to not remove the (OH) after Miami (#67)"
+            "sha": "d8de091545e124c0dd2684b8e19d19ca8f1b45a6",
+            "date": "2025-01-06T22:17:59Z",
+            "message": "fix team seeds showing up in get_date_games() (#73)"
         },
         "type": "github_package",
         "logoUrl": null,
@@ -1853,8 +1856,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:24:55Z",
-            "updated": "2024-11-12T04:07:53Z",
-            "lastChecked": "2024-11-12T04:07:53Z"
+            "updated": "2025-01-27T19:32:09Z",
+            "lastChecked": "2025-01-27T19:32:09Z"
         }
     },
     {
@@ -1895,7 +1898,7 @@
         "dates": {
             "created": "2021-01-19T15:24:57Z",
             "updated": "2023-11-09T04:06:18Z",
-            "lastChecked": "2024-11-12T04:07:55Z"
+            "lastChecked": "2025-01-27T19:32:11Z"
         }
     },
     {
@@ -1930,7 +1933,7 @@
         "dates": {
             "created": "2021-01-19T15:25:00Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2024-11-12T04:07:57Z"
+            "lastChecked": "2025-01-27T19:32:13Z"
         }
     },
     {
@@ -1990,7 +1993,7 @@
         "dates": {
             "created": "2021-01-19T15:25:03Z",
             "updated": "2021-10-15T04:24:53Z",
-            "lastChecked": "2024-11-12T04:07:59Z"
+            "lastChecked": "2025-01-27T19:32:15Z"
         }
     },
     {
@@ -2024,7 +2027,7 @@
         "dates": {
             "created": "2021-01-19T15:25:05Z",
             "updated": "2021-04-22T11:37:58Z",
-            "lastChecked": "2024-11-12T04:08:00Z"
+            "lastChecked": "2025-01-27T19:32:17Z"
         }
     },
     {
@@ -2058,7 +2061,7 @@
         "dates": {
             "created": "2021-01-19T15:25:10Z",
             "updated": "2024-03-25T04:07:23Z",
-            "lastChecked": "2024-11-12T04:08:02Z"
+            "lastChecked": "2025-01-27T19:32:19Z"
         }
     },
     {
@@ -2098,7 +2101,7 @@
         "dates": {
             "created": "2021-01-19T15:25:13Z",
             "updated": "2024-11-06T04:08:40Z",
-            "lastChecked": "2024-11-12T04:08:04Z"
+            "lastChecked": "2025-01-27T19:32:22Z"
         }
     },
     {
@@ -2129,7 +2132,7 @@
         "dates": {
             "created": "2021-01-19T15:25:16Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2024-11-12T04:08:06Z"
+            "lastChecked": "2025-01-27T19:32:23Z"
         }
     },
     {
@@ -2161,7 +2164,7 @@
         "dates": {
             "created": "2021-01-19T15:25:19Z",
             "updated": "2021-11-15T19:59:28Z",
-            "lastChecked": "2024-11-12T04:08:07Z"
+            "lastChecked": "2025-01-27T19:32:25Z"
         }
     },
     {
@@ -2195,7 +2198,7 @@
         "dates": {
             "created": "2021-01-19T15:25:22Z",
             "updated": "2021-11-15T19:59:29Z",
-            "lastChecked": "2024-11-12T04:08:09Z"
+            "lastChecked": "2025-01-27T19:32:28Z"
         }
     },
     {
@@ -2229,7 +2232,7 @@
         "dates": {
             "created": "2021-01-19T15:25:24Z",
             "updated": "2023-11-24T04:07:30Z",
-            "lastChecked": "2024-11-12T04:08:12Z"
+            "lastChecked": "2025-01-27T19:32:30Z"
         }
     },
     {
@@ -2266,7 +2269,7 @@
         "dates": {
             "created": "2021-01-19T15:25:27Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2024-11-12T04:08:13Z"
+            "lastChecked": "2025-01-27T19:32:32Z"
         }
     },
     {
@@ -2298,7 +2301,7 @@
         "dates": {
             "created": "2021-01-19T15:25:30Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2024-11-12T04:08:15Z"
+            "lastChecked": "2025-01-27T19:32:34Z"
         }
     },
     {
@@ -2330,7 +2333,7 @@
         "dates": {
             "created": "2021-01-19T15:25:32Z",
             "updated": "2022-07-13T04:18:41Z",
-            "lastChecked": "2024-11-12T04:08:16Z"
+            "lastChecked": "2025-01-27T19:32:35Z"
         }
     },
     {
@@ -2373,7 +2376,7 @@
         "dates": {
             "created": "2021-01-19T15:25:34Z",
             "updated": "2023-08-21T04:07:41Z",
-            "lastChecked": "2024-11-12T04:08:18Z"
+            "lastChecked": "2025-01-27T19:32:37Z"
         }
     },
     {
@@ -2439,7 +2442,7 @@
         "dates": {
             "created": "2021-01-19T15:25:37Z",
             "updated": "2024-10-08T04:07:54Z",
-            "lastChecked": "2024-11-12T04:08:19Z"
+            "lastChecked": "2025-01-27T19:32:39Z"
         }
     },
     {
@@ -2471,7 +2474,7 @@
         "dates": {
             "created": "2021-01-19T15:25:39Z",
             "updated": "2021-04-22T11:38:20Z",
-            "lastChecked": "2024-11-12T04:08:21Z"
+            "lastChecked": "2025-01-27T19:32:41Z"
         }
     },
     {
@@ -2504,7 +2507,7 @@
         "dates": {
             "created": "2021-01-19T15:25:42Z",
             "updated": "2021-07-14T14:28:49Z",
-            "lastChecked": "2024-11-12T04:08:22Z"
+            "lastChecked": "2025-01-27T19:32:43Z"
         }
     },
     {
@@ -2544,7 +2547,7 @@
         "dates": {
             "created": "2021-01-19T15:25:46Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2024-11-12T04:08:24Z"
+            "lastChecked": "2025-01-27T19:32:45Z"
         }
     },
     {
@@ -2569,8 +2572,8 @@
             "github": "https://github.com/adror1/nwslR"
         },
         "contributors": [
-            "adror1",
             "sophiatannir",
+            "adror1",
             "jrogol",
             "lvanden",
             "beanumber",
@@ -2585,8 +2588,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:25:48Z",
-            "updated": "2022-09-29T04:39:07Z",
-            "lastChecked": "2024-11-12T04:08:26Z"
+            "updated": "2025-01-27T19:32:47Z",
+            "lastChecked": "2025-01-27T19:32:47Z"
         }
     },
     {
@@ -2620,7 +2623,7 @@
         "dates": {
             "created": "2021-01-19T15:25:51Z",
             "updated": "2021-09-03T04:25:26Z",
-            "lastChecked": "2024-11-12T04:08:28Z"
+            "lastChecked": "2025-01-27T19:32:49Z"
         }
     },
     {
@@ -2655,7 +2658,7 @@
         "dates": {
             "created": "2021-01-19T15:25:53Z",
             "updated": "2023-03-22T04:07:04Z",
-            "lastChecked": "2024-11-12T04:08:29Z"
+            "lastChecked": "2025-01-27T19:32:50Z"
         }
     },
     {
@@ -2697,7 +2700,7 @@
         "dates": {
             "created": "2021-01-19T15:25:56Z",
             "updated": "2021-01-20T07:23:36Z",
-            "lastChecked": "2024-11-12T04:08:30Z"
+            "lastChecked": "2025-01-27T19:32:52Z"
         }
     },
     {
@@ -2731,7 +2734,7 @@
         "dates": {
             "created": "2021-01-19T15:26:00Z",
             "updated": "2021-07-14T14:28:59Z",
-            "lastChecked": "2024-11-12T04:08:32Z"
+            "lastChecked": "2025-01-27T19:32:53Z"
         }
     },
     {
@@ -2740,9 +2743,9 @@
         "license": "MIT",
         "latestVersion": null,
         "lastCommit": {
-            "sha": "59c427f5d1108ee065a3658503ba9a826ebbf16d",
-            "date": "2024-11-10T21:09:08Z",
-            "message": "first updated to 2024-25 season"
+            "sha": "0b86f3d898e0b98652602774ad6507ad4b0dd3bd",
+            "date": "2025-01-16T04:09:09Z",
+            "message": "updated through 2025-01-13"
         },
         "type": "tutorial",
         "logoUrl": null,
@@ -2768,8 +2771,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:02Z",
-            "updated": "2024-11-12T04:08:33Z",
-            "lastChecked": "2024-11-12T04:08:33Z"
+            "updated": "2025-01-27T19:32:55Z",
+            "lastChecked": "2025-01-27T19:32:55Z"
         }
     },
     {
@@ -2810,7 +2813,7 @@
         "dates": {
             "created": "2021-01-19T15:26:05Z",
             "updated": "2024-11-12T04:08:35Z",
-            "lastChecked": "2024-11-12T04:08:35Z"
+            "lastChecked": "2025-01-27T19:32:57Z"
         }
     },
     {
@@ -2879,7 +2882,7 @@
         "dates": {
             "created": "2021-01-19T15:26:09Z",
             "updated": "2024-03-13T04:08:07Z",
-            "lastChecked": "2024-11-12T04:08:37Z"
+            "lastChecked": "2025-01-27T19:32:59Z"
         }
     },
     {
@@ -2912,7 +2915,7 @@
         "dates": {
             "created": "2021-01-19T15:26:11Z",
             "updated": "2024-01-25T04:08:22Z",
-            "lastChecked": "2024-11-12T04:08:38Z"
+            "lastChecked": "2025-01-27T19:33:00Z"
         }
     },
     {
@@ -2945,7 +2948,7 @@
         "dates": {
             "created": "2021-01-19T15:26:14Z",
             "updated": "2021-04-22T11:38:42Z",
-            "lastChecked": "2024-11-12T04:08:40Z"
+            "lastChecked": "2025-01-27T19:33:02Z"
         }
     },
     {
@@ -2978,7 +2981,7 @@
         "dates": {
             "created": "2021-01-19T15:26:16Z",
             "updated": "2021-07-14T14:29:10Z",
-            "lastChecked": "2024-11-12T04:08:41Z"
+            "lastChecked": "2025-01-27T19:33:03Z"
         }
     },
     {
@@ -3011,7 +3014,7 @@
         "dates": {
             "created": "2021-01-19T15:26:19Z",
             "updated": "2021-07-14T14:29:13Z",
-            "lastChecked": "2024-11-12T04:08:43Z"
+            "lastChecked": "2025-01-27T19:33:05Z"
         }
     },
     {
@@ -3050,7 +3053,7 @@
         "dates": {
             "created": "2021-07-14T14:29:15Z",
             "updated": "2023-11-29T04:07:17Z",
-            "lastChecked": "2024-11-12T04:08:45Z"
+            "lastChecked": "2025-01-27T19:33:08Z"
         }
     },
     {
@@ -3080,7 +3083,7 @@
         "dates": {
             "created": "2021-01-19T15:26:26Z",
             "updated": "2022-01-21T04:28:29Z",
-            "lastChecked": "2024-11-12T04:08:46Z"
+            "lastChecked": "2025-01-27T19:33:09Z"
         }
     },
     {
@@ -3112,7 +3115,7 @@
         "dates": {
             "created": "2021-01-19T15:26:28Z",
             "updated": "2023-03-22T04:07:25Z",
-            "lastChecked": "2024-11-12T04:08:48Z"
+            "lastChecked": "2025-01-27T19:33:11Z"
         }
     },
     {
@@ -3147,7 +3150,7 @@
         "dates": {
             "created": "2021-01-19T15:26:30Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2024-11-12T04:08:49Z"
+            "lastChecked": "2025-01-27T19:33:12Z"
         }
     },
     {
@@ -3185,7 +3188,7 @@
         "dates": {
             "created": "2021-01-19T15:26:32Z",
             "updated": "2024-03-24T04:07:27Z",
-            "lastChecked": "2024-11-12T04:08:50Z"
+            "lastChecked": "2025-01-27T19:33:14Z"
         }
     },
     {
@@ -3219,7 +3222,7 @@
         "dates": {
             "created": "2021-01-19T15:26:35Z",
             "updated": "2022-11-17T04:07:26Z",
-            "lastChecked": "2024-11-12T04:08:51Z"
+            "lastChecked": "2025-01-27T19:33:15Z"
         }
     },
     {
@@ -3256,18 +3259,18 @@
         "dates": {
             "created": "2021-01-19T15:26:37Z",
             "updated": "2024-10-19T04:08:11Z",
-            "lastChecked": "2024-11-12T04:08:53Z"
+            "lastChecked": "2025-01-27T19:33:19Z"
         }
     },
     {
         "name": "airball",
         "language": "R",
         "license": "MIT",
-        "latestVersion": "0.4.4.1",
+        "latestVersion": "1.0",
         "lastCommit": {
-            "sha": "de9fbd19f95e675c8f3d096d626a59d7901d1e82",
-            "date": "2024-11-07T14:49:18Z",
-            "message": "fix date sorting on nba_travel()"
+            "sha": "d34aba2d605da97e05a2dafdf0f21ab6a137ec27",
+            "date": "2024-12-15T07:30:57Z",
+            "message": "fix arrange"
         },
         "type": "github_package",
         "logoUrl": "https://raw.githubusercontent.com/josedv82/airball/master/man/images/airballlogo.PNG",
@@ -3297,8 +3300,8 @@
         ],
         "dates": {
             "created": "2021-01-19T15:26:41Z",
-            "updated": "2024-11-08T04:09:43Z",
-            "lastChecked": "2024-11-12T04:08:54Z"
+            "updated": "2025-01-27T19:33:21Z",
+            "lastChecked": "2025-01-27T19:33:21Z"
         }
     },
     {
@@ -3331,7 +3334,7 @@
         "dates": {
             "created": "2021-01-19T15:26:44Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2024-11-12T04:08:56Z"
+            "lastChecked": "2025-01-27T19:33:23Z"
         }
     },
     {
@@ -3363,41 +3366,7 @@
         "dates": {
             "created": "2021-01-19T15:26:46Z",
             "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2024-11-12T04:08:57Z"
-        }
-    },
-    {
-        "name": "kloppy-spark",
-        "language": "Python",
-        "license": "BSD",
-        "latestVersion": "0.0.3",
-        "lastCommit": {
-            "sha": "47bf1ed8b258e7354075d3ba6373cbc4cbd33a75",
-            "date": "2020-12-28T13:07:56Z",
-            "message": "Bump version"
-        },
-        "type": "package",
-        "logoUrl": null,
-        "description": "Spark Tools to work with Kloppy",
-        "images": [],
-        "urls": {
-            "github": "https://github.com/deepsports-io/kloppy-spark",
-            "pypi": "https://pypi.org/project/kloppy-spark/"
-        },
-        "contributors": [
-            "schmidtfx"
-        ],
-        "sports": [
-            "Soccer"
-        ],
-        "categories": [
-            "IO (Reading/Writing)",
-            "Model/Calculations"
-        ],
-        "dates": {
-            "created": "2021-01-19T15:26:49Z",
-            "updated": "2021-01-20T07:23:37Z",
-            "lastChecked": "2024-11-12T04:08:59Z"
+            "lastChecked": "2025-01-27T19:33:24Z"
         }
     },
     {
@@ -3430,7 +3399,7 @@
         "dates": {
             "created": "2021-01-19T15:26:51Z",
             "updated": "2024-07-03T04:11:29Z",
-            "lastChecked": "2024-11-12T04:09:00Z"
+            "lastChecked": "2025-01-27T19:33:26Z"
         }
     },
     {
@@ -3461,7 +3430,7 @@
         "dates": {
             "created": "2021-01-19T15:38:07Z",
             "updated": "2021-12-25T04:26:53Z",
-            "lastChecked": "2024-11-12T04:09:02Z"
+            "lastChecked": "2025-01-27T19:33:28Z"
         }
     },
     {
@@ -3497,7 +3466,7 @@
         "dates": {
             "created": "2021-01-20T07:13:13Z",
             "updated": "2022-10-26T04:29:19Z",
-            "lastChecked": "2024-11-12T04:09:04Z"
+            "lastChecked": "2025-01-27T19:33:30Z"
         }
     },
     {
@@ -3530,7 +3499,7 @@
         "dates": {
             "created": "2021-01-20T07:41:41Z",
             "updated": "2021-01-20T07:41:41Z",
-            "lastChecked": "2024-11-12T04:09:06Z"
+            "lastChecked": "2025-01-27T19:33:32Z"
         }
     },
     {
@@ -3539,9 +3508,9 @@
         "license": "MIT",
         "latestVersion": "1.2.0",
         "lastCommit": {
-            "sha": "015ae12012ef239a3cbc4a8bc2c6dc300d1ddd90",
-            "date": "2024-10-15T11:46:24Z",
-            "message": "catch gt deprecation warning"
+            "sha": "6d30ffca0a71c6cd0e64c8719f86d6f56e2f4126",
+            "date": "2024-12-23T14:54:25Z",
+            "message": "add hint for combined rankings"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/leesharpe/nflseedR/master/man/figures/logo.png",
@@ -3566,8 +3535,8 @@
         ],
         "dates": {
             "created": "2021-02-25T12:12:24Z",
-            "updated": "2024-10-16T04:10:18Z",
-            "lastChecked": "2024-11-12T04:09:08Z"
+            "updated": "2025-01-27T19:33:35Z",
+            "lastChecked": "2025-01-27T19:33:35Z"
         }
     },
     {
@@ -3605,7 +3574,7 @@
         "dates": {
             "created": "2021-03-01T18:45:50Z",
             "updated": "2024-07-22T04:08:30Z",
-            "lastChecked": "2024-11-12T04:09:10Z"
+            "lastChecked": "2025-01-27T19:33:38Z"
         }
     },
     {
@@ -3642,7 +3611,7 @@
         "dates": {
             "created": "2021-03-03T14:24:55Z",
             "updated": "2021-09-21T04:25:11Z",
-            "lastChecked": "2024-11-12T04:09:12Z"
+            "lastChecked": "2025-01-27T19:33:40Z"
         }
     },
     {
@@ -3675,7 +3644,7 @@
         "dates": {
             "created": "2021-03-18T07:23:16Z",
             "updated": "2023-04-12T04:09:19Z",
-            "lastChecked": "2024-11-12T04:09:13Z"
+            "lastChecked": "2025-01-27T19:33:42Z"
         }
     },
     {
@@ -3708,7 +3677,7 @@
         "dates": {
             "created": "2021-03-18T07:23:18Z",
             "updated": "2023-12-05T04:07:32Z",
-            "lastChecked": "2024-11-12T04:09:14Z"
+            "lastChecked": "2025-01-27T19:33:43Z"
         }
     },
     {
@@ -3748,40 +3717,7 @@
         "dates": {
             "created": "2021-04-22T11:39:23Z",
             "updated": "2021-12-13T04:26:50Z",
-            "lastChecked": "2024-11-12T04:09:15Z"
-        }
-    },
-    {
-        "name": "rMLS",
-        "language": "R",
-        "license": "use_mit_license()",
-        "latestVersion": "0.0.0.9000",
-        "lastCommit": {
-            "sha": "fba76575c739bc1a49eeccbb885c951b236815d1",
-            "date": "2021-07-21T02:18:53Z",
-            "message": "test"
-        },
-        "type": "github_package",
-        "logoUrl": null,
-        "description": "Provides numerous functions for acquiring and analyzing major\nleague soccer data. Data is acquired from various online resources and is\nmold into a tidy format to analyze in R.",
-        "images": [],
-        "urls": {
-            "github": "https://github.com/RyanG73/rMLS"
-        },
-        "contributors": [
-            "RyanG73"
-        ],
-        "sports": [
-            "Soccer"
-        ],
-        "categories": [
-            "Scraper/API",
-            "Model/Calculations"
-        ],
-        "dates": {
-            "created": "2021-04-22T11:39:25Z",
-            "updated": "2021-07-21T04:26:11Z",
-            "lastChecked": "2024-11-12T04:09:17Z"
+            "lastChecked": "2025-01-27T19:33:45Z"
         }
     },
     {
@@ -3790,9 +3726,9 @@
         "license": "GPL (\u2265 3)",
         "latestVersion": "2.2.2",
         "lastCommit": {
-            "sha": "5500cc6a094aae9102a17ef5ed437b055a7e264b",
-            "date": "2024-02-15T09:39:34Z",
-            "message": "Updating documentation"
+            "sha": "72bb5e107a671c88be39b3d8bceee0a461325b76",
+            "date": "2024-12-29T22:55:57Z",
+            "message": "Updating NLL dimensions"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/sportsdataverse/sportyR/main/logos/sportyr-logo-hex.png",
@@ -3826,19 +3762,19 @@
             "saiemgilani"
         ],
         "sports": [
+            "Basketball",
+            "Soccer",
             "Baseball",
             "American Football",
-            "Ice Hockey",
-            "Soccer",
-            "Basketball"
+            "Ice Hockey"
         ],
         "categories": [
             "Visualization"
         ],
         "dates": {
             "created": "2021-07-15T05:16:36Z",
-            "updated": "2024-11-12T04:09:20Z",
-            "lastChecked": "2024-11-12T04:09:20Z"
+            "updated": "2025-01-27T19:33:47Z",
+            "lastChecked": "2025-01-27T19:33:47Z"
         }
     },
     {
@@ -3872,7 +3808,7 @@
         "dates": {
             "created": "2021-07-15T05:16:37Z",
             "updated": "2021-10-20T04:26:43Z",
-            "lastChecked": "2024-11-12T04:09:21Z"
+            "lastChecked": "2025-01-27T19:33:49Z"
         }
     },
     {
@@ -3881,9 +3817,9 @@
         "license": "MIT",
         "latestVersion": "1.4.1",
         "lastCommit": {
-            "sha": "d08fdd6bfe9c41cb24bb2cc7691a7c40fc2a0061",
-            "date": "2024-10-03T11:08:31Z",
-            "message": "Convert team abbr \"PHO\" to \"ARI\""
+            "sha": "c9e8ae0788922abc861c6fc26cbe849d60bedc50",
+            "date": "2024-11-29T16:43:34Z",
+            "message": "news bullet"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/nflverse/nflreadr/main/man/figures/logo.svg",
@@ -3915,8 +3851,8 @@
         ],
         "dates": {
             "created": "2021-08-09T19:25:28Z",
-            "updated": "2024-10-04T04:09:28Z",
-            "lastChecked": "2024-11-12T04:09:23Z"
+            "updated": "2025-01-27T19:33:51Z",
+            "lastChecked": "2025-01-27T19:33:51Z"
         }
     },
     {
@@ -3953,7 +3889,7 @@
         "dates": {
             "created": "2021-10-18T17:24:59Z",
             "updated": "2023-08-19T04:10:57Z",
-            "lastChecked": "2024-11-12T04:09:25Z"
+            "lastChecked": "2025-01-27T19:33:53Z"
         }
     },
     {
@@ -3993,7 +3929,7 @@
         "dates": {
             "created": "2021-11-15T13:08:41Z",
             "updated": "2024-03-02T04:07:15Z",
-            "lastChecked": "2024-11-12T04:09:27Z"
+            "lastChecked": "2025-01-27T19:33:56Z"
         }
     },
     {
@@ -4050,7 +3986,7 @@
         "dates": {
             "created": "2021-11-15T13:08:43Z",
             "updated": "2021-11-15T13:08:43Z",
-            "lastChecked": "2024-11-12T04:09:28Z"
+            "lastChecked": "2025-01-27T19:33:57Z"
         }
     },
     {
@@ -4087,7 +4023,7 @@
         "dates": {
             "created": "2021-11-15T13:08:45Z",
             "updated": "2021-11-15T13:08:45Z",
-            "lastChecked": "2024-11-12T04:09:30Z"
+            "lastChecked": "2025-01-27T19:34:00Z"
         }
     },
     {
@@ -4127,7 +4063,7 @@
         "dates": {
             "created": "2022-02-18T13:26:15Z",
             "updated": "2024-09-11T04:09:36Z",
-            "lastChecked": "2024-11-12T04:09:31Z"
+            "lastChecked": "2025-01-27T19:34:02Z"
         }
     },
     {
@@ -4161,7 +4097,7 @@
         "dates": {
             "created": "2022-02-18T13:26:16Z",
             "updated": "2024-07-28T04:09:19Z",
-            "lastChecked": "2024-11-12T04:09:33Z"
+            "lastChecked": "2025-01-27T19:34:03Z"
         }
     },
     {
@@ -4170,9 +4106,9 @@
         "license": "GPL-3",
         "latestVersion": "0.6.2",
         "lastCommit": {
-            "sha": "dc489beb6775e77ce66b7efe0965a4189ac9ec72",
-            "date": "2024-09-23T15:46:47Z",
-            "message": "Merge pull request #397 from drasbaek/main\n\nEnhancement suggestion: Add date of birth to `tm_expiring_contracts`"
+            "sha": "71c95b9eec25489d986b57b97e903f3a2006eb88",
+            "date": "2024-11-15T22:13:43Z",
+            "message": "knit readme"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/JaseZiv/worldfootballR/main/man/figures/logo.png",
@@ -4207,19 +4143,19 @@
         ],
         "dates": {
             "created": "2022-02-18T13:26:18Z",
-            "updated": "2024-09-24T04:09:05Z",
-            "lastChecked": "2024-11-12T04:09:34Z"
+            "updated": "2025-01-27T19:34:05Z",
+            "lastChecked": "2025-01-27T19:34:05Z"
         }
     },
     {
         "name": "ScraperFC",
         "language": "Python",
         "license": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/> Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.  Preamble  The GNU General Public License is a free, copyleft license for software and other kinds of works.  The licenses for most software and other practical works are designed to take away your freedom to share and change the works.  By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users.  We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors.  You can apply it to your programs, too.  When we speak of free software, we are referring to freedom, not price.  Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for them if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs, and that you know you can do these things.  To protect your rights, we need to prevent others from denying you these rights or asking you to surrender the rights.  Therefore, you have certain responsibilities if you distribute copies of the software, or if you modify it: responsibilities to respect the freedom of others.  For example, if you distribute copies of such a program, whether gratis or for a fee, you must pass on to the recipients the same freedoms that you received.  You must make sure that they, too, receive or can get the source code.  And you must show them these terms so they know their rights.  Developers that use the GNU GPL protect your rights with two steps: (1) assert copyright on the software, and (2) offer you this License giving you legal permission to copy, distribute and/or modify it.  For the developers' and authors' protection, the GPL clearly explains that there is no warranty for this free software.  For both users' and authors' sake, the GPL requires that modified versions be marked as changed, so that their problems will not be attributed erroneously to authors of previous versions.  Some devices are designed to deny users access to install or run modified versions of the software inside them, although the manufacturer can do so.  This is fundamentally incompatible with the aim of protecting users' freedom to change the software.  The systematic pattern of such abuse occurs in the area of products for individuals to use, which is precisely where it is most unacceptable.  Therefore, we have designed this version of the GPL to prohibit the practice for those products.  If such problems arise substantially in other domains, we stand ready to extend this provision to those domains in future versions of the GPL, as needed to protect the freedom of users.  Finally, every program is threatened constantly by software patents. States should not allow patents to restrict development and use of software on general-purpose computers, but in those that do, we wish to avoid the special danger that patents applied to a free program could make it effectively proprietary.  To prevent this, the GPL assures that patents cannot be used to render the program non-free.  The precise terms and conditions for copying, distribution and modification follow.  TERMS AND CONDITIONS  0. Definitions.  \"This License\" refers to version 3 of the GNU General Public License.  \"Copyright\" also means copyright-like laws that apply to other kinds of works, such as semiconductor masks.  \"The Program\" refers to any copyrightable work licensed under this License.  Each licensee is addressed as \"you\".  \"Licensees\" and \"recipients\" may be individuals or organizations.  To \"modify\" a work means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy.  The resulting work is called a \"modified version\" of the earlier work or a work \"based on\" the earlier work.  A \"covered work\" means either the unmodified Program or a work based on the Program.  To \"propagate\" a work means to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy.  Propagation includes copying, distribution (with or without modification), making available to the public, and in some countries other activities as well.  To \"convey\" a work means any kind of propagation that enables other parties to make or receive copies.  Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying.  An interactive user interface displays \"Appropriate Legal Notices\" to the extent that it includes a convenient and prominently visible feature that (1) displays an appropriate copyright notice, and (2) tells the user that there is no warranty for the work (except to the extent that warranties are provided), that licensees may convey the work under this License, and how to view a copy of this License.  If the interface presents a list of user commands or options, such as a menu, a prominent item in the list meets this criterion.  1. Source Code.  The \"source code\" for a work means the preferred form of the work for making modifications to it.  \"Object code\" means any non-source form of a work.  A \"Standard Interface\" means an interface that either is an official standard defined by a recognized standards body, or, in the case of interfaces specified for a particular programming language, one that is widely used among developers working in that language.  The \"System Libraries\" of an executable work include anything, other than the work as a whole, that (a) is included in the normal form of packaging a Major Component, but which is not part of that Major Component, and (b) serves only to enable use of the work with that Major Component, or to implement a Standard Interface for which an implementation is available to the public in source code form.  A \"Major Component\", in this context, means a major essential component (kernel, window system, and so on) of the specific operating system (if any) on which the executable work runs, or a compiler used to produce the work, or an object code interpreter used to run it.  The \"Corresponding Source\" for a work in object code form means all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities.  However, it does not include the work's System Libraries, or general-purpose tools or generally available free programs which are used unmodified in performing those activities but which are not part of the work.  For example, Corresponding Source includes interface definition files associated with source files for the work, and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, such as by intimate data communication or control flow between those subprograms and other parts of the work.  The Corresponding Source need not include anything that users can regenerate automatically from other parts of the Corresponding Source.  The Corresponding Source for a work in source code form is that same work.  2. Basic Permissions.  All rights granted under this License are granted for the term of copyright on the Program, and are irrevocable provided the stated conditions are met.  This License explicitly affirms your unlimited permission to run the unmodified Program.  The output from running a covered work is covered by this License only if the output, given its content, constitutes a covered work.  This License acknowledges your rights of fair use or other equivalent, as provided by copyright law.  You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force.  You may convey covered works to others for the sole purpose of having them make modifications exclusively for you, or provide you with facilities for running those works, provided that you comply with the terms of this License in conveying all material for which you do not control copyright.  Those thus making or running the covered works for you must do so exclusively on your behalf, under your direction and control, on terms that prohibit them from making any copies of your copyrighted material outside their relationship with you.  Conveying under any other circumstances is permitted solely under the conditions stated below.  Sublicensing is not allowed; section 10 makes it unnecessary.  3. Protecting Users' Legal Rights From Anti-Circumvention Law.  No covered work shall be deemed part of an effective technological measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention of such measures.  When you convey a covered work, you waive any legal power to forbid circumvention of technological measures to the extent such circumvention is effected by exercising rights under this License with respect to the covered work, and you disclaim any intention to limit operation or modification of the work as a means of enforcing, against the work's users, your or third parties' legal rights to forbid circumvention of technological measures.  4. Conveying Verbatim Copies.  You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.  You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee.  5. Conveying Modified Source Versions.  You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of section 4, provided that you also meet all of these conditions:  a) The work must carry prominent notices stating that you modified it, and giving a relevant date.  b) The work must carry prominent notices stating that it is released under this License and any conditions added under section 7.  This requirement modifies the requirement in section 4 to \"keep intact all notices\".  c) You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy.  This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged.  This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it.  d) If the work has interactive user interfaces, each must display Appropriate Legal Notices; however, if the Program has interactive interfaces that do not display Appropriate Legal Notices, your work need not make them do so.  A compilation of a covered work with other separate and independent works, which are not by their nature extensions of the covered work, and which are not combined with it such as to form a larger program, in or on a volume of a storage or distribution medium, is called an \"aggregate\" if the compilation and its resulting copyright are not used to limit the access or legal rights of the compilation's users beyond what the individual works permit.  Inclusion of a covered work in an aggregate does not cause this License to apply to the other parts of the aggregate.  6. Conveying Non-Source Forms.  You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways:  a) Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by the Corresponding Source fixed on a durable physical medium customarily used for software interchange.  b) Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by a written offer, valid for at least three years and valid for as long as you offer spare parts or customer support for that product model, to give anyone who possesses the object code either (1) a copy of the Corresponding Source for all the software in the product that is covered by this License, on a durable physical medium customarily used for software interchange, for a price no more than your reasonable cost of physically performing this conveying of source, or (2) access to copy the Corresponding Source from a network server at no charge.  c) Convey individual copies of the object code with a copy of the written offer to provide the Corresponding Source.  This alternative is allowed only occasionally and noncommercially, and only if you received the object code with such an offer, in accord with subsection 6b.  d) Convey the object code by offering access from a designated place (gratis or for a charge), and offer equivalent access to the Corresponding Source in the same way through the same place at no further charge.  You need not require recipients to copy the Corresponding Source along with the object code.  If the place to copy the object code is a network server, the Corresponding Source may be on a different server (operated by you or a third party) that supports equivalent copying facilities, provided you maintain clear directions next to the object code saying where to find the Corresponding Source.  Regardless of what server hosts the Corresponding Source, you remain obligated to ensure that it is available for as long as needed to satisfy these requirements.  e) Convey the object code using peer-to-peer transmission, provided you inform other peers where the object code and Corresponding Source of the work are being offered to the general public at no charge under subsection 6d.  A separable portion of the object code, whose source code is excluded from the Corresponding Source as a System Library, need not be included in conveying the object code work.  A \"User Product\" is either (1) a \"consumer product\", which means any tangible personal property which is normally used for personal, family, or household purposes, or (2) anything designed or sold for incorporation into a dwelling.  In determining whether a product is a consumer product, doubtful cases shall be resolved in favor of coverage.  For a particular product received by a particular user, \"normally used\" refers to a typical or common use of that class of product, regardless of the status of the particular user or of the way in which the particular user actually uses, or expects or is expected to use, the product.  A product is a consumer product regardless of whether the product has substantial commercial, industrial or non-consumer uses, unless such uses represent the only significant mode of use of the product.  \"Installation Information\" for a User Product means any methods, procedures, authorization keys, or other information required to install and execute modified versions of a covered work in that User Product from a modified version of its Corresponding Source.  The information must suffice to ensure that the continued functioning of the modified object code is in no case prevented or interfered with solely because modification has been made.  If you convey an object code work under this section in, or with, or specifically for use in, a User Product, and the conveying occurs as part of a transaction in which the right of possession and use of the User Product is transferred to the recipient in perpetuity or for a fixed term (regardless of how the transaction is characterized), the Corresponding Source conveyed under this section must be accompanied by the Installation Information.  But this requirement does not apply if neither you nor any third party retains the ability to install modified object code on the User Product (for example, the work has been installed in ROM).  The requirement to provide Installation Information does not include a requirement to continue to provide support service, warranty, or updates for a work that has been modified or installed by the recipient, or for the User Product in which it has been modified or installed.  Access to a network may be denied when the modification itself materially and adversely affects the operation of the network or violates the rules and protocols for communication across the network.  Corresponding Source conveyed, and Installation Information provided, in accord with this section must be in a format that is publicly documented (and with an implementation available to the public in source code form), and must require no special password or key for unpacking, reading or copying.  7. Additional Terms.  \"Additional permissions\" are terms that supplement the terms of this License by making exceptions from one or more of its conditions. Additional permissions that are applicable to the entire Program shall be treated as though they were included in this License, to the extent that they are valid under applicable law.  If additional permissions apply only to part of the Program, that part may be used separately under those permissions, but the entire Program remains governed by this License without regard to the additional permissions.  When you convey a copy of a covered work, you may at your option remove any additional permissions from that copy, or from any part of it.  (Additional permissions may be written to require their own removal in certain cases when you modify the work.)  You may place additional permissions on material, added by you to a covered work, for which you have or can give appropriate copyright permission.  Notwithstanding any other provision of this License, for material you add to a covered work, you may (if authorized by the copyright holders of that material) supplement the terms of this License with terms:  a) Disclaiming warranty or limiting liability differently from the terms of sections 15 and 16 of this License; or  b) Requiring preservation of specified reasonable legal notices or author attributions in that material or in the Appropriate Legal Notices displayed by works containing it; or  c) Prohibiting misrepresentation of the origin of that material, or requiring that modified versions of such material be marked in reasonable ways as different from the original version; or  d) Limiting the use for publicity purposes of names of licensors or authors of the material; or  e) Declining to grant rights under trademark law for use of some trade names, trademarks, or service marks; or  f) Requiring indemnification of licensors and authors of that material by anyone who conveys the material (or modified versions of it) with contractual assumptions of liability to the recipient, for any liability that these contractual assumptions directly impose on those licensors and authors.  All other non-permissive additional terms are considered \"further restrictions\" within the meaning of section 10.  If the Program as you received it, or any part of it, contains a notice stating that it is governed by this License along with a term that is a further restriction, you may remove that term.  If a license document contains a further restriction but permits relicensing or conveying under this License, you may add to a covered work material governed by the terms of that license document, provided that the further restriction does not survive such relicensing or conveying.  If you add terms to a covered work in accord with this section, you must place, in the relevant source files, a statement of the additional terms that apply to those files, or a notice indicating where to find the applicable terms.  Additional terms, permissive or non-permissive, may be stated in the form of a separately written license, or stated as exceptions; the above requirements apply either way.  8. Termination.  You may not propagate or modify a covered work except as expressly provided under this License.  Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License (including any patent licenses granted under the third paragraph of section 11).  However, if you cease all violation of this License, then your license from a particular copyright holder is reinstated (a) provisionally, unless and until the copyright holder explicitly and finally terminates your license, and (b) permanently, if the copyright holder fails to notify you of the violation by some reasonable means prior to 60 days after the cessation.  Moreover, your license from a particular copyright holder is reinstated permanently if the copyright holder notifies you of the violation by some reasonable means, this is the first time you have received notice of violation of this License (for any work) from that copyright holder, and you cure the violation prior to 30 days after your receipt of the notice.  Termination of your rights under this section does not terminate the licenses of parties who have received copies or rights from you under this License.  If your rights have been terminated and not permanently reinstated, you do not qualify to receive new licenses for the same material under section 10.  9. Acceptance Not Required for Having Copies.  You are not required to accept this License in order to receive or run a copy of the Program.  Ancillary propagation of a covered work occurring solely as a consequence of using peer-to-peer transmission to receive a copy likewise does not require acceptance.  However, nothing other than this License grants you permission to propagate or modify any covered work.  These actions infringe copyright if you do not accept this License.  Therefore, by modifying or propagating a covered work, you indicate your acceptance of this License to do so.  10. Automatic Licensing of Downstream Recipients.  Each time you convey a covered work, the recipient automatically receives a license from the original licensors, to run, modify and propagate that work, subject to this License.  You are not responsible for enforcing compliance by third parties with this License.  An \"entity transaction\" is a transaction transferring control of an organization, or substantially all assets of one, or subdividing an organization, or merging organizations.  If propagation of a covered work results from an entity transaction, each party to that transaction who receives a copy of the work also receives whatever licenses to the work the party's predecessor in interest had or could give under the previous paragraph, plus a right to possession of the Corresponding Source of the work from the predecessor in interest, if the predecessor has it or can get it with reasonable efforts.  You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License.  For example, you may not impose a license fee, royalty, or other charge for exercise of rights granted under this License, and you may not initiate litigation (including a cross-claim or counterclaim in a lawsuit) alleging that any patent claim is infringed by making, using, selling, offering for sale, or importing the Program or any portion of it.  11. Patents.  A \"contributor\" is a copyright holder who authorizes use under this License of the Program or a work on which the Program is based.  The work thus licensed is called the contributor's \"contributor version\".  A contributor's \"essential patent claims\" are all patent claims owned or controlled by the contributor, whether already acquired or hereafter acquired, that would be infringed by some manner, permitted by this License, of making, using, or selling its contributor version, but do not include claims that would be infringed only as a consequence of further modification of the contributor version.  For purposes of this definition, \"control\" includes the right to grant patent sublicenses in a manner consistent with the requirements of this License.  Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.  In the following three paragraphs, a \"patent license\" is any express agreement or commitment, however denominated, not to enforce a patent (such as an express permission to practice a patent or covenant not to sue for patent infringement).  To \"grant\" such a patent license to a party means to make such an agreement or commitment not to enforce a patent against the party.  If you convey a covered work, knowingly relying on a patent license, and the Corresponding Source of the work is not available for anyone to copy, free of charge and under the terms of this License, through a publicly available network server or other readily accessible means, then you must either (1) cause the Corresponding Source to be so available, or (2) arrange to deprive yourself of the benefit of the patent license for this particular work, or (3) arrange, in a manner consistent with the requirements of this License, to extend the patent license to downstream recipients.  \"Knowingly relying\" means you have actual knowledge that, but for the patent license, your conveying the covered work in a country, or your recipient's use of the covered work in a country, would infringe one or more identifiable patents in that country that you have reason to believe are valid.  If, pursuant to or in connection with a single transaction or arrangement, you convey, or propagate by procuring conveyance of, a covered work, and grant a patent license to some of the parties receiving the covered work authorizing them to use, propagate, modify or convey a specific copy of the covered work, then the patent license you grant is automatically extended to all recipients of the covered work and works based on it.  A patent license is \"discriminatory\" if it does not include within the scope of its coverage, prohibits the exercise of, or is conditioned on the non-exercise of one or more of the rights that are specifically granted under this License.  You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license (a) in connection with copies of the covered work conveyed by you (or copies made from those copies), or (b) primarily for and in connection with specific products or compilations that contain the covered work, unless you entered into that arrangement, or that patent license was granted, prior to 28 March 2007.  Nothing in this License shall be construed as excluding or limiting any implied license or other defenses to infringement that may otherwise be available to you under applicable patent law.  12. No Surrender of Others' Freedom.  If conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License.  If you cannot convey a covered work so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not convey it at all.  For example, if you agree to terms that obligate you to collect a royalty for further conveying from those to whom you convey the Program, the only way you could satisfy both those terms and this License would be to refrain entirely from conveying the Program.  13. Use with the GNU Affero General Public License.  Notwithstanding any other provision of this License, you have permission to link or combine any covered work with a work licensed under version 3 of the GNU Affero General Public License into a single combined work, and to convey the resulting work.  The terms of this License will continue to apply to the part which is the covered work, but the special requirements of the GNU Affero General Public License, section 13, concerning interaction through a network will apply to the combination as such.  14. Revised Versions of this License.  The Free Software Foundation may publish revised and/or new versions of the GNU General Public License from time to time.  Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.  Each version is given a distinguishing version number.  If the Program specifies that a certain numbered version of the GNU General Public License \"or any later version\" applies to it, you have the option of following the terms and conditions either of that numbered version or of any later version published by the Free Software Foundation.  If the Program does not specify a version number of the GNU General Public License, you may choose any version ever published by the Free Software Foundation.  If the Program specifies that a proxy can decide which future versions of the GNU General Public License can be used, that proxy's public statement of acceptance of a version permanently authorizes you to choose that version for the Program.  Later license versions may give you additional or different permissions.  However, no additional obligations are imposed on any author or copyright holder as a result of your choosing to follow a later version.  15. Disclaimer of Warranty.  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.  16. Limitation of Liability.  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  17. Interpretation of Sections 15 and 16.  If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee.  END OF TERMS AND CONDITIONS  How to Apply These Terms to Your New Programs  If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.  To do so, attach the following notices to the program.  It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the \"copyright\" line and a pointer to where the full notice is found.  <one line to give the program's name and a brief idea of what it does.> Copyright (C) <year>  <name of author>  This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.  You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.  Also add information on how to contact you by electronic and paper mail.  If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:  <program>  Copyright (C) <year>  <name of author> This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'. This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.  The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License.  Of course, your program's commands might be different; for a GUI interface, you would use an \"about box\".  You should also get your employer (if you work as a programmer) or school, if any, to sign a \"copyright disclaimer\" for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <https://www.gnu.org/licenses/>.  The GNU General Public License does not permit incorporating your program into proprietary programs.  If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library.  If this is what you want to do, use the GNU Lesser General Public License instead of this License.  But first, please read <https://www.gnu.org/licenses/why-not-lgpl.html>. ",
-        "latestVersion": "3.1.1",
+        "latestVersion": "3.2.1",
         "lastCommit": {
-            "sha": "f0750cdd62aa3ba5484cb61a898e8663a470fbbc",
-            "date": "2024-11-12T00:29:21Z",
-            "message": "fix #46"
+            "sha": "ac440ec14adf5c9c4d493b40f7c2d11acae32489",
+            "date": "2025-01-01T16:40:31Z",
+            "message": "Merge pull request #54 from hzrcan/main\n\n[fbref] Added Turkish Super League"
         },
         "type": "package",
         "logoUrl": "https://github.com/oseymour/ScraperFC/blob/main/docs/source/images/ScraperFC-Logo-Final-2023-10-11 copy-Full-Color.svg?raw=true",
@@ -4231,6 +4167,7 @@
         },
         "contributors": [
             "oseymour",
+            "hzrcan",
             "dimitrismoustakas",
             "federicorabanos",
             "harshm16",
@@ -4244,8 +4181,8 @@
         ],
         "dates": {
             "created": "2022-02-18T13:26:20Z",
-            "updated": "2024-11-12T04:09:36Z",
-            "lastChecked": "2024-11-12T04:09:36Z"
+            "updated": "2025-01-27T19:34:07Z",
+            "lastChecked": "2025-01-27T19:34:07Z"
         }
     },
     {
@@ -4283,7 +4220,7 @@
         "dates": {
             "created": "2022-02-18T17:31:04Z",
             "updated": "2023-09-04T04:08:23Z",
-            "lastChecked": "2024-11-12T04:09:38Z"
+            "lastChecked": "2025-01-27T19:34:09Z"
         }
     },
     {
@@ -4326,7 +4263,7 @@
         "dates": {
             "created": "2022-02-20T04:09:05Z",
             "updated": "2024-11-12T04:09:40Z",
-            "lastChecked": "2024-11-12T04:09:40Z"
+            "lastChecked": "2025-01-27T19:34:11Z"
         }
     },
     {
@@ -4335,9 +4272,9 @@
         "license": "MIT",
         "latestVersion": "1.4.0",
         "lastCommit": {
-            "sha": "7dfb861f848854e8e26b20c0a454bc396ea09e12",
-            "date": "2024-10-18T15:23:01Z",
-            "message": "Update Jets logo to new secondary logo"
+            "sha": "548d950d565408f64ed2d9c7f405dced8500f42d",
+            "date": "2024-12-13T13:46:59Z",
+            "message": "align left"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/nflverse/nflplotR/main/man/figures/logo.png",
@@ -4361,19 +4298,19 @@
         ],
         "dates": {
             "created": "2022-02-20T04:09:08Z",
-            "updated": "2024-10-19T04:08:51Z",
-            "lastChecked": "2024-11-12T04:09:42Z"
+            "updated": "2025-01-27T19:34:13Z",
+            "lastChecked": "2025-01-27T19:34:13Z"
         }
     },
     {
         "name": "itscalledsoccer",
         "language": "Python",
         "license": "MIT",
-        "latestVersion": "1.3.0",
+        "latestVersion": "1.3.1",
         "lastCommit": {
-            "sha": "5da84a191da314038d530d98a7bd9bd73fa4d1a5",
-            "date": "2024-10-31T01:14:30Z",
-            "message": "Merge pull request #195 from American-Soccer-Analysis/193-feature-request-enable-attestations-support"
+            "sha": "9aa16fa604e77a8ccf3ac36b24c41661438e5102",
+            "date": "2025-01-01T20:55:13Z",
+            "message": "Merge pull request #200 from American-Soccer-Analysis/dependabot/github_actions/codecov/codecov-action-5.1.2"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/American-Soccer-Analysis/itscalledsoccer-r/main/man/figures/logo.png",
@@ -4390,7 +4327,8 @@
             "tyler-richardett",
             "rbarman",
             "lvanden",
-            "pjsharpe07"
+            "pjsharpe07",
+            "step-security-bot"
         ],
         "sports": [
             "Soccer"
@@ -4400,8 +4338,8 @@
         ],
         "dates": {
             "created": "2022-02-20T15:49:10Z",
-            "updated": "2024-10-31T04:09:38Z",
-            "lastChecked": "2024-11-12T04:09:43Z"
+            "updated": "2025-01-27T19:34:15Z",
+            "lastChecked": "2025-01-27T19:34:15Z"
         }
     },
     {
@@ -4436,7 +4374,7 @@
         "dates": {
             "created": "2022-03-30T20:11:11Z",
             "updated": "2023-03-15T04:10:16Z",
-            "lastChecked": "2024-11-12T04:09:45Z"
+            "lastChecked": "2025-01-27T19:34:17Z"
         }
     },
     {
@@ -4485,7 +4423,7 @@
         "dates": {
             "created": "2022-03-30T20:11:12Z",
             "updated": "2022-03-30T20:11:12Z",
-            "lastChecked": "2024-11-12T04:09:46Z"
+            "lastChecked": "2025-01-27T19:34:19Z"
         }
     },
     {
@@ -4528,7 +4466,7 @@
         "dates": {
             "created": "2022-03-30T20:11:13Z",
             "updated": "2022-03-30T20:11:13Z",
-            "lastChecked": "2024-11-12T04:09:47Z"
+            "lastChecked": "2025-01-27T19:34:20Z"
         }
     },
     {
@@ -4561,7 +4499,7 @@
         "dates": {
             "created": "2022-06-09T04:15:20Z",
             "updated": "2022-06-25T04:13:31Z",
-            "lastChecked": "2024-11-12T04:09:49Z"
+            "lastChecked": "2025-01-27T19:34:23Z"
         }
     },
     {
@@ -4601,18 +4539,18 @@
         "dates": {
             "created": "2022-07-12T05:52:33Z",
             "updated": "2024-10-15T04:10:59Z",
-            "lastChecked": "2024-11-12T04:09:51Z"
+            "lastChecked": "2025-01-27T19:34:25Z"
         }
     },
     {
         "name": "fastf1",
         "language": "Python",
         "license": "MIT License  Copyright (c) 2024 Philipp Sch\u00e4fer  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
-        "latestVersion": "3.4.3",
+        "latestVersion": "3.4.4",
         "lastCommit": {
-            "sha": "911d29cd775e9ca0f058f31e8f987352a6b25254",
-            "date": "2024-11-11T22:41:37Z",
-            "message": "FIX: update deprecated functions in examples and fix typo (#654)"
+            "sha": "5e22316d4806beccbbba9a4fb9f09fef8f54c2fe",
+            "date": "2025-01-18T16:00:17Z",
+            "message": "FIX: prevent setting timedelta on datetime array (#676)\n\nSee #674 for discussion\r\n\r\n---------\r\n\r\nCo-authored-by: theOehrly <23384863+theOehrly@users.noreply.github.com>"
         },
         "type": "package",
         "logoUrl": null,
@@ -4657,7 +4595,7 @@
             "neron-png",
             "f1multiviewer",
             "wakamex",
-            "dawiddzhafarov"
+            "gnought"
         ],
         "sports": [
             "Motorsport"
@@ -4669,19 +4607,19 @@
         ],
         "dates": {
             "created": "2024-01-01T04:10:04Z",
-            "updated": "2024-11-12T04:09:53Z",
-            "lastChecked": "2024-11-12T04:09:53Z"
+            "updated": "2025-01-27T19:34:26Z",
+            "lastChecked": "2025-01-27T19:34:26Z"
         }
     },
     {
         "name": "soccerdata",
         "language": "Python",
         "license": "Apache-2.0",
-        "latestVersion": "1.8.4",
+        "latestVersion": "1.8.6",
         "lastCommit": {
-            "sha": "3e71ad177590e2e85dc445fdadb4714b367a4ab7",
-            "date": "2024-11-04T14:55:55Z",
-            "message": "Bump version: 1.8.3 \u2192 1.8.4"
+            "sha": "976dbe212c8a8a7334e7a2ade4c1014a4490f92b",
+            "date": "2025-01-27T08:57:09Z",
+            "message": "chore(deps): update dependency virtualenv to v20.29.1"
         },
         "type": "package",
         "logoUrl": null,
@@ -4700,6 +4638,7 @@
             "JanVanHaaren",
             "Kalaweksh",
             "marcjbaron",
+            "MartiONE",
             "andrewRowlinson",
             "mhd0528",
             "J-Owens",
@@ -4718,8 +4657,8 @@
         ],
         "dates": {
             "created": "2022-07-24T04:17:36Z",
-            "updated": "2024-11-05T04:11:16Z",
-            "lastChecked": "2024-11-12T04:09:54Z"
+            "updated": "2025-01-27T19:34:28Z",
+            "lastChecked": "2025-01-27T19:34:28Z"
         }
     },
     {
@@ -4752,7 +4691,7 @@
         "dates": {
             "created": "2022-07-31T04:19:06Z",
             "updated": "2023-05-24T04:09:05Z",
-            "lastChecked": "2024-11-12T04:09:55Z"
+            "lastChecked": "2025-01-27T19:34:29Z"
         }
     },
     {
@@ -4773,8 +4712,8 @@
             "github": "https://github.com/baronet2/RIPP"
         },
         "contributors": [
-            "baronet2",
-            "airwhite54"
+            "airwhite54",
+            "baronet2"
         ],
         "sports": [
             "Ice Hockey"
@@ -4784,8 +4723,8 @@
         ],
         "dates": {
             "created": "2022-07-31T04:19:07Z",
-            "updated": "2022-11-11T04:18:22Z",
-            "lastChecked": "2024-11-12T04:09:57Z"
+            "updated": "2025-01-27T19:34:31Z",
+            "lastChecked": "2025-01-27T19:34:31Z"
         }
     },
     {
@@ -4821,7 +4760,7 @@
         "dates": {
             "created": "2022-07-31T04:19:08Z",
             "updated": "2022-07-31T04:19:08Z",
-            "lastChecked": "2024-11-12T04:09:58Z"
+            "lastChecked": "2025-01-27T19:34:33Z"
         }
     },
     {
@@ -4853,23 +4792,27 @@
         "dates": {
             "created": "2022-07-31T04:19:09Z",
             "updated": "2022-07-31T04:19:09Z",
-            "lastChecked": "2024-11-12T04:09:59Z"
+            "lastChecked": "2025-01-27T19:34:34Z"
         }
     },
     {
         "name": "penaltyblog",
         "language": "Python",
         "license": "MIT",
-        "latestVersion": "0.8.2",
+        "latestVersion": "1.0.4",
         "lastCommit": {
-            "sha": "a644c4747df5e2e36b5fd00bcffc86bf97329dae",
-            "date": "2024-10-18T20:10:59Z",
-            "message": "updated pymc version"
+            "sha": "d521714b71a2cce28c964bfca8c5e17fee3a1112",
+            "date": "2025-01-10T19:41:37Z",
+            "message": "updated version"
         },
         "type": "package",
-        "logoUrl": null,
+        "logoUrl": "https://raw.githubusercontent.com/martineastwood/penaltyblog/refs/heads/master/logo.png",
         "description": "Library from http://pena.lt/y/blog for scraping and modelling football (soccer) data",
-        "images": [],
+        "images": [
+            {
+                "url": "https://raw.githubusercontent.com/martineastwood/penaltyblog/master/logo.png"
+            }
+        ],
         "urls": {
             "github": "https://github.com/martineastwood/penaltyblog",
             "pypi": "https://pypi.org/project/penaltyblog/",
@@ -4886,8 +4829,8 @@
         ],
         "dates": {
             "created": "2022-09-03T04:31:32Z",
-            "updated": "2024-10-20T04:09:51Z",
-            "lastChecked": "2024-11-12T04:10:01Z"
+            "updated": "2025-01-27T19:34:35Z",
+            "lastChecked": "2025-01-27T19:34:35Z"
         }
     },
     {
@@ -4896,9 +4839,9 @@
         "license": "MIT",
         "latestVersion": "0.2.1",
         "lastCommit": {
-            "sha": "dd16d85953ad8833188487182d8272703926a703",
-            "date": "2024-09-12T14:13:51Z",
-            "message": "check on exists file in dir for load_nba_data"
+            "sha": "6791ac6264e6f3f7ef061d7812a87d011cf2803b",
+            "date": "2024-12-19T21:03:04Z",
+            "message": "load_nba_data add loaded without saving file to disk"
         },
         "type": "package",
         "logoUrl": null,
@@ -4919,8 +4862,8 @@
         ],
         "dates": {
             "created": "2023-03-07T04:09:02Z",
-            "updated": "2024-09-13T04:11:06Z",
-            "lastChecked": "2024-11-12T04:10:02Z"
+            "updated": "2025-01-27T19:34:37Z",
+            "lastChecked": "2025-01-27T19:34:37Z"
         }
     },
     {
@@ -4953,7 +4896,7 @@
         "dates": {
             "created": "2023-03-07T04:09:04Z",
             "updated": "2023-03-07T04:09:04Z",
-            "lastChecked": "2024-11-12T04:10:03Z"
+            "lastChecked": "2025-01-27T19:34:38Z"
         }
     },
     {
@@ -4962,9 +4905,9 @@
         "license": "GPL-3",
         "latestVersion": "0.0.4",
         "lastCommit": {
-            "sha": "f504c8aa35a1c689cc8ed53f2730d6cb5ee535d9",
-            "date": "2023-02-06T18:57:30Z",
-            "message": "push cran version"
+            "sha": "9f5cbc14e17b0587fc5c522b2b9ce66e7019c976",
+            "date": "2024-11-16T09:16:10Z",
+            "message": "xitter to Bluesky"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/JaseZiv/nblR/main/man/figures/logo.png",
@@ -4986,8 +4929,8 @@
         ],
         "dates": {
             "created": "2023-03-07T04:09:06Z",
-            "updated": "2023-03-07T04:09:06Z",
-            "lastChecked": "2024-11-12T04:10:05Z"
+            "updated": "2025-01-27T19:34:41Z",
+            "lastChecked": "2025-01-27T19:34:41Z"
         }
     },
     {
@@ -5011,17 +4954,17 @@
             "josh-bone"
         ],
         "sports": [
-            "Baseball",
+            "Basketball",
             "American Football",
-            "Basketball"
+            "Baseball"
         ],
         "categories": [
             "Scraper/API"
         ],
         "dates": {
             "created": "2023-03-15T04:11:03Z",
-            "updated": "2024-11-12T04:10:07Z",
-            "lastChecked": "2024-11-12T04:10:07Z"
+            "updated": "2025-01-27T19:34:43Z",
+            "lastChecked": "2025-01-27T19:34:43Z"
         }
     },
     {
@@ -5053,7 +4996,7 @@
         "dates": {
             "created": "2023-03-15T04:11:05Z",
             "updated": "2023-04-30T04:09:03Z",
-            "lastChecked": "2024-11-12T04:10:08Z"
+            "lastChecked": "2025-01-27T19:34:44Z"
         }
     },
     {
@@ -5097,18 +5040,18 @@
         "dates": {
             "created": "2023-09-21T04:10:13Z",
             "updated": "2024-09-21T04:09:09Z",
-            "lastChecked": "2024-11-12T04:10:10Z"
+            "lastChecked": "2025-01-27T19:34:46Z"
         }
     },
     {
         "name": "euroleague_api",
         "language": "Python",
         "license": "MIT",
-        "latestVersion": "0.0.13",
+        "latestVersion": "0.0.16",
         "lastCommit": {
-            "sha": "ccbf86e5943f992570180b817c0e90b49680703b",
-            "date": "2024-09-16T22:40:56Z",
-            "message": "new version in setup.cfg"
+            "sha": "d22eabc932c4d1e4dacab90126068e60ff2801b4",
+            "date": "2025-01-25T23:17:47Z",
+            "message": "updated docs and cfg file for new version"
         },
         "type": "package",
         "logoUrl": null,
@@ -5128,8 +5071,8 @@
         ],
         "dates": {
             "created": "2023-09-21T04:10:15Z",
-            "updated": "2024-09-17T04:09:38Z",
-            "lastChecked": "2024-11-12T04:10:11Z"
+            "updated": "2025-01-27T19:34:48Z",
+            "lastChecked": "2025-01-27T19:34:48Z"
         }
     },
     {
@@ -5138,9 +5081,9 @@
         "license": null,
         "latestVersion": null,
         "lastCommit": {
-            "sha": "b191d1f8fe7cbaf0b6bbc77fec7397af670db8b0",
-            "date": "2024-10-13T23:19:42Z",
-            "message": "points value by location notebook and refactor of common functions"
+            "sha": "1f8be4f8baac3fc3560a1b21c56ca45d6102a4df",
+            "date": "2025-01-18T20:00:39Z",
+            "message": "best pair of n-point game analysis"
         },
         "type": "tutorial",
         "logoUrl": null,
@@ -5161,8 +5104,8 @@
         ],
         "dates": {
             "created": "2023-09-21T04:10:17Z",
-            "updated": "2024-10-14T04:11:25Z",
-            "lastChecked": "2024-11-12T04:10:13Z"
+            "updated": "2025-01-27T19:34:49Z",
+            "lastChecked": "2025-01-27T19:34:49Z"
         }
     },
     {
@@ -5195,17 +5138,17 @@
         "dates": {
             "created": "2023-09-21T04:10:19Z",
             "updated": "2023-09-21T04:10:19Z",
-            "lastChecked": "2024-11-12T04:10:14Z"
+            "lastChecked": "2025-01-27T19:34:50Z"
         }
     },
     {
         "name": "goto_conversion",
         "language": "Python",
         "license": "MIT",
-        "latestVersion": "2.0.0",
+        "latestVersion": "2.0.2",
         "lastCommit": {
-            "sha": "ff457735fdbdf194e2b54b0bfcdafdbb4969ac72",
-            "date": "2024-11-07T01:32:46Z",
+            "sha": "98d5df97063dfa595d453712e93867fccb60c264",
+            "date": "2025-01-19T23:46:45Z",
             "message": "Update README.md"
         },
         "type": "package",
@@ -5214,9 +5157,6 @@
         "images": [
             {
                 "url": "https://github.com/gotoConversion/goto_conversion/blob/main/PseudoCode.png?raw=true"
-            },
-            {
-                "url": "https://github.com/gotoConversion/goto_conversion/blob/main/FballExperiment.png?raw=true"
             }
         ],
         "urls": {
@@ -5228,7 +5168,9 @@
             "gotoConversion"
         ],
         "sports": [
-            "American Football"
+            "Soccer",
+            "American Football",
+            "Basketball"
         ],
         "categories": [
             "Model/Calculations",
@@ -5236,8 +5178,8 @@
         ],
         "dates": {
             "created": "2023-09-21T04:10:21Z",
-            "updated": "2024-11-07T04:09:43Z",
-            "lastChecked": "2024-11-12T04:10:15Z"
+            "updated": "2025-01-27T19:34:52Z",
+            "lastChecked": "2025-01-27T19:34:52Z"
         }
     },
     {
@@ -5246,9 +5188,9 @@
         "license": "MIT",
         "latestVersion": "1.0.0",
         "lastCommit": {
-            "sha": "7856c105d5aabd7cf65f91f92a8a2a1e8e602e3c",
-            "date": "2024-10-07T21:36:55Z",
-            "message": "Fiba dimensions (#9)\n\n* Fix poetry install, update imports\r\n\r\n- Updated the Python version and NumPy version due to compatibility issues with Poetry.\r\n- Added __all__ to the package's __init__.py to define the public API (from mplbasketball import *).\r\n- Fixed import errors in tests by adding __init__.py to the tests directory.\r\n- Resolved TclError in tests by setting matplotlib.use('Agg') to use a non-GUI backend.\r\n- Cleaned up unused imports and reordered them for clarity.\r\n\r\n* Added fiba court dimensions\r\n\r\n* update doc  and error message"
+            "sha": "56725462a280d30d922752703c5aa40db3e80224",
+            "date": "2024-11-22T17:30:02Z",
+            "message": "Merge pull request #11 from mlsedigital/units-branch\n\nLine Widths With No Axis Fix"
         },
         "type": "package",
         "logoUrl": "https://raw.githubusercontent.com/mlsedigital/mplbasketball/main/figs/mplbb_logo.png",
@@ -5279,20 +5221,20 @@
         },
         "contributors": [
             "sreekar-voleti",
-            "ojadeyemi",
-            "jefferybarrett"
+            "jefferybarrett",
+            "ojadeyemi"
         ],
         "sports": [
-            "Soccer",
-            "Basketball"
+            "Basketball",
+            "Soccer"
         ],
         "categories": [
             "Visualization"
         ],
         "dates": {
             "created": "2024-09-12T05:01:51Z",
-            "updated": "2024-11-12T04:10:17Z",
-            "lastChecked": "2024-11-12T04:10:17Z"
+            "updated": "2025-01-27T19:34:54Z",
+            "lastChecked": "2025-01-27T19:34:54Z"
         }
     },
     {
@@ -5318,16 +5260,16 @@
             "sreekar-voleti"
         ],
         "sports": [
-            "Baseball",
-            "Basketball"
+            "Basketball",
+            "Baseball"
         ],
         "categories": [
             "Open-data"
         ],
         "dates": {
             "created": "2024-09-12T05:01:52Z",
-            "updated": "2024-11-12T04:10:18Z",
-            "lastChecked": "2024-11-12T04:10:18Z"
+            "updated": "2025-01-27T19:34:55Z",
+            "lastChecked": "2025-01-27T19:34:55Z"
         }
     }
 ]

@@ -322,6 +322,13 @@
         }
     },
     {
+        "login": "mattgirdler",
+        "name": "mattgirdler",
+        "urls": {
+            "github": "https://github.com/mattgirdler"
+        }
+    },
+    {
         "login": "FranGoitia",
         "name": "FranGoitia",
         "urls": {
@@ -473,6 +480,13 @@
         "name": "zanderhinton",
         "urls": {
             "github": "https://github.com/zanderhinton"
+        }
+    },
+    {
+        "login": "Alek050",
+        "name": "Alek050",
+        "urls": {
+            "github": "https://github.com/Alek050"
         }
     },
     {
@@ -693,10 +707,10 @@
         }
     },
     {
-        "login": "ivd-git",
-        "name": "ivd-git",
+        "login": "dmallory42",
+        "name": "dmallory42",
         "urls": {
-            "github": "https://github.com/ivd-git"
+            "github": "https://github.com/dmallory42"
         }
     },
     {
@@ -707,10 +721,10 @@
         }
     },
     {
-        "login": "dmallory42",
-        "name": "dmallory42",
+        "login": "ivd-git",
+        "name": "ivd-git",
         "urls": {
-            "github": "https://github.com/dmallory42"
+            "github": "https://github.com/ivd-git"
         }
     },
     {
@@ -721,10 +735,10 @@
         }
     },
     {
-        "login": "benoitblanc",
-        "name": "benoitblanc",
+        "login": "UnravelSports",
+        "name": "UnravelSports",
         "urls": {
-            "github": "https://github.com/benoitblanc"
+            "github": "https://github.com/UnravelSports"
         }
     },
     {
@@ -732,6 +746,13 @@
         "name": "Kludex",
         "urls": {
             "github": "https://github.com/Kludex"
+        }
+    },
+    {
+        "login": "benoitblanc",
+        "name": "benoitblanc",
+        "urls": {
+            "github": "https://github.com/benoitblanc"
         }
     },
     {
@@ -756,6 +777,34 @@
         }
     },
     {
+        "login": "SportsDynamicsDS",
+        "name": "SportsDynamicsDS",
+        "urls": {
+            "github": "https://github.com/SportsDynamicsDS"
+        }
+    },
+    {
+        "login": "razor3598",
+        "name": "razor3598",
+        "urls": {
+            "github": "https://github.com/razor3598"
+        }
+    },
+    {
+        "login": "AndrewRook",
+        "name": "AndrewRook",
+        "urls": {
+            "github": "https://github.com/AndrewRook"
+        }
+    },
+    {
+        "login": "douglaspampu",
+        "name": "douglaspampu",
+        "urls": {
+            "github": "https://github.com/douglaspampu"
+        }
+    },
+    {
         "login": "deppen8",
         "name": "deppen8",
         "urls": {
@@ -777,31 +826,10 @@
         }
     },
     {
-        "login": "SportsDynamicsDS",
-        "name": "SportsDynamicsDS",
+        "login": "fubininho",
+        "name": "fubininho",
         "urls": {
-            "github": "https://github.com/SportsDynamicsDS"
-        }
-    },
-    {
-        "login": "TK5-Tim",
-        "name": "TK5-Tim",
-        "urls": {
-            "github": "https://github.com/TK5-Tim"
-        }
-    },
-    {
-        "login": "UnravelSports",
-        "name": "UnravelSports",
-        "urls": {
-            "github": "https://github.com/UnravelSports"
-        }
-    },
-    {
-        "login": "akuu666",
-        "name": "akuu666",
-        "urls": {
-            "github": "https://github.com/akuu666"
+            "github": "https://github.com/fubininho"
         }
     },
     {
@@ -1421,17 +1449,17 @@
         }
     },
     {
-        "login": "mmcgowan13",
-        "name": "mmcgowan13",
-        "urls": {
-            "github": "https://github.com/mmcgowan13"
-        }
-    },
-    {
         "login": "camdenk",
         "name": "camdenk",
         "urls": {
             "github": "https://github.com/camdenk"
+        }
+    },
+    {
+        "login": "mmcgowan13",
+        "name": "mmcgowan13",
+        "urls": {
+            "github": "https://github.com/mmcgowan13"
         }
     },
     {
@@ -1932,17 +1960,17 @@
         }
     },
     {
-        "login": "adror1",
-        "name": "adror1",
-        "urls": {
-            "github": "https://github.com/adror1"
-        }
-    },
-    {
         "login": "sophiatannir",
         "name": "sophiatannir",
         "urls": {
             "github": "https://github.com/sophiatannir"
+        }
+    },
+    {
+        "login": "adror1",
+        "name": "adror1",
+        "urls": {
+            "github": "https://github.com/adror1"
         }
     },
     {
@@ -2114,13 +2142,6 @@
         }
     },
     {
-        "login": "schmidtfx",
-        "name": "schmidtfx",
-        "urls": {
-            "github": "https://github.com/schmidtfx"
-        }
-    },
-    {
         "login": "bendominguez0111",
         "name": "bendominguez0111",
         "urls": {
@@ -2177,13 +2198,6 @@
         }
     },
     {
-        "login": "AndrewRook",
-        "name": "AndrewRook",
-        "urls": {
-            "github": "https://github.com/AndrewRook"
-        }
-    },
-    {
         "login": "JackLich10",
         "name": "JackLich10",
         "urls": {
@@ -2195,13 +2209,6 @@
         "name": "douglasbc",
         "urls": {
             "github": "https://github.com/douglasbc"
-        }
-    },
-    {
-        "login": "RyanG73",
-        "name": "RyanG73",
-        "urls": {
-            "github": "https://github.com/RyanG73"
         }
     },
     {
@@ -2415,6 +2422,13 @@
         }
     },
     {
+        "login": "hzrcan",
+        "name": "hzrcan",
+        "urls": {
+            "github": "https://github.com/hzrcan"
+        }
+    },
+    {
         "login": "dimitrismoustakas",
         "name": "dimitrismoustakas",
         "urls": {
@@ -2503,6 +2517,13 @@
         "name": "pjsharpe07",
         "urls": {
             "github": "https://github.com/pjsharpe07"
+        }
+    },
+    {
+        "login": "step-security-bot",
+        "name": "step-security-bot",
+        "urls": {
+            "github": "https://github.com/step-security-bot"
         }
     },
     {
@@ -2744,10 +2765,10 @@
         }
     },
     {
-        "login": "dawiddzhafarov",
-        "name": "dawiddzhafarov",
+        "login": "gnought",
+        "name": "gnought",
         "urls": {
-            "github": "https://github.com/dawiddzhafarov"
+            "github": "https://github.com/gnought"
         }
     },
     {
@@ -2783,6 +2804,13 @@
         "name": "marcjbaron",
         "urls": {
             "github": "https://github.com/marcjbaron"
+        }
+    },
+    {
+        "login": "MartiONE",
+        "name": "MartiONE",
+        "urls": {
+            "github": "https://github.com/MartiONE"
         }
     },
     {
@@ -3010,17 +3038,17 @@
         }
     },
     {
-        "login": "ojadeyemi",
-        "name": "ojadeyemi",
-        "urls": {
-            "github": "https://github.com/ojadeyemi"
-        }
-    },
-    {
         "login": "jefferybarrett",
         "name": "jefferybarrett",
         "urls": {
             "github": "https://github.com/jefferybarrett"
+        }
+    },
+    {
+        "login": "ojadeyemi",
+        "name": "ojadeyemi",
+        "urls": {
+            "github": "https://github.com/ojadeyemi"
         }
     },
     {
