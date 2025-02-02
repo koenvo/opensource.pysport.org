@@ -784,38 +784,31 @@
         }
     },
     {
-        "login": "razor3598",
-        "name": "razor3598",
+        "login": "rmotmans",
+        "name": "rmotmans",
         "urls": {
-            "github": "https://github.com/razor3598"
+            "github": "https://github.com/rmotmans"
         }
     },
     {
-        "login": "AndrewRook",
-        "name": "AndrewRook",
+        "login": "akuu666",
+        "name": "akuu666",
         "urls": {
-            "github": "https://github.com/AndrewRook"
+            "github": "https://github.com/akuu666"
         }
     },
     {
-        "login": "douglaspampu",
-        "name": "douglaspampu",
+        "login": "TK5-Tim",
+        "name": "TK5-Tim",
         "urls": {
-            "github": "https://github.com/douglaspampu"
+            "github": "https://github.com/TK5-Tim"
         }
     },
     {
-        "login": "deppen8",
-        "name": "deppen8",
+        "login": "fubininho",
+        "name": "fubininho",
         "urls": {
-            "github": "https://github.com/deppen8"
-        }
-    },
-    {
-        "login": "DrSleep",
-        "name": "DrSleep",
-        "urls": {
-            "github": "https://github.com/DrSleep"
+            "github": "https://github.com/fubininho"
         }
     },
     {
@@ -826,10 +819,17 @@
         }
     },
     {
-        "login": "fubininho",
-        "name": "fubininho",
+        "login": "DrSleep",
+        "name": "DrSleep",
         "urls": {
-            "github": "https://github.com/fubininho"
+            "github": "https://github.com/DrSleep"
+        }
+    },
+    {
+        "login": "lodevt",
+        "name": "lodevt",
+        "urls": {
+            "github": "https://github.com/lodevt"
         }
     },
     {
@@ -2195,6 +2195,13 @@
         "name": "DavisVaughan",
         "urls": {
             "github": "https://github.com/DavisVaughan"
+        }
+    },
+    {
+        "login": "AndrewRook",
+        "name": "AndrewRook",
+        "urls": {
+            "github": "https://github.com/AndrewRook"
         }
     },
     {
