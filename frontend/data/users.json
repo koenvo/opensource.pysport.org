@@ -1666,6 +1666,13 @@
         }
     },
     {
+        "login": "cobrastats",
+        "name": "cobrastats",
+        "urls": {
+            "github": "https://github.com/cobrastats"
+        }
+    },
+    {
         "login": "jedwards757",
         "name": "jedwards757",
         "urls": {
