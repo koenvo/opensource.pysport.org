@@ -2415,6 +2415,13 @@
         }
     },
     {
+        "login": "aymennasri",
+        "name": "aymennasri",
+        "urls": {
+            "github": "https://github.com/aymennasri"
+        }
+    },
+    {
         "login": "drasbaek",
         "name": "drasbaek",
         "urls": {
@@ -2461,6 +2468,13 @@
         "name": "harshm16",
         "urls": {
             "github": "https://github.com/harshm16"
+        }
+    },
+    {
+        "login": "deepsource-io[bot]",
+        "name": "deepsource-io[bot]",
+        "urls": {
+            "github": "https://github.com/deepsource-io[bot]"
         }
     },
     {
