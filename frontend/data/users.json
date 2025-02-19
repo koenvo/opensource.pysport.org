@@ -2408,13 +2408,6 @@
         }
     },
     {
-        "login": "nepito",
-        "name": "nepito",
-        "urls": {
-            "github": "https://github.com/nepito"
-        }
-    },
-    {
         "login": "aymennasri",
         "name": "aymennasri",
         "urls": {
@@ -3056,6 +3049,13 @@
         "name": "YigitAsik",
         "urls": {
             "github": "https://github.com/YigitAsik"
+        }
+    },
+    {
+        "login": "cy-by-side",
+        "name": "cy-by-side",
+        "urls": {
+            "github": "https://github.com/cy-by-side"
         }
     },
     {
