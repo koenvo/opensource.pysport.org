@@ -714,6 +714,13 @@
         }
     },
     {
+        "login": "UnravelSports",
+        "name": "UnravelSports",
+        "urls": {
+            "github": "https://github.com/UnravelSports"
+        }
+    },
+    {
         "login": "dmallory42",
         "name": "dmallory42",
         "urls": {
@@ -742,13 +749,6 @@
         }
     },
     {
-        "login": "UnravelSports",
-        "name": "UnravelSports",
-        "urls": {
-            "github": "https://github.com/UnravelSports"
-        }
-    },
-    {
         "login": "Kludex",
         "name": "Kludex",
         "urls": {
@@ -760,6 +760,13 @@
         "name": "benoitblanc",
         "urls": {
             "github": "https://github.com/benoitblanc"
+        }
+    },
+    {
+        "login": "razor3598",
+        "name": "razor3598",
+        "urls": {
+            "github": "https://github.com/razor3598"
         }
     },
     {
@@ -830,13 +837,6 @@
         "name": "DrSleep",
         "urls": {
             "github": "https://github.com/DrSleep"
-        }
-    },
-    {
-        "login": "lodevt",
-        "name": "lodevt",
-        "urls": {
-            "github": "https://github.com/lodevt"
         }
     },
     {
