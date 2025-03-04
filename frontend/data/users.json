@@ -819,6 +819,13 @@
         }
     },
     {
+        "login": "tcp",
+        "name": "tcp",
+        "urls": {
+            "github": "https://github.com/tcp"
+        }
+    },
+    {
         "login": "fubininho",
         "name": "fubininho",
         "urls": {
@@ -830,13 +837,6 @@
         "name": "OnerInce",
         "urls": {
             "github": "https://github.com/OnerInce"
-        }
-    },
-    {
-        "login": "DrSleep",
-        "name": "DrSleep",
-        "urls": {
-            "github": "https://github.com/DrSleep"
         }
     },
     {
@@ -2793,10 +2793,10 @@
         }
     },
     {
-        "login": "gnought",
-        "name": "gnought",
+        "login": "jolpica",
+        "name": "jolpica",
         "urls": {
-            "github": "https://github.com/gnought"
+            "github": "https://github.com/jolpica"
         }
     },
     {
