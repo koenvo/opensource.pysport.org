@@ -77,17 +77,17 @@
         }
     },
     {
-        "login": "cfranklin11",
-        "name": "cfranklin11",
-        "urls": {
-            "github": "https://github.com/cfranklin11"
-        }
-    },
-    {
         "login": "peteowen1",
         "name": "peteowen1",
         "urls": {
             "github": "https://github.com/peteowen1"
+        }
+    },
+    {
+        "login": "cfranklin11",
+        "name": "cfranklin11",
+        "urls": {
+            "github": "https://github.com/cfranklin11"
         }
     },
     {
@@ -2009,13 +2009,6 @@
         }
     },
     {
-        "login": "ewenme",
-        "name": "ewenme",
-        "urls": {
-            "github": "https://github.com/ewenme"
-        }
-    },
-    {
         "login": "HarvardSoccer",
         "name": "HarvardSoccer",
         "urls": {
@@ -3080,6 +3073,13 @@
         }
     },
     {
+        "login": "ojadeyemi",
+        "name": "ojadeyemi",
+        "urls": {
+            "github": "https://github.com/ojadeyemi"
+        }
+    },
+    {
         "login": "jefferybarrett",
         "name": "jefferybarrett",
         "urls": {
@@ -3087,10 +3087,10 @@
         }
     },
     {
-        "login": "ojadeyemi",
-        "name": "ojadeyemi",
+        "login": "apradillap",
+        "name": "apradillap",
         "urls": {
-            "github": "https://github.com/ojadeyemi"
+            "github": "https://github.com/apradillap"
         }
     },
     {
