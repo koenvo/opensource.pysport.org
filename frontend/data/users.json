@@ -707,17 +707,17 @@
         }
     },
     {
-        "login": "ThomasSeidl",
-        "name": "ThomasSeidl",
-        "urls": {
-            "github": "https://github.com/ThomasSeidl"
-        }
-    },
-    {
         "login": "UnravelSports",
         "name": "UnravelSports",
         "urls": {
             "github": "https://github.com/UnravelSports"
+        }
+    },
+    {
+        "login": "ThomasSeidl",
+        "name": "ThomasSeidl",
+        "urls": {
+            "github": "https://github.com/ThomasSeidl"
         }
     },
     {
