@@ -686,17 +686,17 @@
         }
     },
     {
-        "login": "BenjaminLarrousse",
-        "name": "BenjaminLarrousse",
-        "urls": {
-            "github": "https://github.com/BenjaminLarrousse"
-        }
-    },
-    {
         "login": "UnravelSports",
         "name": "UnravelSports",
         "urls": {
             "github": "https://github.com/UnravelSports"
+        }
+    },
+    {
+        "login": "BenjaminLarrousse",
+        "name": "BenjaminLarrousse",
+        "urls": {
+            "github": "https://github.com/BenjaminLarrousse"
         }
     },
     {
@@ -798,6 +798,13 @@
         }
     },
     {
+        "login": "lode-mgp",
+        "name": "lode-mgp",
+        "urls": {
+            "github": "https://github.com/lode-mgp"
+        }
+    },
+    {
         "login": "akuu666",
         "name": "akuu666",
         "urls": {
@@ -823,13 +830,6 @@
         "name": "fubininho",
         "urls": {
             "github": "https://github.com/fubininho"
-        }
-    },
-    {
-        "login": "OnerInce",
-        "name": "OnerInce",
-        "urls": {
-            "github": "https://github.com/OnerInce"
         }
     },
     {
@@ -1428,6 +1428,13 @@
         }
     },
     {
+        "login": "camdenk",
+        "name": "camdenk",
+        "urls": {
+            "github": "https://github.com/camdenk"
+        }
+    },
+    {
         "login": "darh78",
         "name": "darh78",
         "urls": {
@@ -1439,13 +1446,6 @@
         "name": "jonathan-inwt",
         "urls": {
             "github": "https://github.com/jonathan-inwt"
-        }
-    },
-    {
-        "login": "camdenk",
-        "name": "camdenk",
-        "urls": {
-            "github": "https://github.com/camdenk"
         }
     },
     {
@@ -2730,6 +2730,13 @@
         }
     },
     {
+        "login": "VLADOZXD",
+        "name": "VLADOZXD",
+        "urls": {
+            "github": "https://github.com/VLADOZXD"
+        }
+    },
+    {
         "login": "Toskosz",
         "name": "Toskosz",
         "urls": {
@@ -2769,13 +2776,6 @@
         "name": "wakamex",
         "urls": {
             "github": "https://github.com/wakamex"
-        }
-    },
-    {
-        "login": "jolpica",
-        "name": "jolpica",
-        "urls": {
-            "github": "https://github.com/jolpica"
         }
     },
     {
