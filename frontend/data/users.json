@@ -672,6 +672,13 @@
         }
     },
     {
+        "login": "UnravelSports",
+        "name": "UnravelSports",
+        "urls": {
+            "github": "https://github.com/UnravelSports"
+        }
+    },
+    {
         "login": "rjtavares",
         "name": "rjtavares",
         "urls": {
@@ -683,13 +690,6 @@
         "name": "jcnunezmoreno",
         "urls": {
             "github": "https://github.com/jcnunezmoreno"
-        }
-    },
-    {
-        "login": "UnravelSports",
-        "name": "UnravelSports",
-        "urls": {
-            "github": "https://github.com/UnravelSports"
         }
     },
     {
