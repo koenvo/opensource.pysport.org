@@ -1421,17 +1421,17 @@
         }
     },
     {
-        "login": "afeierman",
-        "name": "afeierman",
-        "urls": {
-            "github": "https://github.com/afeierman"
-        }
-    },
-    {
         "login": "camdenk",
         "name": "camdenk",
         "urls": {
             "github": "https://github.com/camdenk"
+        }
+    },
+    {
+        "login": "afeierman",
+        "name": "afeierman",
+        "urls": {
+            "github": "https://github.com/afeierman"
         }
     },
     {
