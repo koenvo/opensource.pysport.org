@@ -651,6 +651,13 @@
         }
     },
     {
+        "login": "UnravelSports",
+        "name": "UnravelSports",
+        "urls": {
+            "github": "https://github.com/UnravelSports"
+        }
+    },
+    {
         "login": "DriesDeprest",
         "name": "DriesDeprest",
         "urls": {
@@ -669,13 +676,6 @@
         "name": "JanVanHaaren",
         "urls": {
             "github": "https://github.com/JanVanHaaren"
-        }
-    },
-    {
-        "login": "UnravelSports",
-        "name": "UnravelSports",
-        "urls": {
-            "github": "https://github.com/UnravelSports"
         }
     },
     {
