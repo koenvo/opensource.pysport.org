@@ -105,17 +105,17 @@
         }
     },
     {
-        "login": "Fryzigg",
-        "name": "Fryzigg",
-        "urls": {
-            "github": "https://github.com/Fryzigg"
-        }
-    },
-    {
         "login": "DanielTomaro13",
         "name": "DanielTomaro13",
         "urls": {
             "github": "https://github.com/DanielTomaro13"
+        }
+    },
+    {
+        "login": "Fryzigg",
+        "name": "Fryzigg",
+        "urls": {
+            "github": "https://github.com/Fryzigg"
         }
     },
     {
