@@ -1008,6 +1008,13 @@
         }
     },
     {
+        "login": "nicholson2208",
+        "name": "nicholson2208",
+        "urls": {
+            "github": "https://github.com/nicholson2208"
+        }
+    },
+    {
         "login": "jelloslinger",
         "name": "jelloslinger",
         "urls": {
@@ -1103,13 +1110,6 @@
         "name": "tonycpsu",
         "urls": {
             "github": "https://github.com/tonycpsu"
-        }
-    },
-    {
-        "login": "nicholson2208",
-        "name": "nicholson2208",
-        "urls": {
-            "github": "https://github.com/nicholson2208"
         }
     },
     {
