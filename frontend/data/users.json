@@ -98,17 +98,17 @@
         }
     },
     {
-        "login": "JaseZiv",
-        "name": "JaseZiv",
-        "urls": {
-            "github": "https://github.com/JaseZiv"
-        }
-    },
-    {
         "login": "DanielTomaro13",
         "name": "DanielTomaro13",
         "urls": {
             "github": "https://github.com/DanielTomaro13"
+        }
+    },
+    {
+        "login": "JaseZiv",
+        "name": "JaseZiv",
+        "urls": {
+            "github": "https://github.com/JaseZiv"
         }
     },
     {
