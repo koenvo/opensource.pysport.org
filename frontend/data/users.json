@@ -1008,6 +1008,20 @@
         }
     },
     {
+        "login": "aenfield",
+        "name": "aenfield",
+        "urls": {
+            "github": "https://github.com/aenfield"
+        }
+    },
+    {
+        "login": "MancusoM",
+        "name": "MancusoM",
+        "urls": {
+            "github": "https://github.com/MancusoM"
+        }
+    },
+    {
         "login": "nicholson2208",
         "name": "nicholson2208",
         "urls": {
@@ -1096,20 +1110,6 @@
         "name": "prs-watch",
         "urls": {
             "github": "https://github.com/prs-watch"
-        }
-    },
-    {
-        "login": "LukeFabric",
-        "name": "LukeFabric",
-        "urls": {
-            "github": "https://github.com/LukeFabric"
-        }
-    },
-    {
-        "login": "tonycpsu",
-        "name": "tonycpsu",
-        "urls": {
-            "github": "https://github.com/tonycpsu"
         }
     },
     {
