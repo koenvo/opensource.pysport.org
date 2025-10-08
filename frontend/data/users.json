@@ -2079,17 +2079,17 @@
         }
     },
     {
-        "login": "hugobordigoni",
-        "name": "hugobordigoni",
-        "urls": {
-            "github": "https://github.com/hugobordigoni"
-        }
-    },
-    {
         "login": "NanoSkillCorner",
         "name": "NanoSkillCorner",
         "urls": {
             "github": "https://github.com/NanoSkillCorner"
+        }
+    },
+    {
+        "login": "hugobordigoni",
+        "name": "hugobordigoni",
+        "urls": {
+            "github": "https://github.com/hugobordigoni"
         }
     },
     {
