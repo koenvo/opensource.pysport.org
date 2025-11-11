@@ -2352,17 +2352,17 @@
         }
     },
     {
-        "login": "hbiermann95",
-        "name": "hbiermann95",
-        "urls": {
-            "github": "https://github.com/hbiermann95"
-        }
-    },
-    {
         "login": "manuba95",
         "name": "manuba95",
         "urls": {
             "github": "https://github.com/manuba95"
+        }
+    },
+    {
+        "login": "hbiermann95",
+        "name": "hbiermann95",
+        "urls": {
+            "github": "https://github.com/hbiermann95"
         }
     },
     {
