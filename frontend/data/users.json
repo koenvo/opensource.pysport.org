@@ -1008,13 +1008,6 @@
         }
     },
     {
-        "login": "aenfield",
-        "name": "aenfield",
-        "urls": {
-            "github": "https://github.com/aenfield"
-        }
-    },
-    {
         "login": "MancusoM",
         "name": "MancusoM",
         "urls": {
@@ -1089,6 +1082,13 @@
         "name": "akern40",
         "urls": {
             "github": "https://github.com/akern40"
+        }
+    },
+    {
+        "login": "blue-shoes",
+        "name": "blue-shoes",
+        "urls": {
+            "github": "https://github.com/blue-shoes"
         }
     },
     {
