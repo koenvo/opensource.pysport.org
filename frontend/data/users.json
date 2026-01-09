@@ -791,6 +791,13 @@
         }
     },
     {
+        "login": "lode-mgp",
+        "name": "lode-mgp",
+        "urls": {
+            "github": "https://github.com/lode-mgp"
+        }
+    },
+    {
         "login": "SportsDynamicsDS",
         "name": "SportsDynamicsDS",
         "urls": {
@@ -802,13 +809,6 @@
         "name": "rmotmans",
         "urls": {
             "github": "https://github.com/rmotmans"
-        }
-    },
-    {
-        "login": "lode-mgp",
-        "name": "lode-mgp",
-        "urls": {
-            "github": "https://github.com/lode-mgp"
         }
     },
     {
@@ -830,13 +830,6 @@
         "name": "tcp",
         "urls": {
             "github": "https://github.com/tcp"
-        }
-    },
-    {
-        "login": "fubininho",
-        "name": "fubininho",
-        "urls": {
-            "github": "https://github.com/fubininho"
         }
     },
     {
