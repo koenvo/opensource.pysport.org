@@ -3101,6 +3101,13 @@
         }
     },
     {
+        "login": "jefferybarrett",
+        "name": "jefferybarrett",
+        "urls": {
+            "github": "https://github.com/jefferybarrett"
+        }
+    },
+    {
         "login": "sreekar-voleti",
         "name": "sreekar-voleti",
         "urls": {
@@ -3112,13 +3119,6 @@
         "name": "ojadeyemi",
         "urls": {
             "github": "https://github.com/ojadeyemi"
-        }
-    },
-    {
-        "login": "jefferybarrett",
-        "name": "jefferybarrett",
-        "urls": {
-            "github": "https://github.com/jefferybarrett"
         }
     },
     {
